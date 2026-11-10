@@ -1,6 +1,505 @@
 {
   "runs": [
     {
+      "id": "provinces-2026-11-10",
+      "kind": "research",
+      "date": "2026-11-10",
+      "at": "2026-11-10T11:45:51.000Z",
+      "outcome": "partial",
+      "summary": "新增六个省的收录范围：陕西9条、湖北14条、四川7条、黑龙江9条、湖南10条、辽宁9条，共58条，覆盖省级和省会市级的自然科学与社会科学项目，含当前在办和已截止供参考的轮次。每条记录的关键日期原句均与所引来源页面或附件逐条比对一致。陕西、四川的省级官方网站以及湖北、辽宁的社科类官方网站本次无法访问，相关记录依据高校或中科院院所转载的通知全文，已在各条来源说明中注明。只有校内截止日期、官方日期相互矛盾或读不到原文的项目未收录，列入待处理问题。现有记录未作改动。",
+      "added": 58,
+      "updated": 0,
+      "checkedIds": [
+        "shaanxi-nsf-basic-2027",
+        "shaanxi-key-rd-general-2027",
+        "shaanxi-young-star-2027",
+        "shaanxi-softscience-2027",
+        "shaanxi-ssf-2026",
+        "shaanxi-edu-sci-plan-2026",
+        "shaanxi-edu-major-2026",
+        "xian-ss-plan-2026",
+        "xian-nsf-2026",
+        "hubei-young-sci-talent-2026",
+        "hubei-softscience-2026",
+        "hubei-postdoc-2026",
+        "hubei-chenguang-2026",
+        "hubei-ssf-youth-2026",
+        "hubei-ssf-general-2026",
+        "hubei-edu-sci-plan-2026",
+        "wuhan-skl-2026",
+        "wuhan-ssf-late-2026",
+        "wuhan-nsf-nonconsensus-2026",
+        "wuhan-nsf-quantum-2026",
+        "wuhan-nsf-meteorology-2026",
+        "wuhan-metro-collab-2026",
+        "wuhan-softscience-2026",
+        "sichuan-nsf-2027",
+        "sichuan-sci-talent-2027",
+        "sichuan-softscience-2027",
+        "sichuan-province-university-rd-2027",
+        "sichuan-ssf-2026",
+        "sichuan-ss-youth-cultivation-2026",
+        "chengdu-ss-plan-2026",
+        "heilongjiang-nsf-2026",
+        "heilongjiang-nsf-enterprise-2026",
+        "heilongjiang-nsf-key-guide-2027",
+        "heilongjiang-key-rd-frontier-2026",
+        "heilongjiang-intl-exchange-2026",
+        "heilongjiang-postdoc-2026",
+        "heilongjiang-returnee-2026",
+        "heilongjiang-ss-plan-2026",
+        "heilongjiang-skl-regular-2026",
+        "hunan-nsf-2027",
+        "hunan-furong-youth-2026",
+        "hunan-furong-leading-2026",
+        "hunan-decision-consulting-2026",
+        "hunan-ssf-2026",
+        "hunan-ssra-2027",
+        "hunan-xiangjiang-youth-ss-2026",
+        "hunan-ssf-education-2026",
+        "hunan-edu-sci-plan-2026",
+        "hunan-hr-postdoc-2026",
+        "liaoning-nsf-2026",
+        "liaoning-nsf-phd-startup-2026",
+        "liaoning-applied-basic-2026",
+        "liaoning-intl-cooperation-2026",
+        "liaoning-major-sci-2026",
+        "liaoning-sci-commissioner-2027",
+        "liaoning-skl-econ-social-2027",
+        "liaoning-postdoc-reserve-2025",
+        "shenyang-ss-2026"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://opt.cas.cn/gb2019/xwzx/tzgg/202608/t20260827_8265728.html",
+          "label": "陕西省自然科学基础研究计划 · 2027 年度 · 中科院西安光机所转载的省科技厅通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://opt.cas.cn/gb2019/xwzx/tzgg/202608/P020260827344983825041.doc",
+          "label": "陕西省自然科学基础研究计划 · 2027 年度 · 指南附件（自然科学基础研究计划）",
+          "result": "checked"
+        },
+        {
+          "url": "https://opt.cas.cn/gb2019/xwzx/tzgg/202608/P020260827344983580178.doc",
+          "label": "陕西省重点研发计划一般项目 · 2027 年度 · 指南附件（重点研发计划）",
+          "result": "checked"
+        },
+        {
+          "url": "https://opt.cas.cn/gb2019/xwzx/tzgg/202608/P020260827344984252805.doc",
+          "label": "陕西省青年科技新星 · 2027 年度 · 指南附件（创新能力支撑计划）",
+          "result": "checked"
+        },
+        {
+          "url": "https://skc.snnu.edu.cn/info/1012/29011.htm",
+          "label": "陕西省社会科学基金年度项目和青年项目 · 2026 · 陕西师范大学社会科学处转载",
+          "result": "checked"
+        },
+        {
+          "url": "https://skc.snnu.edu.cn/info/1012/29031.htm",
+          "label": "陕西省教育科学“十五五”规划课题 · 2026 年度 · 陕西师范大学社会科学处转载",
+          "result": "checked"
+        },
+        {
+          "url": "https://skc.snnu.edu.cn/info/1012/29631.htm",
+          "label": "陕西省教育科研重大课题 · 2026 年度 · 陕西师范大学社会科学处转载",
+          "result": "checked"
+        },
+        {
+          "url": "http://www.xass.org.cn/newsshow.php?cid=7&id=2054",
+          "label": "西安市社会科学规划基金项目 · 2026 · 西安市社科院申报公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://xakj.xa.gov.cn/kjdt/tzgg/1996796777378414594.html",
+          "label": "西安市自然科学基金项目 · 2026 年度（面上 / 重点） · 西安市科技局通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202606/t20260605_5952980.shtml",
+          "label": "湖北省青年科技人才培养项目 · 2026 · 湖北省科技厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202605/t20260520_5940352.shtml",
+          "label": "湖北省软科学计划研究项目（竞争类）· 2026 面上项目 · 湖北省科技厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202604/P020260415560853158715.docx",
+          "label": "湖北省博士后项目 · 2026（尖端人才引进 / 创新人才培养 / 先锋人才跟踪支持） · 通知正文附件",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.hbkx.org.cn/news/info?newsid=eb8c89b2a6ed4fcba243527bc87bfc87",
+          "label": "湖北省青年科技人才晨光托举工程 · 2026 · 湖北省科协申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://ssroff.whu.edu.cn/info/1181/74001.htm",
+          "label": "湖北省社科基金青年项目 · 2026 · 武汉大学人文社会科学研究院转载",
+          "result": "checked"
+        },
+        {
+          "url": "http://skc.ccnu.edu.cn/info/1012/5173.htm",
+          "label": "湖北省社科基金青年项目 · 2026 · 华中师范大学社会科学处转载",
+          "result": "checked"
+        },
+        {
+          "url": "https://ssroff.whu.edu.cn/info/1181/73991.htm",
+          "label": "湖北省社科基金年度项目（一般项目）· 2026 · 武汉大学人文社会科学研究院转载",
+          "result": "checked"
+        },
+        {
+          "url": "http://skc.ccnu.edu.cn/info/1012/5203.htm",
+          "label": "湖北省社科基金年度项目（一般项目）· 2026 · 华中师范大学社会科学处转载",
+          "result": "checked"
+        },
+        {
+          "url": "http://www.hbies.cn/tzgg/861560397779013.html",
+          "label": "湖北省教育科学规划课题 · 2026（重点 / 一般 / 青年） · 湖北省教育科学研究院发布的申报通知（鄂教办函〔2026〕5号）",
+          "result": "checked"
+        },
+        {
+          "url": "http://www.whskl.org.cn/html/uploadfile/20260715092143792001.docx",
+          "label": "武汉市社科联课题 · 2026 · 通知正文",
+          "result": "checked"
+        },
+        {
+          "url": "http://hbwh.wenming.cn/gzyd/202606/t20260616_9272760.html",
+          "label": "武汉市社会科学基金后期资助项目 · 2026 · 武汉文明网刊发的市委宣传部通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.wuhan.gov.cn/wmfw/tzgg/tzgg_18371/202604/t20260409_2751245.html",
+          "label": "武汉市自然科学基金非共识项目 · 2026 · 武汉市科技创新局申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.wuhan.gov.cn/wmfw/tzgg/tzgg_18371/202609/t20260918_2849933.html",
+          "label": "武汉市自然科学基金聚力计划 · 光量子创新发展联合基金 2026 · 武汉市科技创新局申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.wuhan.gov.cn/wmfw/tzgg/tzgg_18371/202610/t20261024_2867649.html",
+          "label": "武汉市自然科学基金聚力计划 · 光量子创新发展联合基金 2026 · 补充通知（两个方向延期）",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.wuhan.gov.cn/wmfw/tzgg/tzgg_18371/202610/t20261015_2861548.html",
+          "label": "武汉市自然科学基金聚力计划 · 气象创新发展联合基金 2026 · 武汉市科技创新局申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.wuhan.gov.cn/wmfw/tzgg/tzgg_18371/202610/t20261028_2869524.html",
+          "label": "武汉都市圈协同创新科技项目 · 2026 · 武汉市科技创新局申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.wuhan.gov.cn/wmfw/tzgg/tzgg_18371/202605/t20260518_2765628.html",
+          "label": "武汉市软科学研究项目（一般项目）· 2026 · 武汉市科技创新局申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjc.scitc.edu.cn/_img/kjc/2026/08/07/2026080710383753463.docx",
+          "label": "四川省自然科学基金项目 · 2027 年度 · 通知全文附件",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjc.scitc.edu.cn/_img/kjc/2026/08/07/2026080710395629363.docx",
+          "label": "四川省科技创新创业人才专项 · 2027 · 通知全文附件",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjc.scitc.edu.cn/_img/kjc/2026/08/07/2026080710354174528.docx",
+          "label": "四川省软科学项目 · 2027 年度 · 通知全文附件",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjc.scitc.edu.cn/_img/kjc/2026/08/07/2026080710405739317.docx",
+          "label": "四川省省院省校科技合作重点研发项目 · 2027 · 通知全文附件",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjc.scitc.edu.cn/_img/kjc/2026/05/09/2026050910053819081.docx",
+          "label": "四川省哲学社会科学基金年度项目 · 2026 · 申报公告全文附件",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjc.scitc.edu.cn/_img/kjc/2026/10/29/2026102909171333759.docx",
+          "label": "四川省哲学社会科学规划“青年培育计划”专项资助 · 2026 · 通知全文附件",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjc.cuit.edu.cn/info/2138/3745.htm",
+          "label": "成都市哲学社会科学规划年度项目 · 2026 · 成都信息工程大学科技处转载",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.hlj.gov.cn/kjt/c113905/202603/c00_31928664.shtml",
+          "label": "黑龙江省自然科学基金项目 · 2026 年度 · 黑龙江省科技厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.hlj.gov.cn/kjt/c113905/202610/c00_31985482.shtml",
+          "label": "黑龙江省自然科学基金 · 校（院）企合作项目 2026 · 黑龙江省科技厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.hlj.gov.cn/kjt/c113905/202611/c00_31990674.shtml",
+          "label": "黑龙江省自然科学基金重点项目 · 2027 年申报指南建议征集 · 黑龙江省科技厅通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.hlj.gov.cn/kjt/c113905/202605/c00_31944794.shtml",
+          "label": "黑龙江省重点研发计划 · 前沿技术专项 2026（第二批） · 黑龙江省科技厅申报通知（第二批）",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.hlj.gov.cn/kjt/c113905/202603/c00_31920573.shtml",
+          "label": "黑龙江省重点研发计划 · 前沿技术专项 2026（第二批） · 黑龙江省科技厅申报通知（第一批）",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.hlj.gov.cn/kjt/c113905/202605/c00_31939369.shtml",
+          "label": "黑龙江省举办大型国际科技合作交流活动经费资助 · 2026 · 黑龙江省科技厅通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://hrss.hlj.gov.cn/hrss/c111741/202609/c00_31978012.shtml",
+          "label": "黑龙江省博士后择优资助 · 2026 年度（特别资助 / 面上资助） · 黑龙江省人社厅通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://hrss.hlj.gov.cn/hrss/c111741/202609/c00_31980833.shtml",
+          "label": "黑龙江省留学回国人员择优资助 · 2026 年度（创业类 / 启动类） · 黑龙江省人社厅通知",
+          "result": "checked"
+        },
+        {
+          "url": "http://www.hljsk.gov.cn/system/202604/102889.html",
+          "label": "黑龙江省哲学社会科学研究规划年度项目 · 2026 · 黑龙江社会科学网申报公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.hljskl.org.cn/web/2073950936970932225.html",
+          "label": "黑龙江省经济社会发展重点研究课题 · 2026（常规课题） · 黑龙江省社科联常规课题通知",
+          "result": "checked"
+        },
+        {
+          "url": "http://kjt.hunan.gov.cn/kjt/xxgk/tzgg/tzgg_1/202608/t20260801_34037990.html",
+          "label": "湖南省自然科学基金 · 2027 年度 · 湖南省科技厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "http://kjt.hunan.gov.cn/kjt/xxgk/tzgg/tzgg_1/202602/t20260213_33917698.html",
+          "label": "芙蓉计划青年人才（科技创新类）· 2026 · 湖南省科技厅申报通知（湘科计〔2026〕7号）",
+          "result": "checked"
+        },
+        {
+          "url": "http://kjt.hunan.gov.cn/kjt/xxgk/tzgg/tzgg_1/202602/t20260213_33917720.html",
+          "label": "芙蓉计划科技领军人才 · 2026 · 湖南省科技厅申报通知（湘科计〔2026〕6号）",
+          "result": "checked"
+        },
+        {
+          "url": "http://kjt.hunan.gov.cn/kjt/xxgk/tzgg/tzgg_1/202602/t20260226_33921594.html",
+          "label": "湖南省科技创新决策咨询项目 · 2026 · 湖南省科技厅申报通知（湘科计〔2026〕8号）",
+          "result": "checked"
+        },
+        {
+          "url": "https://sk.rednet.cn/nograb/646043/62/16326711.html",
+          "label": "湖南省社会科学基金项目 · 2026 · 湖南社科工作网申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "http://www.hnsk.gov.cn/content/646042/51/16181537.html",
+          "label": "湖南省哲学社会科学成果评审委员会课题 · 2027 年度 · 湖南社科网申报通知（湘社联发〔2026〕2号）",
+          "result": "checked"
+        },
+        {
+          "url": "http://www.hnsk.gov.cn/content/646048/62/15876282.html",
+          "label": "“湘江青年社科人才”培养工程 · 2026 · 湖南社科网通知",
+          "result": "checked"
+        },
+        {
+          "url": "http://jyt.hunan.gov.cn/jyt/sjyt/jkyycl/ghldxzbgs/bgstzgg/202604/t20260416_33956046.html",
+          "label": "湖南省社科基金教育学专项课题 · 2026 · 湖南省教育厅网站刊发的申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "http://jyt.hunan.gov.cn/jyt/sjyt/jkyycl/ghldxzbgs/bgstzgg/202604/t20260416_33956073.html",
+          "label": "湖南省教育科学“十五五”规划课题 · 2026 年度 · 湖南省教育厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "http://rst.hunan.gov.cn/rst/xxgk/tzgg/202605/t20260525_33985686.html",
+          "label": "湖南省人力资源培养开发项目（专业技术类）· 2026，含博士后资助 · 湖南省人社厅通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.ln.gov.cn/kjt/tztg/gztz/2025110714043615576/index.shtml",
+          "label": "辽宁省自然科学基金计划 · 2026（面上 / 青年科学基金A类、B类） · 辽宁省科技厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.ln.gov.cn/kjt/tztg/gztz/2025111114375376161/index.shtml",
+          "label": "辽宁省自然科学基金计划 · 博士科研启动项目 2026 · 辽宁省科技厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.ln.gov.cn/kjt/tztg/gztz/2025110615043398545/index.shtml",
+          "label": "辽宁省应用基础研究计划 · 2026 · 辽宁省科技厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.ln.gov.cn/kjt/tztg/gztz/2025111716432993355/index.shtml",
+          "label": "辽宁省国际科技合作计划 · 2026 · 辽宁省科技厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.ln.gov.cn/kjt/tztg/gztz/2026051508430727145/index.shtml",
+          "label": "辽宁省科技重大专项 · 2026（新药研发 / 精细化学品与化工新材料 / 海洋资源开发装备） · 辽宁省科技厅申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.ln.gov.cn/kjt/tztg/gztz/2026111014151056911/index.shtml",
+          "label": "辽宁省企业科技特派员选派 · 2027 年度首批 · 辽宁省科技厅通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://iss.dlmu.edu.cn/info/1032/8772.htm",
+          "label": "辽宁省经济社会发展研究课题 · 2027 年度 · 大连海事大学转载",
+          "result": "checked"
+        },
+        {
+          "url": "https://rst.ln.gov.cn/rst/zfxx/fdzdgknr/lzyj/rstgfxwj/qtwj31/2026030611110437759/index.shtml",
+          "label": "“兴辽英才计划”博士后储备项目 · 2025 年度 · 辽宁省人社厅通知（辽人社函〔2026〕37号）",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.syskl.org.cn/tzgg/202609/t20260920_5092631.html",
+          "label": "沈阳市哲学社会科学课题 · 2026（重点 / 一般 / 青年） · 沈阳市社科联申报通知",
+          "result": "checked"
+        }
+      ],
+      "issues": [
+        {
+          "url": "https://kjt.shaanxi.gov.cn/",
+          "label": "陕西省级官方网站",
+          "message": "省科技厅、省教育厅、省人社厅、省哲社办、省社科联、省科协网站本次均无法访问；省级记录依据中科院院所和高校的转载，已在各条来源说明中注明。"
+        },
+        {
+          "url": "https://skc.snnu.edu.cn/info/1012/29011.htm",
+          "label": "陕西省社会科学基金年度项目和青年项目2026 · 关闭时间矛盾",
+          "message": "三处转载一致写6月22日上午8时开放；个人申报系统关闭时间一处写7月2日18时，一处写7月6日18时，官方时间未核实，记录中截止日期留空。"
+        },
+        {
+          "url": "https://skc.snnu.edu.cn/info/1012/28381.htm",
+          "label": "陕西省哲学社会科学研究专项（省社科联）2026 · 未新增",
+          "message": "只读到高校转载，其中只有校内截止日期；官方截止时间未核实，未新增。省科协青年人才托举计划、西安市科协决策咨询课题同样只有校内日期，未新增。"
+        },
+        {
+          "url": "https://skc.snnu.edu.cn/info/1012/29661.htm",
+          "label": "陕西检察理论课题2026 · 未新增",
+          "message": "高校转载只给出校内截止（11月12日），可能仍在受理；官方截止时间未写明，未新增。"
+        },
+        {
+          "url": "https://opss.cnhubei.com/c/2026-09-15/10068.shtml",
+          "label": "湖北省社科基金专项课题2026 · 未新增",
+          "message": "官方页面无法连接；三所高校转载的截止时间互不一致（10月12日、10月10日、10月9日），官方截止时间未核实，未新增。"
+        },
+        {
+          "url": "https://www.hbskw.com/",
+          "label": "湖北省社会科学界联合会",
+          "message": "网站拒绝访问（405）；省社科基金青年项目、一般项目改据武汉大学与华中师范大学转载，两处日期一致。"
+        },
+        {
+          "url": "https://kyc.wtu.edu.cn/info/1035/18011.htm",
+          "label": "湖北省教育厅高校哲学社会科学研究项目2026 · 未新增",
+          "message": "只读到一所高校的转发，其中只有校内截止日期；教育厅原文和官方截止时间未找到，未新增。"
+        },
+        {
+          "url": "https://kjt.sc.gov.cn/kjt/gstz/newschild.shtml",
+          "label": "四川省级和成都市官方网站",
+          "message": "省科技厅、省人社厅、省教育厅、省社科联、成都市社科联网站本次均无法连接，成都市科技局网站拒绝访问；四川的记录全部依据高校转载的通知全文，已在各条来源说明中注明。"
+        },
+        {
+          "url": "https://kyy.scu.edu.cn/info/1458/14292.htm",
+          "label": "四川省科技创新合作类项目2027第一批、“四川海聚计划”2027 · 未新增",
+          "message": "只读到高校改写的通知，官方截止时间未读到或各处不一致，未新增。"
+        },
+        {
+          "url": "https://kjc.sicau.edu.cn/info/1019/4586.htm",
+          "label": "四川省社科规划“高质量发展研究”决策咨询专项2026 · 未新增",
+          "message": "三所高校转载的系统关闭时间互不一致（11月10日17:00、11月11日12:00、11月11日17:00），官方时间未核实，可能仍在受理，未新增。"
+        },
+        {
+          "url": "https://rsc.sicau.edu.cn/info/1024/6526.htm",
+          "label": "四川省博士后创新人才支持项目2026 · 未新增",
+          "message": "只读到一所高校人事处的通知，其中只有校内日期；省人社厅原文和截止时间未找到，未新增。"
+        },
+        {
+          "url": "https://kyy.scu.edu.cn/info/1491/13973.htm",
+          "label": "成都市第二批科技项目2026（含软科学研究重点项目）· 未新增",
+          "message": "成都市科技局网站拒绝访问；通知全文只在高校转载的附件中，本次核对未能读取该附件，未新增。"
+        },
+        {
+          "url": "https://www.harbin.gov.cn/haerbin/c104539/",
+          "label": "哈尔滨市科学技术局",
+          "message": "市政府网站本次无法访问，未能核实任何2026年市级科技项目通知；未找到哈尔滨市社科联的官方网站，市社科联课题和著作出版资助只有高校内部通知，日期为校内节点，均未新增。"
+        },
+        {
+          "url": "https://www.qmu.edu.cn/2026/1104/c726a211920/page.htm",
+          "label": "“新时代龙江优秀硕士、博士学位论文”立项资助2026 · 未新增",
+          "message": "省教育厅网站未发布通知原文，只读到一所高校的转发（写11月3日至15日申报），资助额度和官方截止时间未核实，可能仍在受理，未新增。"
+        },
+        {
+          "url": "https://www.hrbu.edu.cn/kyc/info/1576/15800.htm",
+          "label": "黑龙江省青年科技人才托举工程2026 · 未新增",
+          "message": "未找到省科协可访问的网站，高校转发中只有校内截止日期，未新增。"
+        },
+        {
+          "url": "http://www.hljsk.gov.cn/system/202610/102896.html",
+          "label": "黑龙江省马克思主义理论研究和建设工程课题2026 · 未新增",
+          "message": "通知要求各单位于11月10日前报送，即核对当日截止，且未写明资助额度，未新增。"
+        },
+        {
+          "url": "http://kjj.changsha.gov.cn/zfxxgk/tzgg_27202/",
+          "label": "长沙市科学技术局",
+          "message": "市科技局网站无法解析。长沙市自然科学基金2026、长沙市杰出青年科技人才培养计划只读到高校和第三方转载，各处截止日期不一致，官方日期未核实，未新增。"
+        },
+        {
+          "url": "https://kyc.hutb.edu.cn/tzgs/content_88216",
+          "label": "长沙市哲学社会科学规划课题2026 · 未新增",
+          "message": "未找到长沙市社科联官方页面，只有一所高校的转载，日期可能是校内节点，未新增。"
+        },
+        {
+          "url": "http://kjt.hunan.gov.cn/kjt/xxgk/tzgg/tzgg_1/202608/t20260801_34037990.html",
+          "label": "湖南省自然科学基金2027 · 指南未读",
+          "message": "申报指南需登录湖南科技云查看，各类项目的资助额度和年龄界线未能从官方渠道核实，记录中未填写具体数字。"
+        },
+        {
+          "url": "http://shkxshzyhome.lnsgdb.com.cn/web/shkxshzyhome/shkxtzgg/2026/07/03/927510481785067127.shtml",
+          "label": "辽宁省社会科学规划基金项目2026 · 未新增",
+          "message": "省社科规划办网站拒绝访问（405）；四所高校的转载都只有校内截止日期，没有省级截止时间，未新增。文艺评论专项、教育学项目同样只有校内日期，未新增。"
+        },
+        {
+          "url": "https://www.lnskl.org.cn/",
+          "label": "辽宁省社会科学界联合会",
+          "message": "网站无法连接；省经济社会发展研究课题2027改据大连海事大学转载；单位审核截止时间在不同高校转载中不一致，未填写。"
+        },
+        {
+          "url": "https://www.dlnu.edu.cn/info/1046/35148.htm",
+          "label": "大连市科技创新基金科技惠民项目2026 · 未新增",
+          "message": "大连市科技局网站无法解析；高校转载写11月6日16:00截止，第三方页面显示至11月13日，官方截止时间未核实，可能仍在受理，未新增。"
+        },
+        {
+          "url": "https://news.lnnu.edu.cn/info/1163/10229.htm",
+          "label": "辽宁省教育厅高校基本科研项目2026 · 未新增",
+          "message": "省教育厅网站未发布该通知，只读到高校校内通知，省级截止时间和资助额度未核实，未新增。"
+        }
+      ]
+    },
+    {
       "id": "weekly-2026-11-10",
       "kind": "research",
       "date": "2026-11-10",

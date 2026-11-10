@@ -74,7 +74,7 @@ function titles(){
   if(view==='national')return ['全国性机会','全国性项目 · 具体资格见项目详情'];
   if(view==='local')return ['省市机会',areaLabel(preferences)+' · 省级、市级与跨地区联合'];
   if(view==='overseas')return ['国外机会','国外资助与学术交流'];
-  if(view==='explore')return ['探索其他地区',explore.province?areaLabel(explore)+' · 临时浏览':'北京、上海、江苏、浙江、广东、安徽'];
+  if(view==='explore')return ['探索其他地区',explore.province?areaLabel(explore)+' · 临时浏览':Object.keys(AREAS).join('、')];
   return ['我的收藏','已收藏的机会，不受常用地区限制'];
 }
 function renderDates(rows){
@@ -180,7 +180,7 @@ function openSettings(draft){
   render();$('#main').scrollIntoView({behavior:'smooth',block:'start'});
 }
 provinceOptions($('#pref-province'),'不设置地区');
-provinceOptions($('#explore-province'),'全部六个省市');
+provinceOptions($('#explore-province'),'全部已收录省市');
 cityOptions($('#explore-city'),'','',true);
 fillPreferences(preferences||DEFAULT_PREFERENCES);$('#preferences-cancel').hidden=!preferences;
 $('#pref-province').addEventListener('change',()=>{cityOptions($('#pref-city'),$('#pref-province').value,'');updatePreferencePreview()});
