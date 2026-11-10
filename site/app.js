@@ -185,7 +185,7 @@ cityOptions($('#explore-city'),'','',true);
 fillPreferences(preferences||DEFAULT_PREFERENCES);$('#preferences-cancel').hidden=!preferences;
 $('#pref-province').addEventListener('change',()=>{cityOptions($('#pref-city'),$('#pref-province').value,'');updatePreferencePreview()});
 $('#preferences-form').addEventListener('change',updatePreferencePreview);
-$('#preferences-form').addEventListener('submit',e=>{e.preventDefault();preferences=readPreferencesForm();persist();goView('home');toast('默认配置已保存')});
+$('#preferences-form').addEventListener('submit',e=>{e.preventDefault();preferences=readPreferencesForm();persist();goView('home',{scroll:false});$('#opportunity-library').scrollIntoView({behavior:'smooth',block:'start'});toast('默认配置已保存')});
 $('#preferences-cancel').addEventListener('click',()=>{view=previousView==='settings'?'home':previousView;render();$('#main').scrollIntoView({behavior:'smooth',block:'start'})});
 $('#edit-preferences').addEventListener('click',()=>openSettings());
 document.querySelectorAll('[data-open-settings]').forEach(b=>b.addEventListener('click',()=>openSettings()));
