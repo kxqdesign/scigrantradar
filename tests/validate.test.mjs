@@ -57,6 +57,10 @@ test('record rules', async t => {
   await bad('missing summary', 'text', d => { delete d.summary; });
   await bad('blank name', 'text', d => { d.name = '   '; });
   await bad('unknown status', 'status', d => { d.status = 'maybe'; });
+  await bad('deadline time that is not a time', 'deadline-time', d => { d.deadlineTime = '下午五点'; });
+  await bad('deadline time without a deadline', 'deadline-time', d => { d.deadlineTime = '17:00'; d.deadline = null; });
+  await bad('closesWhenFull that is not a boolean', 'closes-when-full', d => { d.closesWhenFull = 'yes'; });
+  await t.test('a deadline time with a zone and a cap flag are accepted', () => assert.deepEqual(validateRecord({ ...good, deadline: '2026-12-07', deadlineTime: '17:00 JST', closesWhenFull: true }, TODAY), []));
   await bad('unknown scope', 'scope', d => { d.scope = 'planet'; });
   await bad('unknown region', 'region', d => { d.region = '海外'; });
   await bad('overseas scope with domestic region', 'region-scope', d => { d.scope = 'overseas'; d.region = '国内'; });

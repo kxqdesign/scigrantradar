@@ -73,7 +73,7 @@ If time or access runs out before all of this is done, say so plainly in `summar
 
 Use an existing record as the model. Required fields: `id`, `name`, `org`, `category`, `region` (国内/国际), `audience` (array), `fields`, `status` (open/upcoming/closed/verify), `dateLabel`, `summary`, `eligibility`, `support`, `prep`, `next`, `sources` (non-empty list of `label`/`url`), `verified` (YYYY-MM-DD), `disciplines` (array of natural/social), `scope` (national/province/city/joint/overseas).
 
-`date`, `opensOn` and `deadline` are YYYY-MM-DD or null. `jurisdiction` holds `province` and `city` for local programmes; joint programmes list `eligibleAreas`. Preserve `geographyNote`, `timeNote`, `sourceNote` and any other existing fields.
+`date`, `opensOn` and `deadline` are YYYY-MM-DD or null. `date` is the opening date while `status` is `upcoming` and no `opensOn` is given, and the deadline otherwise. Optional `deadlineTime` is the confirmed closing time on the `deadline` date, as HH:MM, followed by a space and a short zone when it is not Beijing time (`17:00`, `17:00 JST`); leave it out when the notice gives no time. Optional `closesWhenFull` is `true` only for a call that closes on reaching an application cap rather than on a date. `jurisdiction` holds `province` and `city` for local programmes; joint programmes list `eligibleAreas`. Preserve `geographyNote`, `timeNote`, `sourceNote` and any other existing fields.
 
 ## Sources
 
@@ -94,7 +94,7 @@ Read full official notices and attachments, not search snippets alone. An author
 - Retain previous rounds for next-year planning. Give a genuinely new annual round a new stable ID. Do not duplicate the same call because several sources reproduce it.
 - Keep confirmed opening and closing dates separately as `opensOn` and `deadline`. Put timezone, internal deadline and special cut-off details in `timeNote`.
 - Treat preliminary or to-be-confirmed dates as explanatory text, not as confirmed timeline events. Unknown dates are null. **Never roll last year's date forward, and never infer a deadline from a typical annual pattern.** Keep unknown or contradictory application status as `verify`, and rolling calls undated unless an actual cut-off is known.
-- Update `status` from verified notices and the actual date, accounting for timezones.
+- Update `status` from verified notices and the actual date, accounting for timezones. The page itself moves a record forward once a confirmed date passes (upcoming to open, open to closed) and never backward, so a record still needs `closed` set by hand when a call ends early.
 - Refresh a record's `verified` date only when that record was actually checked. Do not imply every record was rechecked when some sources were inaccessible.
 - Do not add task conversation, notes about how the update was produced, or promotional links to any record.
 

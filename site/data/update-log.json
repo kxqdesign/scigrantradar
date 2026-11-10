@@ -1,6 +1,24 @@
 {
   "runs": [
     {
+      "id": "correction-2026-11-10-date-fields",
+      "kind": "correction",
+      "date": "2026-11-10",
+      "at": "2026-11-10T12:17:32.712Z",
+      "outcome": "success",
+      "summary": "为 3 条记录补充结构化字段，供页面按统一格式显示日期；原有日期、状态与核验日期均未改动，内容取自各记录已有的日期说明。NSFC–IIASA 暑期青年科学家项目 2027、国家重点研发计划 · 数学/力学/物态调控/催化/AI数理基础 5个重点专项 2026补记截止时刻；洪堡研究奖学金标记为满额即关闭。",
+      "added": 0,
+      "updated": 3,
+      "checkedIds": [],
+      "checkedSources": [],
+      "issues": [],
+      "correctedIds": [
+        "yssp-2027",
+        "nsfc-keyrd-math-ai-2026",
+        "humboldt"
+      ]
+    },
+    {
       "id": "provinces-2026-11-10",
       "kind": "research",
       "date": "2026-11-10",

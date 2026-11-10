@@ -78,6 +78,9 @@ export function validateRecord(d, today) {
   if (!d.verified) fail('verified', '缺少核验日期 verified');
   else if (isRealDate(d.verified) && d.verified > today) fail('verified-future', `核验日期 ${d.verified} 晚于今天（北京时间 ${today}）`);
   if (isRealDate(d.opensOn) && isRealDate(d.deadline) && d.opensOn > d.deadline) fail('interval', '开放日期晚于截止日期');
+  if (d.deadlineTime != null && (typeof d.deadlineTime !== 'string' || !/^\d{1,2}:\d{2}( \S.{0,15})?$/.test(d.deadlineTime))) fail('deadline-time', 'deadlineTime 须为 HH:MM，非北京时间时在其后加空格和简短时区，例如 17:00 或 17:00 JST');
+  else if (d.deadlineTime != null && !d.deadline) fail('deadline-time', '填写 deadlineTime 时必须同时有 deadline');
+  if (d.closesWhenFull != null && typeof d.closesWhenFull !== 'boolean') fail('closes-when-full', 'closesWhenFull 只能是 true 或 false');
 
   if (['province', 'city'].includes(d.scope) && !d.jurisdiction?.province) fail('province', '省级和市级项目必须填写 jurisdiction.province');
   if (d.scope === 'city' && !d.jurisdiction?.city) fail('city', '市级项目必须填写 jurisdiction.city');

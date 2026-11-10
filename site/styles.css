@@ -94,3 +94,7 @@
 .setup-hint p{margin:0}
 .setup-hint-actions{display:flex;align-items:center;gap:12px}
 .share-row{margin:14px 0 0}
+/* Status rows read opening → closing with only the next date emphasised; warm colour is kept for what needs action now. */
+.status-soon{background:#fbefe4;color:#92532d}.status-verify{background:transparent;color:#68705f;outline:1px dashed #a3ae9d;outline-offset:-1px}
+.date-text .seg{display:inline-block}.date-text strong{font-weight:600;color:var(--ink)}.date-text .date-urgent,.date-text .date-urgent strong,.node-line .date-urgent{color:#92532d}.phase-closed .date-text{color:var(--muted)}
+.date-card small span{display:inline-block}
