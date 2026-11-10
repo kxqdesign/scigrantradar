@@ -52,3 +52,11 @@ test('preferences saved by earlier versions still load', () => {
   assert(!Object.hasOwn(oldDomestic, 'source'));
   for (const layout of ['timeline', 'list', 'cards']) assert.equal(normalize({ ...base, layout }).layout, layout);
 });
+
+test('Shaanxi and its cities can be chosen as a home region', () => {
+  const p = normalize({ ...base, province: '陕西', city: '西安' });
+  assert.equal(p.province, '陕西');
+  assert.equal(p.city, '西安');
+  assert.deepEqual(p.level, ['national', 'province', 'city', 'joint']);
+  assert.equal(normalize({ ...base, province: '陕西', city: '南京' }).city, '');
+});
