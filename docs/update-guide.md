@@ -22,6 +22,19 @@ The site owner reviews every update and decides whether to publish it. Your job 
 7. **Open or update the pull request** using the repository's template. The owner should be able to understand it in a few minutes: what was added, what changed in which record (old value → new value) and on the basis of which official link, which sources could not be reached, and what remains unresolved.
 8. **Report** meaningful additions, corrections and unresolved source failures only. Do not claim all records were verified unless they were.
 
+## How thorough a run must be
+
+A run that looks at a handful of sources and stops is not a weekly update. Before you log the run:
+
+- **Attempt every entry in `site/data/sources.json`.** Each one appears in `checkedSources` with an honest result.
+- **A page that returns only navigation, a title or an empty shell was not read.** Try once more by another route: the notice-list page it links to, or a web search restricted to the same official site. If you still have no notice content, mark it `unavailable` and add an issue.
+- **Open every notice published since the last research run that could be a funding, talent, postdoctoral or exchange opportunity.** Read the notice itself, and its attachments when the dates or eligibility are in them. Then decide: add a record, update a record, or leave it out because it is not an opportunity of the kind this site lists.
+- **Do not defer a candidate "to next time".** If you could not finish reading one, record it in `issues` with its URL so the owner sees it.
+- **Recheck existing records that are still live:** every record whose `status` is `open`, `upcoming` or `verify`, against the sources it cites. List the ones you actually rechecked in `checkedIds`.
+- Records that are `closed` need rechecking only when a source suggests a new round.
+
+If time or access runs out before all of this is done, say so plainly in `summary`, use `partial`, and list what was not covered in `issues`.
+
 ## The run entry
 
 ```json
