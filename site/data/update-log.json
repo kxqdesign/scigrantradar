@@ -1,6 +1,483 @@
 {
   "runs": [
     {
+      "id": "weekly-2026-11-10",
+      "kind": "research",
+      "date": "2026-11-10",
+      "at": "2026-11-10T10:25:45.000Z",
+      "outcome": "partial",
+      "summary": "首次每周研究运行：逐一尝试 sources.json 全部25个来源，并复核全部21条开放、即将开放或待核实记录；除政府间专项2027第一批联合研发外，均与可读官方来源一致，未修改现有记录。新增5条：自然科学基金委主责的5个国家重点研发计划重点专项2026年度申报（11月13日开放、12月8日截止）、教育部哲学社会科学研究重大课题攻关项目2026（11月22日截止）、宁波市社科规划第九批专项（11月29日截止），以及已截止的国家社科基金中国历史研究院重大历史问题研究专项2026、南京市临床基础研究项目（医疗器械）2026，供下一轮规划参考。政府间专项2027第一批联合研发的截止日期在科技部原文（12月18日）与高校转载（11月30日）之间存在矛盾，按规则保留原数据并列为待处理问题。江苏省科技厅栏目页、国家留学基金委、教育部原通知、南京科技局通知通告原地址、盐城软科学指南PDF等不可直接访问，详见 issues。南航两个重点实验室10月开放基金（已截止、面向特定军工方向）、宁波发展蓝皮书2027撰稿课题（今日截止）、浙江文化研究工程与艺术学重大项目选题征集等经阅读后未收录。",
+      "added": 5,
+      "updated": 0,
+      "checkedIds": [
+        "nsfc-chips",
+        "nsfc-planet",
+        "brain-2027",
+        "energy-ai",
+        "yssp-2027",
+        "nssfc-major-2026",
+        "nssfc-heritage-2026",
+        "rufford",
+        "eu-expert",
+        "jsps-invitational",
+        "humboldt",
+        "yangtze-basic-2026",
+        "hefei-social-theory-2026",
+        "shaoguan-postdoc-2026",
+        "most-intergovernmental-2027",
+        "csc-self-financed-2026-2027",
+        "zhejiang-education-2027",
+        "jsps-standard-2027",
+        "msca-european-pf-2027",
+        "embo-postdoctoral-2027",
+        "daad-research-grants-germany"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/zntg.html",
+          "label": "国家自然科学基金委员会 · 项目指南",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2822/tzsm1.html",
+          "label": "国家自然科学基金委员会 · 业务资讯",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/145508.html",
+          "label": "自然科学基金委 · 5个重点专项2026年度指南发布通告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/145137.html",
+          "label": "自然科学基金委 · 3个重点专项2027指南建议征集通告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2822/145139.html",
+          "label": "自然科学基金委 · 集成芯片指南建议征集",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2822/145161.html",
+          "label": "自然科学基金委 · 进入行星大气指南建议征集",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/144015.html",
+          "label": "自然科学基金委 · 脑科学与类脑研究2027第一批",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143174.html",
+          "label": "自然科学基金委 · 能源与AI青年专项",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/144767.html",
+          "label": "自然科学基金委 · IIASA YSSP 2027",
+          "result": "checked"
+        },
+        {
+          "url": "https://iiasa-capacity-development.onlyfy.jobs/en/job/ibr12o4r",
+          "label": "IIASA YSSP 2027 申请页",
+          "result": "checked"
+        },
+        {
+          "url": "https://iiasa.ac.at/capacity-development/application-information",
+          "label": "IIASA 申请信息页",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://www.nopss.gov.cn/",
+          "label": "全国哲学社会科学工作办公室",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nopss.gov.cn/n1/2026/1109/c431028-40830766.html",
+          "label": "国家社科基金重大项目招标公告 2026",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nopss.gov.cn/n1/2026/1020/c431029-40818334.html",
+          "label": "国家社科基金文化遗产保护传承研究专项 2026",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nopss.gov.cn/n1/2026/1016/c431029-40816232.html",
+          "label": "国家社科基金中国历史研究院重大历史问题研究专项 2026",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.chinapostdoctor.org.cn/",
+          "label": "中国博士后",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.csc.edu.cn/",
+          "label": "国家留学基金管理委员会",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://www.csc.edu.cn/chuguo/s/4305",
+          "label": "国家留学基金委 · 优自奖专栏",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://de.china-embassy.gov.cn/zytz/202610/t20261029_12049460.htm",
+          "label": "驻德国使馆 · 2026-2027优自奖通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://service.most.gov.cn/",
+          "label": "国家科技管理信息系统",
+          "result": "checked"
+        },
+        {
+          "url": "https://service.most.gov.cn/kjjh_tztg_all/20261110/5933.html",
+          "label": "国科管系统 · 自然科学基金委主责5个重点专项2026年度申报通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://service.most.gov.cn/kjjh_tztg_all/20261030/5920.html",
+          "label": "国科管系统 · 政府间专项2027第一批联合研发",
+          "result": "checked"
+        },
+        {
+          "url": "https://service.most.gov.cn/kjjh_tztg_all/20261030/5921.html",
+          "label": "国科管系统 · 政府间专项2027第一批人员交流",
+          "result": "checked"
+        },
+        {
+          "url": "https://service.most.gov.cn/kjjh_dfdt_all/20261102/5930.html",
+          "label": "国科管系统 · 2026长三角联合攻关（基础研究）",
+          "result": "checked"
+        },
+        {
+          "url": "https://service.most.gov.cn/kjjh_tztg_all/20261030/5928.html",
+          "label": "国科管系统 · “尖刀”技术攻关工程2026",
+          "result": "checked"
+        },
+        {
+          "url": "https://service.most.gov.cn/kjjh_tztg_all/20261105/5932.html",
+          "label": "国科管系统 · 三峡水运新通道重点专项2026",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.sues.edu.cn/_t528/9a/83/c265a301699/page.psp",
+          "label": "上海工程技术大学转载政府间专项通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjt.guizhou.gov.cn/xwzx/tzgg_73876/202611/t20261106_91082101.html",
+          "label": "贵州省科技厅转发政府间专项通知",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://www.moe.gov.cn/s78/A13/tongzhi/202606/t20260612_1440551.html",
+          "label": "教育部社会科学司 · 项目通知",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://www.sinoss.net/c/2026-10-21/667597.shtml",
+          "label": "中国高校人文社会科学信息网 · 教育部重大课题攻关项目2026招标通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.csiam.org.cn/1202/index.html",
+          "label": "中国工业与应用数学学会 · 青托通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kxjst.jiangsu.gov.cn/col/col82540/index.html",
+          "label": "江苏省科技厅 · 通知公告",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://kxjst.jiangsu.gov.cn/module/web/jpage/dataproxy.jsp?page=1&appid=1&webid=89&path=%2F&columnid=82540&unitid=345120&webname=%E6%B1%9F%E8%8B%8F%E7%9C%81%E7%A7%91%E6%8A%80%E5%8E%85&permissiontype=0",
+          "label": "江苏省科技厅 · 通知公告列表数据接口",
+          "result": "checked"
+        },
+        {
+          "url": "https://kxjst.jiangsu.gov.cn/art/2026/11/9/art_82540_11856661.html",
+          "label": "江苏省科技厅转发政府间专项联合研发通知页",
+          "result": "checked"
+        },
+        {
+          "url": "https://kxjst.jiangsu.gov.cn/art/2026/11/9/art_82540_11856657.html",
+          "label": "江苏省科技厅转发政府间专项人员交流通知页",
+          "result": "checked"
+        },
+        {
+          "url": "https://kxjst.jiangsu.gov.cn/art/2026/10/16/art_82540_11843018.html",
+          "label": "江苏省科技厅转发中韩青年科学家交流计划通知页",
+          "result": "checked"
+        },
+        {
+          "url": "https://jsszkj.kxjst.jiangsu.gov.cn/js-home/home",
+          "label": "江苏数字科技 · 项目申报",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.nanjing.gov.cn/njskxjswyh/?id=xxgk_228",
+          "label": "南京市科技局 · 通知通告",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://kjj.nanjing.gov.cn/njskxjswyh/214/228/index_17377.html",
+          "label": "南京市科技局 · 公示公告列表",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.nanjing.gov.cn/njskxjswyh/202610/t20261016_6020210.html",
+          "label": "南京市科技局 · 2026临床基础研究（医疗器械）通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kyy.nuaa.edu.cn/5817/list.htm",
+          "label": "南京航空航天大学科研院 · 通知公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://kyy.nuaa.edu.cn/2026/1020/c5817a415228/page.htm",
+          "label": "南航 · 直升机动力学全国重点实验室2026基金指南",
+          "result": "checked"
+        },
+        {
+          "url": "https://kyy.nuaa.edu.cn/2026/1019/c5817a415068/page.htm",
+          "label": "南航 · 复杂结构电化学加工实验室2026基金指南",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.hhtz.gov.cn/col/col1485818/index.html",
+          "label": "杭州高新区（滨江）科技局 · 科技动态",
+          "result": "checked"
+        },
+        {
+          "url": "https://nbubs.nbu.edu.cn/index/tzgg1/kyydffwb.htm",
+          "label": "宁波大学商学院 · 科研与地方服务办通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://nbubs.nbu.edu.cn/info/3094/263780.htm",
+          "label": "宁波大学商学院 · 宁波市第九批专项课题转发",
+          "result": "checked"
+        },
+        {
+          "url": "https://nbubs.nbu.edu.cn/info/3094/263030.htm",
+          "label": "宁波大学商学院 · 共青团中央青少年发展研究课题转发",
+          "result": "checked"
+        },
+        {
+          "url": "http://www.nbssa.org.cn/",
+          "label": "宁波社科网",
+          "result": "checked"
+        },
+        {
+          "url": "http://www.nbssa.org.cn/col/col1229619709/art/2026/art_917b50401a0d4a9995d707591132aa07.html",
+          "label": "宁波市社科联 · 第九批专项课题通知",
+          "result": "checked"
+        },
+        {
+          "url": "http://www.nbssa.org.cn/col/col1229619709/art/2026/art_f651c6c1a94f43bbb16ab1bc9e83d4b6.html",
+          "label": "宁波市社科联 · 宁波发展蓝皮书2027课题",
+          "result": "checked"
+        },
+        {
+          "url": "https://wkc.zafu.edu.cn/index/tzgg.htm",
+          "label": "浙江农林大学人文社科处 · 通知公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://wkc.zafu.edu.cn/info/1020/3945.htm",
+          "label": "浙江农林大学 · 2027浙江省教育科学规划课题",
+          "result": "checked"
+        },
+        {
+          "url": "https://wkc.zafu.edu.cn/info/1020/3951.htm",
+          "label": "浙江农林大学 · 教育部重大课题攻关项目转发",
+          "result": "checked"
+        },
+        {
+          "url": "https://wkc.zafu.edu.cn/info/1020/3958.htm",
+          "label": "浙江农林大学 · 浙江文化研究工程重大项目选题征集",
+          "result": "checked"
+        },
+        {
+          "url": "https://jyxy.hznu.edu.cn/c/2026-10-23/3220434.shtml",
+          "label": "杭州师范大学 · 2027浙江省教育科学规划课题",
+          "result": "checked"
+        },
+        {
+          "url": "https://hf.cas.cn/rjc/gzdt/tzgg/index.html",
+          "label": "中国科学院合肥物质科学研究院人事处 · 通知公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://kyc.hznu.edu.cn/xbwz/xmsb/rwsk/",
+          "label": "杭州师范大学科研处 · 人文社科项目申报",
+          "result": "checked"
+        },
+        {
+          "url": "https://search.hznu.edu.cn/zcms/ui/browsepriv/content?ID=3220531&platformID=pc",
+          "label": "杭州师范大学 · 杭州市生育友好城市建设研究专项转发",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://www.ahjzu.edu.cn/kjc/2026/0306/c5564a264235/page.htm",
+          "label": "安徽建筑大学 · 合肥市社科规划2026转发",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.changzhou.gov.cn/gi_news/216179375585904",
+          "label": "常州市 · 长三角联合攻关（基础研究）转发",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=82e331ed78bb4d1a8835cf0ba0479fce.pdf",
+          "label": "江苏省软科学 · 正式指南PDF",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://new.sh-italent.com/Article/202609/202609300001.shtml",
+          "label": "上海国际人才网 · 超级博士后",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.sg.gov.cn/bmpdlm/rlzyhshbzj/tzgg/content/post_2892118.html",
+          "label": "韶关市人社局 · 博士后资助",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.jsps.go.jp/english/e-fellow/e-ippan/",
+          "label": "JSPS 标准博士后",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.jsps.go.jp/english/e-fellow/e-ippan/appliguidelines.html",
+          "label": "JSPS 标准博士后申请日程",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.jsps.go.jp/english/e-fellow/application.html",
+          "label": "JSPS 博士后申请指南",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.jsps.go.jp/english/e-inv/application/",
+          "label": "JSPS Invitational 申请日程",
+          "result": "checked"
+        },
+        {
+          "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+          "label": "MSCA 博士后",
+          "result": "checked"
+        },
+        {
+          "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/funding/msca-postdoctoral-fellowships-2027",
+          "label": "MSCA 博士后 2027",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/",
+          "label": "EMBO 博士后",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships",
+          "label": "HFSP 博士后",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.royalsociety.org/grants/newton-international/",
+          "label": "Royal Society Newton 国际博士后",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+          "label": "洪堡研究奖学金",
+          "result": "checked"
+        },
+        {
+          "url": "https://apply.ruffordsmallgrants.org/",
+          "label": "Rufford Small Grants",
+          "result": "checked"
+        },
+        {
+          "url": "https://euraxess.ec.europa.eu/worldwide/china/news/be-expert-european-commission-and-evaluate-proposals",
+          "label": "EURAXESS · 欧盟评审专家征集",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.daad.org.cn/zh/find-funding/scholarship-database/",
+          "label": "DAAD 中国奖学金数据库",
+          "result": "checked"
+        }
+      ],
+      "issues": [
+        {
+          "url": "https://service.most.gov.cn/kjjh_tztg_all/20261030/5920.html",
+          "label": "政府间专项2027第一批联合研发 · 截止日期矛盾",
+          "message": "科技部国科管系统原文现写受理时间2026年10月30日8:00至12月18日16:00、推荐单位12月24日16:00前确认；记录 most-intergovernmental-2027 现依据的上海工程技术大学11月3日转载为11月30日16:00、推荐12月7日。贵州省科技厅转载页本次无法访问，江苏省科技厅11月9日转发的正文PDF被站点拦截。按规则保留原数据，请站长判断是否改为12月18日。"
+        },
+        {
+          "url": "https://service.most.gov.cn/kjjh_tztg_all/20261030/5921.html",
+          "label": "政府间专项2027第一批人员交流 · 未新增",
+          "message": "国科管系统原文写受理至12月18日16:00、推荐12月24日16:00，但与上条同批联合研发通知的转载日期存在矛盾，未能确认后暂不新增，待站长判断。"
+        },
+        {
+          "url": "https://kxjst.jiangsu.gov.cn/col/col82540/index.html",
+          "label": "江苏省科技厅 · 通知公告",
+          "message": "栏目页返回403/503；已通过该站官方列表数据接口读取通知列表，但11月9日两份转发及10月16日中韩青年科学家交流计划的正文PDF下载被站点拦截，未读到江苏省内截止时间。"
+        },
+        {
+          "url": "https://kxjst.jiangsu.gov.cn/art/2026/10/16/art_82540_11843018.html",
+          "label": "中韩青年科学家交流计划2026 · 未新增",
+          "message": "正文只有PDF附件且无法下载，网络搜索也未找到2026年度通知原文，资格与截止时间未核实，未新增。"
+        },
+        {
+          "url": "https://nbubs.nbu.edu.cn/info/3094/263030.htm",
+          "label": "共青团中央青少年发展研究课题2026—2027 · 未新增",
+          "message": "仅读到宁波大学转发页（校内节点11月9日/10日）；官方申报公告附件无法下载，网络搜索未找到原文，全国截止时间未核实，未新增。"
+        },
+        {
+          "url": "https://search.hznu.edu.cn/zcms/ui/browsepriv/content?ID=3220531&platformID=pc",
+          "label": "杭州市社科规划“生育友好城市建设研究”专项 · 未新增",
+          "message": "杭州师范大学转发页无法访问，网络搜索未找到官方通知，未新增。"
+        },
+        {
+          "url": "https://www.csc.edu.cn/",
+          "label": "国家留学基金管理委员会",
+          "message": "主站与优自奖专栏均返回412/400；csc-self-financed-2026-2027 改由驻德国使馆通知核对，结论一致。"
+        },
+        {
+          "url": "https://www.moe.gov.cn/s78/A13/tongzhi/202606/t20260612_1440551.html",
+          "label": "教育部社会科学司 · 项目通知",
+          "message": "原链接返回404；教育部社科司通知列表页无内容。教育部重大课题攻关项目改据中国高校人文社会科学信息网全文。"
+        },
+        {
+          "url": "https://kjj.nanjing.gov.cn/njskxjswyh/?id=xxgk_228",
+          "label": "南京市科技局 · 通知通告",
+          "message": "该地址只返回导航外壳；已改读同站公示公告列表 /njskxjswyh/214/228/index_17377.html。"
+        },
+        {
+          "url": "https://kjj.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=82e331ed78bb4d1a8835cf0ba0479fce.pdf",
+          "label": "江苏省软科学 · 正式指南PDF",
+          "message": "返回403或连接重置；对应记录为已截止状态，未改动。"
+        },
+        {
+          "url": "https://kjt.guizhou.gov.cn/xwzx/tzgg_73876/202611/t20261106_91082101.html",
+          "label": "贵州省科技厅转发政府间专项通知",
+          "message": "连接失败，无法用于核对上述截止日期矛盾。"
+        },
+        {
+          "url": "https://iiasa.ac.at/capacity-development/application-information",
+          "label": "IIASA 申请信息页",
+          "message": "返回403；yssp-2027 已据自然科学基金委通知和IIASA申请页核对，结论一致。"
+        }
+      ]
+    },
+    {
       "id": "initialization",
       "kind": "initialize",
       "date": "2026-11-10",
