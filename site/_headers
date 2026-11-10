@@ -1,6 +1,7 @@
+# Browsers must check for a newer version on every visit. Unchanged files
+# are answered with a tiny "not modified" reply, so this costs little, and
+# visitors never run an old script against a new page after an update.
 /*
+  Cache-Control: no-cache
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-
-/data/*
-  Cache-Control: no-cache

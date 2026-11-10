@@ -102,3 +102,9 @@ test('first-time visitors land on a list, not on the settings form', () => {
   assert.doesNotMatch(app, /timer,view='settings'/);
   assert.match(html, /id="setup-hint"/);
 });
+
+test('browsers are told to check for new versions of every file', () => {
+  const lines = fs.readFileSync('site/_headers', 'utf8').split(/\r?\n/).filter(line => line && !line.startsWith('#'));
+  assert.equal(lines[0], '/*');
+  assert.ok(lines.slice(1).includes('  Cache-Control: no-cache'));
+});
