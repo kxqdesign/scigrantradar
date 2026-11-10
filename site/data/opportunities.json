@@ -267,7 +267,8 @@
     "jurisdiction": {},
     "eligibleAreas": [],
     "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
-    "deadline": "2027-01-10"
+    "deadline": "2027-01-10",
+    "deadlineTime": "23:00 CET"
   },
   {
     "id": "nssfc-major-2026",
@@ -778,7 +779,8 @@
     "jurisdiction": {},
     "eligibleAreas": [],
     "geographyNote": "国外项目，须核对国籍、接收单位和实际研究地点要求。",
-    "opensOn": "2026-11-15"
+    "opensOn": "2026-11-15",
+    "closesWhenFull": true
   },
   {
     "id": "yangtze-basic-2026",
@@ -2762,6 +2764,7 @@
     "status": "upcoming",
     "opensOn": "2026-11-13",
     "deadline": "2026-12-08",
+    "deadlineTime": "16:00",
     "date": "2026-12-08",
     "dateLabel": "11月13日 8:00 开放 · 12月8日 16:00 截止",
     "timeNote": "北京时间；一轮申报，项目牵头单位在国科管系统提交。推荐单位须于12月11日16:00前确认推荐，不能当作申请人延期。青年科学家项目负责人年龄要求见各专项指南。",

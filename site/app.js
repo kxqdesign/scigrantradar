@@ -1,6 +1,6 @@
 'use strict';
 const KEY='china-research-radar-v1';
-const STATUS={open:'开放中',upcoming:'即将开放',verify:'待核实',closed:'已截止'};
+const STATUS={open:'开放中',upcoming:'待开放',verify:'待核实',closed:'已截止'};
 const DISCIPLINE={natural:'自然科学',social:'社会科学（含人文）'};
 const REGION={'国内':'中国','国际':'国外'};
 const LEVEL={national:'全国性',province:'省级 / 直辖市',city:'市级',joint:'跨地区联合',overseas:'国外'};
@@ -8,15 +8,17 @@ const TYPE={'科研基金':['fund','◈'],'青年人才':['talent','✦'],'博�
 const PRIORITY={open:0,upcoming:1,verify:2,closed:3};
 const HINT_KEY='scigrantradar-setup-hint-dismissed';
 let hintDismissed=false;try{hintDismissed=localStorage.getItem(HINT_KEY)==='1'}catch{}
-let data=[],saved=[],checks={},preferences=null,layout='timeline',timer,view='national',previousView='national',explore={province:'',city:''};
+let today=shanghaiToday(),stored=[],data=[],saved=[],checks={},preferences=null,layout='timeline',timer,view='national',previousView='national',explore={province:'',city:''};
 try{const state=JSON.parse(localStorage.getItem(KEY)||'{}');saved=Array.isArray(state.saved)?state.saved.filter(id=>typeof id==='string'):[];checks=state.checks&&typeof state.checks==='object'?state.checks:{};preferences=normalizePreferences(state.preferences)}catch{}
 if(preferences){view='home';layout=preferences.layout}
 const $=s=>document.querySelector(s);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+// Phases depend on the date, so a page left open past midnight is rescheduled from the stored records.
+function reschedule(){today=shanghaiToday();data=stored.map(d=>withSchedule(d,today))}
 function persist(){try{localStorage.setItem(KEY,JSON.stringify({saved,checks,preferences,preferencesVersion:4}))}catch{toast('浏览器无法保存，当前选择仅在本次访问保留。')}}
 function toast(message){$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(timer);timer=setTimeout(()=>$('#toast').classList.remove('visible'),2500)}
 
-function card(d,instanceId=d.id){return `<article class="card" data-type="${(TYPE[d.category]||['fund'])[0]}" id="${esc(instanceId)}" data-opportunity="${esc(d.id)}"><div class="card-top"><div class="card-labels"><span class="tag type-tag"><span aria-hidden="true">${(TYPE[d.category]||['fund','◈'])[1]}</span>${esc(d.category)}</span><span class="tag region">${esc(scopeLabel(d))}${d.id.startsWith('csc-')?' · 赴国外':d.id==='yssp-2027'?' · 国际合作':''}</span><span class="tag discipline">${d.disciplines.map(v=>DISCIPLINE[v]).join(' / ')}</span></div><button class="save-button" data-save="${esc(d.id)}" aria-label="${saved.includes(d.id)?'取消收藏':'收藏'}：${esc(d.name)}" aria-pressed="${saved.includes(d.id)}">${saved.includes(d.id)?'★':'☆'}</button></div><div class="card-title"><h5>${esc(d.name)}</h5><p class="org">${esc(d.org)}<span class="scope-label">${esc(scopeLabel(d))}</span><span class="timeline-only timeline-context">${esc(scopeLabel(d))} · ${d.disciplines.map(v=>DISCIPLINE[v]).join(" / ")}</span></p></div><p class="card-summary">${esc(d.summary)}</p><div class="card-meta">${d.audience.map(a=>`<span>${esc(a)}</span>`).join('')}</div><div class="status-row"><span class="status-badge status-${d.status}">${STATUS[d.status]}</span><span class="date-text">${esc(d.dateLabel)}</span></div><p class="prep-row">准备时间（建议） · <strong>${esc(d.prep)}</strong></p><details><summary aria-label="查看详情：${esc(d.name)}"><span class="card-summary-label">查看资格、资助与官方来源</span><span class="list-only">详情</span></summary><div class="details-content"><p class="list-summary">${esc(d.summary)}</p><dl><dt class="list-only">职业阶段</dt><dd class="list-only">${d.audience.map(esc).join(" · ")}</dd><dt class="list-only">准备时间（建议）</dt><dd class="list-only">${esc(d.prep)}</dd><dt>适合领域</dt><dd>${esc(d.fields)}</dd><dt>地域要求</dt><dd>${esc(d.geographyNote||"以项目指南与依托单位要求为准。")}</dd><dt>资格与限制</dt><dd>${esc(d.eligibility)}</dd><dt>资助 / 参与形式</dt><dd>${esc(d.support)}</dd><dt>日期与状态说明</dt><dd>${esc(d.timeNote)}</dd><dt>下一步</dt><dd>${esc(d.next)}</dd></dl><div class="sources">${d.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗<span class="sr-only">（新标签页）</span></a>`).join('')}</div><p class="share-row"><button type="button" class="text-button" data-share="${esc(d.id)}">复制分享链接</button></p>${d.sourceNote?`<p class="verified">来源说明：${esc(d.sourceNote)}</p>`:""}<p class="verified">资料核验：${esc(d.verified)} · 原始指南优先</p></div></details></article>`}
+function card(d,line){return `<article class="card${line===undefined?'':' is-node'}" data-type="${(TYPE[d.category]||['fund'])[0]}" id="${esc(d.id)}" data-opportunity="${esc(d.id)}"><div class="card-top"><div class="card-labels"><span class="tag type-tag"><span aria-hidden="true">${(TYPE[d.category]||['fund','◈'])[1]}</span>${esc(d.category)}</span><span class="tag region">${esc(scopeLabel(d))}${d.id.startsWith('csc-')?' · 赴国外':d.id==='yssp-2027'?' · 国际合作':''}</span><span class="tag discipline">${d.disciplines.map(v=>DISCIPLINE[v]).join(' / ')}</span></div><button class="save-button" data-save="${esc(d.id)}" aria-label="${saved.includes(d.id)?'取消收藏':'收藏'}：${esc(d.name)}" aria-pressed="${saved.includes(d.id)}">${saved.includes(d.id)?'★':'☆'}</button></div><div class="card-title"><h5>${esc(d.name)}</h5><p class="org">${esc(d.org)}<span class="scope-label">${esc(scopeLabel(d))}</span><span class="timeline-only timeline-context">${esc(scopeLabel(d))} · ${d.disciplines.map(v=>DISCIPLINE[v]).join(" / ")}</span></p>${line?`<p class="node-line">${line}</p>`:''}</div><p class="card-summary">${esc(d.summary)}</p><div class="card-meta">${d.audience.map(a=>`<span>${esc(a)}</span>`).join('')}</div><div class="status-row phase-${d.phase}"><span class="status-badge status-${d.phase}">${PHASE[d.phase]}</span><span class="date-text">${statusLine(d,today)}</span></div><p class="prep-row">准备时间（建议） · <strong>${esc(d.prep)}</strong></p><details><summary aria-label="查看详情：${esc(d.name)}"><span class="card-summary-label">查看资格、资助与官方来源</span><span class="list-only">详情</span></summary><div class="details-content"><p class="list-summary">${esc(d.summary)}</p><dl><dt class="list-only">职业阶段</dt><dd class="list-only">${d.audience.map(esc).join(" · ")}</dd><dt class="list-only">准备时间（建议）</dt><dd class="list-only">${esc(d.prep)}</dd><dt>适合领域</dt><dd>${esc(d.fields)}</dd><dt>地域要求</dt><dd>${esc(d.geographyNote||"以项目指南与依托单位要求为准。")}</dd><dt>资格与限制</dt><dd>${esc(d.eligibility)}</dd><dt>资助 / 参与形式</dt><dd>${esc(d.support)}</dd><dt>日期与状态说明</dt><dd>${esc(d.timeNote)}</dd><dt>下一步</dt><dd>${esc(d.next)}</dd></dl><div class="sources">${d.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗<span class="sr-only">（新标签页）</span></a>`).join('')}</div><p class="share-row"><button type="button" class="text-button" data-share="${esc(d.id)}">分享这条机会</button></p>${d.sourceNote?`<p class="verified">来源说明：${esc(d.sourceNote)}</p>`:""}<p class="verified">资料核验：${esc(d.verified)} · 原始指南优先</p></div></details></article>`}
 const FILTERS={
   discipline:{label:'学科',all:'全部学科',options:()=>Object.entries(DISCIPLINE)},
   level:{label:'机会范围',all:'全部范围',options:()=>Object.entries(LEVEL)},
@@ -78,21 +80,21 @@ function titles(){
   return ['我的收藏','已收藏的机会，不受常用地区限制'];
 }
 function renderDates(rows){
-  const today=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'});
-  const {events}=timelineEvents(rows);
-  const next=events.filter(e=>e.date>=today&&['open','upcoming'].includes(e.d.status)).slice(0,3);
+  const next=nextDates(rows,today);
+  const other=e=>e.kind==='closing'?countdown(e.date,today,'closing'):e.d.closing?closeLabel(e.d,today):e.d.capped?'满额即止':'';
   $('.next-dates').hidden=!next.length;
-  $('#date-cards').innerHTML=next.map(e=>'<a class="date-card" href="#'+esc(e.d.id)+'" data-jump="'+esc(e.d.id)+'"><time datetime="'+e.date+'"><strong>'+e.date.slice(5).replace('-',' / ')+'</strong><span>'+e.date.slice(0,4)+'</span></time><div><h3>'+esc(e.d.name)+'</h3><small>'+(e.kind==='opening'?'开放日期':'截止日期')+' · '+esc(e.d.category)+'</small></div><span class="date-arrow" aria-hidden="true">↗</span></a>').join('');
+  $('#date-cards').innerHTML=next.map(e=>'<a class="date-card" href="#'+esc(e.d.id)+'" data-jump="'+esc(e.d.id)+'"><time datetime="'+e.date+'"><strong>'+e.date.slice(5).replace('-',' / ')+'</strong><span>'+e.date.slice(0,4)+'</span></time><div><h3>'+esc(e.d.name)+'</h3><small><span>'+[e.kind==='opening'?'开放':'截止',esc(other(e))].filter(Boolean).join(' · ')+'</span> <span>· '+esc(e.d.category)+'</span></small></div><span class="date-arrow" aria-hidden="true">↗</span></a>').join('');
 }
 function render(){
+  if(today!==shanghaiToday())reschedule();
   syncSidebar();document.body.dataset.mode=view;
   $('#preferences-page').hidden=view!=='settings';$('#browse-page').hidden=view==='settings';
   if(view==='settings')return;
   const base=scopeRows(),f=filters(),sort=$('#sort').value,rows=base.filter(d=>matches(d,f));
-  rows.sort((a,b)=>(sort==='category'?a.category.localeCompare(b.category,'zh-CN'):0)||PRIORITY[a.status]-PRIORITY[b.status]||(a.date||'9999').localeCompare(b.date||'9999'));
+  rows.sort((a,b)=>(sort==='category'?a.category.localeCompare(b.category,'zh-CN'):0)||PRIORITY[a.status]-PRIORITY[b.status]||(a.nextDate||'9999').localeCompare(b.nextDate||'9999'));
   const expanded=new Set(Array.from(document.querySelectorAll('.card details[open]')).map(el=>el.closest('.card').id));
   const historyOpen=$('.timeline-history')?.open;
-  $('#cards').innerHTML=rows.length?(layout==='timeline'?renderTimeline(rows):groupCards(rows)):'';
+  $('#cards').innerHTML=rows.length?(layout==='timeline'?renderTimeline(rows,today):groupCards(rows)):'';
   if(historyOpen!==undefined&&$('.timeline-history'))$('.timeline-history').open=historyOpen;
   expanded.forEach(id=>{const el=document.getElementById(id);if(el)el.querySelector('details').open=true});
   const [heading,description]=titles();$('#view-heading').textContent=heading;$('#view-description').textContent=description;
@@ -203,10 +205,13 @@ $('#cards').addEventListener('click',e=>{
   if(e.target.closest('[data-past-jump]')){const history=$('.timeline-history');history.open=true;history.scrollIntoView({behavior:'smooth',block:'start'});return}
   const share=e.target.closest('[data-share]');
   if(share){
-    const hash=shareHash(share.dataset.share),url=location.origin+location.pathname+hash;
-    (navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(()=>toast('链接已复制，可直接分享'),()=>{history.replaceState(null,'',hash);toast('链接已显示在地址栏，可复制分享')});
+    const d=data.find(x=>x.id===share.dataset.share),hash=shareHash(d.id),url=location.origin+location.pathname+hash;
+    // Phones get their own share sheet; elsewhere the name, dates and link are copied together.
+    if(navigator.share&&matchMedia('(pointer:coarse)').matches){navigator.share({title:d.name,text:shareSummary(d),url}).catch(()=>{});return}
+    (navigator.clipboard?navigator.clipboard.writeText(shareSummary(d)+'\n'+url):Promise.reject()).then(()=>toast('已复制项目名、日期和链接'),()=>{history.replaceState(null,'',hash);toast('链接已显示在地址栏，可复制分享')});
     return;
   }
+  const echo=e.target.closest('[data-echo]');if(echo){e.preventDefault();const c=document.getElementById(echo.dataset.echo);if(c){c.scrollIntoView({behavior:'smooth',block:'center'});c.classList.add('is-flash');setTimeout(()=>c.classList.remove('is-flash'),1800)}return}
   const b=e.target.closest('[data-save]');if(!b)return;const id=b.dataset.save;
   if(saved.includes(id)){saved=saved.filter(x=>x!==id);toast('已取消收藏')}else{saved.push(id);toast('已收藏')}persist();
   if(view==='saved')render();else{document.querySelectorAll('[data-save]').forEach(button=>{if(button.dataset.save!==id)return;button.textContent=saved.includes(id)?'★':'☆';button.setAttribute('aria-pressed',String(saved.includes(id)));button.setAttribute('aria-label',(saved.includes(id)?'取消收藏':'收藏')+'：'+data.find(d=>d.id===id).name)});syncSidebar()}
@@ -216,7 +221,7 @@ document.querySelectorAll('[data-check]').forEach(el=>{el.checked=!!checks[el.da
 document.querySelectorAll('.sidebar a[href="#method"]').forEach(a=>a.addEventListener('click',()=>{if(view==='settings'){view=preferences?'home':'national';render()}}));
 buildFilterMenus();applyDefaults();if(!preferences)Object.keys(FILTERS).forEach(key=>setFilter(key,[]));render();
 const recordsLoaded=fetch('data/opportunities.json').then(r=>{if(!r.ok)throw Error('Data unavailable');return r.json()}).then(rows=>{
-  data=rows;buildFilterMenus();updatePreferencePreview();render();openShared();
+  stored=rows;reschedule();buildFilterMenus();updatePreferencePreview();render();openShared();
 }).catch(()=>{$('#load-error').hidden=false;$('#result-count').textContent='加载失败，请刷新重试'});
 
 // Opens the opportunity named in a share link, in a view that lists it for every visitor.
