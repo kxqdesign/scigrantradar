@@ -78,3 +78,27 @@ test('local favourites and preferences keep their storage key and shape', () => 
   assert.ok(app.includes("KEY='china-research-radar-v1'") || app.includes("KEY = 'china-research-radar-v1'"));
   assert.ok(app.includes('JSON.stringify({saved,checks,preferences,preferencesVersion:4})'));
 });
+
+test('the logo is small enough to load quickly', () => {
+  assert.ok(fs.statSync('site/assets/radar-star.png').size < 100 * 1024);
+});
+
+test('links shared elsewhere get a preview card', () => {
+  assert.match(html, /<meta property="og:title" content="[^"]+">/);
+  assert.match(html, /<meta property="og:image" content="https:\/\/scigrantradar\.com\/assets\/share-card\.png">/);
+  assert.ok(fs.existsSync('site/assets/share-card.png'));
+});
+
+test('unknown addresses get a not-found page that leads home', () => {
+  const page = fs.readFileSync('site/404.html', 'utf8');
+  assert.match(page, /<a href="\/">/);
+  // It can be served from any path, so everything it loads must be root-relative.
+  for (const [, ref] of page.matchAll(/(?:src|href)="([^"]+)"/g)) assert.ok(ref.startsWith('/'), ref);
+});
+
+test('first-time visitors land on a list, not on the settings form', () => {
+  const app = fs.readFileSync('site/app.js', 'utf8');
+  assert.match(app, /view='national'/);
+  assert.doesNotMatch(app, /timer,view='settings'/);
+  assert.match(html, /id="setup-hint"/);
+});
