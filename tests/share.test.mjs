@@ -13,6 +13,12 @@ test('a share link round-trips a record ID', () => {
   assert.equal(shareHash('nsfc-annual'), '#o=nsfc-annual');
 });
 
+test('sharing copies on every device instead of opening a share sheet', () => {
+  const app = fs.readFileSync('site/app.js', 'utf8');
+  assert.doesNotMatch(app, /navigator\.share\b/);
+  assert.match(app, /copyText\(shareSummary\(d\)/);
+});
+
 test('other hashes are not share links', () => {
   for (const hash of ['', '#', '#method', '#top', '#o=', '#nsfc-annual', null, undefined]) assert.equal(sharedId(hash), null, String(hash));
   assert.equal(sharedId('#o=%E0%A4%A'), null);
