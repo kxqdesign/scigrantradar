@@ -6,7 +6,9 @@ const REGION={'国内':'中国','国际':'国外'};
 const LEVEL={national:'全国性',province:'省级 / 直辖市',city:'市级',joint:'跨地区联合',overseas:'国外'};
 const TYPE={'科研基金':['fund','◈'],'青年人才':['talent','✦'],'博士后':['postdoc','◉'],'交流合作':['exchange','↗'],'国际资助':['international','◎'],'专家机会':['expert','◇'],'指南征集':['call','▤']};
 const PRIORITY={open:0,upcoming:1,verify:2,closed:3};
-let data=[],saved=[],checks={},preferences=null,layout='timeline',timer,view='settings',previousView='home',explore={province:'',city:''};
+const HINT_KEY='scigrantradar-setup-hint-dismissed';
+let hintDismissed=false;try{hintDismissed=localStorage.getItem(HINT_KEY)==='1'}catch{}
+let data=[],saved=[],checks={},preferences=null,layout='timeline',timer,view='national',previousView='national',explore={province:'',city:''};
 try{const state=JSON.parse(localStorage.getItem(KEY)||'{}');saved=Array.isArray(state.saved)?state.saved.filter(id=>typeof id==='string'):[];checks=state.checks&&typeof state.checks==='object'?state.checks:{};preferences=normalizePreferences(state.preferences)}catch{}
 if(preferences){view='home';layout=preferences.layout}
 const $=s=>document.querySelector(s);
@@ -14,7 +16,7 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 function persist(){try{localStorage.setItem(KEY,JSON.stringify({saved,checks,preferences,preferencesVersion:4}))}catch{toast('浏览器无法保存，当前选择仅在本次访问保留。')}}
 function toast(message){$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(timer);timer=setTimeout(()=>$('#toast').classList.remove('visible'),2500)}
 
-function card(d,instanceId=d.id){return `<article class="card" data-type="${(TYPE[d.category]||['fund'])[0]}" id="${esc(instanceId)}" data-opportunity="${esc(d.id)}"><div class="card-top"><div class="card-labels"><span class="tag type-tag"><span aria-hidden="true">${(TYPE[d.category]||['fund','◈'])[1]}</span>${esc(d.category)}</span><span class="tag region">${esc(scopeLabel(d))}${d.id.startsWith('csc-')?' · 赴国外':d.id==='yssp-2027'?' · 国际合作':''}</span><span class="tag discipline">${d.disciplines.map(v=>DISCIPLINE[v]).join(' / ')}</span></div><button class="save-button" data-save="${esc(d.id)}" aria-label="${saved.includes(d.id)?'取消收藏':'收藏'}：${esc(d.name)}" aria-pressed="${saved.includes(d.id)}">${saved.includes(d.id)?'★':'☆'}</button></div><div class="card-title"><h5>${esc(d.name)}</h5><p class="org">${esc(d.org)}<span class="scope-label">${esc(scopeLabel(d))}</span><span class="timeline-only timeline-context">${esc(scopeLabel(d))} · ${d.disciplines.map(v=>DISCIPLINE[v]).join(" / ")}</span></p></div><p class="card-summary">${esc(d.summary)}</p><div class="card-meta">${d.audience.map(a=>`<span>${esc(a)}</span>`).join('')}</div><div class="status-row"><span class="status-badge status-${d.status}">${STATUS[d.status]}</span><span class="date-text">${esc(d.dateLabel)}</span></div><p class="prep-row">准备时间（建议） · <strong>${esc(d.prep)}</strong></p><details><summary aria-label="查看详情：${esc(d.name)}"><span class="card-summary-label">查看资格、资助与官方来源</span><span class="list-only">详情</span></summary><div class="details-content"><p class="list-summary">${esc(d.summary)}</p><dl><dt class="list-only">职业阶段</dt><dd class="list-only">${d.audience.map(esc).join(" · ")}</dd><dt class="list-only">准备时间（建议）</dt><dd class="list-only">${esc(d.prep)}</dd><dt>适合领域</dt><dd>${esc(d.fields)}</dd><dt>地域要求</dt><dd>${esc(d.geographyNote||"以项目指南与依托单位要求为准。")}</dd><dt>资格与限制</dt><dd>${esc(d.eligibility)}</dd><dt>资助 / 参与形式</dt><dd>${esc(d.support)}</dd><dt>日期与状态说明</dt><dd>${esc(d.timeNote)}</dd><dt>下一步</dt><dd>${esc(d.next)}</dd></dl><div class="sources">${d.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗<span class="sr-only">（新标签页）</span></a>`).join('')}</div>${d.sourceNote?`<p class="verified">来源说明：${esc(d.sourceNote)}</p>`:""}<p class="verified">资料核验：${esc(d.verified)} · 原始指南优先</p></div></details></article>`}
+function card(d,instanceId=d.id){return `<article class="card" data-type="${(TYPE[d.category]||['fund'])[0]}" id="${esc(instanceId)}" data-opportunity="${esc(d.id)}"><div class="card-top"><div class="card-labels"><span class="tag type-tag"><span aria-hidden="true">${(TYPE[d.category]||['fund','◈'])[1]}</span>${esc(d.category)}</span><span class="tag region">${esc(scopeLabel(d))}${d.id.startsWith('csc-')?' · 赴国外':d.id==='yssp-2027'?' · 国际合作':''}</span><span class="tag discipline">${d.disciplines.map(v=>DISCIPLINE[v]).join(' / ')}</span></div><button class="save-button" data-save="${esc(d.id)}" aria-label="${saved.includes(d.id)?'取消收藏':'收藏'}：${esc(d.name)}" aria-pressed="${saved.includes(d.id)}">${saved.includes(d.id)?'★':'☆'}</button></div><div class="card-title"><h5>${esc(d.name)}</h5><p class="org">${esc(d.org)}<span class="scope-label">${esc(scopeLabel(d))}</span><span class="timeline-only timeline-context">${esc(scopeLabel(d))} · ${d.disciplines.map(v=>DISCIPLINE[v]).join(" / ")}</span></p></div><p class="card-summary">${esc(d.summary)}</p><div class="card-meta">${d.audience.map(a=>`<span>${esc(a)}</span>`).join('')}</div><div class="status-row"><span class="status-badge status-${d.status}">${STATUS[d.status]}</span><span class="date-text">${esc(d.dateLabel)}</span></div><p class="prep-row">准备时间（建议） · <strong>${esc(d.prep)}</strong></p><details><summary aria-label="查看详情：${esc(d.name)}"><span class="card-summary-label">查看资格、资助与官方来源</span><span class="list-only">详情</span></summary><div class="details-content"><p class="list-summary">${esc(d.summary)}</p><dl><dt class="list-only">职业阶段</dt><dd class="list-only">${d.audience.map(esc).join(" · ")}</dd><dt class="list-only">准备时间（建议）</dt><dd class="list-only">${esc(d.prep)}</dd><dt>适合领域</dt><dd>${esc(d.fields)}</dd><dt>地域要求</dt><dd>${esc(d.geographyNote||"以项目指南与依托单位要求为准。")}</dd><dt>资格与限制</dt><dd>${esc(d.eligibility)}</dd><dt>资助 / 参与形式</dt><dd>${esc(d.support)}</dd><dt>日期与状态说明</dt><dd>${esc(d.timeNote)}</dd><dt>下一步</dt><dd>${esc(d.next)}</dd></dl><div class="sources">${d.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗<span class="sr-only">（新标签页）</span></a>`).join('')}</div><p class="share-row"><button type="button" class="text-button" data-share="${esc(d.id)}">复制分享链接</button></p>${d.sourceNote?`<p class="verified">来源说明：${esc(d.sourceNote)}</p>`:""}<p class="verified">资料核验：${esc(d.verified)} · 原始指南优先</p></div></details></article>`}
 const FILTERS={
   discipline:{label:'学科',all:'全部学科',options:()=>Object.entries(DISCIPLINE)},
   level:{label:'机会范围',all:'全部范围',options:()=>Object.entries(LEVEL)},
@@ -98,6 +100,7 @@ function render(){
   $('#empty').hidden=rows.length>0||!data.length;
   $('#explore-panel').hidden=view!=='explore';$('#explore-set-home').disabled=!explore.province;
   $('#location-prompt').hidden=!(view==='local'&&!preferences?.province);
+  $('#setup-hint').hidden=!!preferences||hintDismissed||view==='local';
   $('#scope-context').textContent=view==='home'?(usingDefaults(f)?'默认关注范围':'临时筛选'):view==='explore'?'其他地区 · 临时浏览':heading;
   $('#restore-defaults').hidden=view!=='home'||!preferences||usingDefaults(f);
   $('#stat-total').textContent=rows.length;
@@ -173,7 +176,7 @@ function fillPreferences(value){
 $('#preference-menus').innerHTML=Object.entries(FILTERS).filter(([key])=>key!=='level').map(([key,spec])=>filterMenuMarkup(key,spec,true)).join('');
 function openSettings(draft){
   if(view!=='settings')previousView=view;
-  view='settings';fillPreferences(draft||preferences||DEFAULT_PREFERENCES);$('#preferences-cancel').hidden=!preferences;
+  view='settings';fillPreferences(draft||preferences||DEFAULT_PREFERENCES);$('#preferences-cancel').hidden=false;
   render();$('#main').scrollIntoView({behavior:'smooth',block:'start'});
 }
 provinceOptions($('#pref-province'),'不设置地区');
@@ -198,6 +201,12 @@ $('#reset').addEventListener('click',clearFilters);$('#empty-reset').addEventLis
 $('#active-filters').addEventListener('click',e=>{const b=e.target.closest('[data-clear]');if(!b)return;const key=b.dataset.clear;if(key==='q')$('#search').value='';else setFilter(key,filters()[key].filter(v=>v!==b.dataset.value));render()});
 $('#cards').addEventListener('click',e=>{
   if(e.target.closest('[data-past-jump]')){const history=$('.timeline-history');history.open=true;history.scrollIntoView({behavior:'smooth',block:'start'});return}
+  const share=e.target.closest('[data-share]');
+  if(share){
+    const hash=shareHash(share.dataset.share),url=location.origin+location.pathname+hash;
+    (navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(()=>toast('链接已复制，可直接分享'),()=>{history.replaceState(null,'',hash);toast('链接已显示在地址栏，可复制分享')});
+    return;
+  }
   const b=e.target.closest('[data-save]');if(!b)return;const id=b.dataset.save;
   if(saved.includes(id)){saved=saved.filter(x=>x!==id);toast('已取消收藏')}else{saved.push(id);toast('已收藏')}persist();
   if(view==='saved')render();else{document.querySelectorAll('[data-save]').forEach(button=>{if(button.dataset.save!==id)return;button.textContent=saved.includes(id)?'★':'☆';button.setAttribute('aria-pressed',String(saved.includes(id)));button.setAttribute('aria-label',(saved.includes(id)?'取消收藏':'收藏')+'：'+data.find(d=>d.id===id).name)});syncSidebar()}
@@ -205,10 +214,25 @@ $('#cards').addEventListener('click',e=>{
 $('#date-cards').addEventListener('click',e=>{const a=e.target.closest('[data-jump]');if(!a)return;e.preventDefault();const c=document.querySelector('[data-opportunity="'+a.dataset.jump+'"]');if(c){c.querySelector('details').open=true;c.closest('.timeline-history')?.setAttribute('open','');c.scrollIntoView({behavior:'smooth',block:'center'})}});
 document.querySelectorAll('[data-check]').forEach(el=>{el.checked=!!checks[el.dataset.check];el.addEventListener('change',()=>{checks[el.dataset.check]=el.checked;persist()})});
 document.querySelectorAll('.sidebar a[href="#method"]').forEach(a=>a.addEventListener('click',()=>{if(view==='settings'){view=preferences?'home':'national';render()}}));
-buildFilterMenus();applyDefaults();render();
+buildFilterMenus();applyDefaults();if(!preferences)Object.keys(FILTERS).forEach(key=>setFilter(key,[]));render();
 const recordsLoaded=fetch('data/opportunities.json').then(r=>{if(!r.ok)throw Error('Data unavailable');return r.json()}).then(rows=>{
-  data=rows;buildFilterMenus();updatePreferencePreview();render();
+  data=rows;buildFilterMenus();updatePreferencePreview();render();openShared();
 }).catch(()=>{$('#load-error').hidden=false;$('#result-count').textContent='加载失败，请刷新重试'});
+
+// Opens the opportunity named in a share link, in a view that lists it for every visitor.
+function openShared(){
+  const id=sharedId(location.hash),d=id&&data.find(x=>x.id===id);
+  if(!d)return;
+  view=viewForRecord(d);explore.province='';explore.city='';
+  $('#explore-province').value='';cityOptions($('#explore-city'),'','',true);
+  $('#filters').reset();render();
+  const el=document.querySelector('[data-opportunity="'+CSS.escape(id)+'"]');
+  if(!el)return;
+  el.querySelector('details').open=true;el.closest('.timeline-history')?.setAttribute('open','');
+  el.scrollIntoView({behavior:'instant',block:'start'});
+}
+window.addEventListener('hashchange',openShared);
+$('#setup-hint-dismiss').addEventListener('click',()=>{hintDismissed=true;try{localStorage.setItem(HINT_KEY,'1')}catch{}render()});
 
 const backToTop=$('#back-to-top');
 function syncBackToTop(){backToTop.hidden=window.scrollY<360}

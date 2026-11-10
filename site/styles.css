@@ -89,3 +89,8 @@
 @media print{.site-footer{background:white;color:var(--ink)}.site-footer .footer-resource-links strong,.site-footer .footer-resources h2,.site-footer .update-log>summary{color:var(--ink)}}
 
 .topbar{justify-content:flex-end}.preference-actions{flex-wrap:wrap}
+
+.setup-hint{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:18px 0;padding:14px 18px;background:white;border:1px dashed #b6c9b7;border-radius:7px}
+.setup-hint p{margin:0}
+.setup-hint-actions{display:flex;align-items:center;gap:12px}
+.share-row{margin:14px 0 0}
