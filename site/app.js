@@ -208,9 +208,8 @@ $('#cards').addEventListener('click',e=>{
   const share=e.target.closest('[data-share]');
   if(share){
     const d=data.find(x=>x.id===share.dataset.share),hash=shareHash(d.id),url=location.origin+location.pathname+hash;
-    // Phones get their own share sheet; elsewhere the name, dates and link are copied together.
-    if(navigator.share&&matchMedia('(pointer:coarse)').matches){navigator.share({title:d.name,text:shareSummary(d),url}).catch(()=>{});return}
-    (navigator.clipboard?navigator.clipboard.writeText(shareSummary(d)+'\n'+url):Promise.reject()).then(()=>toast('已复制项目名、日期和链接'),()=>{history.replaceState(null,'',hash);toast('链接已显示在地址栏，可复制分享')});
+    // The same on every device: the name, dates and link are copied together, ready to paste.
+    copyText(shareSummary(d)+'\n'+url).then(()=>toast('已复制项目名、日期和链接'),()=>{history.replaceState(null,'',hash);toast('链接已显示在地址栏，可复制分享')});
     return;
   }
   const echo=e.target.closest('[data-echo]');if(echo){e.preventDefault();const c=document.getElementById(echo.dataset.echo);if(c){c.scrollIntoView({behavior:'smooth',block:'center'});c.classList.add('is-flash');setTimeout(()=>c.classList.remove('is-flash'),1800)}return}
@@ -226,6 +225,16 @@ const recordsLoaded=fetch('data/opportunities.json').then(r=>{if(!r.ok)throw Err
   stored=rows;reschedule();buildFilterMenus();updatePreferencePreview();render();openShared();
 }).catch(()=>{$('#load-error').hidden=false;$('#result-count').textContent='加载失败，请刷新重试'});
 
+// In-app browsers often have no clipboard API, or refuse it, so fall back to copying from a hidden field.
+function copyText(text){
+  const viaField=()=>{
+    const field=document.createElement('textarea');field.value=text;field.readOnly=true;field.style.cssText='position:fixed;top:0;left:0;opacity:0';
+    document.body.appendChild(field);field.select();field.setSelectionRange(0,text.length);
+    let copied=false;try{copied=document.execCommand('copy')}catch{}
+    field.remove();return copied?Promise.resolve():Promise.reject();
+  };
+  return navigator.clipboard?navigator.clipboard.writeText(text).catch(viaField):viaField();
+}
 // Opens the opportunity named in a share link, in a view that lists it for every visitor.
 const SITE_TITLE=document.title;
 function openShared(){
