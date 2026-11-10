@@ -1,0 +1,15 @@
+{
+  "name": "scigrantradar",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "科研基金雷达 · a static directory of research funding opportunities",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate.mjs",
+    "preview": "node scripts/preview.mjs"
+  }
+}

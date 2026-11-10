@@ -1,0 +1,2747 @@
+[
+  {
+    "id": "nsfc-annual",
+    "name": "国家自然科学基金 · 面上与重点等",
+    "org": "国家自然科学基金委员会",
+    "category": "科研基金",
+    "region": "国内",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "自然科学 · 工程 · 管理 · 交叉学科",
+    "status": "closed",
+    "date": "2026-03-20",
+    "dateLabel": "2026 批次已于 3月20日 16:00 截止",
+    "timeNote": "北京时间；2027 年集中接收日期尚未核实，不沿用上一年度日期。",
+    "summary": "面向基础研究的核心资助渠道，适合提前打磨科学问题、组织前期成果和合作分工。",
+    "eligibility": "需通过符合要求的依托单位申报；职称、博士学位、限项及各类型条件不同。下一年度资格须以新指南重新核对。",
+    "support": "金额与年限依项目类别及批准方案确定。",
+    "prep": "建议提前 8–12 周",
+    "next": "先选定项目类型，与本单位科研管理部门核对限项、伦理审查和内部截止时间。",
+    "sources": [
+      {
+        "label": "2026 年申请通告",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2026-03-20"
+  },
+  {
+    "id": "nsfc-youth",
+    "name": "国家自然科学基金 · 青年科学基金 A/B/C 类",
+    "org": "国家自然科学基金委员会",
+    "category": "青年人才",
+    "region": "国内",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "自然科学 · 工程 · 管理 · 交叉学科",
+    "status": "closed",
+    "date": "2026-03-20",
+    "dateLabel": "2026 集中接收已截止",
+    "timeNote": "2026 年统一截止为 3月20日 16:00（北京时间）。2027 年安排待官方确认。",
+    "summary": "从青年起步到更成熟阶段的分层支持。类别不同，资格不能相互套用。",
+    "eligibility": "须逐项核对各类别的年龄、聘用、工作时间、既往资助及限项条件；人在中国不等于自动符合条件。",
+    "support": "2026 年 A/B/C 类实行经费包干制；下一轮以新指南为准。",
+    "prep": "建议提前 8–12 周",
+    "next": "整理代表作中的本人贡献与独立研究方向，向科研处确认适用类别。",
+    "sources": [
+      {
+        "label": "2026 年申请通告",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2026-03-20"
+  },
+  {
+    "id": "nsfc-chips",
+    "name": "集成芯片前沿技术 · 2027 指南建议征集",
+    "org": "国家自然科学基金委员会",
+    "category": "指南征集",
+    "region": "国内",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "集成电路 · 计算机 · 数学 · 物理 · 材料",
+    "status": "open",
+    "date": "2026-11-15",
+    "dateLabel": "2026年11月15日前",
+    "timeNote": "原文为“11月15日前”，未给出具体时刻；建议提前完成。此为指南建议征集，不是项目资助申请。",
+    "summary": "围绕芯粒数学描述、并行架构、设计自动化与多物理场耦合，征集重点支持项目方向建议。",
+    "eligibility": "面向科技界；建议需具备创新性和研究基础，避免与 2023–2026 年已部署重点项目重复。",
+    "support": "无本次直接资助承诺；用于后续指南论证。",
+    "prep": "建议提前 1–2 周；本轮时间较紧",
+    "next": "按官方附件填写指南建议表，并依通知规定提交。",
+    "sources": [
+      {
+        "label": "官方征集通知与附件",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2822/145139.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2026-11-15"
+  },
+  {
+    "id": "nsfc-planet",
+    "name": "行星大气极端流动与传热 · 2027 指南建议",
+    "org": "国家自然科学基金委员会",
+    "category": "指南征集",
+    "region": "国内",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "航天 · 流体力学 · 传热 · 材料",
+    "status": "open",
+    "date": "2026-11-15",
+    "dateLabel": "2026年11月15日前",
+    "timeNote": "官方未给出具体时刻；此为指南建议征集，不是项目资助申请。",
+    "summary": "围绕深空探测中的极端流动、辐射防热和高温多相反应，征集培育与重点支持方向建议。",
+    "eligibility": "面向相关科技界团队；建议须说明科学问题、创新性、可行性与研究基础，避免重复已部署方向。",
+    "support": "本次不直接授予项目经费。",
+    "prep": "建议提前 1–2 周；本轮时间较紧",
+    "next": "使用官方建议表，核对拟申报亚类和与已有部署的差异。",
+    "sources": [
+      {
+        "label": "官方征集通知与附件",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2822/145161.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2026-11-15"
+  },
+  {
+    "id": "brain-2027",
+    "name": "脑科学与类脑研究 · 2027 第一批",
+    "org": "国家自然科学基金委员会 / 国家科技管理信息系统",
+    "category": "科研基金",
+    "region": "国内",
+    "audience": [
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "神经科学 · 医学 · 人工智能",
+    "status": "verify",
+    "date": null,
+    "dateLabel": "指南已发布，截止时间须登录核实",
+    "timeNote": "公开通告发布于 2026-10-15；未披露具体申报窗口，不能判断当前仍在受理。",
+    "summary": "国家科技重大专项的第一批 2027 年度指南，适合相关单位和有组织科研团队关注。",
+    "eligibility": "具体牵头单位、负责人、参与单位及限项要求须在官方系统内查阅；本页未获完整指南。",
+    "support": "经费与执行期以具体指南方向为准。",
+    "prep": "建议提前 8–12 周",
+    "next": "请本单位科研处登录国家科技管理信息系统，查看“公开公示—申报指南”。",
+    "sources": [
+      {
+        "label": "官方发布通告",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2824/144015.html"
+      },
+      {
+        "label": "国家科技管理信息系统",
+        "url": "https://service.most.gov.cn/"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。"
+  },
+  {
+    "id": "energy-ai",
+    "name": "能源科学与人工智能深度融合 · 青年专项",
+    "org": "国家自然科学基金委员会",
+    "category": "青年人才",
+    "region": "国内",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "能源 · 人工智能 · 工程与材料",
+    "status": "verify",
+    "date": null,
+    "dateLabel": "指南已发布，资格与截止须登录核实",
+    "timeNote": "公开通告发布于 2026-09-30；不能仅据发布日期判断仍可申请。",
+    "summary": "面向能源与 AI 交叉方向的青年专项。与常规青年科学基金 A/B/C 类不是同一申报入口。",
+    "eligibility": "年龄、研究方向、限项及资助条件未在公开通告披露，须通过依托单位核实系统内完整指南。",
+    "support": "以科学基金网络信息系统内正式指南为准。",
+    "prep": "建议提前 4–8 周",
+    "next": "登录科学基金网络信息系统，在“项目管理—项目指南”查看。",
+    "sources": [
+      {
+        "label": "官方发布通告",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2824/143174.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。"
+  },
+  {
+    "id": "yssp-2027",
+    "name": "NSFC–IIASA 暑期青年科学家项目 2027",
+    "org": "国家自然科学基金委员会 / IIASA",
+    "category": "交流合作",
+    "region": "国内",
+    "audience": [
+      "博士生"
+    ],
+    "fields": "系统分析 · 环境 · 能源 · 人口 · 经济",
+    "status": "open",
+    "date": "2027-01-10",
+    "dateLabel": "2027年1月10日 23:00 CET 截止（北京时间1月11日06:00）",
+    "timeNote": "截止为2027年1月10日23:00中欧时间（CET，UTC+1），对应北京时间1月11日06:00（UTC+8）。研究活动需赴奥地利约3个月，全程线下参加。",
+    "summary": "为在读博士生提供跨学科研究访问，适合将博士课题与系统分析、气候和社会经济问题结合。",
+    "eligibility": "国际申请面向全球在读博士生，研究须匹配 IIASA 方向，具备足够英语能力并能全职线下参加。申请 NSFC 中方资助另须为中方在读博士生，且学籍单位为 NSFC 注册依托单位；这一单位要求不是所有国际申请人的通用条件。",
+    "support": "往返国际旅费及 3 个月生活费（1,310 欧元/月），NSFC 总资助不超过人民币 4.5 万元。",
+    "prep": "建议提前 6–8 周",
+    "next": "先核对课题与 IIASA 研究方向并联系研究团队。2026年11月10日北京时间17:00–18:00（CET 10:00–11:00）有线上申请说明会，须通过下方官方表单报名获取 Zoom 链接。",
+    "sources": [
+      {
+        "label": "NSFC 官方通知与中方资助条件",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2824/144767.html"
+      },
+      {
+        "label": "IIASA 官方申请说明（精确截止与国际资格）",
+        "url": "https://iiasa.ac.at/capacity-development/application-information"
+      },
+      {
+        "label": "11月10日官方说明会页面",
+        "url": "https://iiasa.ac.at/events/nov-2026/yssp-2027-information-webinar-10-november-1000-1100-cet"
+      },
+      {
+        "label": "官方说明会报名表（获取 Zoom 链接）",
+        "url": "https://forms.cloud.microsoft/e/WpVP4kHuAc"
+      },
+      {
+        "label": "IIASA 2027 在线申请入口",
+        "url": "https://iiasa-capacity-development.onlyfy.jobs/en/job/ibr12o4r"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2027-01-10"
+  },
+  {
+    "id": "nssfc-major-2026",
+    "name": "国家社会科学基金重大项目 2026",
+    "org": "全国哲学社会科学工作办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "audience": [
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "人文社会科学",
+    "status": "upcoming",
+    "date": "2026-11-26",
+    "deadline": "2026-12-07",
+    "dateLabel": "11月26日开放 · 12月7日 17:00 截止",
+    "timeNote": "2026 年，北京时间。已公告、系统待开放。项目负责人及同年度其他申报存在互斥规则，须逐项核查。",
+    "summary": "重大问题导向的团队研究项目，适合具备组织协作与持续研究积累的首席专家。",
+    "eligibility": "首席专家须正高级职称或厅局级及以上领导职务，具备研究与组织能力；须经责任单位申报，并遵守在研项目及同年申请限制。",
+    "support": "每项资助 80 万元。",
+    "prep": "建议至少 6–8 周；本轮应尽快组织",
+    "next": "先核对招标选题及负责人限项，确认团队、责任单位和内部截止。",
+    "sources": [
+      {
+        "label": "官方招标公告（索引核验）",
+        "url": "https://www.nopss.gov.cn/n1/2026/1109/c431028-40830766.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "sourceNote": "官方搜索索引核验；原文直读未成功，申报前请再次打开公告确认。",
+    "disciplines": [
+      "social"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "opensOn": "2026-11-26"
+  },
+  {
+    "id": "nssfc-heritage-2026",
+    "name": "国家社科基金 · 文化遗产保护传承研究专项",
+    "org": "全国哲学社会科学工作办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "audience": [
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "人文社科 · 文化遗产",
+    "status": "upcoming",
+    "date": "2026-11-16",
+    "deadline": "2026-11-22",
+    "dateLabel": "11月16日开放 · 11月22日 17:00 截止",
+    "timeNote": "2026 年，北京时间。全国截止是 11月22日；高校内部截止可能更早。已公告、系统待开放。",
+    "summary": "按专项课题指南组织研究，不受理自选课题，适合有稳定研究团队的文化遗产相关学者。",
+    "eligibility": "申请人须副高级及以上职称或相应研究资质；团队成员须具备高级职称或博士学位。依托有科研管理部门的单位，需核对在研项目限制。",
+    "support": "每项资助 80 万元。",
+    "prep": "建议至少 4–6 周；本轮时间较紧",
+    "next": "立即对照课题指南确定选题，确认成员同意、单位审核与纸质材料安排。",
+    "sources": [
+      {
+        "label": "官方专项申报公告",
+        "url": "https://www.nopss.gov.cn/n1/2026/1020/c431029-40818334.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "social"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "opensOn": "2026-11-16"
+  },
+  {
+    "id": "nssfc-annual-2026",
+    "name": "国家社会科学基金 · 年度项目",
+    "org": "全国哲学社会科学工作办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "audience": [
+      "青年研究者",
+      "在职科研人员",
+      "博士后"
+    ],
+    "fields": "人文社会科学（教育学、艺术学、军事学单列）",
+    "status": "closed",
+    "date": "2026-06-07",
+    "dateLabel": "2026年6月7日 17:00 已截止",
+    "timeNote": "北京时间；下一年度公告未核实，不推算新截止日。西部项目另有地区与单位限制。",
+    "summary": "含重点、一般、青年和西部项目，适合系统准备下一年度的选题与匿名论证。",
+    "eligibility": "一般及重点须副高级职称或博士学位；2026 青年项目男性不超过35周岁、女性不超过40周岁。全日制在读研究生不可申请，符合条件的在站博士后可申请。年龄界线须看原文。",
+    "support": "2026 年：重点 35 万元；一般、青年、西部各 20 万元。",
+    "prep": "建议提前 3–4 个月",
+    "next": "核对单位名额、同年度申报互斥规则及拟报学科，准备匿名论证。",
+    "sources": [
+      {
+        "label": "2026 年官方申报公告",
+        "url": "https://www.nopss.gov.cn/n1/2026/0506/c431027-40714613.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "social"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2026-06-07"
+  },
+  {
+    "id": "postdoc-general-80",
+    "name": "中国博士后科学基金 · 第80批面上资助",
+    "org": "中国博士后科学基金会",
+    "category": "博士后",
+    "region": "国内",
+    "audience": [
+      "博士后"
+    ],
+    "fields": "自然科学 · 社会科学",
+    "status": "closed",
+    "date": "2026-08-31",
+    "dateLabel": "2026年8月31日已截止",
+    "timeNote": "2027 年度指南尚未核实。这里展示 2026 规则用于准备，不可直接套用下一年度。",
+    "summary": "支持在站博士后自主创新研究，重点关注进站时间窗口与本人获资助记录。",
+    "eligibility": "国内设站单位在站博士后；男性进站18个月内、女性24个月内，累计在站不超过6年。每人每站获资助一次；在职博士后原则上不得申报，现役军人除外。",
+    "support": "自然科学 8 万元；社会科学 5 万元。",
+    "prep": "建议提前 6–8 周",
+    "next": "向设站单位核对在站时间、资格与匿名申报要求，并准备代表作。",
+    "sources": [
+      {
+        "label": "2026 正式指南 PDF（高校官网副本）",
+        "url": "https://rsc.bucm.edu.cn/docs/2026-01/0aaeed53007f44d89111e3add4fd06ba.pdf"
+      }
+    ],
+    "verified": "2026-11-09",
+    "sourceNote": "来源为基金会正式指南，由北京中医药大学官网托管。",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2026-08-31"
+  },
+  {
+    "id": "postdoc-special-19",
+    "name": "中国博士后科学基金 · 第19批特别资助",
+    "org": "中国博士后科学基金会",
+    "category": "博士后",
+    "region": "国内",
+    "audience": [
+      "博士后"
+    ],
+    "fields": "自然科学 · 社会科学",
+    "status": "closed",
+    "date": "2026-03-31",
+    "dateLabel": "2026年3月31日已截止",
+    "timeNote": "下一轮公告未核实；单位推荐时间可能早于申请人截止。",
+    "summary": "面向已有突出成果、具备创新潜力的博士后，需经过单位推荐程序。",
+    "eligibility": "进站满4个月、累计在站不超过6年；须单位推荐。重复获资助、境外派出及在职身份限制以指南为准。",
+    "support": "自然科学 18 万元；社会科学 15 万元。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先问清单位推荐流程与名额，整理成果与创新贡献。",
+    "sources": [
+      {
+        "label": "2026 正式指南 PDF（高校官网副本）",
+        "url": "https://rsc.bucm.edu.cn/docs/2026-01/0aaeed53007f44d89111e3add4fd06ba.pdf"
+      }
+    ],
+    "verified": "2026-11-09",
+    "sourceNote": "来源为基金会正式指南，由北京中医药大学官网托管。",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2026-03-31"
+  },
+  {
+    "id": "postdoc-boxin",
+    "name": "博士后创新人才支持计划 · 国资 A 档",
+    "org": "国家资助博士后研究人员计划",
+    "category": "青年人才",
+    "region": "国内",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "自然科学",
+    "status": "closed",
+    "date": "2026-03-24",
+    "dateLabel": "2026年3月24日已截止",
+    "timeNote": "2026 年申请人窗口为 2月24日至3月24日；下一轮未核实。出生日期及进站要求不能按年份自行平移。",
+    "summary": "支持优秀博士进入国内博士后平台开展全职研究，资格对博士来源和进站时间有明确要求。",
+    "eligibility": "2026 拟进站或符合新近进站条件；1994年1月1日及以后出生、获博士3年内。留学回国博士和外籍博士不可申请；在职博士后不可申请，获选后须全职并转入人事关系。",
+    "support": "每年 28 万元、资助 2 年；另配套科研经费 8 万元。",
+    "prep": "建议提前 2–3 个月",
+    "next": "确认国内合作导师、平台和人事关系安排，再检查已获资助互斥条件。",
+    "sources": [
+      {
+        "label": "国家计划申报通知（浙江大学官网）",
+        "url": "https://hr.zju.edu.cn/postdoctor/2026/0215/c29116a3134825/page.htm"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2026-03-24"
+  },
+  {
+    "id": "csc-visiting",
+    "name": "国家公派 · 高级研究学者与访问学者",
+    "org": "国家留学基金管理委员会",
+    "category": "交流合作",
+    "region": "国内",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "多学科 · 国内推荐 / 赴国外研修",
+    "status": "closed",
+    "date": "2026-04-30",
+    "dateLabel": "2026年4月30日 14:00 已截止",
+    "timeNote": "北京时间；国内资助项目，研究活动在国外。下一轮未核实，年龄须按相应年度指南审核。",
+    "summary": "国内单位推荐、赴国外开展研修，适合已有国际合作方向且能提前落实邀请函的研究者。",
+    "eligibility": "高级研究学者通常不超过55周岁、访问学者不超过50周岁；须符合 CSC 国籍、身份、语言、既往公派等条件，并取得外方邀请。",
+    "support": "高级研究学者 3–6 个月、访问学者 3–12 个月；旅费与奖学金按国家规定和录取文件执行。",
+    "prep": "建议提前 4–6 个月",
+    "next": "联系外方接收人，并向所在单位确认推荐渠道、语言证明与校内时间。",
+    "sources": [
+      {
+        "label": "CSC 2026 项目指南",
+        "url": "https://www.csc.edu.cn/article/4050"
+      },
+      {
+        "label": "高校申报通知（交叉核验）",
+        "url": "https://www.cwxu.edu.cn/info/1039/20096.htm"
+      }
+    ],
+    "verified": "2026-11-09",
+    "sourceNote": "CSC 原文直读受限，日期等由高校官方通知交叉核验；申请前须再核 CSC 原文。",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2026-04-30"
+  },
+  {
+    "id": "csc-postdoc",
+    "name": "国家公派博士后项目",
+    "org": "国家留学基金管理委员会",
+    "category": "博士后",
+    "region": "国内",
+    "audience": [
+      "应届博士",
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "多学科 · 国内推荐 / 赴国外研究",
+    "status": "closed",
+    "date": "2026-04-30",
+    "dateLabel": "2026年4月30日 14:00 已截止",
+    "timeNote": "北京时间；2026 申请窗口为 4月10日至30日。不是滚动申报，下一轮日期待核。",
+    "summary": "支持国内符合条件的青年研究人员赴国外开展博士后研究，需要正式邀请与国内推荐。",
+    "eligibility": "年龄不超过40周岁；国内高校、科研机构符合规定的应届博士、在站博士后或在职青年科研人员。须有正式博士后邀请，并满足 CSC 年度选派条件。",
+    "support": "6–24 个月奖学金及一次往返国际旅费。",
+    "prep": "建议提前 4–6 个月",
+    "next": "联系国外导师；按本人身份通过培养单位、设站单位或工作单位申请推荐。",
+    "sources": [
+      {
+        "label": "CSC 2026 项目指南",
+        "url": "https://www.csc.edu.cn/article/4051"
+      },
+      {
+        "label": "完整指南转载（安徽师范大学官网）",
+        "url": "https://global.ahnu.edu.cn/info/1051/5561.htm"
+      }
+    ],
+    "verified": "2026-11-09",
+    "sourceNote": "CSC 原文直读受限，使用高校官网完整转载交叉核验。",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，须通过符合指南要求的依托或推荐单位申报。",
+    "deadline": "2026-04-30"
+  },
+  {
+    "id": "shanghai-rising-star",
+    "name": "上海市自然科学基金 · 启明星计划",
+    "org": "上海市科学技术委员会",
+    "category": "青年人才",
+    "region": "国内",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "自然科学 · 上海",
+    "status": "closed",
+    "date": "2026-10-22",
+    "dateLabel": "2026年10月22日 16:30 已截止",
+    "timeNote": "北京时间，含单位审核提交；下一轮公告未核实。所列年龄是 2026 年明确生日界线，不代表永久规则。",
+    "summary": "面向上海依托单位的青年基础研究者，地方机会需要同时核对个人条件与单位地域资格。",
+    "eligibility": "依托上海法人或非法人组织；男性1994年1月1日及以后、女性1991年1月1日及以后出生。作为负责人已获省部级及以上科研项目支持者不在本轮范围。",
+    "support": "每项 50 万元，实施期 3 年。",
+    "prep": "建议提前 6–8 周",
+    "next": "先向单位核对既有项目和上海科技计划限项，再准备研究方案与伦理材料。",
+    "sources": [
+      {
+        "label": "上海市科委正式指南",
+        "url": "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20260922/99a0c41d251e4beb86c464beff951f91.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural"
+    ],
+    "scope": "province",
+    "jurisdiction": {
+      "province": "上海"
+    },
+    "eligibleAreas": [
+      {
+        "province": "上海"
+      }
+    ],
+    "geographyNote": "依托上海法人或非法人组织申报，须核对聘用关系和既有项目限制。",
+    "deadline": "2026-10-22"
+  },
+  {
+    "id": "rufford",
+    "name": "Rufford 自然保护小额资助",
+    "org": "The Rufford Foundation",
+    "category": "国际资助",
+    "region": "国际",
+    "audience": [
+      "博士生",
+      "青年研究者",
+      "硕士生"
+    ],
+    "fields": "生物多样性 · 物种与栖息地保护",
+    "status": "open",
+    "date": null,
+    "dateLabel": "滚动开放 · 无固定截止",
+    "timeNote": "任意连续 12 个月最多申请一次。合资格项目可在中国实施，不要求迁往国外。",
+    "summary": "面向职业早期保护工作者，支持具有实际保护价值的野外项目，中国明确在合资格国家名单中。",
+    "eligibility": "优先支持保护职业早期的硕博生或毕业3年内人员，不支持本科生。项目须有明确保护效益，纯研究不够；通常只考虑野外工作费用。",
+    "support": "首次最高 7,000 英镑；后续资助另有分阶段条件。",
+    "prep": "建议提前 3–6 周",
+    "next": "先确认保护对象及实际价值，再准备野外计划、预算与支持材料。",
+    "sources": [
+      {
+        "label": "官方申请入口",
+        "url": "https://apply.ruffordsmallgrants.org/"
+      },
+      {
+        "label": "项目标准与额度",
+        "url": "https://apply.ruffordsmallgrants.org/help/criteria"
+      },
+      {
+        "label": "合资格国家（含中国）",
+        "url": "https://apply.ruffordsmallgrants.org/help/eligibility"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural"
+    ],
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "国外项目，须核对国籍、接收单位和实际研究地点要求。"
+  },
+  {
+    "id": "eu-expert",
+    "name": "欧盟委员会独立评审专家库",
+    "org": "European Commission",
+    "category": "专家机会",
+    "region": "国际",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "跨学科 · 评审 · 项目监测 · 科研伦理",
+    "status": "open",
+    "date": null,
+    "dateLabel": "可随时注册 · 入库不保证受聘",
+    "timeNote": "无固定注册截止；多数工作在线，部分任务可能要求赴境外。不是研究基金。",
+    "summary": "面向不同国籍的独立专家，可登记专业经验，参与科研项目评审与监测任务遴选。",
+    "eligibility": "任何国籍均可登记；实际选用取决于专业匹配、利益冲突、保密及任务要求。以个人独立身份履职，并须核对本单位兼职规定。",
+    "support": "通常完整工作日 450 欧元；远程及伦理评审有专门计酬规则，不保证任务或收入。",
+    "prep": "整理材料建议 1–3 天；受聘等待不定",
+    "next": "准备英文履历、研究专长和评审经验，先核对所在单位相关规定。",
+    "sources": [
+      {
+        "label": "EURAXESS 中国官方招募信息",
+        "url": "https://euraxess.ec.europa.eu/worldwide/china/news/be-expert-european-commission-and-evaluate-proposals"
+      },
+      {
+        "label": "官方手册（专家规则）",
+        "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/om_en.pdf"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "国外项目，须核对国籍、接收单位和实际研究地点要求。"
+  },
+  {
+    "id": "jsps-invitational",
+    "name": "JSPS 外国人招へい研究者 · 短期 S 类",
+    "org": "日本学术振兴会（JSPS）",
+    "category": "交流合作",
+    "region": "国际",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "自然科学 · 人文 · 社会科学",
+    "status": "upcoming",
+    "date": null,
+    "deadline": "2027-04-23",
+    "dateLabel": "2027年4月23日 17:00 JST 截止",
+    "timeNote": "下一轮已公告，系统尚待开放，通常于截止前约两个月开放。此为日本接收机构提交至 JSPS 的期限；校内截止可能提前一个多月。",
+    "summary": "赴日 14–60 天的短期研究访问，由日本接收人及机构申报。注意与博士后短期 PE 类区分。",
+    "eligibility": "中国国籍满足有关国家条件；通常须在日本以外高校或科研机构具有相当于日方教授、副教授或助理教授的全职研究身份，其他身份需核对博士年限等规则。",
+    "support": "每日 18,000 日元生活费、规则内往返经济舱及保险；接收方可申请最高 150,000 日元研究支持费。",
+    "prep": "建议 8–12 周，另留日方内部审核",
+    "next": "联系日本接收人，确认身份条件、单位内部截止及短访时间。第二轮入境期为2027年10月至2028年3月。",
+    "sources": [
+      {
+        "label": "JSPS 官方日程与申请",
+        "url": "https://www.jsps.go.jp/english/e-inv/application/"
+      },
+      {
+        "label": "FY2027 英文正式指南",
+        "url": "https://www.jsps.go.jp/file/storage/j-fellow/j-fellow_14/application_requirements/2027/2027_applicationguideline_e.pdf"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "国外项目，须核对国籍、接收单位和实际研究地点要求。"
+  },
+  {
+    "id": "humboldt",
+    "name": "洪堡研究奖学金",
+    "org": "Alexander von Humboldt Foundation",
+    "category": "交流合作",
+    "region": "国际",
+    "audience": [
+      "博士后",
+      "在职科研人员"
+    ],
+    "fields": "所有学科 · 赴德国研究",
+    "status": "upcoming",
+    "date": "2026-11-15",
+    "dateLabel": "11月15日下一轮开放 · 满额即关闭",
+    "timeNote": "当前轮已满额关闭；下一轮 2026-11-15 开启，达到 800 份申请上限即关闭，没有保证的固定截止。对应2027年7月评审，最早2027年9月开始。",
+    "summary": "面向德国以外研究者的中长期访学支持，需在德国接收机构开展研究。",
+    "eligibility": "博士后通常获博士4年内，有经验研究者通常12年内；需德国接收人及两份专家评价，并符合近期在德居住、独立研究资历等要求。",
+    "support": "博士后每月 3,000 欧元（6–24个月）；有经验研究者每月 3,600 欧元（6–18个月），附加支持另有条件。",
+    "prep": "建议提前 8–12 周",
+    "next": "确认接收人、推荐人与计划是否就绪；不应为赶开放日而仓促提交。",
+    "sources": [
+      {
+        "label": "洪堡基金会官方项目页",
+        "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship"
+      }
+    ],
+    "verified": "2026-11-09",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "国外项目，须核对国籍、接收单位和实际研究地点要求。",
+    "opensOn": "2026-11-15"
+  },
+  {
+    "id": "yangtze-basic-2026",
+    "name": "长三角联合攻关 · 基础研究项目 2026",
+    "org": "长三角三省一市科技主管部门",
+    "category": "交流合作",
+    "region": "国内",
+    "audience": [
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "集成电路 · 材料制造 · 人口健康 · 生物农业 · 能源化工",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": "2026-11-18",
+    "deadline": "2026-11-18",
+    "dateLabel": "11月18日 16:00 截止",
+    "timeNote": "2026 年北京时间；11月4日16:00起受理，11月18日16:00结束。",
+    "summary": "支持长三角单位联合开展产业需求导向的应用基础研究，江苏单位可参与。",
+    "eligibility": "牵头单位须位于沪苏浙皖；本省市指南由当地单位牵头，与其他省市单位合作，须签署联合申报协议。",
+    "support": "项目周期原则上不超过3年；预算按具体指南及牵头单位所在地规则编制。",
+    "prep": "建议提前 4–8 周；本轮需尽快协调",
+    "next": "核对指南方向、合作单位和任务分工，通过国家科技管理信息系统申报。",
+    "sources": [
+      {
+        "label": "常州市科技局官方申报通知",
+        "url": "https://www.changzhou.gov.cn/gi_news/216179375585904"
+      }
+    ],
+    "verified": "2026-11-09",
+    "scope": "joint",
+    "jurisdiction": {
+      "province": "长三角"
+    },
+    "eligibleAreas": [
+      {
+        "province": "江苏"
+      },
+      {
+        "province": "上海"
+      },
+      {
+        "province": "浙江"
+      },
+      {
+        "province": "安徽"
+      }
+    ],
+    "geographyNote": "牵头单位须位于沪苏浙皖，按牵头所在地指南与其他省市单位联合申报。"
+  },
+  {
+    "id": "jiangsu-nsf-2026",
+    "name": "江苏省自然科学基金 · 青年与面上等",
+    "org": "江苏省科学技术厅 / 江苏省财政厅",
+    "category": "科研基金",
+    "region": "国内",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "自然科学 · 基础研究 · 人工智能驱动科学研究",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-05-29",
+    "dateLabel": "2026年5月29日 17:30 已截止",
+    "timeNote": "申请人截止为5月29日17:30，主管部门推荐截至5月30日17:30；下一轮未公布。",
+    "summary": "面向江苏研究人员的基础研究支持，涵盖青年人才梯次培养、面上及非共识项目。",
+    "eligibility": "原则上为江苏企事业单位全职人员。各类别分别核对学位、职称、年龄和既有项目限制；部分类型需单位限额推荐。",
+    "support": "2026 年上限：面上15万元、青年及非共识20万元、优青50万元、杰青180万元、攀登300万元。",
+    "prep": "建议提前 8–12 周",
+    "next": "向科研管理部门确认拟报类别和推荐名额，准备研究基础与创新方案。",
+    "sources": [
+      {
+        "label": "省科技厅正式通知及指南（云龙湖实验室官网副本）",
+        "url": "https://www.yunlonglab.ac.cn/fujian-guanyuyinfa2026niandushengjichuyanjiujihuaxiangmuzhinanjizuzhishenbaoxiangmudetongzhi.pdf"
+      }
+    ],
+    "verified": "2026-11-09",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "江苏"
+    },
+    "eligibleAreas": [
+      {
+        "province": "江苏"
+      }
+    ],
+    "geographyNote": "依托江苏单位申报；具体聘用、进站或单位资质要求见项目资格。",
+    "deadline": "2026-05-29"
+  },
+  {
+    "id": "jiangsu-ssfc-2026",
+    "name": "江苏省社会科学基金 · 年度项目",
+    "org": "江苏省哲学社会科学规划办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "人文社会科学 · 基础理论 · 江苏发展研究",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-07-20",
+    "dateLabel": "2026年7月20日 18:00 已截止",
+    "timeNote": "个人申报7月20日18:00截止；单位审核截至7月23日18:00。下一轮未公布。",
+    "summary": "支持人文社科自主选题，含重点、一般和青年项目。",
+    "eligibility": "一般要求中级及以上职称或博士学位等；重点须副高及以上。青年男性不超过35岁、女性不超过40岁，具体生日界线和在研项目限制见公告。",
+    "support": "重点8万元；一般和青年各5万元。",
+    "prep": "建议提前 6–8 周",
+    "next": "核对单位推荐名额、在研限项和匿名论证要求，再确定选题。",
+    "sources": [
+      {
+        "label": "江苏宣传网官方申报公告",
+        "url": "https://www.jsxc.gov.cn/zxsk/tzgg/202606/t20260625_93730.shtml"
+      }
+    ],
+    "verified": "2026-11-09",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "江苏"
+    },
+    "eligibleAreas": [
+      {
+        "province": "江苏"
+      }
+    ],
+    "geographyNote": "依托江苏单位申报；具体聘用、进站或单位资质要求见项目资格。",
+    "deadline": "2026-07-20"
+  },
+  {
+    "id": "jiangsu-postdoc-2026",
+    "name": "江苏省卓越博士后计划",
+    "org": "江苏省人力资源和社会保障厅",
+    "category": "博士后",
+    "region": "国内",
+    "audience": [
+      "博士后"
+    ],
+    "fields": "自然科学 · 先进制造 · 重点平台 · 部分社会科学方向",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-05-20",
+    "dateLabel": "2026年5月20日已截止",
+    "timeNote": "2026 年个人申报窗口为4月20日至5月20日；10月已公布资助名单。",
+    "summary": "按 A、B、C 三档支持江苏新近进站的全职博士后。",
+    "eligibility": "2026 轮要求在2025年4月1日至2026年3月31日进站并转入人事关系。A档限自然科学，B档另有产业方向和博士院校条件，其他符合条件者可报C档。",
+    "support": "A/B/C档分别为每年25/15/10万元，连续2年。",
+    "prep": "建议提前 4–6 周",
+    "next": "向设站单位核实进站窗口、推荐程序与适用档次。",
+    "sources": [
+      {
+        "label": "省人社厅正式申报通知（紫金山天文台官网副本）",
+        "url": "https://pmo.cas.cn/bshldz2019/202604/P020260422653061270584.pdf"
+      },
+      {
+        "label": "省人社厅2026年资助名单通知",
+        "url": "https://jshrss.jiangsu.gov.cn/art/2026/10/15/art_77278_11842278.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "江苏"
+    },
+    "eligibleAreas": [
+      {
+        "province": "江苏"
+      }
+    ],
+    "geographyNote": "依托江苏单位申报；具体聘用、进站或单位资质要求见项目资格。",
+    "deadline": "2026-05-20"
+  },
+  {
+    "id": "nanjing-softscience-2026",
+    "name": "南京市软科学研究计划",
+    "org": "南京市科学技术局",
+    "category": "科研基金",
+    "region": "国内",
+    "audience": [
+      "青年研究者",
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "科技政策 · 创新治理 · 产业发展 · 实证研究",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-09-30",
+    "dateLabel": "2026年9月30日 17:00 已截止",
+    "timeNote": "网上填报及主管部门推荐于9月30日17:00截止；纸质材料截止10月12日17:00。",
+    "summary": "面向南京科技创新的调研与决策研究，设重点、一般（青年）及指导类项目。",
+    "eligibility": "依托南京合法运营的高校、科研院所、社会组织、智库企业或相关机关事业单位。青年项目要求1991年1月1日及以后出生，须提出明确调研对象和数据获取方案。",
+    "support": "择优立项；指导类项目鼓励自筹经费。通知未列统一资助额度。",
+    "prep": "建议提前 4–6 周",
+    "next": "结合南京科技创新问题准备实证方案，向单位确认宁企通申报流程。",
+    "sources": [
+      {
+        "label": "南京市科技局官方通知与指南",
+        "url": "https://kjj.nanjing.gov.cn/njskxjswyh/202609/t20260909_5907524.html"
+      }
+    ],
+    "verified": "2026-11-09",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "江苏",
+      "city": "南京"
+    },
+    "eligibleAreas": [
+      {
+        "province": "江苏",
+        "city": "南京"
+      }
+    ],
+    "geographyNote": "通过南京合法运营且符合申报条件的单位申报。",
+    "deadline": "2026-09-30"
+  },
+  {
+    "id": "zhejiang-nsf-2027",
+    "name": "浙江省自然科学基金 · 2027 年度",
+    "org": "浙江省科学技术厅 / 浙江省自然科学基金委员会",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "浙江"
+    },
+    "eligibleAreas": [
+      {
+        "province": "浙江"
+      }
+    ],
+    "geographyNote": "须通过浙江省自然科学基金依托单位审核推荐，聘用及单位资质按项目类别核对。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "博士后",
+      "团队负责人"
+    ],
+    "fields": "自然科学 · 基础研究 · 应用基础研究",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-08-05",
+    "deadline": "2026-08-24",
+    "date": "2026-08-24",
+    "dateLabel": "2026年8月24日 17:30 审核推荐截止",
+    "timeNote": "2027年度项目在2026年申报。8月5日开启，8月24日17:30为依托单位审核推荐截止；个人及校内截止通常更早。",
+    "summary": "含重大、重点、面上、青年 A/B/C 和联合基金，支持基础研究与青年人才成长。",
+    "eligibility": "须由省基金依托单位审核推荐。重点、面上、青年C限额；重大/青年A和重点另有既往主持项目条件。与同年度省社科等项目存在申请限制。",
+    "support": "资助额度和周期按具体类别及指南确定。",
+    "prep": "建议提前 6–10 周",
+    "next": "先核对类别、单位限额和在研限项，再准备研究方案。",
+    "sources": [
+      {
+        "label": "浙江省自然科学基金委员会官方申报通知",
+        "url": "https://zjnsf.kjt.zj.gov.cn/insiis7/api/site/v1/post/detail?categoryId=2018515&postId=1529810612492697600"
+      },
+      {
+        "label": "2027年度申请须知及附件",
+        "url": "https://zjnsf.kjt.zj.gov.cn/insiis7/api/site/v1/post/detail?categoryId=2018915&postId=1528036452380704768"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "zhejiang-social-2027",
+    "name": "浙江省哲学社会科学规划 · 2027 年度课题",
+    "org": "浙江省哲学社会科学工作办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "浙江"
+    },
+    "eligibleAreas": [
+      {
+        "province": "浙江"
+      }
+    ],
+    "geographyNote": "由浙江申报单位组织推荐，不接受个人直接申报。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "哲学社会科学 · 基础理论 · 人文研究",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": null,
+    "dateLabel": "2027年度已截止 · 最终截止日待核",
+    "timeNote": "原通知写2026年5月15日单位审核截止，后续高校出现延期至6月的通知；最终统一截止未完整核实，不在时间轴中填入推测日期。2026年10月已公示拟立项名单。",
+    "summary": "自主选题，分重点、一般和经费自筹课题，主要支持基础理论研究。",
+    "eligibility": "原则上副高或博士；其他申请人须有主持厅级及以上课题经历。单位需具备科研管理部门，实行限额推荐，须核对在研项目和同年申报限制。",
+    "support": "按重点、一般及经费自筹类别管理；研究期限原则上3年。",
+    "prep": "建议提前 6–8 周",
+    "next": "向单位查询下一轮通知和推荐名额，准备匿名论证与前期成果。",
+    "sources": [
+      {
+        "label": "浙江社科网官方申报公告",
+        "url": "https://www.zjskw.gov.cn/col/col1229516288/art/2026/art_2aa52f9df4a54005e3b90bd162cc1069.html"
+      },
+      {
+        "label": "高校后续申报通知（6月15日校内截止）",
+        "url": "https://kyc.zsit.edu.cn/info/1018/3774.htm"
+      },
+      {
+        "label": "浙江社科网（拟立项公示入口）",
+        "url": "https://www.zjskw.gov.cn/sklweb/homepage.nsf/documentview/"
+      }
+    ],
+    "sourceNote": "原通知与高校后续日期不一致，保留已截止状态，暂不列统一截止日期。",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "zhejiang-social-talent-2027",
+    "name": "浙江省社科规划 · 领军人才培育 2027",
+    "org": "浙江省哲学社会科学工作办公室",
+    "category": "青年人才",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "浙江"
+    },
+    "eligibleAreas": [
+      {
+        "province": "浙江"
+      }
+    ],
+    "geographyNote": "面向浙江省内教学科研单位限额推荐；青年英才须已在省内全职工作1年以上。",
+    "audience": [
+      "青年研究者",
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "人文社会科学 · 创新团队 · 青年英才",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "deadline": "2026-07-26",
+    "date": "2026-07-26",
+    "dateLabel": "2026年7月26日前寄送 · 已截止",
+    "timeNote": "2027年度项目于2026年7月15日启动，单位须7月26日前寄送申报材料；下一轮日期尚未核实。",
+    "summary": "设创新团队、引进人才团队及青年英才三类，结合研究项目开展人才培养。",
+    "eligibility": "限单位推荐。青年英才须1982年1月1日后出生，并满足博士学历或成果奖等条件；还须有相应人才培养基础并邀请符合条件的导师。团队类另有资历和学科条件。",
+    "support": "总课题为省社科规划重大课题；团队可设不超过3个一般子课题，研究期一般3年。公告未列统一额度。",
+    "prep": "建议提前 6–8 周",
+    "next": "与科研管理部门确认推荐类别、名额和导师人选。",
+    "sources": [
+      {
+        "label": "浙江社科网官方通知",
+        "url": "https://www.zjskw.gov.cn/col/col1229516287/art/2026/art_393d8fcfc61241558e08501aec48bdda.html"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "anhui-nsf-2026",
+    "name": "安徽省自然科学基金 · 2026 年度",
+    "org": "安徽省科学技术厅",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "安徽"
+    },
+    "eligibleAreas": [
+      {
+        "province": "安徽"
+      }
+    ],
+    "geographyNote": "通过安徽省基金依托单位申报；青年B类面向省属依托单位。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "博士后",
+      "团队负责人"
+    ],
+    "fields": "自然科学 · 基础研究 · 应用基础研究",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-09-18",
+    "deadline": "2026-10-15",
+    "date": "2026-10-15",
+    "dateLabel": "2026年10月15日 17:30 已截止",
+    "timeNote": "系统9月18日开放、10月15日17:30关闭申请；依托单位审核推荐至10月16日17:30。校内遴选截止更早。",
+    "summary": "涵盖重大、青年科学家、青年 A/B/C 及面上项目，部分类型限额推荐。",
+    "eligibility": "依托单位正式受聘科研人员，执行期每年在依托单位工作至少6个月；在读研究生、离退休及兼职人员不能任负责人。博士后聘期须覆盖实施周期，另核对年龄、资历和限项。",
+    "support": "按项目类型及指南确定；青年和面上等项目实施经费包干制。",
+    "prep": "建议提前 6–10 周",
+    "next": "提前参加单位遴选，核对类别条件和已有基金项目。",
+    "sources": [
+      {
+        "label": "安徽省科技厅原始通知",
+        "url": "https://kjt.ah.gov.cn/kjzx/tzgg/123502531.html"
+      },
+      {
+        "label": "正式通知全文（安徽建筑大学官网转载）",
+        "url": "https://www.ahjzu.edu.cn/_t312/2026/0916/c145a274092/page.psp"
+      }
+    ],
+    "sourceNote": "科技厅页面直读受限，时间及要求由高校官网转载的正式通知全文核验。",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "anhui-social-2026",
+    "name": "安徽省哲学社会科学规划 · 2026 年度",
+    "org": "安徽省哲学社会科学规划办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "安徽"
+    },
+    "eligibleAreas": [
+      {
+        "province": "安徽"
+      }
+    ],
+    "geographyNote": "由安徽申报单位科研管理部门统一报送，不接受个人直接申报。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "人文社会科学 · 基础理论 · 应用对策",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-08-31",
+    "deadline": "2026-10-08",
+    "date": "2026-10-08",
+    "dateLabel": "2026年10月8日 17:30 已截止",
+    "timeNote": "2026年8月31日—10月8日申报，10月8日17:30系统关闭；纸质材料10月10日前寄送。",
+    "summary": "设重大、重点、一般、青年、后期资助及相关专项。",
+    "eligibility": "重点/一般原则上副高或博士；青年需中级或博士，并符合本轮出生日期要求。重大、重点还需既往省部级项目经历；须核对在研和同年度申报限制。",
+    "support": "重大约10万元，重点约6万元，一般/青年约3万元，后期资助约4万元；预立项另按成果验收拨付。",
+    "prep": "建议提前 6–8 周",
+    "next": "确认类别、在研限项及单位审核安排，准备匿名论证。",
+    "sources": [
+      {
+        "label": "省社科规划办正式通知全文（安徽建筑大学官网转载）",
+        "url": "https://www.ahjzu.edu.cn/_t312/2026/0826/c145a273456/page.psp"
+      },
+      {
+        "label": "安徽工程大学官网交叉核验",
+        "url": "https://www.ahpu.edu.cn/2026/0827/c6a277380/page.htm"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "hefei-social-theory-2026",
+    "name": "合肥市社科规划 · 理论文章类 2026",
+    "org": "合肥市哲学社会科学规划办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "安徽",
+      "city": "合肥"
+    },
+    "eligibleAreas": [
+      {
+        "province": "安徽",
+        "city": "合肥"
+      }
+    ],
+    "geographyNote": "合肥市级课题，研究对象须围绕合肥实践；通知未明确以户籍限制申请，外地参与应向市社科规划办核对。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "社会科学 · 合肥实践 · 理论文章",
+    "disciplines": [
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "dateLabel": "理论文章类常年申报 · 先办预立项",
+    "timeNote": "仅理论文章类别按2026年度通知可常年申报；同通知其他类别3月31日已截止，不应混为全部开放。",
+    "summary": "支持总结合肥实践的理论文章，须在发表前办理预立项，发表后提交佐证。",
+    "eligibility": "文章须符合指定中央媒体理论版要求，预先提交题目与提纲，并按要求标注项目成果。既往项目失信等限制仍需核对。",
+    "support": "符合条件发表于中央三报一刊每篇3万元，指定其他中央媒体每篇1万元；发表后办理立项和结项。",
+    "prep": "建议提前 2–4 周办理预立项",
+    "next": "写作前联系市社科规划办，确认选题、拟发媒体和报备手续。",
+    "sources": [
+      {
+        "label": "合社科规划办〔2026〕1号正式文件（高校官网副本）",
+        "url": "https://www.wenda.edu.cn/kj/upload/file/20260306/20260306155143_45612.pdf"
+      },
+      {
+        "label": "安徽建筑大学官网转发通知",
+        "url": "https://www.ahjzu.edu.cn/kjc/2026/0306/c5564a264235/page.htm"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "beijing-nsf-2027",
+    "name": "北京市自然科学基金 · 2027 面上与青年项目",
+    "org": "北京市自然科学基金委员会办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "北京"
+    },
+    "eligibleAreas": [
+      {
+        "province": "北京"
+      }
+    ],
+    "geographyNote": "须通过北京市自然科学基金注册依托单位申报，不能仅凭居住地判断资格。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "自然科学 · 基础研究 · 应用基础研究",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-08-11",
+    "deadline": "2026-09-09",
+    "date": "2026-09-09",
+    "dateLabel": "2026年9月9日 16:00 已截止",
+    "timeNote": "2027年度储备项目纳入2026年第三批受理。个人提交截至9月9日16:00；依托单位提交截至9月14日16:00，均为北京时间。",
+    "summary": "支持自主选题的基础研究，包括面上、青年及青年重点项目。",
+    "eligibility": "通过注册依托单位申报；面上须符合项目指南方向。各类别的年龄、研究经历和限项须逐项核对申请须知。",
+    "support": "面上20万元、3年；青年20万元、2年；青年重点100万元、3年。",
+    "prep": "建议提前 6–8 周",
+    "next": "提前核对依托单位注册状态、拟报类别及单位内部审核时间。",
+    "sources": [
+      {
+        "label": "北京市科委第三批项目官方通知",
+        "url": "https://kw.beijing.gov.cn/zwgk/zwgksbrl/202608/t20260811_4818822.html"
+      },
+      {
+        "label": "中央财经大学2027面上与青年项目通知",
+        "url": "https://kyc.cufe.edu.cn/info/1081/5858.htm"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "beijing-social-late-2026",
+    "name": "北京市社会科学基金 · 后期资助 2026",
+    "org": "北京市社科联 / 北京市社科规划办",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "北京"
+    },
+    "eligibleAreas": [
+      {
+        "province": "北京"
+      }
+    ],
+    "geographyNote": "面向北京地区指定类别单位的教学科研人员，含退休人员。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "人文社会科学 · 学术专著 · 优秀博士论文",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-06-08",
+    "deadline": "2026-06-12",
+    "date": "2026-06-12",
+    "dateLabel": "2026年6月12日已截止",
+    "timeNote": "集中受理材料为2026年6月8日至12日，由科研管理部门统一报送；个人准备及校内截止通常更早。",
+    "summary": "资助已完成、尚待出版的社会科学研究成果。",
+    "eligibility": "北京地区高校、党校、科研院所等规定单位人员，须有副高以上职称或博士学位；不受理在站博士后。成果须全部完成，各单位限报5项。",
+    "support": "重点原则上不超过15万元，一般不超过8万元，按字数核定，全部用于成果出版。",
+    "prep": "建议提前 8–12 周整理书稿",
+    "next": "确认出版资助及在研项目限制，准备匿名书稿、查重报告和单位推荐。",
+    "sources": [
+      {
+        "label": "北京社科网官方申报公告",
+        "url": "https://www.bjsk.org.cn/detail-1486-16162.html"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "guangdong-nsf-2027",
+    "name": "广东省自然科学基金 · 面上项目 2027",
+    "org": "广东省基础与应用基础研究基金委员会",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "广东"
+    },
+    "eligibleAreas": [
+      {
+        "province": "广东"
+      },
+      {
+        "province": "香港"
+      },
+      {
+        "province": "澳门"
+      }
+    ],
+    "geographyNote": "面向粤港澳三地已注册省基金依托单位的全职在岗人员。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "博士后"
+    ],
+    "fields": "数理 · 化学 · 生命 · 地球 · 工材 · 信息 · 管理 · 医学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-05-15",
+    "deadline": "2026-06-10",
+    "date": "2026-06-10",
+    "dateLabel": "2026年6月10日 17:00 已截止",
+    "timeNote": "2027年度项目于2026年5月15日至6月10日17:00受理，含依托单位推荐；项目执行起始日为2027年1月1日。",
+    "summary": "面向基础与应用基础研究的自主选题项目，本批取消单位申报数量限制。",
+    "eligibility": "须为粤港澳省基金依托单位全职人员，有相关研究经历；另核对国家及省级在研项目限项、连续申请未获资助等限制。",
+    "support": "每项10万元，实施期3年。",
+    "prep": "建议提前 6–8 周",
+    "next": "确认单位注册、个人限项和在岗证明，按年度新指南准备申请。",
+    "sources": [
+      {
+        "label": "省农业科学院转载基金委正式申报通知",
+        "url": "https://www.gdaas.cn/tzggn/zytz/content/post_1325825.html"
+      },
+      {
+        "label": "2027省自然基金正式指南（中山大学官网副本）",
+        "url": "https://zssom.sysu.edu.cn/sites/default/files/2026-05/2027%E5%B9%B4%E5%BA%A6%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%BA%94%E7%94%A8%E5%9F%BA%E7%A1%80%E7%A0%94%E7%A9%B6%E5%9F%BA%E9%87%91%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%9F%BA%E9%87%91%E9%A1%B9%E7%9B%AE%E7%94%B3%E6%8A%A5%E6%8C%87%E5%8D%97.pdf"
+      }
+    ],
+    "sourceNote": "省科技厅附件直读受限，日期和条件由省农科院通知及中山大学官网指南副本交叉核验。",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "guangdong-social-2027",
+    "name": "广东省哲学社会科学规划 · 年度项目 2027",
+    "org": "广东省哲学社会科学规划专项小组",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "广东"
+    },
+    "eligibleAreas": [
+      {
+        "province": "广东"
+      }
+    ],
+    "geographyNote": "申请人须受聘于广东省内有关单位；粤东西北专项另限15个地市，广州、深圳不适用该子类。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "人文社会科学 · 岭南文化 · 大湾区研究",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-09-01",
+    "deadline": "2026-09-17",
+    "date": "2026-09-17",
+    "dateLabel": "2026年9月17日 12:00 已截止",
+    "timeNote": "申报系统9月1日10:00至9月17日12:00开放；单位审核截至9月18日17:00。项目年度为2027年，申报发生于2026年。",
+    "summary": "含一般、青年、岭南文化、后期资助及若干研究专项，由单位限额推荐。",
+    "eligibility": "广东省内高校、党校、科研院所等在岗人员，通常须中级以上职称或博士学位等。青年男性不超过35岁、女性不超过40岁；另核对在研限项和子类地域条件。",
+    "support": "一般等多数类别3万元，青年2万元，冷门绝学5万元；大湾区专项2年，其余所列类别通常3年。",
+    "prep": "建议提前 6–8 周",
+    "next": "先确认单位推荐名额及拟报类别，再准备匿名论证材料。",
+    "sources": [
+      {
+        "label": "东莞职业技术学院完整转载省级申报通知",
+        "url": "https://kyc.dgpt.edu.cn/info/1003/1663.htm"
+      },
+      {
+        "label": "省规划办原通知",
+        "url": "http://www.gdpplgopss.org.cn/tzgg/content/post_1334572.html"
+      }
+    ],
+    "sourceNote": "省规划办原站直读受限，使用高校官网完整转载核验；此处为全省申报截止，非校内遴选截止。",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "shenzhen-nsf-2026",
+    "name": "深圳市自然科学基金 · 面上项目 2026",
+    "org": "深圳市科技创新局",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "广东",
+      "city": "深圳"
+    },
+    "eligibleAreas": [
+      {
+        "province": "广东",
+        "city": "深圳"
+      }
+    ],
+    "geographyNote": "牵头单位须符合深圳（含深汕特别合作区）单位要求；可按指南与市外单位合作。",
+    "audience": [
+      "在职科研人员",
+      "博士生",
+      "博士后"
+    ],
+    "fields": "基础研究 · 学科交叉 · 自主选题",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-05-11",
+    "deadline": "2026-06-10",
+    "date": "2026-06-10",
+    "dateLabel": "2026年6月10日 12:00 已截止",
+    "timeNote": "市级网上受理为2026年5月11日至6月10日12:00；依托单位内部审核早于该期限。",
+    "summary": "支持深圳依托单位自主开展基础研究，符合条件的在读博士亦可申请。",
+    "eligibility": "通常为申请单位全职人员，具备高级职称、博士学位，或中级职称/硕士学位加两名同行推荐；在读博士需导师同意并核对学籍、项目周期条件。",
+    "support": "单项不超过30万元，通常3年；在读博士可按实际选择1–3年。",
+    "prep": "建议提前 6–8 周",
+    "next": "向单位核对全职或学籍证明、限项与伦理材料，准备系统申报。",
+    "sources": [
+      {
+        "label": "深圳市科技创新局官方通知与指南",
+        "url": "https://stic.sz.gov.cn/gkmlpt/content/12/12757/post_12757050.html?jump=true"
+      },
+      {
+        "label": "香港中文大学（深圳）申报通知与条件",
+        "url": "https://www.cuhk.edu.cn/zh-hans/article/17438"
+      }
+    ],
+    "sourceNote": "市级日期取自主管部门通知，详细条件由大学官网通知交叉核验；校内时间另行安排。",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "guangzhou-social-2026",
+    "name": "广州市哲学社会科学规划 · 常规课题 2026",
+    "org": "广州市社会科学界联合会",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "广东",
+      "city": "广州"
+    },
+    "eligibleAreas": [
+      {
+        "province": "广东",
+        "city": "广州"
+      }
+    ],
+    "geographyNote": "须受聘于广州地区高校、科研院所、机关、企事业单位或社会团体等独立法人单位。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "人文社会科学 · 广州城市发展 · 公共治理",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-05-15",
+    "deadline": "2026-05-25",
+    "date": "2026-05-25",
+    "dateLabel": "2026年5月25日 10:00 已截止",
+    "timeNote": "常规课题系统5月15日10:00至5月25日10:00开放，单位审核截至5月27日10:00；不适用重大课题的另一申报窗口。",
+    "summary": "围绕广州相关选题方向开展研究，分一般和青年课题。",
+    "eligibility": "通过广州地区独立法人单位申报；青年负责人及成员均不超过40周岁，具体生日界线见指南；有市社科规划在研课题负责人不能申报本批常规课题。",
+    "support": "一般2万元、青年1万元，分启动与结项拨付；本批常规课题结项截至2028年5月30日。",
+    "prep": "建议提前 4–6 周",
+    "next": "确认选题方向、在研限制和单位申报账号，准备匿名论证。",
+    "sources": [
+      {
+        "label": "广州软件学院完整转载市级通知",
+        "url": "https://www.gzus.edu.cn/kyc/info/1142/6391.htm"
+      },
+      {
+        "label": "广州华商职业学院转发通知（条件交叉核验）",
+        "url": "https://kys.gzhsvc.edu.cn/info/1066/1969.htm"
+      }
+    ],
+    "sourceNote": "市社科网原文链接当前不可直读；日期采用高校完整转载中的市级时间，未采用校内截止。",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "shanghai-social-2026",
+    "name": "上海市哲学社会科学规划 · 2026年度项目",
+    "org": "上海市哲学社会科学规划办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "上海"
+    },
+    "eligibleAreas": [
+      {
+        "province": "上海"
+      }
+    ],
+    "geographyNote": "受聘于上海社科研究单位，经所在单位审核申报；兼职及博士后须核对正式聘用关系和申报单位。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "博士后"
+    ],
+    "fields": "人文社会科学 · 上海发展 · 城市治理 · 区域国别",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-11-02",
+    "opensOn": "2026-10-27",
+    "deadline": "2026-11-02",
+    "dateLabel": "2026年11月2日 17:00 已截止",
+    "timeNote": "北京时间。系统受理期为10月27日00:00至11月2日17:00，单位审核截至11月5日。下一年度时间尚未公布。",
+    "summary": "支持上海社科研究者开展基础及应用研究，含重点、一般、青年三类。",
+    "eligibility": "受聘于上海社科研究单位；重点及一般项目须副高及以上职称或博士学位。青年条件按当年国家社科基金公告执行。在研项目、同年获国家级立项等有限制，全日制在读研究生不可申报。",
+    "support": "重点10万元、一般8万元、青年6万元；项目须在2028年底前完成，应用研究原则上一年内完成。",
+    "prep": "建议提前 6–8 周",
+    "next": "先核对聘用单位、在研限项与内部推荐安排，按选题方向准备申请书和研究设计。",
+    "sources": [
+      {
+        "label": "上海市社科规划办年度申报公告",
+        "url": "https://www.sh-popss.gov.cn/newsDetails.asp?idval=9039"
+      },
+      {
+        "label": "高校官网完整转载与校内安排（交叉核验）",
+        "url": "https://www.sppc.edu.cn/2026/1018/c2127a87475/page.htm"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "suzhou-social-2026",
+    "name": "苏州市社会科学基金 · 应用对策类 2026",
+    "org": "中共苏州市委宣传部 / 苏州市社科联",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "江苏",
+      "city": "苏州"
+    },
+    "eligibleAreas": [
+      {
+        "province": "江苏",
+        "city": "苏州"
+      }
+    ],
+    "geographyNote": "面向苏州有关部门、在苏高校科研机构、智库及社科组织，由所在单位归口申报；通知未将团队成员限定为苏州户籍。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "社会科学 · 苏州经济社会发展 · 应用对策",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-04-20",
+    "deadline": "2026-04-20",
+    "dateLabel": "2026年4月20日已截止",
+    "timeNote": "市级申报截止4月20日，所在单位内部截止可能更早；2026年度研究原则上须于9月底前完成，下一轮未公布。",
+    "summary": "围绕苏州发展问题开展应用对策研究，采用先立项、后按成果评审资助。",
+    "eligibility": "原则上具有中级及以上职称或硕士及以上学位；每位负责人同年度限报1项，须遵守重复申报和科研诚信限制。鼓励青年和跨学科合作。",
+    "support": "成果评为重大、重点、良好分别资助5万、3万、1万元；合格项目无市级经费资助，单位配套另按通知执行。",
+    "prep": "建议提前 4–6 周",
+    "next": "核对指南方向和单位报送时间，准备匿名论证、申报表与实证调研计划。",
+    "sources": [
+      {
+        "label": "苏州市社科联官方申报通知",
+        "url": "https://www.szsk.cn/index.php/home/index/article?id=1510"
+      },
+      {
+        "label": "苏州科技大学申报安排（校内截止另列）",
+        "url": "https://rwskc.usts.edu.cn/info/1122/2659.htm"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "suzhou-medical-2026",
+    "name": "苏州市应用基础研究基金 · 医疗卫生创新 2026",
+    "org": "苏州市科学技术局",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "江苏",
+      "city": "苏州"
+    },
+    "eligibleAreas": [
+      {
+        "province": "江苏",
+        "city": "苏州"
+      }
+    ],
+    "geographyNote": "须通过在苏州且符合相应项目类别资质的医院、高校、公共卫生机构或公益性事业单位申报，实行推荐名额管理。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "自然科学 · 医疗卫生 · 临床诊疗 · 公共卫生",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-07-31",
+    "deadline": "2026-07-31",
+    "dateLabel": "2026年7月31日 17:00 已截止",
+    "timeNote": "北京时间；2026轮网上申报截至7月31日17:00，须经单位管理员和主管部门逐级推荐。下一轮未公布。",
+    "summary": "分重点、面上和青年三类支持苏州医疗卫生基础与应用基础研究。",
+    "eligibility": "重点类限符合条件的在苏三甲医院或市级公益性事业单位，负责人须博士或高级职称且不超过55岁；面上和青年须硕士或副高，年龄与单位资质分别按指南核对。",
+    "support": "重点、面上、青年每项分别不超过30万、10万、5万元，实施期不超过3年。",
+    "prep": "建议提前 6–8 周",
+    "next": "向单位确认类别及推荐名额，核对医学学科代码、研究伦理和合作协议。",
+    "sources": [
+      {
+        "label": "苏州市企业服务总入口：市科技局正式通知",
+        "url": "https://www.qyfw.suzhou.com.cn/zct-ee/policy-info/be42e0ef-0ea3-4fd0-b23b-664ee8afca88?channel=T"
+      }
+    ],
+    "sourceNote": "来源为苏州市工业和信息化局主办的企业服务平台，发布部门为苏州市科技局。",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "jiangsu-softscience-2026",
+    "name": "江苏省软科学研究项目 · 2026年度",
+    "org": "江苏省科学技术厅、江苏省财政厅",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "江苏"
+    },
+    "eligibleAreas": [
+      {
+        "province": "江苏"
+      }
+    ],
+    "geographyNote": "面向江苏符合指南要求的高校、科研院所及有关单位；青年项目按单位或属地限额推荐。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "科技政策 · 创新管理 · 产业发展 · 决策咨询",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-05-27",
+    "deadline": "2026-05-27",
+    "dateLabel": "2026年5月27日 17:30 截止",
+    "timeNote": "北京时间。个人网上填报5月27日截止；单位审核推荐5月28日截止，汇总表5月29日截止。",
+    "summary": "围绕江苏科技创新和改革开展实证、调研与决策研究，设重点和青年两类项目。",
+    "eligibility": "负责人应具备研究基础；青年项目须1986年1月1日及以后出生。须核对省科技计划在研项目、年度限项及重复申报限制。",
+    "support": "定向重点项目不超过40万元，竞争择优重点项目不超过15万元，青年项目原则上不超过5万元；周期原则上不超过9个月。",
+    "prep": "建议提前 4–6 周",
+    "next": "结合下一轮指南准备调研对象、数据来源和政策问题，并向单位确认推荐名额。",
+    "sources": [
+      {
+        "label": "省级申报通知与指南（盐城市科技局公开PDF）",
+        "url": "https://kjj.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=82e331ed78bb4d1a8835cf0ba0479fce.pdf"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "shanghai-superpostdoc-2026",
+    "name": "上海市“超级博士后”激励计划 · 2026年度",
+    "org": "上海市人才工作局",
+    "category": "博士后",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "上海"
+    },
+    "eligibleAreas": [
+      {
+        "province": "上海"
+      }
+    ],
+    "geographyNote": "须依托上海博士后流动站、工作站或创新实践基地，且人事关系在本市设站单位。",
+    "audience": [
+      "博士后"
+    ],
+    "fields": "基础研究 · 集成电路 · 生物医药 · 人工智能 · 未来产业 · 涉外专业服务",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-10-20",
+    "deadline": "2026-10-20",
+    "dateLabel": "2026年10月20日个人网上申报截止",
+    "timeNote": "单位初审至10月15日；获推荐人员网上提交至10月20日；单位上报至10月23日。",
+    "summary": "支持在沪全职博士后，设常规申报及重点赛道，需先获单位推荐。",
+    "eligibility": "2025年9月1日至2026年8月31日进站的全职在站博士后；一般须1990年及以后出生，重点赛道须1994年及以后出生。工作站、基地全职研发型及女性生育有年龄放宽。须核对在职类型和其他人才计划排除条件。",
+    "support": "通常每年15万元、资助2年，单位至少1:1配套；当年博新计划入选者适用每年10万元、2年的专项规则。",
+    "prep": "建议提前 4–6 周",
+    "next": "先核对进站时间与人才计划叠加限制，整理代表成果并申请单位推荐。",
+    "sources": [
+      {
+        "label": "上海国际人才网：2026年申报通知",
+        "url": "https://new.sh-italent.com/Article/202609/202609300001.shtml"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "shaoguan-postdoc-2026",
+    "name": "韶关市在站博士后人才资助 · 2026年度",
+    "org": "韶关市人力资源和社会保障局",
+    "category": "博士后",
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "广东",
+      "city": "韶关"
+    },
+    "eligibleAreas": [
+      {
+        "province": "广东",
+        "city": "韶关"
+      }
+    ],
+    "geographyNote": "适用于韶关市属单位在站（基地）博士后；须提供至少6个月在韶社保及个人所得税证明。",
+    "audience": [
+      "博士后"
+    ],
+    "fields": "各学科 · 在站研究与学术交流",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": "2026-11-30",
+    "opensOn": "2026-10-30",
+    "deadline": "2026-11-30",
+    "dateLabel": "2026年11月30日截止",
+    "timeNote": "官方申报期为2026年10月30日至11月30日；通知未列具体截止时刻。",
+    "summary": "为在韶关开展研究的在站博士后提供生活、医疗及学术交流支持。",
+    "eligibility": "2018年1月1日后引进至韶关博士后科研工作站或创新实践基地，符合当地社保、个税及考核要求。未到中期考核时间者需提交单位鉴定并后补考核报告。",
+    "support": "生活补贴每年25万元、医疗补助每年1万元，通常资助2年；学术交流差旅按实际支出每年最高4万元。符合珠江人才计划海外引进条件者另有配套。",
+    "prep": "建议提前 2–3 周",
+    "next": "向所在单位确认资格，准备社保、个税和考核材料，经单位及主管部门审核后按通知办理。",
+    "sources": [
+      {
+        "label": "韶关市政府：2026年博士和博士后资助通知",
+        "url": "https://www.sg.gov.cn/bmpdlm/rlzyhshbzj/tzgg/content/post_2892118.html"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "verified": "2026-11-09",
+    "id": "moe-humanities-2026",
+    "name": "教育部人文社科一般项目 · 2026",
+    "org": "教育部社会科学司",
+    "category": "科研基金",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "人文 · 社会科学 · 管理",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-06-18",
+    "deadline": "2026-07-12",
+    "date": "2026-07-12",
+    "dateLabel": "2026 批次于 7月12日 17:00 截止",
+    "timeNote": "北京时间；校内遴选和提交截止通常提前。",
+    "geographyNote": "面向全国普通高校；西部、边疆、新疆、西藏子项另有地域条件。",
+    "summary": "支持高校教师开展自主选题的人文社科研究，设规划基金和青年基金。",
+    "eligibility": "限高校在编在岗教师，经单位限额推荐。规划类需副高及以上或博士学位；青年类不超过40岁（1986年7月12日以后出生）。在研国家社科、自然科学基金或教育部人文社科项目负责人，以及当年国家社科申请人等不得申请。",
+    "support": "研究期3年；规划基金不超过10万元，青年基金不超过8万元。",
+    "prep": "建议提前 6–10 周",
+    "next": "为下一轮准备选题与匿名论证，先核查单位名额、限项和青年类别年龄。",
+    "sources": [
+      {
+        "label": "教育部原通知",
+        "url": "https://www.moe.gov.cn/s78/A13/tongzhi/202606/t20260612_1440551.html"
+      },
+      {
+        "label": "高校完整转载与全国申报窗口",
+        "url": "https://www.yeu.edu.cn/2026/0624/c771a56978/page.htm"
+      }
+    ],
+    "sourceNote": "教育部页面直接访问受限；依据高校完整转载核验，采用全国 7月12日 截止，未采用该校 7月1日 内部截止。"
+  },
+  {
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "verified": "2026-11-09",
+    "id": "most-intergovernmental-2027",
+    "name": "政府间国际科技创新合作 · 2027 首批联合研发",
+    "org": "科技部国际合作司",
+    "category": "科研基金",
+    "audience": [
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "按国别与技术方向指南组织联合研发",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "opensOn": "2026-10-30",
+    "deadline": "2026-11-30",
+    "date": "2026-11-30",
+    "dateLabel": "2026年11月30日 16:00 截止",
+    "timeNote": "北京时间；10月30日 08:00 开放。12月7日为推荐单位截止，不能当作申请人延期。",
+    "geographyNote": "内地符合条件法人单位可申报；特定港澳单位亦可，经各自渠道推荐。",
+    "summary": "围绕指南规定的国际合作方向，由中外团队联合申报研发项目。",
+    "eligibility": "中方单位须在2025年10月31日及以前注册，具独立法人资格。负责人需高级职称或博士、1966年1月1日以后出生，年投入不少于6个月；须有外方合作协议，核查联合限项并经单一渠道推荐。",
+    "support": "支持额度、合作国别和周期依具体指南方向确定；公开通知未给出统一金额。",
+    "prep": "建议立即组织合作材料",
+    "next": "登录国科管系统查看具体方向和额度，联系科研管理部门确认推荐渠道及中外协议。",
+    "sources": [
+      {
+        "label": "科技部申报通知",
+        "url": "https://service.most.gov.cn/kjjh_tztg_all/20261030/5920.html"
+      },
+      {
+        "label": "高校完整转载",
+        "url": "https://www.sues.edu.cn/_t528/9a/83/c265a301699/page.psp"
+      },
+      {
+        "label": "省科技厅核对全国受理时间",
+        "url": "https://kjt.guizhou.gov.cn/xwzx/tzgg_73876/202611/t20261106_91082101.html"
+      }
+    ],
+    "sourceNote": "科技部原页访问超时；已读高校完整转载及省科技厅通知。各方向指南需登录系统，未推测额度或具体合作国家。"
+  },
+  {
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "verified": "2026-11-09",
+    "id": "postdoc-academic-exchange-2026",
+    "name": "博士后国（境）外学术交流项目 · 2026",
+    "org": "全国博士后管委会办公室 / 中国博士后科学基金会",
+    "category": "博士后",
+    "audience": [
+      "博士后"
+    ],
+    "fields": "各学科国际学术会议",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-03-02",
+    "deadline": "2026-09-30",
+    "date": "2026-09-30",
+    "dateLabel": "2026 批次于 9月30日 截止",
+    "timeNote": "设站单位也须在9月30日前完成审核；2027 窗口尚未核实。",
+    "geographyNote": "面向国内设站单位在站博士后，赴国境外参会；不限定国内省市。",
+    "summary": "支持在站博士后赴国际会议作口头报告，可用于安排年度参会计划。",
+    "eligibility": "须已获正式口头报告通知，为第一作者或导师第一、本人第二；本次在站期间未获该资助。会议须在2026年召开，国家财政派出项目执行期内不能申请。",
+    "support": "每人2万元，年度不超过130人；目录会议有直接资助通道，须审核且受名额限制。",
+    "prep": "建议提前 2–4 个月",
+    "next": "先安排投稿与口头报告，确认下一年度会议目录和设站单位审核时间。",
+    "sources": [
+      {
+        "label": "全国博管办正式指南 PDF（高校转载）",
+        "url": "https://postdoctor.chd.edu.cn/_upload/article/files/84/d8/61e763cc46178c8402c6a4d7ac49/67c300ba-ea92-45b2-bb35-11f579a63a86.pdf"
+      },
+      {
+        "label": "高校申报通知",
+        "url": "https://postdoctor.chd.edu.cn/2026/0303/c8131a258758/page.htm"
+      }
+    ],
+    "sourceNote": "已核验全国博管办正式指南 PDF 的学术交流章节；未将其他出站派出计划混为同一项目。"
+  },
+  {
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "verified": "2026-11-09",
+    "id": "csc-self-financed-2026-2027",
+    "name": "国家优秀自费留学生奖学金 · 2026–2027",
+    "org": "国家留学基金管理委员会",
+    "category": "青年人才",
+    "audience": [
+      "博士生",
+      "博士后"
+    ],
+    "fields": "各学科 · 海外自费博士及回国人才",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-11-23",
+    "deadline": "2026-12-04",
+    "date": "2026-11-23",
+    "dateLabel": "2026年11月23日开放，12月4日截止",
+    "timeNote": "北京时间；相关驻外使领馆可能另要求提交签字扫描件。",
+    "geographyNote": "国家项目，但只适用于实施范围所列驻外馆区的海外自费留学人员，不是面向国内在读博士的普遍奖学金。",
+    "summary": "奖励海外自费博士生；B类支持已确定回国工作的应届博士和博士后。",
+    "eligibility": "中国籍、无国外永居；A类为博士二年级及以上且2027年6月30日后毕业，年龄不超过40岁。B类须在2026年7月至2027年6月毕业或完成博士后，博士不超过40岁、博士后不超过45岁。曾获优自奖或CSC资助者不能申请。",
+    "support": "A类6000美元，特别优秀奖10000美元；B类10000美元，同年不可兼报。",
+    "prep": "建议提前 2–4 周",
+    "next": "确认所在馆区及A/B类别，准备成绩、成果、推荐材料；B类补充回国工作证明。",
+    "sources": [
+      {
+        "label": "CSC 项目栏目",
+        "url": "https://www.csc.edu.cn/chuguo/s/4305"
+      },
+      {
+        "label": "驻德使馆正式实施指南 PDF",
+        "url": "https://de.china-embassy.gov.cn/zytz/202610/P020261029635813238009.pdf"
+      },
+      {
+        "label": "实施国家与馆区 PDF",
+        "url": "https://de.china-embassy.gov.cn/zytz/202610/P020261029635813817407.pdf"
+      },
+      {
+        "label": "驻德使馆申报通知",
+        "url": "https://de.china-embassy.gov.cn/zytz/202610/t20261029_12049460.htm"
+      }
+    ],
+    "sourceNote": "CSC 原页限制访问；已读驻外使馆发布的正式实施指南及实施范围，年龄出生日期边界请按指南核对。"
+  },
+  {
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "verified": "2026-11-09",
+    "id": "nsfc-bhkaec-conference-2026",
+    "name": "NSFC–京港学术交流中心 · 赴港参会 2026",
+    "org": "国家自然科学基金委员会 / 京港学术交流中心",
+    "category": "交流合作",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "地球科学 · 可持续城市 · 交叉研究",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "deadline": "2026-10-09",
+    "date": "2026-10-09",
+    "dateLabel": "2026 批次于 10月9日 16:00 截止",
+    "timeNote": "会议于11月27–29日在香港中文大学举办；会议日期不代表仍可申报。",
+    "geographyNote": "面向内地依托单位学者赴香港参会，不要求申请人在香港任职。",
+    "summary": "资助参加“地理学与可持续性：可持续城市”会议，年度留档可供后续交流规划。",
+    "eligibility": "须依托在研3年期及以上NSFC项目，为负责人或符合职称、博士学位或推荐条件的参与者，并获负责人同意。可增加一名不超过45岁项目青年参与者。",
+    "support": "每位获资助人直接费用不超过2万元；约15项，涵盖交通、食宿、注册等。",
+    "prep": "建议提前 4–6 周",
+    "next": "为后续同类交流核查在研基金项目资格，并准备研究关联说明和报告摘要。",
+    "sources": [
+      {
+        "label": "NSFC 官方项目指南",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2824/141468.html"
+      }
+    ]
+  },
+  {
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "verified": "2026-11-09",
+    "id": "csiam-young-talent-2026",
+    "name": "中国工业与应用数学学会 · 第五届青托项目",
+    "org": "中国工业与应用数学学会（CSIAM）",
+    "category": "青年人才",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "应用数学 · 产业应用 · 交叉研究",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "deadline": "2026-07-05",
+    "date": "2026-07-05",
+    "dateLabel": "2026 批次于 7月5日 12:00 截止",
+    "timeNote": "以申报邮件发出时间为准；下一届安排未核实。",
+    "geographyNote": "常规项目可全国提名；地区子项仅限中西部、东北且无数学及统计学一级博士点院校。",
+    "summary": "面向青年应用数学研究者的学会托举计划，包含常规、女性、地区和重大需求方向。",
+    "eligibility": "1994年1月1日以后出生，须为CSIAM会员或学生会员，通常须由具资格专家或单位提名；中国科协博士生青托入选者可免提名。其他国家人才或其他学会青托入选者等不支持。",
+    "support": "执行期2年，资金主要自筹；建议每人每年5万元，不是学会承诺发放的定额奖金。",
+    "prep": "建议提前 4–6 周",
+    "next": "先落实提名资格与经费来源，再按方向准备研究和成长计划。",
+    "sources": [
+      {
+        "label": "CSIAM 官方完整通知",
+        "url": "https://csiam.org.cn/1202/202605/2756.html"
+      }
+    ]
+  },
+  {
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "verified": "2026-11-09",
+    "id": "nssfc-translation-2026",
+    "name": "国家社科基金 · 中华学术外译 2026",
+    "org": "全国哲学社会科学工作办公室",
+    "category": "科研基金",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "人文社科 · 翻译 · 国际学术出版",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-09-28",
+    "deadline": "2026-10-10",
+    "date": "2026-10-10",
+    "dateLabel": "2026 批次于 10月10日 截止",
+    "timeNote": "10月15日为省级等管理机构报送截止；申请人不能沿用该日期。",
+    "geographyNote": "全国高校及科研机构人员与国内出版机构联合申报，经所在单位和主管部门报送。",
+    "summary": "支持优秀社科学术成果外译出版；与年度研究基金的成果和合作要求不同。",
+    "eligibility": "著作类须中方出版社和项目主持人联合申报，落实版权、国外出版合同或意向证明及外方译审。英文翻译申请人原则上需副高或博士；其他语种需中级或博士。在研国家级项目负责人一般不能申请。",
+    "support": "著作类一般1000–1200元/千字、重点1300–1500元/千字，单项一般不超过50万元；期刊类每年40–60万元。",
+    "prep": "建议提前 3–6 个月",
+    "next": "为下一轮先联系出版社，取得版权授权和国外出版合作，准备翻译样章。",
+    "sources": [
+      {
+        "label": "全国社科办官方申报公告",
+        "url": "https://www.nopss.gov.cn/n1/2026/0910/c431031-40796372.html"
+      }
+    ]
+  },
+  {
+    "id": "hangzhou-nsf-2026",
+    "name": "杭州市自然科学基金 · 2026年度",
+    "org": "杭州市科学技术局",
+    "category": "科研基金",
+    "disciplines": [
+      "natural"
+    ],
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "基础研究 · 应用基础研究",
+    "status": "closed",
+    "opensOn": "2025-09-15",
+    "deadline": "2025-09-30",
+    "date": "2025-09-30",
+    "dateLabel": "2026年度批次已于2025年9月30日17:00截止",
+    "timeNote": "依托单位申报及审核截止；区县审核至2025年10月10日。项目年度与申报年份不同。",
+    "summary": "重点与青年项目同批申报，支持基础研究和创新人才培养。",
+    "eligibility": "通过基金依托单位申请；须有基础研究经历，并符合高级职称、博士学位或两名高级职称同行推荐条件。青年申请人截至2025年1月1日未满40岁；每人限报1项。",
+    "support": "重点最高20万元，青年最高5万元；研究期限不超过3年。",
+    "geographyNote": "杭州市级基金，须经符合市基金管理办法的依托单位推荐；具体单位资格应与市科技局核对。",
+    "prep": "建议提前 4–6 周",
+    "next": "按既有指南打磨科学问题，留意下一轮通知。",
+    "sources": [
+      {
+        "label": "杭州高新区（滨江）科技局转发市级通知",
+        "url": "https://www.hhtz.gov.cn/art/2025/9/16/art_1485818_59078304.html"
+      }
+    ],
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "浙江",
+      "city": "杭州"
+    },
+    "eligibleAreas": [
+      {
+        "province": "浙江",
+        "city": "杭州"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "hangzhou-social-2026",
+    "name": "杭州市社科规划 · 常规性课题2026",
+    "org": "杭州市哲学社会科学工作办公室",
+    "category": "科研基金",
+    "disciplines": [
+      "social"
+    ],
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "社会科学 · 基础理论 · 应用对策",
+    "status": "closed",
+    "date": null,
+    "dateLabel": "2026年度申报已结束 · 市级最终日期待核实",
+    "timeNote": "高校转载的4月8日、4月9日均为本校报送节点，未将校内截止当作全市统一截止。",
+    "summary": "基础理论与应用对策研究；本批全部先按自筹经费立项。",
+    "eligibility": "申请人须为杭州市域高校、党校、社科院、机关研究机构或社科类社会组织的社科工作者。每人限1项；在研国家、省、市社科项目未结题者不得申报。",
+    "support": "立项不预拨资助；结项成果达到规定优秀条件后可追认资助1万元。",
+    "geographyNote": "明确面向杭州市域相关单位的社科工作者，由所在单位报送。",
+    "prep": "建议提前 3–4 周",
+    "next": "先确认在研限项，准备选题与匿名论证，关注新年度常规课题通知。",
+    "sources": [
+      {
+        "label": "浙江特殊教育职业学院官网转发全文",
+        "url": "https://www.zcse.edu.cn/info/1058/62161.htm"
+      },
+      {
+        "label": "杭州社科原通知（当前访问受限）",
+        "url": "https://www.hzsk.org.cn/gateway/detail?classId=15&id=4700"
+      },
+      {
+        "label": "杭州师范大学校内截止说明",
+        "url": "https://jyxy.hznu.edu.cn/c/2026-03-10/3178607.shtml"
+      }
+    ],
+    "sourceNote": "原主管部门页面访问超时；已阅读高校官网全文，未核实全市最终截止日期。",
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "浙江",
+      "city": "杭州"
+    },
+    "eligibleAreas": [
+      {
+        "province": "浙江",
+        "city": "杭州"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "ningbo-nsf-2026",
+    "name": "宁波市自然科学基金 · 2026年度",
+    "org": "宁波市科学技术局",
+    "category": "科研基金",
+    "disciplines": [
+      "natural"
+    ],
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "基础研究 · 应用基础研究",
+    "status": "closed",
+    "opensOn": "2026-09-07",
+    "deadline": "2026-09-25",
+    "date": "2026-09-25",
+    "dateLabel": "2026年9月25日23:59申报截止",
+    "timeNote": "个人网上申报9月7日18:00开放；归口单位推荐截止10月10日18:00，校内截止更早。",
+    "summary": "一般、重点与青年博士创新研究项目，覆盖自由探索和重点产业基础研究。",
+    "eligibility": "依托宁波注册独立法人高校、科研机构等合格单位；申请人须签劳动合同并在甬缴社保满12个月。年龄、学位要求分类设置；青年博士获批后须承诺在甬全职连续工作5年以上。",
+    "support": "一般最高6万元，重点最高30万元（数学20万元），青年博士最高20万元；最长3年。",
+    "geographyNote": "依托单位须在宁波登记注册；申请人原则上须在宁波缴纳社保12个月以上。",
+    "prep": "建议提前 4–6 周",
+    "next": "核对社保、学位年限及限项，预先落实单位推荐名额。",
+    "sources": [
+      {
+        "label": "宁波大学官网转发市科技局完整通知",
+        "url": "https://nbubs.nbu.edu.cn/info/3094/259410.htm"
+      },
+      {
+        "label": "宁波城市职业技术学院官网资格核对",
+        "url": "https://www.nbcc.cn/ylxtcx/2026/0929/c1289a139714/page.psp"
+      }
+    ],
+    "sourceNote": "依据高校官网转载市科技局全文，区分个人和归口单位截止。",
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "浙江",
+      "city": "宁波"
+    },
+    "eligibleAreas": [
+      {
+        "province": "浙江",
+        "city": "宁波"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "ningbo-social-2026",
+    "name": "宁波市社科规划 · 2026年度第一批",
+    "org": "宁波市哲学社会科学工作办公室",
+    "category": "科研基金",
+    "disciplines": [
+      "social"
+    ],
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "社会科学 · 宁波发展 · 基础理论与对策",
+    "status": "closed",
+    "date": null,
+    "dateLabel": "2026年度第一批已结束 · 市级最终日期待核实",
+    "timeNote": "高校已于3月组织申报推荐；仅核实校内节点，未将其写成全市截止。",
+    "summary": "资助与自筹两类年度课题，可依据指南或研究积累自主选题。",
+    "eligibility": "须具备社科研究能力，通过单位申报；每人限报1项且不得参与本次其他申报。在研市社科课题负责人、两年内撤项者及重复选题受限。",
+    "support": "设资助与自筹两类；已读通知未列统一金额。成果原则上2028年6月底前完成。",
+    "geographyNote": "宁波市级社科项目，由单位限额推荐。转载通知未明确户籍限制；外地单位能否推荐需向市社科规划办核对。",
+    "prep": "建议提前 3–5 周",
+    "next": "与单位科研部门核对推荐资格及名额，准备匿名活页。",
+    "sources": [
+      {
+        "label": "浙江万里学院官网转发完整通知",
+        "url": "https://kyc.zwu.edu.cn/4e/96/c703a216726/page.htm"
+      },
+      {
+        "label": "宁波城市职业技术学院官网转载",
+        "url": "https://www.nbcc.cn/ylxtcx/2026/0310/c1289a135602/page.psp"
+      }
+    ],
+    "sourceNote": "主管部门网站访问超时；依据两所高校官网全文确认批次、资格和已结束状态，最终市级截止未核实。",
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "浙江",
+      "city": "宁波"
+    },
+    "eligibleAreas": [
+      {
+        "province": "浙江",
+        "city": "宁波"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "zhejiang-education-2027",
+    "name": "浙江省教育科学规划 · 2027年度",
+    "org": "浙江省教育科学规划领导小组办公室",
+    "category": "科研基金",
+    "disciplines": [
+      "social"
+    ],
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "教育学 · 教育改革 · 教育评价",
+    "status": "open",
+    "opensOn": "2026-10-20",
+    "deadline": "2026-12-03",
+    "date": "2026-12-03",
+    "dateLabel": "2026年12月3日17:00系统关闭",
+    "timeNote": "此为省级系统审核截止；单位限额遴选通常更早，例如浙江农林大学11月19日12:00。",
+    "summary": "重点与一般教育研究课题，须经单位限额推荐。",
+    "eligibility": "通过浙江高校、地市教科规划办或省直单位申报；每人限1项，省教育规划在研课题未结题者不得申请。重点申请人原则上应已完成一般课题。",
+    "support": "重点最长4年，一般最长3年；已读申报通知未列统一资助金额。",
+    "geographyNote": "浙江省教育规划渠道，须通过本省相应高校、地市或省直管理单位推荐。",
+    "prep": "建议提前 2–4 周",
+    "next": "立即确认本单位内部截止及名额，按系统要求准备匿名活页。",
+    "sources": [
+      {
+        "label": "浙江农林大学官网转发（含省级系统日期）",
+        "url": "https://wkc.zafu.edu.cn/info/1020/3945.htm"
+      },
+      {
+        "label": "杭州师范大学官网申报通知",
+        "url": "https://jyxy.hznu.edu.cn/c/2026-10-23/3220434.shtml"
+      }
+    ],
+    "sourceNote": "依据高校官网转发核实省级系统窗口，未把学校内部截止泛化。",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "浙江"
+    },
+    "eligibleAreas": [
+      {
+        "province": "浙江"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "anhui-postdoc-joint-2026",
+    "name": "博士后基金安徽联合资助 · 第3批",
+    "org": "中国博士后科学基金会 / 安徽省人民政府",
+    "category": "博士后",
+    "disciplines": [
+      "natural"
+    ],
+    "audience": [
+      "博士后",
+      "博士生",
+      "青年研究者"
+    ],
+    "fields": "自然科学 · 安徽重点产业",
+    "status": "closed",
+    "opensOn": "2026-03-01",
+    "deadline": "2026-03-31",
+    "date": "2026-03-31",
+    "dateLabel": "2026年3月31日博士后申报截止",
+    "timeNote": "基金会2026年度指南统一安排；设站单位审核至4月10日。",
+    "summary": "支持应届或新近毕业博士进入安徽博士后设站单位，全脱产开展自然科学研究。",
+    "eligibility": "须1990年3月1日及以后出生，博士毕业3年以内；已进站者须2025年3月1日及以后进站。不得与博新计划、基金特别资助等同时获选；获选后须按期进站。",
+    "support": "计划30人，每人18万元生活补贴、分24个月发放；另有按站别执行的安徽配套，已获同类支持不重复。",
+    "geographyNote": "可由海内外博士申请，但须依托安徽省内流动站或工作站，获选后将人事关系转入并全脱产研究。",
+    "prep": "建议提前 4–6 周",
+    "next": "提前联系安徽设站单位与合作导师，核对进站和其他人才资助限制。",
+    "sources": [
+      {
+        "label": "中国博士后科学基金2026年度指南（北京大学官网副本，第22–26及61页）",
+        "url": "https://postdocs.bjmu.edu.cn/docs/2026-03/9944efce5049467e98259901e789bc65.pdf"
+      },
+      {
+        "label": "中国科学院合肥物质院官网通知",
+        "url": "https://www.hf.cas.cn/rjc/gzdt/tzgg/202601/t20260114_8104502.html"
+      }
+    ],
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "安徽"
+    },
+    "eligibleAreas": [
+      {
+        "province": "安徽"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "hangzhou-key-research-2026",
+    "name": "杭州市重点科研计划 · 2026年度",
+    "org": "杭州市科学技术局",
+    "category": "科研基金",
+    "disciplines": [
+      "natural"
+    ],
+    "audience": [
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "重点产业 · 颠覆性技术 · 社会公益科技",
+    "status": "closed",
+    "opensOn": "2026-09-29",
+    "deadline": "2026-10-21",
+    "date": "2026-10-21",
+    "dateLabel": "2026年10月21日18:00网上填报截止",
+    "timeNote": "据滨江科技局转发通知；须同步完成属地材料报送。",
+    "summary": "88个项目榜单，鼓励企业与高校院所联合攻关。",
+    "eligibility": "牵头和参与单位须有研发能力；企业研发费用占上年主营业务收入须达3%以上。负责人原则上在职；高校院所最多牵头2项且在研不超过5项，部分单位有增额规则。",
+    "support": "重点产业、颠覆技术、社会公益类最高分别300万、200万、100万元；另有自筹比例和分期或验收后补助要求。",
+    "geographyNote": "杭州市级项目，按属地科技部门审核。须逐项核对榜单的牵头单位与合作资格，不能仅凭居住地判断可申报。",
+    "prep": "建议提前 6–8 周",
+    "next": "先匹配榜单，再与企业或高校伙伴落实研发任务、自筹经费和知识产权安排。",
+    "sources": [
+      {
+        "label": "杭州高新区（滨江）科技局官方申报通知",
+        "url": "https://www.hhtz.gov.cn/col/col1485818/art/2026/art_d76bc91970044de4a2a7dc85c35f0d56.html"
+      }
+    ],
+    "region": "国内",
+    "scope": "city",
+    "jurisdiction": {
+      "province": "浙江",
+      "city": "杭州"
+    },
+    "eligibleAreas": [
+      {
+        "province": "浙江",
+        "city": "杭州"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "jsps-standard-2027",
+    "name": "JSPS 标准博士后 · 2027 年第二轮",
+    "org": "日本学术振兴会（JSPS）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "赴日本接收机构开展研究；中国公民可经日本合作研究者和接收机构申请，不是在中国执行的项目经费。",
+    "audience": [
+      "博士生",
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "自然科学 · 人文与社会科学",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": "2027-04-23",
+    "dateLabel": "第二轮机构提交截止：2027年4月23日 17:00 JST",
+    "timeNote": "日本时间；网上系统通常在截止前约两个月开放，准确开放日未公布。日本接收机构内部截止可能提前一个月以上。",
+    "summary": "支持青年研究者在日本合作开展 12–24 个月博士后研究，覆盖自然科学与人文社科。",
+    "eligibility": "须在资助开始前获博士学位，并符合 2027 财年博士年限要求，通常为2021年4月2日及以后获学位，育儿休假可按规则扣除。日本国籍或日本永久居留者不符合条件；已开始过 JSPS Standard 或 Pathway 资助者不可再次申请。接收研究者及机构须符合 KAKENHI 资格。",
+    "support": "每月362,000日元，另含符合条件的往返机票、200,000日元安置费及保险；开始前已在日本居留者的机票与安置费规则不同。",
+    "prep": "建议提前 3–4 个月",
+    "next": "先确定日本合作导师、入境时间和机构内部截止，再共同完成研究计划与推荐材料。",
+    "sources": [
+      {
+        "label": "JSPS 标准类项目与资格",
+        "url": "https://www.jsps.go.jp/english/e-fellow/e-ippan/"
+      },
+      {
+        "label": "2027 财年官方申请时间表",
+        "url": "https://www.jsps.go.jp/english/e-fellow/e-ippan/appliguidelines.html"
+      },
+      {
+        "label": "JSPS 申请指南与机构提交规则",
+        "url": "https://www.jsps.go.jp/english/e-fellow/application.html"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "msca-european-pf-2027",
+    "name": "MSCA 欧洲博士后奖学金 · 2027",
+    "org": "欧盟委员会 / Marie Skłodowska-Curie Actions",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "与欧盟成员国或 Horizon Europe 关联国接收机构联合申请，并赴该国研究。European 类对国籍开放；Global 类另有欧洲国籍或长期居留要求。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "自然科学 · 工程 · 人文与社会科学 · 跨学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "dateLabel": "暂定2027年4月7日开放 · 正式日期待确认",
+    "timeNote": "2027官方页面将4月7日开放、9月8日截止均标为暂定（TBC）；可用于规划，须在正式征集发布后复核。",
+    "summary": "通过跨国流动、研究和培训支持博士后发展，欧洲类标准资助期为12–24个月。",
+    "eligibility": "通常须在截止日前取得博士学位或完成答辩，博士后研究经历不超过8年，适用扣除项另核；截止前36个月在接收国居住或主要活动原则上不超过12个月。与合格接收机构共同申报；Euratom领域有额外国籍条件。",
+    "support": "由接收机构聘用，资助生活、流动及符合条件的家庭津贴，并支持研究、培训、交流和机构管理；具体单价依2027征集文件。",
+    "prep": "建议提前 3–6 个月",
+    "next": "先联系欧洲接收导师及科研支持部门，核对流动性和研究年限，规划培训与职业发展方案。",
+    "sources": [
+      {
+        "label": "MSCA 2027 官方征集预告",
+        "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/funding/msca-postdoctoral-fellowships-2027"
+      },
+      {
+        "label": "项目资格、欧洲类与全球类说明",
+        "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "embo-postdoctoral-2027",
+    "name": "EMBO 博士后奖学金 · 春季评审",
+    "org": "European Molecular Biology Organization（EMBO）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "中国申请人可跨国赴 EMBC 成员国研究；其他目的地另有国籍、出发地和博士学位所在地限制，不能直接理解为可在中国获资助。",
+    "audience": [
+      "博士生",
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "生命科学 · 分子与细胞生物学 · 生物机制",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": "2027-01-22",
+    "deadline": "2027-01-22",
+    "dateLabel": "本轮评审截点：2027年1月22日 14:00 CET",
+    "timeNote": "全年接收；该日期是春季评审硬性截点，须连同推荐及接收材料完整提交。资格按实际提交日计算。",
+    "summary": "支持最长两年的跨国生命科学博士后研究，强调新方向与机制性生物学问题。",
+    "eligibility": "开始前须获博士，已获学位者通常须在提交前2年内毕业，并有第一作者已接收论文或符合规则的公开评议预印本。必须跨国，不能返回博士培养国或博士导师；提交前18个月在目标国居住/工作合计不超过6个月。接收实验室每轮限1人，项目不能直接延续博士课题。",
+    "support": "最长两年薪酬或津贴，按接收国家标准执行；含搬迁及符合条件的子女支持。",
+    "prep": "建议提前 2–3 个月",
+    "next": "核对博士日期和近18个月所在国家记录，与接收实验室确认名额，并及早安排推荐信。",
+    "sources": [
+      {
+        "label": "EMBO 官方项目与下一轮截点",
+        "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/"
+      },
+      {
+        "label": "2026年7月版申请指南",
+        "url": "https://www.embo.org/documents/PDF/Postdoctoral_Fellowships_guidelines.pdf"
+      }
+    ],
+    "sourceNote": "2027年1月22日14:00 CET之后提交的申请将适用不再允许再次申请的新规则。",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "hfsp-postdoctoral-2027",
+    "name": "HFSP 博士后奖学金 · 2027 资助轮",
+    "org": "Human Frontier Science Program（HFSP）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "中国籍申请人须赴 HFSP 成员国开展研究，且不得以本国为接收国；第三年返回本国的安排须另获批准。",
+    "audience": [
+      "博士生",
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "基础生命科学 · 生物交叉 · 物理/计算/工程转生命科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-05-12",
+    "opensOn": "2026-03-12",
+    "deadline": "2026-05-12",
+    "dateLabel": "2027资助轮意向书已于2026年5月12日截止",
+    "timeNote": "须于5月5日09:00美国东部时间前创建意向书、5月12日同一时间前提交；受邀完整申请9月24日09:00截止。下一轮未公布。",
+    "summary": "资助三年高风险、跨学科基础生命科学研究，分生物背景长期类与非生物背景跨学科类。",
+    "eligibility": "须转换研究领域并跨国；2027轮博士一般须于2023年9月24日及以后取得，或在资助启动前获得。不得以既往导师、合作者或共同作者为接收导师，另有接收实验室任职时长和论文要求。纯临床或以应用开发为主要目标的项目不属重点资助范围。",
+    "support": "36个月生活及研究旅行津贴，按接收国标准确定，并有符合条件的搬迁、子女与育儿支持；不可续期。",
+    "prep": "建议提前 3–4 个月",
+    "next": "为下一轮先确定新的生命科学问题、跨学科训练目标和国外接收导师，待新指南核对日期及资格。",
+    "sources": [
+      {
+        "label": "HFSP 官方项目、资格与2027轮时间表",
+        "url": "https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships"
+      },
+      {
+        "label": "HFSP 2027 申请指南",
+        "url": "https://www.hfsp.org/sites/default/files/Sciences/fellows/2027/new/HFSP%20Fellowships%202027%20-%20Application%20Guidelines.pdf"
+      }
+    ],
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "newton-international-2026",
+    "name": "Royal Society Newton 国际博士后 · 2026",
+    "org": "英国皇家学会（The Royal Society）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "须赴英国合格接收机构开展研究；中国公民可申报，申请时须在英国境外且不具有英国国籍。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "自然科学 · 生物 · 化学 · 工程 · 数学 · 物理",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-03-11",
+    "opensOn": "2026-01-15",
+    "deadline": "2026-03-11",
+    "dateLabel": "2026年3月11日 15:00 英国时间已截止",
+    "timeNote": "保留2026轮供规划；尚未核实2027新轮日期。机构内部提名截止可能更早。",
+    "summary": "支持境外青年自然科学研究者在英国开展两年研究，发展独立研究方向和合作网络。",
+    "eligibility": "截止日前须获博士或通过答辩，主动全职博士后经历不超过5年；申请前12个月通常不能在英国居住或研究，合计不足3个月短访等例外另核。在境外受聘于英国机构者也不符合要求。须获英国导师和机构支持，导师每轮限支持1项。",
+    "support": "两年最高28万英镑，涵盖薪酬、研究和机构成本；合理说明的搬迁及签证费用可超出此上限。",
+    "prep": "建议提前 3–4 个月",
+    "next": "先联系英国接收导师与科研管理部门，核对既往英国经历、内部遴选和研究领域适配。",
+    "sources": [
+      {
+        "label": "皇家学会官方项目页",
+        "url": "https://www.royalsociety.org/grants/newton-international/"
+      },
+      {
+        "label": "2026官方指南、时间与资助标准",
+        "url": "https://www.royalsociety.org/-/media/grants/newton-fellowships/newton-international-fellowships-scheme-notes.pdf"
+      }
+    ],
+    "sourceNote": "此条为皇家学会自然科学渠道；人文社科须查看 British Academy 对应项目，不能套用此条。",
+    "verified": "2026-11-09"
+  },
+  {
+    "id": "daad-research-grants-germany",
+    "name": "DAAD 科研交流奖学金 · 博士生与博士后",
+    "org": "德国学术交流中心（DAAD）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "面向国内院校博士在读生及博士后赴德国研究，须有德国高校或科研机构教授接收；不资助留在中国执行的研究，也不能拆分赴其他国家执行。",
+    "audience": [
+      "博士生",
+      "博士后"
+    ],
+    "fields": "自然科学 · 工程 · 人文与社会科学（临床研究另有限制）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "dateLabel": "中国申请通道下一轮年月待核实",
+    "timeNote": "DAAD中国项目页列10月7日截止；中国数据库另列3月18日，但均未标年份。当前未据此推定2027轮日期或开放状态，申请前须向北京代表处核实。",
+    "summary": "支持在读博士赴德2–12个月、博士后赴德2–6个月，与德国导师开展短期合作研究。",
+    "eligibility": "中国通道须为国内院校博士在读生或在站博士后；博士在读不超过3年，博士后毕业不超过4年；截止时在德国居住超过15个月不能申请。须有德方邀请函、工作场所和共同讨论的研究计划，临床医学研究或进修不在该渠道范围内。",
+    "support": "每月1,400欧元，另有保险与国际交通补助；资助超过6个月可获460欧元研究津贴及符合条件的语言、房租和家庭支持。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先联系德国导师取得邀请函，再在DAAD数据库选择中国及本人身份，核对准确轮次和材料清单。",
+    "sources": [
+      {
+        "label": "DAAD中国科研交流奖学金细则",
+        "url": "https://www.daad.org.cn/zh/find-funding/funding-programmes-in-germany/research-grants-short-term-grants/"
+      },
+      {
+        "label": "DAAD中国官方奖学金数据库",
+        "url": "https://www.daad.org.cn/zh/find-funding/scholarship-database/"
+      },
+      {
+        "label": "DAAD总部项目说明",
+        "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57742121"
+      }
+    ],
+    "sourceNote": "收录资格与资助渠道；日期信息存在官网页面差异，因此不标为开放，也不把每年月日转成未经确认的下一轮具体日期。",
+    "verified": "2026-11-09"
+  }
+]
