@@ -16,6 +16,12 @@
 
 欢迎[提交 issue](../../issues)，请附上官方通知的链接。
 
+## 支持小站
+
+网站免费。如果它帮你省了些时间，欢迎微信扫码赞赏。
+
+<img src="site/assets/wechat-reward.jpg" alt="科研基金雷达 · 微信赞赏码" width="260">
+
 ## 本地运行
 
 需要 Node.js 22 或更高版本，无需安装任何依赖。
@@ -51,5 +57,7 @@ SciGrant Radar is a free, public directory of research funding, early-career, po
 The data is refreshed weekly: an automated collector reads official sources and opens a pull request following [docs/update-guide.md](docs/update-guide.md); automated checks validate it; the maintainer reviews and merges, which publishes the site. Nothing is published without review.
 
 Found a mistake? Please [open an issue](../../issues) with a link to the official notice.
+
+The site is free. If it saves you time, you are welcome to leave a tip with the WeChat code shown above.
 
 The site is plain static files in `site/` with no build step and no dependencies. `npm run preview` serves it locally; `npm test` and `npm run validate` run the checks.
