@@ -100,6 +100,8 @@
 .date-card small span{display:inline-block}
 /* Icons are drawn, not typed: symbol characters come from whichever font a device happens to have, and some phones show them as emoji. */
 .glyph{display:inline-block;width:1em;height:1em;vertical-align:-.14em;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.empty .glyph{stroke-width:1.1}
+/* Licence line under the footer: who may reuse the data and how to credit it. */
+.site-footer .footer-license{margin:10px 0 0;color:#a9c5ba;font-size:13px;line-height:1.7}.site-footer .footer-license a{color:#d2e0d8;text-underline-offset:3px}.site-footer .footer-license a:hover{color:#c8ead6}
 
 .setup-hint-text{flex:1 1 300px;min-width:0}.site-intro{font-weight:600;margin-bottom:4px!important}
 .filter-fold>summary{display:none}
