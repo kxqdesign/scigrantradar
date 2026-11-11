@@ -21,3 +21,5 @@
 .timeline-today{display:flex;align-items:center;gap:10px;margin:0 0 6px;font-size:14px;color:var(--teal)}.timeline-today:after{content:'';flex:1;height:1px;background:#c5d4c7}
 .timeline-history .timeline-date time,.timeline-history .node-line{color:var(--muted)}.card.is-flash{border-color:#ad673f;box-shadow:0 0 0 2px #c38b5d30}
 @media(max-width:640px){.timeline-echo{padding:0 0 4px}}
+/* Phones: month jumps on one swipeable row, so the first opportunity sits higher. */
+@media(max-width:640px){.timeline-toolbar{padding:8px 0}.timeline-toolbar>span{display:none}.timeline-toolbar nav{flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;min-width:0;width:100%;scrollbar-width:none;padding-bottom:2px}.timeline-toolbar nav::-webkit-scrollbar{display:none}.timeline-toolbar a,.timeline-toolbar button{flex:0 0 auto}}
