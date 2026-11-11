@@ -1,0 +1,6 @@
+# Everyone is welcome to read and index this site.
+# The curated data is licensed CC BY-NC 4.0: credit 科研基金雷达 and link to https://scigrantradar.com
+User-agent: *
+Allow: /
+
+Sitemap: https://scigrantradar.com/sitemap.xml
