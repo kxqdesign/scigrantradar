@@ -108,3 +108,26 @@ test('browsers are told to check for new versions of every file', () => {
   assert.equal(lines[0], '/*');
   assert.ok(lines.slice(1).includes('  Cache-Control: no-cache'));
 });
+
+test('the data licence is stated on the page, in the repository and to machines', () => {
+  const deed = 'https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans';
+  assert.ok(html.includes('<link rel="license" href="' + deed + '">'));
+  const footer = html.match(/<p class="footer-license">.*?<\/p>/)?.[0] ?? '';
+  assert.ok(footer.includes(deed));
+  assert.match(footer, /CC BY-NC 4\.0/);
+  assert.match(footer, /注明来源/);
+  assert.match(footer, /scigrantradar\.com/);
+  const licence = fs.readFileSync('LICENSE.md', 'utf8');
+  assert.match(licence, /CC BY-NC 4\.0/);
+  assert.match(licence, /creativecommons\.org\/licenses\/by-nc\/4\.0\/legalcode/);
+  assert.match(fs.readFileSync('README.md', 'utf8'), /\[LICENSE\.md\]\(LICENSE\.md\)/);
+});
+
+test('search engines are invited in and pointed at the sitemap', () => {
+  const robots = fs.readFileSync('site/robots.txt', 'utf8').split(/\r?\n/).filter(line => line && !line.startsWith('#'));
+  assert.deepEqual(robots, ['User-agent: *', 'Allow: /', 'Sitemap: https://scigrantradar.com/sitemap.xml']);
+  const sitemap = fs.readFileSync('site/sitemap.xml', 'utf8');
+  const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+  // The address listed must be the one the page declares as its own.
+  assert.deepEqual(locs, [html.match(/<link rel="canonical" href="([^"]+)">/)[1]]);
+});

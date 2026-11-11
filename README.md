@@ -16,6 +16,10 @@
 
 欢迎[提交 issue](../../issues)，请附上官方通知的链接。
 
+## 转载与许可
+
+本站整理的数据采用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans) 许可：欢迎转载和改编，请注明来源"科研基金雷达"并链接 <https://scigrantradar.com>，不得用于商业用途。网站代码与设计保留所有权利。详见 [LICENSE.md](LICENSE.md)。
+
 ## 支持小站
 
 网站免费。如果它帮你省了些时间，欢迎微信扫码赞赏。
@@ -57,6 +61,8 @@ SciGrant Radar is a free, public directory of research funding, early-career, po
 The data is refreshed weekly: an automated collector reads official sources and opens a pull request following [docs/update-guide.md](docs/update-guide.md); automated checks validate it; the maintainer reviews and merges, which publishes the site. Nothing is published without review.
 
 Found a mistake? Please [open an issue](../../issues) with a link to the official notice.
+
+The curated data is licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): share and adapt it non-commercially with credit and a link to <https://scigrantradar.com>. Code and design are all rights reserved. See [LICENSE.md](LICENSE.md).
 
 The site is free. If it saves you time, you are welcome to leave a tip with the WeChat code shown above.
 
