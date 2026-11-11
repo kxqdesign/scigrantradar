@@ -251,6 +251,9 @@ function openShared(){
   el.scrollIntoView({behavior:'instant',block:'start'});
 }
 window.addEventListener('hashchange',openShared);
+// On phones the filter menus start folded so the first opportunities sit higher; wider screens always show them.
+const narrow=matchMedia('(max-width:640px)'),foldFilters=()=>{$('#filter-fold').open=!narrow.matches};
+foldFilters();narrow.addEventListener('change',foldFilters);
 $('#setup-hint-dismiss').addEventListener('click',()=>{hintDismissed=true;try{localStorage.setItem(HINT_KEY,'1')}catch{}render()});
 
 const backToTop=$('#back-to-top');

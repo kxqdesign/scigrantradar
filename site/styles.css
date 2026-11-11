@@ -100,3 +100,7 @@
 .date-card small span{display:inline-block}
 /* Icons are drawn, not typed: symbol characters come from whichever font a device happens to have, and some phones show them as emoji. */
 .glyph{display:inline-block;width:1em;height:1em;vertical-align:-.14em;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.empty .glyph{stroke-width:1.1}
+
+.setup-hint-text{flex:1 1 300px;min-width:0}.site-intro{font-weight:600;margin-bottom:4px!important}
+.filter-fold>summary{display:none}
+@media(max-width:640px){.setup-hint{margin:12px 0;padding:12px 14px;gap:8px}.setup-hint-text{flex-basis:100%}.setup-hint p{font-size:15px;line-height:1.55}.filter-fold>summary{display:flex;align-items:center;justify-content:space-between;min-height:44px;margin-top:8px;padding:0 2px;cursor:pointer;list-style:none;font-size:15px;color:var(--teal)}.filter-fold>summary::-webkit-details-marker{display:none}.filter-fold>summary:after{content:"展开";font-size:14px;color:var(--muted)}.filter-fold[open]>summary:after{content:"收起"}.filter-fold .filter-menus{margin-top:2px}}
