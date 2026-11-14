@@ -5588,5 +5588,554 @@
         "url": "https://www.syskl.org.cn/tzgg/202609/t20260920_5092631.html"
       }
     ]
+  },
+  {
+    "id": "hk-rgc-hkpfs-2027",
+    "name": "香港博士研究生奖学金计划（HKPFS）· 2027/28",
+    "org": "香港研究资助局（RGC）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在香港八所教资会资助大学攻读全日制博士；不限国籍和来源地，不是在内地执行的项目经费。",
+    "audience": [
+      "硕士生",
+      "博士生"
+    ],
+    "fields": "全学科 · 理工医与人文社科分组评审",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "opensOn": "2026-09-01",
+    "date": "2026-12-01",
+    "deadline": "2026-12-01",
+    "deadlineTime": "12:00",
+    "dateLabel": "RGC 初步申请截止：2026年12月1日 12:00（香港时间）",
+    "timeNote": "香港时间与北京时间相同。须先在 RGC 系统取得 HKPFS 编号，再向所选大学提交完整申请；八所大学的完整申请均于2026年12月1日 23:59 截止。",
+    "summary": "香港最主要的博士奖学金，2027/28 学年计划资助 400 名，面向申请攻读全日制博士的新生。",
+    "eligibility": "申请成为香港城市大学、香港浸会大学、岭南大学、香港中文大学、香港教育大学、香港理工大学、香港科技大学或香港大学的全日制博士新生，不论国籍、工作经历和族裔。最多可选一至两所大学的两个专业，并须满足各校录取要求。",
+    "support": "按 2026/27 学年标准，每年生活津贴 344,400 港元、会议与研究差旅津贴 14,400 港元，最长三年；超出三年由所在大学视情况支持。",
+    "prep": "建议提前 4–8 周",
+    "next": "先联系目标导师并确认专业，尽早完成 RGC 初步申请取得编号，再赶在各校截止前提交完整申请。",
+    "sources": [
+      {
+        "label": "RGC · HKPFS 计划说明",
+        "url": "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      },
+      {
+        "label": "RGC · HKPFS 申请步骤与各校截止",
+        "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "hk-rgc-jrfs-2027",
+    "name": "香港 RGC 青年研究学者计划（JRFS）· 2027/28",
+    "org": "香港研究资助局（RGC）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在香港教资会资助大学全职开展博士后研究；须由该大学提名，个人不能直接申请。",
+    "audience": [
+      "应届博士",
+      "博士后",
+      "博士生"
+    ],
+    "fields": "全学科 · 理工医与人文社科分组评审",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-10-30",
+    "deadline": "2026-10-30",
+    "deadlineTime": "17:00",
+    "dateLabel": "2027/28 轮大学提名已于2026年10月30日 17:00 截止",
+    "timeNote": "香港时间；截止日期针对大学向教资会秘书处提交提名，大学内部遴选更早。下一轮日期未公布。",
+    "summary": "原 RGC 博士后奖学金（PDFS），每轮资助 60 人，支持两年博士后研究并衔接助理教授或研究助理教授职位。",
+    "eligibility": "须于2023年1月1日或以后获博士学位，或在2027年8月31日前完成博士学位要求；须在资助期内取得在港工作和居留的合法权利，并获一所教资会资助大学提名。每校最多提名 15 人。",
+    "support": "现行年度津贴约 430,000 港元（含约 13,600 港元差旅津贴），资助 24 个月，可申请延长博士后阶段最多 12 个月；期间转任助理教授或研究助理教授的，改为每年 140,000 港元研究经费。",
+    "prep": "建议提前 3–4 个月",
+    "next": "保留供下一轮规划：提前联系香港合作导师，了解其所在大学的内部提名时间。",
+    "sources": [
+      {
+        "label": "RGC · JRFS 计划说明",
+        "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/jrfs/index.html"
+      },
+      {
+        "label": "RGC · JRFS 2027/28 提名通知",
+        "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/jrfs/call_letter.html"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "nsfc-rgc-joint-2026",
+    "name": "NSFC/RGC 内地与香港联合科研（JRS · CRS · YRS）· 2026/27",
+    "org": "国家自然科学基金委员会 / 香港研究资助局（RGC）",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "内地与香港研究人员联合申请，双方分别向国家自然科学基金委和 RGC 平行提交；内地申请人的资格以基金委要求为准。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "青年研究者"
+    ],
+    "fields": "信息技术 · 生命科学 · 新材料 · 海洋与环境 · 医学 · 管理科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "2026/27 轮已结束；香港方 JRS 于2026年1月2日、CRS 与 YRS 于2月27日截止",
+    "timeNote": "以上为香港方向 RGC 提交的截止时间（香港时间 16:00）；内地方截止以基金委当年通知为准，本轮内地方日期未在本站核实。2027/28 轮通知尚未发布，不沿用上一轮日期。",
+    "summary": "内地与香港合作研究的主渠道：JRS 为常规联合项目，CRS 为较大规模协作项目，YRS 面向青年研究者（2026/27 起试行三年）。",
+    "eligibility": "JRS、CRS、YRS 每位申请人只能以负责人身份申请其中一项；正在承担同类项目且未结题者不能再任负责人。YRS 香港方负责人限副教授及以下且任职年限受限，访问学者不可任负责人。",
+    "support": "资助期四年。内地方每项上限：JRS 100 万元、CRS 300 万元、YRS 80 万元人民币；香港方上限分别为 125 万、360 万、80 万港元。本轮 JRS 约 50 项、CRS 与 YRS 各约 10 项，项目于2027年1月1日开始。",
+    "prep": "建议提前 3–4 个月",
+    "next": "保留供下一轮规划：尽早落实香港合作者和合作基础，留意基金委与 RGC 新一轮通知及本单位内部截止。",
+    "sources": [
+      {
+        "label": "RGC · NSFC/RGC JRS 2026/27 通知",
+        "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/nsfc/call_letter.html"
+      },
+      {
+        "label": "RGC · NSFC/RGC CRS 2026/27 通知",
+        "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/nsfc_crs/call_letter.html"
+      },
+      {
+        "label": "RGC · NSFC/RGC YRS 2026/27 通知",
+        "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/nsfc_yrs/call_letter.html"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "nsfc-fdct-joint-2026",
+    "name": "NSFC-FDCT 内地与澳门合作研究 · 2026",
+    "org": "国家自然科学基金委员会 / 澳门科学技术发展基金（FDCT）",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "内地与澳门研究人员合作，双方分别向国家自然科学基金委和澳门科学技术发展基金提交申请；受聘于澳门机构者不得通过内地依托单位申请。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "自然科学全领域 · 优先信息 · 中医药 · 海洋 · 环境 · 生物 · 新材料 · 空间",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-02-27",
+    "deadline": "2026-02-27",
+    "deadlineTime": "16:00",
+    "dateLabel": "2026 年度已于2月27日 16:00 截止",
+    "timeNote": "北京时间；在线接收期为2026年1月19日至2月27日。2027 年度通知尚未发布，不沿用上一年度日期。",
+    "sourceNote": "基金委原始页面未在本次检索中取得，依据高校科研部门转载的官方指南全文。",
+    "summary": "国家自然科学基金委与澳门科学技术发展基金共同资助的组织间合作研究项目，2026 年计划资助约 20 项。",
+    "eligibility": "内地申请人须具有高级职称，并作为负责人正在承担或承担过 3 年期及以上国家自然科学基金项目；正在承担国际（地区）合作研究项目的负责人不得申请。须与澳门合作者在五年内有合作基础，同年只能申请 1 项国际（地区）合作研究项目，不计入限 2 项范围。",
+    "support": "基金委资助直接费用不超过 200 万元人民币/项，澳门方由 FDCT 同强度资助；资助期 3 年。",
+    "prep": "建议提前 2–3 个月",
+    "next": "保留供下一轮规划：与澳门合作者提前签订合作协议，并约定双方同时提交申请。",
+    "sources": [
+      {
+        "label": "2026 年度 NSFC-FDCT 合作研究项目指南（北京科技大学转载）",
+        "url": "https://research.ustb.edu.cn/docs/2025-12/ba26bfc370924dc18fb7d1e5f7e35d3f.pdf"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "hk-macao-postdoc-scholars-2027",
+    "name": "香江学者计划 · 澳门青年学者计划 · 2027 年度",
+    "org": "人力资源社会保障部 / 全国博士后管理委员会",
+    "category": "博士后",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "内地博士后设站单位推荐，赴香港或澳门高校开展博士后研究；含湾区项目。",
+    "audience": [
+      "博士后",
+      "应届博士"
+    ],
+    "fields": "多学科 · 按港澳高校公布的岗位",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "2027 年度申报通知尚未发布；2026 年度通知于1月28日发布",
+    "timeNote": "申报时间以全国博士后管委会办公室当年通知和《申报指南》为准，不沿用上一年度日期。各设站单位通常另设内部截止。",
+    "sourceNote": "依据北京大学博士后网站转载的 2026 年全国博士后管委会办公室通知；申报指南附件未能读取正文。",
+    "summary": "国家层面赴港澳开展博士后研究的主要渠道，2026 年继续实施香江学者计划、澳门青年学者计划及两者的湾区项目，全部网上申报。",
+    "eligibility": "须通过博士后设站单位或博士后工作管理部门推荐，申请条件、岗位与遴选程序见当年《申报指南》和岗位信息表。",
+    "support": "资助标准以当年《申报指南》为准。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先在 2026 年度岗位信息中物色港澳合作导师，2027 年度通知发布后核对条件与本单位内部截止。",
+    "sources": [
+      {
+        "label": "2026 年博士后国（境）外交流项目申报通知（北京大学转载）",
+        "url": "https://postdocs.pku.edu.cn/docs/2026-02/7005f2ca429844c6bcac4a38b902f41a.pdf"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "tw-sinica-postdoc-2027-r2",
+    "name": "台湾 · 中研院博士后研究学者 · 2027 第二轮",
+    "org": "中央研究院（Academia Sinica）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在台北中研院各研究所开展博士后研究；大陆地区人士赴台受两岸相关规定限制，须先向拟合作研究所确认能否聘任。",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "数理 · 生命科学 · 人文社会科学",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "2027 第二轮尚未公告；官方常规窗口为每年1月15日至3月1日",
+    "timeNote": "台北时间与北京时间相同。官方说明写明每年两轮、实际时间以最新公告为准；2027 第一轮已于2026年9月1日 17:00 截止。各研究所内部截止通常更早。",
+    "summary": "中研院面向近五年内获博士学位者的博士后项目，每年两轮，原则上聘期两年，可再申请，累计最长四年。",
+    "eligibility": "须在近五年内获得境内外公私立大学博士学位，并获中研院研究人员担任合作导师。推荐信与导师材料须在截止前完成提交。",
+    "support": "按中研院博士后研究学者规定支薪，第二年薪酬参考第一年进展报告确定。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先确认身份能否受聘，再联系研究所合作导师，留意 2027 第二轮公告和研究所内部截止。",
+    "sources": [
+      {
+        "label": "中研院 · 博士后研究学者计划说明",
+        "url": "https://daais.sinica.edu.tw/pages/438?locale=en"
+      },
+      {
+        "label": "中研院 · 学术事务最新消息",
+        "url": "https://asms.sinica.edu.tw/en/News/Nlist"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "sg-astar-arap-2027",
+    "name": "新加坡 · A*STAR 研究访学计划（ARAP）",
+    "org": "新加坡科技研究局（A*STAR）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "新加坡以外大学的在读博士生赴 A*STAR 研究所访学 1–2 年，由 A*STAR 研究员提名。",
+    "audience": [
+      "博士生"
+    ],
+    "fields": "生物医学 · 物理科学 · 工程 · 信息通信等",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": "2026-12-01",
+    "deadline": "2026-12-01",
+    "dateLabel": "本轮提名截止：2026年12月1日",
+    "timeNote": "每年两轮，提名截止为6月1日和12月1日，全年可提交；访学开始日须在截止后至少 6 个月。官方未注明截止时刻。",
+    "summary": "A*STAR 研究员与境外大学导师联合指导博士生在新加坡开展合作研究，资助生活和住房津贴。",
+    "eligibility": "新加坡以外大学的在读博士生（已获博士录取者亦可），学士学位须达二等一级荣誉或同等水平，有良好研究基础；须由 A*STAR 研究员通过提名表提名。",
+    "support": "每月生活津贴 3,600 新元、住房津贴 300 新元，另有一次性机票、医疗保险、会议与 IT 津贴；不承担原校学费。",
+    "prep": "建议提前 1–2 个月",
+    "next": "先与 A*STAR 研究所的潜在合作导师商定联合课题，由对方在截止前提交提名。",
+    "sources": [
+      {
+        "label": "A*STAR · ARAP 计划说明",
+        "url": "https://www.a-star.edu.sg/scholarships/home/international-awards/astar-research-attachment-programme-arap"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "sg-nrf-fellowship-2028",
+    "name": "新加坡 · NRF Fellowship · 2028 届",
+    "org": "新加坡国家研究基金会（NRF）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在新加坡大学或科研机构以 tenure-track 职位独立开展研究，不限国籍。",
+    "audience": [
+      "青年研究者",
+      "博士后"
+    ],
+    "fields": "全部科学技术领域",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "2028 届征集尚未公布",
+    "timeNote": "NRF 每年征集一次，具体时间以 IGMS 系统发布的指南为准，不沿用上一届日期。",
+    "summary": "面向早期职业研究者的五年独立研究资助，获选者在新加坡高校或 A*STAR 担任 tenure-track 职位。",
+    "eligibility": "面向各国优秀青年科学家；经新加坡拟接收机构初筛、NRF 入围评审，入围者赴新加坡面试。详细条件见 IGMS 指南。",
+    "support": "五年研究经费，可用于人员、设备和耗材。",
+    "prep": "建议提前 3–4 个月",
+    "next": "先与 NUS、NTU、A*STAR 等拟接收机构联系，了解其内部初筛时间。",
+    "sources": [
+      {
+        "label": "NRF · NRF Fellowship",
+        "url": "https://www.nrf.gov.sg/grants/nrff/"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "newton-international-2027",
+    "name": "Royal Society Newton 国际博士后 · 2027",
+    "org": "英国皇家学会（The Royal Society）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "赴英国接收机构开展两年博士后研究，不限国籍；人文与社会科学方向改向英国国家学术院申请。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "博士生"
+    ],
+    "fields": "自然科学 · 工程 · 医学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-01-13",
+    "date": "2027-03-10",
+    "deadline": "2027-03-10",
+    "dateLabel": "2027年1月13日开放，3月10日截止",
+    "timeNote": "英国时间；官方页面未注明截止时刻。结果预计2027年8月23日前公布。",
+    "summary": "面向非英国籍早期研究者的英国博士后奖学金，资助两年，竞争激烈（2025/26 成功率约 3%）。",
+    "eligibility": "截止前须已获博士学位或通过答辩，博士后全职经历不超过五年（扣除职业中断）。须有英国合作导师，每位导师每轮只能支持一份申请。不限国籍，获资助者可申请英国全球人才签证快速通道。",
+    "support": "两年最高 280,000 英镑，涵盖工资及相关费用、研究经费和搬迁费用等。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先联系英国合作导师确认对方本轮未支持其他申请，再共同准备研究计划。",
+    "sources": [
+      {
+        "label": "Royal Society · Newton International Fellowships",
+        "url": "https://royalsociety.org/grants/newton-international/"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "ba-international-fellowships-2027",
+    "name": "英国国家学术院国际奖学金 · 2027",
+    "org": "英国国家学术院（The British Academy）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在英国公立研究机构开展人文与社会科学研究；申请时须身在英国以外。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "人文 · 社会科学",
+    "disciplines": [
+      "social"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "2027 轮开放与截止日期尚未在官方页面核实",
+    "timeNote": "获资助结果在申请当年6月1日终审会议后确定。2027 轮起实行机构限额，每所英国机构最多提交 8 份，校内截止通常远早于官方截止。",
+    "sourceNote": "依据英国国家学术院发布的 2027 轮常见问题文件；项目主页本次未能访问。",
+    "summary": "英国国家学术院面向海外早期人文社科研究者的博士后奖学金，相当于 Newton 国际博士后的人文社科版本。",
+    "eligibility": "博士毕业不超过五年（全职博士后经历，扣除职业中断），须已通过答辩。申请截止前一年内须在英国以外工作生活；当前在英国（含访问学者）者不符合条件。须有一位英国合作导师，每位导师每轮只能支持一份申请。",
+    "support": "资助标准以 2027 轮官方指南为准。",
+    "prep": "建议提前 3–4 个月",
+    "next": "尽早联系英国合作导师，并请对方确认所在机构的内部遴选截止。",
+    "sources": [
+      {
+        "label": "British Academy · International Fellowships 2027 FAQ",
+        "url": "https://www.thebritishacademy.ac.uk/documents/6380/International_Fellowships_2027_-_FAQs_z6KNz4h.pdf"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "royal-society-international-exchanges-2026",
+    "name": "Royal Society 国际交流项目 · 2026（含 NSFC 合作轮）",
+    "org": "英国皇家学会（The Royal Society）/ 国家自然科学基金委员会",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "由英国方研究者申请，资助与海外合作者之间的互访；NSFC 合作轮中内地合作者向基金委同步申请。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "自然科学 · 工程 · 医学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-09-24",
+    "deadline": "2026-09-24",
+    "dateLabel": "2026 年各轮已结束；NSFC 合作轮于6月4日截止",
+    "timeNote": "英国时间。2026 年全球第二轮与 NSFC、CNR 合作轮于6月4日截止，全球第三轮于9月24日截止；2027 年轮次尚未公布。",
+    "summary": "英国皇家学会资助英国研究者与海外团队开展一次性访问或双向互访，每年多轮，设有与基金委等机构的合作轮。",
+    "eligibility": "英国方申请人须有博士学位或同等研究经历，并在合资格的英国机构持有覆盖项目期的合同；项目须为新建合作。内地合作者在 NSFC 合作轮中的资格以基金委通知为准。",
+    "support": "差旅与生活费用，具体额度见各轮项目说明。",
+    "prep": "建议提前 2 个月",
+    "next": "保留供下一轮规划：与英国合作者商定互访计划，留意 2027 年 NSFC 合作轮开放时间。",
+    "sources": [
+      {
+        "label": "Royal Society · International Exchanges",
+        "url": "https://royalsociety.org/grants/international-exchanges/"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "erc-consolidator-2027",
+    "name": "ERC 巩固者基金（Consolidator Grant）· 2027",
+    "org": "欧洲研究理事会（ERC）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "项目须在欧盟成员国或 Horizon Europe 联系国的接收机构执行，申请人不限国籍；从欧洲以外迁入可申请额外经费。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "全学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "opensOn": "2026-09-24",
+    "date": "2027-01-12",
+    "deadline": "2027-01-12",
+    "dateLabel": "2027 轮截止：2027年1月12日",
+    "timeNote": "布鲁塞尔时间；官方页面未列出截止时刻，以 EU Funding & Tenders 门户为准。截止日期不可延期。",
+    "summary": "面向博士毕业 5–15 年研究者的欧洲旗舰资助，支持巩固独立团队，自下而上不设指定方向。",
+    "eligibility": "不限国籍，博士学位授予后 5–15 年（可因育儿、疾病等延长），须有欧洲接收机构支持；团队成员可来自任何国家。",
+    "support": "5 年最高 200 万欧元；迁入欧洲、购置大型设备等可另申请最多 100 万欧元。覆盖全部合格直接成本并加 25% 间接费用。",
+    "prep": "建议提前 4–6 个月",
+    "next": "确定欧洲接收机构并取得支持函，按 ERC 工作计划核对资格年限。",
+    "sources": [
+      {
+        "label": "ERC · Consolidator Grant",
+        "url": "https://erc.europa.eu/apply-grant/consolidator-grant"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "erc-advanced-2027",
+    "name": "ERC 高级基金（Advanced Grant）· 2027",
+    "org": "欧洲研究理事会（ERC）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "项目须在欧盟成员国或 Horizon Europe 联系国的接收机构执行，申请人不限国籍。",
+    "audience": [
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "全学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-05-27",
+    "date": "2027-05-27",
+    "deadline": "2027-08-26",
+    "dateLabel": "2027年5月27日开放，8月26日截止",
+    "timeNote": "布鲁塞尔时间；截止时刻以 EU Funding & Tenders 门户发布的征集为准。",
+    "summary": "面向已有重大成果的资深研究者的欧洲旗舰资助，支持高风险、高回报的前沿研究。",
+    "eligibility": "不限国籍，须为近十年有重要成果的独立研究领导者，并有欧洲接收机构支持；具体资格见 ERC 2027 工作计划。",
+    "support": "5 年最高 250 万欧元；迁入欧洲等情形可另申请最多 100 万欧元。",
+    "prep": "建议提前 4–6 个月",
+    "next": "先与欧洲接收机构沟通落户条件，提前阅读 2027 工作计划。",
+    "sources": [
+      {
+        "label": "ERC · Advanced Grant",
+        "url": "https://erc.europa.eu/apply-grant/advanced-grant"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "embl-eipod-linc-2027",
+    "name": "EMBL EIPOD-LinC 跨学科博士后 · 2026 轮",
+    "org": "欧洲分子生物学实验室（EMBL）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在 EMBL 各站点（含德国海德堡、汉堡）开展三年博士后研究，并须在 EMBL 成员国合作实验室借调 3–12 个月；不限国籍。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "生命科学 · 跨学科",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-11-25",
+    "date": "2026-11-25",
+    "deadline": "2027-02-01",
+    "deadlineTime": "23:59 CET",
+    "dateLabel": "2026年11月25日开放，2027年2月1日截止",
+    "timeNote": "中欧时间；两封推荐信须在同一截止时间前送达。面试安排在2027年4月，入选者最晚于2027年9月1日到岗。",
+    "summary": "EMBL 与玛丽·居里行动共同资助的跨学科博士后项目，申请人自拟课题，由 EMBL 导师与成员国合作方联合指导。",
+    "eligibility": "截止前须已获博士学位或通过答辩，博士后研究经历不超过八年。须有一位参与本轮的 EMBL 导师和一位来自 EMBL 成员国、联系成员国或候选成员国的合作方；过去三年与 EMBL 或合作方的关联不超过 12 个月。",
+    "support": "三年全额资助合同，按所在 EMBL 站点的博士后标准支薪，另有家庭与子女津贴及访问合作实验室的差旅支持。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先在 EMBL 研究组中找到导师并商定跨学科课题，再确定成员国合作方。",
+    "sources": [
+      {
+        "label": "EMBL · EIPOD-LinC 项目说明",
+        "url": "https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/"
+      },
+      {
+        "label": "EMBL · EIPOD-LinC 申请与资格",
+        "url": "https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/eipod-linc-application/"
+      }
+    ],
+    "verified": "2026-11-15"
   }
 ]

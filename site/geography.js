@@ -71,7 +71,7 @@ function inView(d,view,prefs,explore){
 function scopeLabel(d){
   const area=d.jurisdiction||{};
   if(d.scope==='national')return '全国性';
-  if(d.scope==='overseas')return '国外';
+  if(d.scope==='overseas')return '境外';
   if(d.scope==='joint')return '跨地区联合';
   if(d.scope==='city')return (area.city||'地方')+' · 市级';
   if(['北京','上海'].includes(area.province))return area.province+' · 直辖市';

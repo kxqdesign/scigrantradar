@@ -2,8 +2,8 @@
 const KEY='china-research-radar-v1';
 const STATUS={open:'开放中',upcoming:'待开放',verify:'待核实',closed:'已截止'};
 const DISCIPLINE={natural:'自然科学',social:'社会科学（含人文）'};
-const REGION={'国内':'中国','国际':'国外'};
-const LEVEL={national:'全国性',province:'省级 / 直辖市',city:'市级',joint:'跨地区联合',overseas:'国外'};
+const REGION={'国内':'中国','国际':'境外'};
+const LEVEL={national:'全国性',province:'省级 / 直辖市',city:'市级',joint:'跨地区联合',overseas:'境外'};
 // Each type's colour key and its icon in the sprite at the top of index.html.
 const TYPE={'科研基金':['fund','fund'],'青年人才':['talent','talent'],'博士后':['postdoc','postdoc'],'交流合作':['exchange','out'],'国际资助':['international','international'],'专家机会':['expert','expert'],'指南征集':['call','call']};
 const glyph=name=>'<svg class="glyph" aria-hidden="true"><use href="#i-'+name+'"/></svg>';
@@ -39,7 +39,7 @@ function buildFilterMenus(){
   $('#filter-menus').innerHTML=Object.entries(FILTERS).map(([key,spec])=>filterMenuMarkup(key,spec)).join('');
   Object.keys(FILTERS).forEach(key=>setFilter(key,previous[key]));
 }
-function sourceLabel(p){const scope=p.level||[];return !scope.length?'国内与国外':scope.every(v=>v==='overseas')?'国外':scope.includes('overseas')?'国内与国外':'国内'}
+function sourceLabel(p){const scope=p.level||[];return !scope.length?'国内与境外':scope.every(v=>v==='overseas')?'境外':scope.includes('overseas')?'国内与境外':'国内'}
 function disciplineLabel(p){return p.discipline.length===1?DISCIPLINE[p.discipline[0]]:'全部学科'}
 function usingDefaults(f){return !f.q&&Object.keys(FILTERS).every(key=>JSON.stringify([...f[key]].sort())===JSON.stringify([...(preferences||DEFAULT_PREFERENCES)[key]].sort()))}
 function scopeRows(target=view){return data.filter(d=>inView(d,target,preferences,explore)&&(target!=='saved'||saved.includes(d.id)))}
@@ -71,13 +71,13 @@ function syncControls(f,base){
 function titles(){
   if(view==='home'){
     const p=preferences||DEFAULT_PREFERENCES,f=filters();
-    const area=sourceLabel(f)==='国外'?'':p.province?areaLabel(p):'全国性';
+    const area=sourceLabel(f)==='境外'?'':p.province?areaLabel(p):'全国性';
     const labels=[f.discipline.length===1?DISCIPLINE[f.discipline[0]]:'全部学科'];
     return ['与我相关',[area,sourceLabel(f),...labels].filter(Boolean).join(' · ')];
   }
   if(view==='national')return ['全国性机会','全国性项目 · 具体资格见项目详情'];
   if(view==='local')return ['省市机会',areaLabel(preferences)+' · 省级、市级与跨地区联合'];
-  if(view==='overseas')return ['国外机会','国外资助与学术交流'];
+  if(view==='overseas')return ['境外机会','境外（含港澳台）资助与学术交流'];
   if(view==='explore')return ['探索其他地区',explore.province?areaLabel(explore)+' · 临时浏览':Object.keys(AREAS).join('、')];
   return ['我的收藏','已收藏的机会，不受常用地区限制'];
 }
@@ -165,7 +165,7 @@ function updatePreferencePreview(){
   $('#preference-preview-text').textContent=[coverage.join(' + '),...conditions,layoutNames[p.layout]].filter(Boolean).join(' · ');
   $('#preferences-form button[type=submit]').disabled=!p.level.length;
   const count=data.filter(d=>inView(d,'home',p,{})&&matches(d,p)).length;
-  $('#preference-preview-count').textContent=!p.level.length?'请选择全国性、国外或一个省市。':!data.length?'正在载入机会…':count?'当前收录中匹配 '+count+' 项机会。':'当前暂无匹配机会，可减少筛选条件。';
+  $('#preference-preview-count').textContent=!p.level.length?'请选择全国性、境外或一个省市。':!data.length?'正在载入机会…':count?'当前收录中匹配 '+count+' 项机会。':'当前暂无匹配机会，可减少筛选条件。';
   $('#pref-geography-hint').textContent=!p.province?'可选择省市，将当地机会加入关注范围。':p.city?'同时关注 '+p.province+'省级、'+p.city+'市级及覆盖该市的联合项目。':'同时关注 '+p.province+'省级 / 直辖市及覆盖该地区的联合项目。';
 }
 function fillPreferences(value){
