@@ -1,6 +1,101 @@
 {
   "runs": [
     {
+      "id": "hk-mo-tw-sg-2026-11-15",
+      "kind": "research",
+      "date": "2026-11-15",
+      "at": "2026-11-14T21:33:55.683Z",
+      "outcome": "partial",
+      "summary": "专项检索香港、澳门、台湾和新加坡的资助机会，新增 8 条：HKPFS 2027/28（12月1日截止）、A*STAR ARAP（12月1日提名截止）、中研院博士后 2027 第二轮、NRF Fellowship 2028 届、香江学者与澳门青年学者计划 2027，以及已截止供规划的 RGC JRFS 2027/28、NSFC/RGC 联合科研 2026/27、NSFC-FDCT 2026。未修改既有记录。",
+      "added": 8,
+      "updated": 0,
+      "checkedIds": [],
+      "checkedSources": [
+        {
+          "url": "https://cerg1.ugc.edu.hk/hkpfs/index.html",
+          "label": "RGC · HKPFS 计划说明",
+          "result": "checked"
+        },
+        {
+          "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
+          "label": "RGC · HKPFS 申请步骤与各校截止",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/jrfs/index.html",
+          "label": "RGC · JRFS 计划说明",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/jrfs/call_letter.html",
+          "label": "RGC · JRFS 2027/28 提名通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/nsfc/call_letter.html",
+          "label": "RGC · NSFC/RGC JRS 2026/27 通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/nsfc_crs/call_letter.html",
+          "label": "RGC · NSFC/RGC CRS 2026/27 通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/nsfc_yrs/call_letter.html",
+          "label": "RGC · NSFC/RGC YRS 2026/27 通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://research.ustb.edu.cn/docs/2025-12/ba26bfc370924dc18fb7d1e5f7e35d3f.pdf",
+          "label": "2026 年度 NSFC-FDCT 合作研究项目指南（北京科技大学转载）",
+          "result": "checked"
+        },
+        {
+          "url": "https://postdocs.pku.edu.cn/docs/2026-02/7005f2ca429844c6bcac4a38b902f41a.pdf",
+          "label": "2026 年博士后国（境）外交流项目申报通知（北京大学转载）",
+          "result": "checked"
+        },
+        {
+          "url": "https://daais.sinica.edu.tw/pages/438?locale=en",
+          "label": "中研院 · 博士后研究学者计划说明",
+          "result": "checked"
+        },
+        {
+          "url": "https://asms.sinica.edu.tw/en/News/Nlist",
+          "label": "中研院 · 学术事务最新消息",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.a-star.edu.sg/scholarships/home/international-awards/astar-research-attachment-programme-arap",
+          "label": "A*STAR · ARAP 计划说明",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nrf.gov.sg/grants/nrff/",
+          "label": "NRF · NRF Fellowship",
+          "result": "checked"
+        }
+      ],
+      "issues": [
+        {
+          "url": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
+          "label": "A*STAR · SINGA",
+          "message": "官方页面返回 404，未能核实 2027 年8月入学轮截止日期，暂不收录。"
+        },
+        {
+          "url": "https://science.zuel.edu.cn/_upload/article/files/14/97/a7102ae042bca57467a0803ca7ec/b154997f-16bd-4e28-854a-76fd4bc41774.pdf",
+          "label": "NSFC/RGC 2026 年度内地方指南（高校转载）",
+          "message": "连接超时，内地方截止日期未核实，记录中仅写香港方日期。"
+        },
+        {
+          "url": "https://postdocs.pku.edu.cn/docs/2026-02/7005f2ca429844c6bcac4a38b902f41a.pdf",
+          "label": "2026 年博士后国（境）外交流项目申报指南",
+          "message": "申报指南为附件，正文未能读取；资助标准与申报时间未核实。"
+        }
+      ]
+    },
+    {
       "id": "correction-2026-11-10-date-fields",
       "kind": "correction",
       "date": "2026-11-10",
