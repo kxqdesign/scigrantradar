@@ -1,6 +1,66 @@
 {
   "runs": [
     {
+      "id": "uk-de-eu-2026-11-15",
+      "kind": "research",
+      "date": "2026-11-15",
+      "at": "2026-11-14T21:54:26.661Z",
+      "outcome": "partial",
+      "summary": "专项检索英国、德国与欧洲的资助机会，新增 6 条：Royal Society Newton 国际博士后 2027（1月13日开放、3月10日截止）、ERC 巩固者基金 2027（1月12日截止）、ERC 高级基金 2027、EMBL EIPOD-LinC 博士后（2月1日截止）、英国国家学术院国际奖学金 2027，以及已结束、供规划的 Royal Society 国际交流项目 2026。未修改既有记录。",
+      "added": 6,
+      "updated": 0,
+      "checkedIds": [],
+      "checkedSources": [
+        {
+          "url": "https://royalsociety.org/grants/newton-international/",
+          "label": "Royal Society · Newton International Fellowships",
+          "result": "checked"
+        },
+        {
+          "url": "https://royalsociety.org/grants/international-exchanges/",
+          "label": "Royal Society · International Exchanges",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.thebritishacademy.ac.uk/documents/6380/International_Fellowships_2027_-_FAQs_z6KNz4h.pdf",
+          "label": "British Academy · International Fellowships 2027 FAQ",
+          "result": "checked"
+        },
+        {
+          "url": "https://erc.europa.eu/apply-grant/consolidator-grant",
+          "label": "ERC · Consolidator Grant",
+          "result": "checked"
+        },
+        {
+          "url": "https://erc.europa.eu/apply-grant/advanced-grant",
+          "label": "ERC · Advanced Grant",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/",
+          "label": "EMBL · EIPOD-LinC 项目说明",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/eipod-linc-application/",
+          "label": "EMBL · EIPOD-LinC 申请与资格",
+          "result": "checked"
+        }
+      ],
+      "issues": [
+        {
+          "url": "https://www.sinogermanscience.org.cn/",
+          "label": "中德科学中心",
+          "message": "连接超时，未能检索中德合作研究与人员交流项目，暂不收录。"
+        },
+        {
+          "url": "https://www.thebritishacademy.ac.uk/funding/schemes/international-fellowships/",
+          "label": "British Academy · International Fellowships",
+          "message": "项目主页拒绝访问（403），2027 轮开放与截止日期未核实，记录中暂无日期。"
+        }
+      ]
+    },
+    {
       "id": "hk-mo-tw-sg-2026-11-15",
       "kind": "research",
       "date": "2026-11-15",

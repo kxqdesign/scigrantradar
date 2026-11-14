@@ -5907,5 +5907,235 @@
       }
     ],
     "verified": "2026-11-15"
+  },
+  {
+    "id": "newton-international-2027",
+    "name": "Royal Society Newton 国际博士后 · 2027",
+    "org": "英国皇家学会（The Royal Society）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "赴英国接收机构开展两年博士后研究，不限国籍；人文与社会科学方向改向英国国家学术院申请。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "博士生"
+    ],
+    "fields": "自然科学 · 工程 · 医学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-01-13",
+    "date": "2027-03-10",
+    "deadline": "2027-03-10",
+    "dateLabel": "2027年1月13日开放，3月10日截止",
+    "timeNote": "英国时间；官方页面未注明截止时刻。结果预计2027年8月23日前公布。",
+    "summary": "面向非英国籍早期研究者的英国博士后奖学金，资助两年，竞争激烈（2025/26 成功率约 3%）。",
+    "eligibility": "截止前须已获博士学位或通过答辩，博士后全职经历不超过五年（扣除职业中断）。须有英国合作导师，每位导师每轮只能支持一份申请。不限国籍，获资助者可申请英国全球人才签证快速通道。",
+    "support": "两年最高 280,000 英镑，涵盖工资及相关费用、研究经费和搬迁费用等。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先联系英国合作导师确认对方本轮未支持其他申请，再共同准备研究计划。",
+    "sources": [
+      {
+        "label": "Royal Society · Newton International Fellowships",
+        "url": "https://royalsociety.org/grants/newton-international/"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "ba-international-fellowships-2027",
+    "name": "英国国家学术院国际奖学金 · 2027",
+    "org": "英国国家学术院（The British Academy）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在英国公立研究机构开展人文与社会科学研究；申请时须身在英国以外。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "人文 · 社会科学",
+    "disciplines": [
+      "social"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "2027 轮开放与截止日期尚未在官方页面核实",
+    "timeNote": "获资助结果在申请当年6月1日终审会议后确定。2027 轮起实行机构限额，每所英国机构最多提交 8 份，校内截止通常远早于官方截止。",
+    "sourceNote": "依据英国国家学术院发布的 2027 轮常见问题文件；项目主页本次未能访问。",
+    "summary": "英国国家学术院面向海外早期人文社科研究者的博士后奖学金，相当于 Newton 国际博士后的人文社科版本。",
+    "eligibility": "博士毕业不超过五年（全职博士后经历，扣除职业中断），须已通过答辩。申请截止前一年内须在英国以外工作生活；当前在英国（含访问学者）者不符合条件。须有一位英国合作导师，每位导师每轮只能支持一份申请。",
+    "support": "资助标准以 2027 轮官方指南为准。",
+    "prep": "建议提前 3–4 个月",
+    "next": "尽早联系英国合作导师，并请对方确认所在机构的内部遴选截止。",
+    "sources": [
+      {
+        "label": "British Academy · International Fellowships 2027 FAQ",
+        "url": "https://www.thebritishacademy.ac.uk/documents/6380/International_Fellowships_2027_-_FAQs_z6KNz4h.pdf"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "royal-society-international-exchanges-2026",
+    "name": "Royal Society 国际交流项目 · 2026（含 NSFC 合作轮）",
+    "org": "英国皇家学会（The Royal Society）/ 国家自然科学基金委员会",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "由英国方研究者申请，资助与海外合作者之间的互访；NSFC 合作轮中内地合作者向基金委同步申请。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "自然科学 · 工程 · 医学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-09-24",
+    "deadline": "2026-09-24",
+    "dateLabel": "2026 年各轮已结束；NSFC 合作轮于6月4日截止",
+    "timeNote": "英国时间。2026 年全球第二轮与 NSFC、CNR 合作轮于6月4日截止，全球第三轮于9月24日截止；2027 年轮次尚未公布。",
+    "summary": "英国皇家学会资助英国研究者与海外团队开展一次性访问或双向互访，每年多轮，设有与基金委等机构的合作轮。",
+    "eligibility": "英国方申请人须有博士学位或同等研究经历，并在合资格的英国机构持有覆盖项目期的合同；项目须为新建合作。内地合作者在 NSFC 合作轮中的资格以基金委通知为准。",
+    "support": "差旅与生活费用，具体额度见各轮项目说明。",
+    "prep": "建议提前 2 个月",
+    "next": "保留供下一轮规划：与英国合作者商定互访计划，留意 2027 年 NSFC 合作轮开放时间。",
+    "sources": [
+      {
+        "label": "Royal Society · International Exchanges",
+        "url": "https://royalsociety.org/grants/international-exchanges/"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "erc-consolidator-2027",
+    "name": "ERC 巩固者基金（Consolidator Grant）· 2027",
+    "org": "欧洲研究理事会（ERC）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "项目须在欧盟成员国或 Horizon Europe 联系国的接收机构执行，申请人不限国籍；从欧洲以外迁入可申请额外经费。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "全学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "opensOn": "2026-09-24",
+    "date": "2027-01-12",
+    "deadline": "2027-01-12",
+    "dateLabel": "2027 轮截止：2027年1月12日",
+    "timeNote": "布鲁塞尔时间；官方页面未列出截止时刻，以 EU Funding & Tenders 门户为准。截止日期不可延期。",
+    "summary": "面向博士毕业 5–15 年研究者的欧洲旗舰资助，支持巩固独立团队，自下而上不设指定方向。",
+    "eligibility": "不限国籍，博士学位授予后 5–15 年（可因育儿、疾病等延长），须有欧洲接收机构支持；团队成员可来自任何国家。",
+    "support": "5 年最高 200 万欧元；迁入欧洲、购置大型设备等可另申请最多 100 万欧元。覆盖全部合格直接成本并加 25% 间接费用。",
+    "prep": "建议提前 4–6 个月",
+    "next": "确定欧洲接收机构并取得支持函，按 ERC 工作计划核对资格年限。",
+    "sources": [
+      {
+        "label": "ERC · Consolidator Grant",
+        "url": "https://erc.europa.eu/apply-grant/consolidator-grant"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "erc-advanced-2027",
+    "name": "ERC 高级基金（Advanced Grant）· 2027",
+    "org": "欧洲研究理事会（ERC）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "项目须在欧盟成员国或 Horizon Europe 联系国的接收机构执行，申请人不限国籍。",
+    "audience": [
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "全学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-05-27",
+    "date": "2027-05-27",
+    "deadline": "2027-08-26",
+    "dateLabel": "2027年5月27日开放，8月26日截止",
+    "timeNote": "布鲁塞尔时间；截止时刻以 EU Funding & Tenders 门户发布的征集为准。",
+    "summary": "面向已有重大成果的资深研究者的欧洲旗舰资助，支持高风险、高回报的前沿研究。",
+    "eligibility": "不限国籍，须为近十年有重要成果的独立研究领导者，并有欧洲接收机构支持；具体资格见 ERC 2027 工作计划。",
+    "support": "5 年最高 250 万欧元；迁入欧洲等情形可另申请最多 100 万欧元。",
+    "prep": "建议提前 4–6 个月",
+    "next": "先与欧洲接收机构沟通落户条件，提前阅读 2027 工作计划。",
+    "sources": [
+      {
+        "label": "ERC · Advanced Grant",
+        "url": "https://erc.europa.eu/apply-grant/advanced-grant"
+      }
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "id": "embl-eipod-linc-2027",
+    "name": "EMBL EIPOD-LinC 跨学科博士后 · 2026 轮",
+    "org": "欧洲分子生物学实验室（EMBL）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在 EMBL 各站点（含德国海德堡、汉堡）开展三年博士后研究，并须在 EMBL 成员国合作实验室借调 3–12 个月；不限国籍。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "生命科学 · 跨学科",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-11-25",
+    "date": "2026-11-25",
+    "deadline": "2027-02-01",
+    "deadlineTime": "23:59 CET",
+    "dateLabel": "2026年11月25日开放，2027年2月1日截止",
+    "timeNote": "中欧时间；两封推荐信须在同一截止时间前送达。面试安排在2027年4月，入选者最晚于2027年9月1日到岗。",
+    "summary": "EMBL 与玛丽·居里行动共同资助的跨学科博士后项目，申请人自拟课题，由 EMBL 导师与成员国合作方联合指导。",
+    "eligibility": "截止前须已获博士学位或通过答辩，博士后研究经历不超过八年。须有一位参与本轮的 EMBL 导师和一位来自 EMBL 成员国、联系成员国或候选成员国的合作方；过去三年与 EMBL 或合作方的关联不超过 12 个月。",
+    "support": "三年全额资助合同，按所在 EMBL 站点的博士后标准支薪，另有家庭与子女津贴及访问合作实验室的差旅支持。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先在 EMBL 研究组中找到导师并商定跨学科课题，再确定成员国合作方。",
+    "sources": [
+      {
+        "label": "EMBL · EIPOD-LinC 项目说明",
+        "url": "https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/"
+      },
+      {
+        "label": "EMBL · EIPOD-LinC 申请与资格",
+        "url": "https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/eipod-linc-application/"
+      }
+    ],
+    "verified": "2026-11-15"
   }
 ]
