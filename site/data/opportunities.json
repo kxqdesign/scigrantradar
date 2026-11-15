@@ -284,6 +284,7 @@
     "status": "upcoming",
     "date": "2026-11-26",
     "deadline": "2026-12-07",
+    "deadlineTime": "17:00",
     "dateLabel": "11月26日开放 · 12月7日 17:00 截止",
     "timeNote": "2026 年，北京时间。已公告、系统待开放。项目负责人及同年度其他申报存在互斥规则，须逐项核查。",
     "summary": "重大问题导向的团队研究项目，适合具备组织协作与持续研究积累的首席专家。",
@@ -297,7 +298,7 @@
         "url": "https://www.nopss.gov.cn/n1/2026/1109/c431028-40830766.html"
       }
     ],
-    "verified": "2026-11-09",
+    "verified": "2026-11-15",
     "sourceNote": "官方搜索索引核验；原文直读未成功，申报前请再次打开公告确认。",
     "disciplines": [
       "social"
@@ -322,6 +323,7 @@
     "status": "upcoming",
     "date": "2026-11-16",
     "deadline": "2026-11-22",
+    "deadlineTime": "17:00",
     "dateLabel": "11月16日开放 · 11月22日 17:00 截止",
     "timeNote": "2026 年，北京时间。全国截止是 11月22日；高校内部截止可能更早。已公告、系统待开放。",
     "summary": "按专项课题指南组织研究，不受理自选课题，适合有稳定研究团队的文化遗产相关学者。",
@@ -335,7 +337,7 @@
         "url": "https://www.nopss.gov.cn/n1/2026/1020/c431029-40818334.html"
       }
     ],
-    "verified": "2026-11-09",
+    "verified": "2026-11-15",
     "disciplines": [
       "social"
     ],
@@ -799,6 +801,7 @@
     "status": "open",
     "date": "2026-11-18",
     "deadline": "2026-11-18",
+    "deadlineTime": "16:00",
     "dateLabel": "11月18日 16:00 截止",
     "timeNote": "2026 年北京时间；11月4日16:00起受理，11月18日16:00结束。",
     "summary": "支持长三角单位联合开展产业需求导向的应用基础研究，江苏单位可参与。",
@@ -812,7 +815,7 @@
         "url": "https://www.changzhou.gov.cn/gi_news/216179375585904"
       }
     ],
-    "verified": "2026-11-09",
+    "verified": "2026-11-15",
     "scope": "joint",
     "jurisdiction": {
       "province": "长三角"
@@ -1909,7 +1912,7 @@
     "scope": "national",
     "jurisdiction": {},
     "eligibleAreas": [],
-    "verified": "2026-11-10",
+    "verified": "2026-11-15",
     "id": "most-intergovernmental-2027",
     "name": "政府间国际科技创新合作 · 2027 首批联合研发",
     "org": "科技部国际合作司",
@@ -1925,6 +1928,7 @@
     "status": "open",
     "opensOn": "2026-10-30",
     "deadline": "2026-12-18",
+    "deadlineTime": "16:00",
     "date": "2026-12-18",
     "dateLabel": "2026年12月18日 16:00 截止",
     "timeNote": "北京时间；10月30日 08:00 开放。12月24日 16:00 为推荐单位确认截止，不能当作申请人延期。高校或地方可能另设更早的内部截止，以本单位通知为准。",
@@ -3943,7 +3947,7 @@
         "city": "武汉"
       }
     ],
-    "verified": "2026-11-10",
+    "verified": "2026-11-15",
     "id": "wuhan-metro-collab-2026",
     "name": "武汉都市圈协同创新科技项目 · 2026",
     "org": "武汉市科技创新局",
@@ -3959,6 +3963,7 @@
     "status": "open",
     "opensOn": "2026-10-28",
     "deadline": "2026-11-16",
+    "deadlineTime": "17:00",
     "date": "2026-11-16",
     "dateLabel": "2026年11月16日 17:00 截止",
     "timeNote": "北京时间；10月28日9:00开放。项目起始时间统一为2026年11月。",

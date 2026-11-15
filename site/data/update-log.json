@@ -1,6 +1,517 @@
 {
   "runs": [
     {
+      "id": "weekly-2026-11-15",
+      "kind": "research",
+      "date": "2026-11-15",
+      "at": "2026-11-15T19:16:44.144Z",
+      "outcome": "partial",
+      "summary": "本次运行只完成部分覆盖：读取了国家基金委、全国社科办、科技部国科管系统、江苏省科技厅、南航科研院等来源，并复核了9条仍在受理或即将开放的记录，另核对了脑科学与类脑、能源与AI两条待核实记录（仍无日期，未改）；已确认的记录日期均与官方原文一致，仅为5条记录补记了官方通告注明的截止时刻（国家社科基金重大项目与文化遗产专项17:00、长三角联合攻关基础研究16:00、政府间专项联合研发16:00、武汉都市圈协同创新17:00）。未新增记录：国家基金委10月发布的管理科学部、医学科学部第三批、脑机接口、深圳AI联合基金、低空经济等专项通告仅指向需登录的指南，无可核实日期。多个省级站点无法访问、其余来源本次未覆盖，详见 issues；其余记录保持原状。",
+      "added": 0,
+      "updated": 5,
+      "checkedIds": [
+        "nssfc-major-2026",
+        "nssfc-heritage-2026",
+        "yangtze-basic-2026",
+        "most-intergovernmental-2027",
+        "wuhan-metro-collab-2026",
+        "moe-major-2026",
+        "humboldt",
+        "zhejiang-education-2027",
+        "energy-ai",
+        "brain-2027"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/zntg.html",
+          "label": "国家自然科学基金委员会 · 项目指南",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2822/tzsm1.html",
+          "label": "国家自然科学基金委员会 · 业务资讯",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143869.html",
+          "label": "NSFC · 管理科学部专项（未来产业政策体系）指南通告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143730.html",
+          "label": "NSFC · 医学科学部专项第三批（AI急性脑卒中预警）通告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143611.html",
+          "label": "NSFC · 脑机接口大模型解码专项通告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143118.html",
+          "label": "NSFC · 深圳人工智能联合基金重大专项通告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143120.html",
+          "label": "NSFC · 低空经济前沿基础研究专项通告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143174.html",
+          "label": "NSFC · 能源科学与AI青年专项通告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/144015.html",
+          "label": "NSFC · 脑科学与类脑研究2027第一批通告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nopss.gov.cn/",
+          "label": "全国哲学社会科学工作办公室",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nopss.gov.cn/n1/2026/1109/c431028-40830766.html",
+          "label": "国家社科基金重大项目招标公告 2026",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.nopss.gov.cn/n1/2026/1020/c431029-40818334.html",
+          "label": "国家社科基金文化遗产保护传承研究专项 2026",
+          "result": "checked"
+        },
+        {
+          "url": "https://service.most.gov.cn/",
+          "label": "国家科技管理信息系统",
+          "result": "checked"
+        },
+        {
+          "url": "https://service.most.gov.cn/kjjh_tztg_all/20261030/5920.html",
+          "label": "国科管系统 · 政府间专项2027第一批联合研发",
+          "result": "checked"
+        },
+        {
+          "url": "https://service.most.gov.cn/kjjh_tztg_all/20261030/5927.html",
+          "label": "国科管系统 · 颠覆性技术创新重点专项2026申报指引",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.sinoss.net/c/2026-10-21/667597.shtml",
+          "label": "中国高校人文社会科学信息网 · 教育部重大课题攻关项目2026",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+          "label": "洪堡研究奖学金",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.changzhou.gov.cn/gi_news/216179375585904",
+          "label": "长三角联合攻关基础研究项目2026（常州市转发）",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.wuhan.gov.cn/wmfw/tzgg/tzgg_18371/202610/t20261028_2869524.html",
+          "label": "武汉都市圈协同创新科技项目2026",
+          "result": "checked"
+        },
+        {
+          "url": "https://wkc.zafu.edu.cn/info/1020/3945.htm",
+          "label": "浙江农林大学人文社科处 · 浙江省教育科学规划2027通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://kxjst.jiangsu.gov.cn/col/col82540/index.html",
+          "label": "江苏省科技厅 · 通知公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://kyy.nuaa.edu.cn/5817/list.htm",
+          "label": "南京航空航天大学科研院 · 通知公告",
+          "result": "checked"
+        },
+        {
+          "url": "http://kjt.hunan.gov.cn/kjt/xxgk/tzgg/tzgg_1/index.html",
+          "label": "湖南省科学技术厅 · 通知公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.wuhan.gov.cn/wmfw/tzgg/tzgg_18371/",
+          "label": "武汉市科技创新局 · 通知公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://xakj.xa.gov.cn/kjdt/tzgg/1.html",
+          "label": "西安市科学技术局 · 通知公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.hhtz.gov.cn/col/col1485818/index.html",
+          "label": "杭州高新区（滨江）科技局 · 科技动态",
+          "result": "checked"
+        },
+        {
+          "url": "https://kjj.shenyang.gov.cn/kjgz/tzgg/",
+          "label": "沈阳市科学技术局 · 通知公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://hf.cas.cn/rjc/gzdt/tzgg/index.html",
+          "label": "中国科学院合肥物质科学研究院人事处 · 通知公告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.chinapostdoctor.org.cn/",
+          "label": "中国博士后",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://www.csc.edu.cn/",
+          "label": "国家留学基金管理委员会",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://kjj.nanjing.gov.cn/njskxjswyh/?id=xxgk_228",
+          "label": "南京市科技局 · 通知通告",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://jsszkj.kxjst.jiangsu.gov.cn/js-home/home",
+          "label": "江苏数字科技 · 项目申报",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://www.sg.gov.cn/bmpdlm/rlzyhshbzj/tzgg/content/post_2892118.html",
+          "label": "韶关市人社局 · 博士后资助",
+          "result": "unavailable"
+        },
+        {
+          "url": "http://www.hbies.cn/tzgg/861560397779013.html",
+          "label": "湖北省教育科学规划课题 2026",
+          "result": "unavailable"
+        },
+        {
+          "url": "http://www.nbssa.org.cn/col/col1229619709/art/2026/art_917b50401a0d4a9995d707591132aa07.html",
+          "label": "宁波市社科规划第九批专项",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
+          "label": "湖北省科学技术厅 · 通知公告",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://kjt.hlj.gov.cn/kjt/c113905/common_list.shtml",
+          "label": "黑龙江省科学技术厅 · 科技计划通知",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://kjt.ln.gov.cn/kjt/tztg/gztz/index.shtml",
+          "label": "辽宁省科学技术厅 · 工作通知通告",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://kjt.sc.gov.cn/kjt/gstz/newschild.shtml",
+          "label": "四川省科学技术厅 · 通知",
+          "result": "unavailable"
+        },
+        {
+          "url": "http://kjj.changsha.gov.cn/zfxxgk/tzgg_27202/",
+          "label": "长沙市科学技术局 · 通知公告",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://kjt.shaanxi.gov.cn/",
+          "label": "陕西省科学技术厅 · 通知公告",
+          "result": "unavailable"
+        }
+      ],
+      "issues": [
+        {
+          "url": "https://www.chinapostdoctor.org.cn/",
+          "label": "中国博士后",
+          "message": "只返回页眉，未读到通知列表。"
+        },
+        {
+          "url": "https://www.csc.edu.cn/",
+          "label": "国家留学基金管理委员会",
+          "message": "站点返回 HTTP 412，未能读取。"
+        },
+        {
+          "url": "https://kjj.nanjing.gov.cn/njskxjswyh/?id=xxgk_228",
+          "label": "南京市科技局 · 通知通告",
+          "message": "只返回导航菜单，未读到通知列表。"
+        },
+        {
+          "url": "https://jsszkj.kxjst.jiangsu.gov.cn/js-home/home",
+          "label": "江苏数字科技 · 项目申报",
+          "message": "只返回页面标题，未读到申报通知。"
+        },
+        {
+          "url": "https://www.sg.gov.cn/bmpdlm/rlzyhshbzj/tzgg/content/post_2892118.html",
+          "label": "韶关市人社局 · 博士后资助",
+          "message": "HTTP 503，未能复核。"
+        },
+        {
+          "url": "http://www.hbies.cn/tzgg/861560397779013.html",
+          "label": "湖北省教育科学规划课题 2026",
+          "message": "HTTP 503，未能复核；记录保持原状（截止 11月15日）。"
+        },
+        {
+          "url": "http://www.nbssa.org.cn/col/col1229619709/art/2026/art_917b50401a0d4a9995d707591132aa07.html",
+          "label": "宁波市社科规划第九批专项",
+          "message": "HTTP 503，未能复核。"
+        },
+        {
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
+          "label": "湖北省科学技术厅 · 通知公告",
+          "message": "HTTP 503。"
+        },
+        {
+          "url": "https://kjt.hlj.gov.cn/kjt/c113905/common_list.shtml",
+          "label": "黑龙江省科学技术厅 · 科技计划通知",
+          "message": "请求超时。"
+        },
+        {
+          "url": "https://kjt.ln.gov.cn/kjt/tztg/gztz/index.shtml",
+          "label": "辽宁省科学技术厅 · 工作通知通告",
+          "message": "站点返回 HTTP 473。"
+        },
+        {
+          "url": "https://kjt.sc.gov.cn/kjt/gstz/newschild.shtml",
+          "label": "四川省科学技术厅 · 通知",
+          "message": "HTTP 503。"
+        },
+        {
+          "url": "http://kjj.changsha.gov.cn/zfxxgk/tzgg_27202/",
+          "label": "长沙市科学技术局 · 通知公告",
+          "message": "HTTP 503。"
+        },
+        {
+          "url": "https://kjt.shaanxi.gov.cn/",
+          "label": "陕西省科学技术厅 · 通知公告",
+          "message": "HTTP 503。"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143869.html",
+          "label": "NSFC · 管理科学部专项（未新增）",
+          "message": "通告页只说明指南须登录科学基金网络信息系统查看，无申请起止时间、资格与资助额度，且无公开附件；按指南规定不猜测日期，未新增，待指南公开后核实。"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143730.html",
+          "label": "NSFC · 医学科学部专项第三批（未新增）",
+          "message": "通告页只说明指南须登录科学基金网络信息系统查看，无申请起止时间、资格与资助额度，且无公开附件；按指南规定不猜测日期，未新增，待指南公开后核实。"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143611.html",
+          "label": "NSFC · 脑机接口大模型专项（未新增）",
+          "message": "通告页只说明指南须登录科学基金网络信息系统查看，无申请起止时间、资格与资助额度，且无公开附件；按指南规定不猜测日期，未新增，待指南公开后核实。"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143118.html",
+          "label": "NSFC · 深圳AI联合基金重大专项（未新增）",
+          "message": "通告页只说明指南须登录科学基金网络信息系统查看，无申请起止时间、资格与资助额度，且无公开附件；按指南规定不猜测日期，未新增，待指南公开后核实。"
+        },
+        {
+          "url": "https://www.nsfc.gov.cn/p1/3381/2824/143120.html",
+          "label": "NSFC · 低空经济专项（未新增）",
+          "message": "通告页只说明指南须登录科学基金网络信息系统查看，无申请起止时间、资格与资助额度，且无公开附件；按指南规定不猜测日期，未新增，待指南公开后核实。"
+        },
+        {
+          "url": "https://kxjst.jiangsu.gov.cn/art/2026/10/16/art_82540_11843018.html",
+          "label": "中韩青年科学家交流计划2026 · 未新增",
+          "message": "本次未重新取得原文；上次运行已记录正文为无法下载的PDF，资格与截止时间仍未核实。"
+        },
+        {
+          "url": "https://www.moe.gov.cn/s78/A13/tongzhi/202606/t20260612_1440551.html",
+          "label": "教育部社会科学司 · 项目通知",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.csiam.org.cn/1202/index.html",
+          "label": "中国工业与应用数学学会 · 青托通知",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://nbubs.nbu.edu.cn/index/tzgg1/kyydffwb.htm",
+          "label": "宁波大学商学院 · 科研与地方服务办通知",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://wkc.zafu.edu.cn/index/tzgg.htm",
+          "label": "浙江农林大学人文社科处 · 通知公告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://kyc.hznu.edu.cn/xbwz/xmsb/rwsk/",
+          "label": "杭州师范大学科研处 · 人文社科项目申报",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://kjj.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=82e331ed78bb4d1a8835cf0ba0479fce.pdf",
+          "label": "江苏省软科学 · 正式指南PDF",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://new.sh-italent.com/Article/202609/202609300001.shtml",
+          "label": "上海国际人才网 · 超级博士后",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.jsps.go.jp/english/e-fellow/e-ippan/",
+          "label": "JSPS 标准博士后官方渠道",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+          "label": "MSCA 博士后官方渠道",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/",
+          "label": "EMBO 博士后官方渠道",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships",
+          "label": "HFSP 博士后官方渠道",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.royalsociety.org/grants/newton-international/",
+          "label": "Royal Society Newton 国际博士后",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.daad.org.cn/zh/find-funding/scholarship-database/",
+          "label": "DAAD 中国奖学金数据库",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://opt.cas.cn/gb2019/xwzx/tzgg/",
+          "label": "中国科学院西安光机所 · 通知公告（省科技厅通知的转载来源）",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://skc.snnu.edu.cn/tzgg.htm",
+          "label": "陕西师范大学社会科学处 · 通知公告（省社科类通知的转载来源）",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "http://www.xass.org.cn/newslist.php?cid=7",
+          "label": "西安市社会科学院 · 社科规划",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
+          "label": "湖北省人力资源和社会保障厅 · 其他主动公开文件",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "http://www.hbies.cn/tzgg/",
+          "label": "湖北省教育科学研究院 · 通知公告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.hbkx.org.cn/",
+          "label": "湖北省科学技术协会",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "http://www.whskl.org.cn/",
+          "label": "武汉市社会科学界联合会",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://ssroff.whu.edu.cn/",
+          "label": "武汉大学人文社会科学研究院 · 通知（省社科基金官方页面无法访问时的转载来源）",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.scskl.cn/",
+          "label": "四川省社会科学界联合会（网站本次无法访问）",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.cdsk.org.cn/",
+          "label": "成都市社会科学界联合会（网站本次无法访问）",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://kjc.scitc.edu.cn/pagelistlm-5927.html",
+          "label": "四川信息职业技术学院科技处 · 通知（附省级通知全文的转载来源）",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://kyy.scu.edu.cn/kyxm/scskjjhxm/tzgg.htm",
+          "label": "四川大学科学技术发展研究院 · 四川省科技计划项目通知",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://kjc.cuit.edu.cn/tzgg.htm",
+          "label": "成都信息工程大学科技处 · 通知公告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "http://www.hljsk.gov.cn/skgh/ghgg/index.html",
+          "label": "黑龙江省哲学社会科学工作办公室 · 规划公告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.hljskl.org.cn/web/ketidongtai.html",
+          "label": "黑龙江省社会科学界联合会 · 课题动态",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://hrss.hlj.gov.cn/hrss/c111741/list.shtml",
+          "label": "黑龙江省人力资源和社会保障厅 · 通知公告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://jyt.hlj.gov.cn/jyt/c110481/public_list.shtml",
+          "label": "黑龙江省教育厅 · 通知公告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://sk.rednet.cn/channel/7855.html",
+          "label": "湖南省哲学社会科学工作办公室 · 通知通告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "http://www.hnsk.gov.cn/channel/24561.html",
+          "label": "湖南省社会科学界联合会 · 通知公告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "http://jyt.hunan.gov.cn/jyt/sjyt/jkyycl/ghldxzbgs/bgstzgg/jky_bgs_news.html",
+          "label": "湖南省教育科学规划领导小组办公室 · 通知公告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "http://rst.hunan.gov.cn/rst/xxgk/tzgg/index.html",
+          "label": "湖南省人力资源和社会保障厅 · 通知公告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://rst.ln.gov.cn/rst/zfxx/fdzdgknr/lzyj/rstgfxwj/qtwj31/index.shtml",
+          "label": "辽宁省人力资源和社会保障厅 · 其他文件",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://www.syskl.org.cn/tzgg/",
+          "label": "沈阳市社会科学界联合会 · 通知公告",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        },
+        {
+          "url": "https://scidep.dlut.edu.cn/",
+          "label": "大连理工大学科学技术研究院 · 通知（省社科类官方页面无法访问时的转载来源）",
+          "message": "本次运行未覆盖此来源（时间所限，未能逐一访问），其下记录保持原状。"
+        }
+      ]
+    },
+    {
       "id": "intl-fellowships-2026-11-16",
       "kind": "research",
       "date": "2026-11-16",
