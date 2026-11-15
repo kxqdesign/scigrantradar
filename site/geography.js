@@ -15,7 +15,7 @@ const AREAS={
 };
 const PREFERENCE_VALUES={
   discipline:['natural','social'],
-  level:['national','province','city','joint','overseas'],
+  level:['national','hmt','province','city','joint','overseas'],
   category:['科研基金','青年人才','博士后','交流合作','国际资助','专家机会','指南征集'],
   audience:['在职科研人员','团队负责人','青年研究者','博士生','博士后','应届博士','硕士生'],
   status:['open','upcoming','verify','closed']
@@ -48,6 +48,8 @@ function normalizePreferences(value){
   const coverage=value.scopeVersion===2?preferenceValues('level',value.coverage):p.level.length?p.level:PREFERENCE_VALUES.level;
   p.coverage=coverage.filter(v=>['national','overseas'].includes(v));
   const local=p.province?['province','joint',...(p.city?['city']:[])]:[];
+  // Hong Kong, Macao and Taiwan programmes are listed with the national ones.
+  if(p.coverage.includes('national'))local.push('hmt');
   p.level=PREFERENCE_VALUES.level.filter(v=>p.coverage.includes(v)||local.includes(v));
   p.scopeVersion=2;
   p.layout=['timeline','list','cards'].includes(value.layout)?value.layout:'timeline';
@@ -61,19 +63,27 @@ function matchesArea(d,area,{allCities=false}={}){
 function inView(d,view,prefs,explore){
   if(view==='saved')return true;
   if(view==='overseas')return d.region==='国际';
-  if(view==='national')return d.scope==='national';
+  if(view==='national')return ['national','hmt'].includes(d.scope);
   if(view==='explore')return ['province','city','joint'].includes(d.scope)&&(!explore.province||matchesArea(d,explore,{allCities:true}));
   if(!prefs)return false;
   if(view==='home'&&prefs.scopeVersion===2&&!prefs.level.length)return false;
   if(view==='local')return ['province','city','joint'].includes(d.scope)&&matchesArea(d,prefs);
-  return d.region==='国际'||d.scope==='national'||matchesArea(d,prefs);
+  return d.region==='国际'||['national','hmt'].includes(d.scope)||matchesArea(d,prefs);
 }
 function scopeLabel(d){
   const area=d.jurisdiction||{};
   if(d.scope==='national')return '全国性';
-  if(d.scope==='overseas')return '境外';
+  if(d.scope==='overseas')return '境外'+(area.country&&area.country!=='多国'?' · '+area.country:'');
+  if(d.scope==='hmt')return '港澳台'+(area.province?' · '+area.province:'');
   if(d.scope==='joint')return '跨地区联合';
   if(d.scope==='city')return (area.city||'地方')+' · 市级';
   if(['北京','上海'].includes(area.province))return area.province+' · 直辖市';
   return (area.province||'地方')+' · 省级';
 }
+// The overseas page filters by destination in one row. These tabs appear in this order whenever they have records; every other destination shares 其他.
+const COUNTRY_TABS=['英国','德国','欧洲','新加坡'];
+// 欧洲 gathers the pan-European programmes and the national ones of European countries that have no tab of their own.
+const EUROPEAN=['欧洲','法国','荷兰','瑞士','西班牙','葡萄牙','意大利','奥地利','比利时','卢森堡','爱尔兰','丹麦','瑞典','挪威','芬兰','冰岛','波兰','捷克','匈牙利','希腊','爱沙尼亚','拉脱维亚','立陶宛','斯洛文尼亚','斯洛伐克','克罗地亚','罗马尼亚','保加利亚','塞浦路斯','马耳他'];
+function countryTab(d){const c=d.jurisdiction?.country;return COUNTRY_TABS.includes(c)?c:EUROPEAN.includes(c)?'欧洲':'其他'}
+function countryTabs(rows){return COUNTRY_TABS.filter(tab=>rows.some(d=>countryTab(d)===tab))}
+function inCountry(d,tab){return !tab||countryTab(d)===tab}

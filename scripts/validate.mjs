@@ -14,7 +14,8 @@ export const MAX_RUNS = 104;
 
 const REQUIRED_TEXT = ['name', 'org', 'category', 'fields', 'dateLabel', 'summary', 'eligibility', 'support', 'prep', 'next'];
 const STATUSES = ['open', 'upcoming', 'closed', 'verify'];
-const SCOPES = ['national', 'province', 'city', 'joint', 'overseas'];
+const SCOPES = ['national', 'province', 'city', 'joint', 'hmt', 'overseas'];
+const HMT = ['香港', '澳门', '台湾'];
 const REGIONS = ['国内', '国际'];
 const DISCIPLINES = ['natural', 'social'];
 const RUN_KINDS = ['initialize', 'research', 'correction'];
@@ -60,7 +61,7 @@ export function validateRecord(d, today) {
   if (!isText(d.id, 120) || !/^[a-z0-9][a-z0-9_-]*$/.test(d.id)) fail('id', 'ID 只能由小写字母、数字、连字符和下划线组成，且不超过 120 个字符');
   for (const key of REQUIRED_TEXT) if (!isText(d[key])) fail('text', `缺少必填字段 ${key}，或内容过长`);
   if (!STATUSES.includes(d.status)) fail('status', 'status 必须是 open、upcoming、closed 或 verify');
-  if (!SCOPES.includes(d.scope)) fail('scope', 'scope 必须是 national、province、city、joint 或 overseas');
+  if (!SCOPES.includes(d.scope)) fail('scope', 'scope 必须是 national、province、city、joint、hmt 或 overseas');
   if (!REGIONS.includes(d.region)) fail('region', 'region 必须是"国内"或"国际"');
   if (SCOPES.includes(d.scope) && REGIONS.includes(d.region) && (d.scope === 'overseas') !== (d.region === '国际')) fail('region-scope', 'region 与 scope 不一致：overseas 对应"国际"，其余对应"国内"');
   if (!Array.isArray(d.disciplines) || !d.disciplines.length || d.disciplines.some(x => !DISCIPLINES.includes(x))) fail('disciplines', 'disciplines 必须是非空数组，取值 natural 或 social');
@@ -84,6 +85,8 @@ export function validateRecord(d, today) {
 
   if (['province', 'city'].includes(d.scope) && !d.jurisdiction?.province) fail('province', '省级和市级项目必须填写 jurisdiction.province');
   if (d.scope === 'city' && !d.jurisdiction?.city) fail('city', '市级项目必须填写 jurisdiction.city');
+  if (d.scope === 'hmt' && !HMT.includes(d.jurisdiction?.province)) fail('hmt', '港澳台项目的 jurisdiction.province 必须是香港、澳门或台湾');
+  if (d.scope === 'overseas' && !isText(d.jurisdiction?.country, 20)) fail('country', '境外项目必须填写 jurisdiction.country（国家的中文名；泛欧项目填“欧洲”，没有单一目的地的填“多国”）');
   if (d.scope === 'joint' && (!Array.isArray(d.eligibleAreas) || !d.eligibleAreas.length)) fail('eligible-areas', '联合项目必须列出 eligibleAreas');
   if (JSON.stringify(d).length > 32000) fail('size', '单条记录过大');
   return errors;
@@ -120,8 +123,10 @@ export function validateRun(run, today) {
     if (run.outcome === 'success' && (issues.length || sources.some(s => s?.result === 'unavailable'))) fail('outcome-success', '有无法访问的来源或未解决的问题时，outcome 必须是 partial');
   }
   if (run.kind === 'correction') {
-    if (!Array.isArray(run.correctedIds) || !run.correctedIds.length || run.correctedIds.some(id => typeof id !== 'string' || !id)) fail('corrected-ids', '人工更正必须在 correctedIds 中列出被更正的记录');
-  }
+    const idList = value => Array.isArray(value) && value.every(id => typeof id === 'string' && id);
+    const corrected = run.correctedIds ?? [], removed = run.removedIds ?? [];
+    if (!idList(corrected) || !idList(removed) || !(corrected.length + removed.length)) fail('corrected-ids', '人工更正必须在 correctedIds 中列出被更正的记录，或在 removedIds 中列出被删除的记录');
+  } else if (run.removedIds !== undefined) fail('removed-ids', '只有人工更正（correction）可以登记 removedIds');
   return errors;
 }
 
@@ -151,6 +156,9 @@ export function validate({ records, log, baseRecords = null, baseLog = null, tod
         if (!ids.has(id)) errors.push(`[log:unknown-id] ${run.id}：${key} 中的 ${id} 不是已有记录`);
       }
     }
+    for (const id of Array.isArray(run.removedIds) ? run.removedIds : []) {
+      if (ids.has(id)) errors.push(`[log:removed-present] ${run.id}：removedIds 中的 ${id} 仍在记录里`);
+    }
   }
   if (runs.length > MAX_RUNS) errors.push(`[log:too-long] 更新记录超过 ${MAX_RUNS} 条，请从最旧的一端删减`);
   for (let i = 1; i < runs.length; i++) {
@@ -166,10 +174,11 @@ function compareWithBase({ records, runs, baseRecords, baseRuns }) {
   const current = new Map(records.filter(isObject).map(d => [d.id, d]));
   const before = new Map(baseRecords.filter(isObject).map(d => [d.id, d]));
 
-  for (const id of before.keys()) if (!current.has(id)) errors.push(`[base:removed-id] ${id}：已有记录不能删除或改名`);
-
   const baseRunIds = new Set(baseRuns.map(run => run?.id));
   const newRuns = runs.filter(run => isObject(run) && !baseRunIds.has(run.id));
+  // Only the owner's manual correction may drop a record, and only by naming it.
+  const declaredRemoved = new Set(newRuns.filter(run => run.kind === 'correction').flatMap(run => Array.isArray(run.removedIds) ? run.removedIds : []));
+  for (const id of before.keys()) if (!current.has(id) && !declaredRemoved.has(id)) errors.push(`[base:removed-id] ${id}：已有记录不能删除或改名；人工删除须在新的更正记录的 removedIds 中列出`);
   const kept = runs.slice(newRuns.length);
   if (runs.slice(0, newRuns.length).some(run => baseRunIds.has(run?.id)) || kept.length > baseRuns.length || kept.some((run, i) => !same(run, baseRuns[i]))) {
     errors.push('[base:history] 已有的运行记录不能修改或调换顺序；新记录加在最前面，只能从最旧的一端删减');

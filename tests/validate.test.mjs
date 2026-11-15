@@ -129,6 +129,16 @@ test('whole-file rules', async t => {
   });
 });
 
+test('geography of Hong Kong, Macao, Taiwan and overseas records', async t => {
+  const record = extra => ({ ...clone(baseRecords[0]), ...extra });
+  const check = d => codes(validateRecord(d, TODAY));
+  await t.test('a Hong Kong record on the China side', () => assert.deepEqual(check(record({ region: '国内', scope: 'hmt', jurisdiction: { province: '香港' } })), []));
+  await t.test('an hmt record must name Hong Kong, Macao or Taiwan', () => assert.ok(check(record({ region: '国内', scope: 'hmt', jurisdiction: { province: '江苏' } })).includes('record:hmt')));
+  await t.test('an hmt record cannot sit in the overseas region', () => assert.ok(check(record({ region: '国际', scope: 'hmt', jurisdiction: { province: '香港' } })).includes('record:region-scope')));
+  await t.test('an overseas record with its country', () => assert.deepEqual(check(record({ region: '国际', scope: 'overseas', jurisdiction: { country: '英国' } })), []));
+  await t.test('an overseas record must name a country', () => assert.ok(check(record({ region: '国际', scope: 'overseas', jurisdiction: {} })).includes('record:country')));
+});
+
 test('accepted changes', async t => {
   await t.test('a change that touches no data needs no run entry', () => accepts({ records: baseRecords, log: baseLog, baseRecords, baseLog, today: TODAY }));
   await t.test('one corrected record with a matching research run', () => accepts(update()));
@@ -158,6 +168,11 @@ test('accepted changes', async t => {
     records[0].name += '（更正错别字）';
     log.runs[0] = { id: 'fix-typo', kind: 'correction', date: TODAY, at: TODAY + 'T09:00:00.000Z', outcome: 'success', summary: '更正名称中的错别字', added: 0, updated: 1, checkedIds: [], checkedSources: [], issues: [], correctedIds: [records[0].id] };
   })));
+  await t.test('a hand correction that removes a record it names', () => accepts(update((records, log) => {
+    records[0] = clone(baseRecords[0]);
+    const [gone] = records.splice(-1);
+    log.runs[0] = { id: 'drop-one', kind: 'correction', date: TODAY, at: TODAY + 'T09:00:00.000Z', outcome: 'success', summary: '移除一条记录', added: 0, updated: 0, checkedIds: [], checkedSources: [], issues: [], removedIds: [gone.id] };
+  })));
   await t.test('the oldest runs may be trimmed', () => {
     const longBase = { runs: [{ ...baseLog.runs[0], id: 'newer', at: '2026-11-12T00:00:00.000Z' }, ...baseLog.runs] };
     accepts({ records: baseRecords, log: { runs: [longBase.runs[0]] }, baseRecords, baseLog: longBase, today: TODAY });
@@ -168,6 +183,16 @@ test('accepted changes', async t => {
 test('rejected changes', async t => {
   await t.test('an existing ID disappears', () => rejects(update(records => { records.pop(); }), 'base:removed-id'));
   await t.test('an existing ID is renamed', () => rejects(update(records => { records[2].id += '-renamed'; }), 'base:removed-id'));
+  await t.test('a research run cannot register removals', () => rejects(update((records, log) => { log.runs[0].removedIds = [records.pop().id]; }), 'run:removed-ids'));
+  await t.test('a correction removes a record other than the one it names', () => rejects(update((records, log) => {
+    records[0] = clone(baseRecords[0]);
+    records.pop();
+    log.runs[0] = { id: 'drop-wrong', kind: 'correction', date: TODAY, at: TODAY + 'T09:00:00.000Z', outcome: 'success', summary: '移除一条记录', added: 0, updated: 0, checkedIds: [], checkedSources: [], issues: [], removedIds: ['some-other-id'] };
+  }), 'base:removed-id'));
+  await t.test('a correction lists a record as removed while it is still present', () => rejects(update((records, log) => {
+    records[0] = clone(baseRecords[0]);
+    log.runs[0] = { id: 'drop-none', kind: 'correction', date: TODAY, at: TODAY + 'T09:00:00.000Z', outcome: 'success', summary: '移除一条记录', added: 0, updated: 0, checkedIds: [], checkedSources: [], issues: [], removedIds: [records[1].id] };
+  }), 'log:removed-present'));
   await t.test('a record changes with no new run', () => rejects(update((_, log) => { log.runs.shift(); }), 'base:no-run'));
   await t.test('verification date differs from the run date', () => rejects(update(records => { records[0].verified = '2026-11-14'; }), 'base:unverified-change'));
   await t.test('the cited source was not read in this run', () => rejects(update((_, log) => { log.runs[0].checkedSources[0].url = 'https://example.org/other'; }), 'base:unverified-change'));
