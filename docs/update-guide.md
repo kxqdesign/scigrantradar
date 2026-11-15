@@ -67,13 +67,13 @@ If time or access runs out before all of this is done, say so plainly in `summar
 - If every source fails, log a `partial` run with no record changes.
 - Earlier entries are history. Do not edit them.
 
-(`kind: "correction"` exists for the owner's manual fixes, with a `correctedIds` list. Do not use it for research.)
+(`kind: "correction"` exists for the owner's manual fixes, with a `correctedIds` list and, when the owner removes records, a `removedIds` list. Do not use it for research, and never remove a record in a weekly run.)
 
 ## Record format
 
-Use an existing record as the model. Required fields: `id`, `name`, `org`, `category`, `region` (国内/国际), `audience` (array), `fields`, `status` (open/upcoming/closed/verify), `dateLabel`, `summary`, `eligibility`, `support`, `prep`, `next`, `sources` (non-empty list of `label`/`url`), `verified` (YYYY-MM-DD), `disciplines` (array of natural/social), `scope` (national/province/city/joint/overseas).
+Use an existing record as the model. Required fields: `id`, `name`, `org`, `category`, `region` (国内/国际), `audience` (array), `fields`, `status` (open/upcoming/closed/verify), `dateLabel`, `summary`, `eligibility`, `support`, `prep`, `next`, `sources` (non-empty list of `label`/`url`), `verified` (YYYY-MM-DD), `disciplines` (array of natural/social), `scope` (national/province/city/joint/hmt/overseas).
 
-`date`, `opensOn` and `deadline` are YYYY-MM-DD or null. `date` is the opening date while `status` is `upcoming` and no `opensOn` is given, and the deadline otherwise. Optional `deadlineTime` is the confirmed closing time on the `deadline` date, as HH:MM, followed by a space and a short zone when it is not Beijing time (`17:00`, `17:00 JST`); leave it out when the notice gives no time. Optional `closesWhenFull` is `true` only for a call that closes on reaching an application cap rather than on a date. `jurisdiction` holds `province` and `city` for local programmes; joint programmes list `eligibleAreas`. Preserve `geographyNote`, `timeNote`, `sourceNote` and any other existing fields.
+`date`, `opensOn` and `deadline` are YYYY-MM-DD or null. `date` is the opening date while `status` is `upcoming` and no `opensOn` is given, and the deadline otherwise. Optional `deadlineTime` is the confirmed closing time on the `deadline` date, as HH:MM, followed by a space and a short zone when it is not Beijing time (`17:00`, `17:00 JST`); leave it out when the notice gives no time. Optional `closesWhenFull` is `true` only for a call that closes on reaching an application cap rather than on a date. `jurisdiction` holds `province` and `city` for local programmes; joint programmes list `eligibleAreas`. Programmes hosted in Hong Kong, Macao or Taiwan use `region` 国内, `scope` `hmt` and `jurisdiction.province` 香港, 澳门 or 台湾; they are listed with the national programmes, never as overseas. Overseas records need `jurisdiction.country`: the destination country's usual Chinese name as existing records spell it (英国, 德国, 日本, 新加坡 …), `欧洲` for EU-wide or pan-European programmes, `多国` when there is no single destination. The overseas page shows fixed tabs for 英国, 德国, 欧洲 and 新加坡; the 欧洲 tab also lists national programmes of other European countries (record them under their own country, e.g. 瑞士, 荷兰), and every remaining destination goes under 其他; a new country gets its own tab only when the owner adds it to `COUNTRY_TABS` in `site/geography.js`. Give overseas records their official English programme name as `name`, with the year or round after ` · `. Preserve `geographyNote`, `timeNote`, `sourceNote` and any other existing fields.
 
 ## Sources
 
@@ -89,6 +89,8 @@ Read full official notices and attachments, not search snippets alone. An author
 ## Data requirements
 
 - Preserve the schema and every existing opportunity ID. No deletions.
+- Do not add overseas programmes that a single university runs for positions at that university alone (for example one university's own postdoctoral fellowship). Programmes open across several universities or run by a funder, academy or research organisation are fine.
+- The site is not only for applicants based in mainland China. Do not leave out an overseas programme because it needs a local degree, local residency or an applicant already working in that country; list it and state those limits plainly in `geographyNote` and `eligibility`.
 - Add real research funding, early-career, postdoctoral, expert or exchange opportunities. Do not add procurement, result publicity, maintenance fees or unrelated campus administration. Keep institution-only eligibility explicit. Do not treat all residents of a city as eligible.
 - Keep natural/social disciplines and domestic/overseas funding sources distinct. Classify province/city/national/joint/overseas accurately. A province-wide programme covers its cities; a city-only programme does not cover other cities. Do not duplicate cross-region programmes.
 - Retain previous rounds for next-year planning. Give a genuinely new annual round a new stable ID. Do not duplicate the same call because several sources reproduce it.
@@ -100,6 +102,6 @@ Read full official notices and attachments, not search snippets alone. An author
 
 ## What the checks enforce
 
-`npm run validate` rejects, among other things: duplicate or malformed IDs, missing required fields, unsafe or malformed source links, dates that do not exist, a verification date in the future, an opening date after the deadline, status or geography values outside the allowed sets, a removed or renamed record, a changed record that is not tied to a logged run as described above, a rewritten earlier log entry, and `added`/`updated` counts that do not match what actually changed.
+`npm run validate` rejects, among other things: duplicate or malformed IDs, missing required fields, unsafe or malformed source links, dates that do not exist, a verification date in the future, an opening date after the deadline, status or geography values outside the allowed sets, an overseas record without a country, a Hong Kong, Macao or Taiwan record without its place, a removed or renamed record (unless a new owner correction lists it in `removedIds`), a changed record that is not tied to a logged run as described above, a rewritten earlier log entry, and `added`/`updated` counts that do not match what actually changed.
 
 Passing the checks means the data is well-formed. It does not mean the facts are right; that depends on the research.
