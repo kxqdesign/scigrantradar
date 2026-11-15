@@ -240,20 +240,8 @@
     "url": "https://brancoweissfellowship.org/who-should-apply/timelines/"
   },
   {
-    "label": "ETH Zurich · ETH Postdoctoral Fellowships",
-    "url": "https://grantsoffice.ethz.ch/funding-opportunities/internal/eth-fellowships.html"
-  },
-  {
     "label": "Leverhulme Trust · Early Career Fellowships",
     "url": "https://www.leverhulme.ac.uk/early-career-fellowships"
-  },
-  {
-    "label": "NTU · Presidential Postdoctoral Fellowship",
-    "url": "https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)"
-  },
-  {
-    "label": "University of Utah · One-U RAI 博士后",
-    "url": "https://rai.utah.edu/opportunities/postdoctoral-fellows/"
   },
   {
     "label": "Royal Society · University Research Fellowships",
@@ -290,5 +278,513 @@
   {
     "label": "北京大学博士后 · PKU–IIASA 征集通知",
     "url": "https://postdocs.pku.edu.cn/tzgg/add6713771164dde92df13dc03645b08.htm"
+  },
+  {
+    "label": "Royal Commission 1851 · Research Fellowships",
+    "url": "https://royalcommission1851.org/fellowships/research-fellowships/"
+  },
+  {
+    "label": "Academy of Medical Sciences · Professorships",
+    "url": "https://acmedsci.ac.uk/grants-and-programmes/grants/professorships"
+  },
+  {
+    "label": "Wellcome · Early-Career Awards",
+    "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards"
+  },
+  {
+    "label": "Wellcome · Career Development Awards",
+    "url": "https://wellcome.org/research-funding/schemes/wellcome-career-development-awards"
+  },
+  {
+    "label": "UKRI · Mathematical sciences postdoctoral fellowship",
+    "url": "https://www.ukri.org/opportunity/mathematical-sciences-postdoctoral-fellowship/"
+  },
+  {
+    "label": "Royal Society · Wolfson Visiting Fellowship",
+    "url": "https://royalsociety.org/grants/royal-society-wolfson-visiting-fellowship/"
+  },
+  {
+    "label": "Royal Society · Wolfson Fellowship",
+    "url": "https://www.royalsociety.org/grants/royal-society-wolfson-fellowship/"
+  },
+  {
+    "label": "UKRI · Early independence: career development fellowship",
+    "url": "https://www.ukri.org/opportunity/early-independence-career-development-fellowship/"
+  },
+  {
+    "label": "Leverhulme Trust · Visiting Professorships",
+    "url": "https://www.leverhulme.ac.uk/visiting-professorships"
+  },
+  {
+    "label": "UKRI · 未来资助机会预告",
+    "url": "https://www.ukri.org/apply-for-funding/future-research-and-innovation-funding-opportunities/"
+  },
+  {
+    "label": "Gerda Henkel Foundation · Research Scholarships",
+    "url": "https://www.gerda-henkel-stiftung.de/en/researchscholarships"
+  },
+  {
+    "label": "DAAD · DAAD–K.C. Wong Postdoc Fellowships",
+    "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015446"
+  },
+  {
+    "label": "KIT · Helmholtz–OCPC Postdoc Program 2026 通知",
+    "url": "https://www.intl.kit.edu/img/content/Call_KIT_Helmholtz-OCPC-Postdoc_Programm_2026_English.pdf"
+  },
+  {
+    "label": "DFG · Walter Benjamin Programme",
+    "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin"
+  },
+  {
+    "label": "DFG · Emmy Noether Programme",
+    "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/emmy-noether"
+  },
+  {
+    "label": "Humboldt Foundation · Humboldt Research Award",
+    "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-award"
+  },
+  {
+    "label": "Humboldt Foundation · Friedrich Wilhelm Bessel Research Award",
+    "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/friedrich-wilhelm-bessel-research-award"
+  },
+  {
+    "label": "Humboldt Foundation · International Climate Protection Fellowship",
+    "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/international-climate-protection-fellowship"
+  },
+  {
+    "label": "DAAD · DLR-DAAD Research Fellowships",
+    "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50019749"
+  },
+  {
+    "label": "Helmholtz · Helmholtz Investigator Groups",
+    "url": "https://www.helmholtz.de/en/career/careers-at-helmholtz/helmholtz-investigator-groups/"
+  },
+  {
+    "label": "UKRI · ESRC Postdoctoral Fellowships",
+    "url": "https://www.ukri.org/opportunity/esrc-postdoctoral-fellowships/"
+  },
+  {
+    "label": "Daphne Jackson Trust · 资格",
+    "url": "https://daphnejackson.org/about-fellowships/eligibility/"
+  },
+  {
+    "label": "Leverhulme Trust · Research Project Grants",
+    "url": "https://www.leverhulme.ac.uk/research-project-grants"
+  },
+  {
+    "label": "Wellcome · Discovery Awards",
+    "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards"
+  },
+  {
+    "label": "British Academy · Postdoctoral Fellowships",
+    "url": "https://www.thebritishacademy.ac.uk/funding/schemes/postdoctoral-fellowships/"
+  },
+  {
+    "label": "Royal Society of Edinburgh · International Joint Projects",
+    "url": "https://rse.org.uk/award/rse-joint-projects/"
+  },
+  {
+    "label": "Royal Society of Edinburgh · Personal Research Fellowships",
+    "url": "https://rse.org.uk/award/rse-personal-research-fellowships/"
+  },
+  {
+    "label": "Royal Society · Career Development Fellowship",
+    "url": "https://royalsociety.org/grants/career-development-fellowship/"
+  },
+  {
+    "label": "Academy of Medical Sciences · Springboard",
+    "url": "https://acmedsci.ac.uk/grants-and-programmes/grants/springboard-research-careers"
+  },
+  {
+    "label": "Leverhulme Trust · Research Fellowships",
+    "url": "https://www.leverhulme.ac.uk/research-fellowships"
+  },
+  {
+    "label": "Leverhulme Trust · Major Research Fellowships",
+    "url": "https://www.leverhulme.ac.uk/major-research-fellowships"
+  },
+  {
+    "label": "Leverhulme Trust · Emeritus Fellowships",
+    "url": "https://www.leverhulme.ac.uk/emeritus-fellowships"
+  },
+  {
+    "label": "Leverhulme Trust · Philip Leverhulme Prizes",
+    "url": "https://www.leverhulme.ac.uk/philip-leverhulme-prizes"
+  },
+  {
+    "label": "Leverhulme Trust · Research Leadership Awards",
+    "url": "https://www.leverhulme.ac.uk/research-leadership-awards"
+  },
+  {
+    "label": "Royal Society · Industry Fellowships",
+    "url": "https://royalsociety.org/grants/industry-fellowships/"
+  },
+  {
+    "label": "UKRI · Early independence: BBSRC fellowships",
+    "url": "https://www.ukri.org/opportunity/early-independence-bbsrc-fellowships-outline/"
+  },
+  {
+    "label": "UKRI · Early Independence: NERC Independent Research Fellowship 2026",
+    "url": "https://www.ukri.org/opportunity/early-independence-nerc-independent-research-fellowship-2026"
+  },
+  {
+    "label": "UKRI · Early Independence: Ernest Rutherford Fellowships 2026",
+    "url": "https://www.ukri.org/opportunity/early-independence-ernest-rutherford-fellowships-2026"
+  },
+  {
+    "label": "Royal Society · Dorothy Hodgkin Fellowship",
+    "url": "https://royalsociety.org/grants/dorothy-hodgkin-fellowship/"
+  },
+  {
+    "label": "Royal Society · Faraday Discovery Fellowships",
+    "url": "https://royalsociety.org/grants/faraday-discovery-fellowships/"
+  },
+  {
+    "label": "Royal Astronomical Society · Fellowships",
+    "url": "https://ras.ac.uk/awards-and-grants/fellowships"
+  },
+  {
+    "label": "DAAD · PRIME 申请人须知",
+    "url": "https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/prime/prime-applicants/"
+  },
+  {
+    "label": "DFG · Initiation of International Collaboration 指南（表格 1.813）",
+    "url": "https://www.dfg.de/resource/blob/167376/1-813-en.pdf"
+  },
+  {
+    "label": "DFG · Heisenberg Programme",
+    "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/heisenberg"
+  },
+  {
+    "label": "DFG · Research Grants",
+    "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/research-grants"
+  },
+  {
+    "label": "Humboldt Foundation · Alexander von Humboldt Professorship",
+    "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/alexander-von-humboldt-professorship"
+  },
+  {
+    "label": "Humboldt Foundation · Humboldt Research Professorship",
+    "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-professorship"
+  },
+  {
+    "label": "Humboldt Foundation · Henriette Herz Scouting Programme",
+    "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/henriette-herz-scouting-programme"
+  },
+  {
+    "label": "DAAD · Re-invitation Programme for Former Scholarship Holders",
+    "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015492"
+  },
+  {
+    "label": "DAAD 中国 · 高校教师及科研人员研究访问",
+    "url": "https://www.daad.org.cn/zh/find-funding/funding-programmes-in-germany/research-stays-for-university-academics-and-scientists/"
+  },
+  {
+    "label": "DAAD · CAS-DAAD Joint Fellowship Programme",
+    "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50094047"
+  },
+  {
+    "label": "Fritz Thyssen Foundation · Support of Projects",
+    "url": "https://www.fritz-thyssen-stiftung.de/en/funding/support-of-projects/"
+  },
+  {
+    "label": "Fraunhofer · Attract funding program",
+    "url": "https://www.fraunhofer.de/en/jobs-and-career/professionals/fraunhofer-attract-funding-program.html"
+  },
+  {
+    "label": "Max Planck Society · Max Planck Research Groups",
+    "url": "https://www.mpg.de/max-planck-research-groups"
+  },
+  {
+    "label": "Max Planck Society · Lise Meitner Excellence Program",
+    "url": "https://www.mpg.de/lise-meitner-excellence-program"
+  },
+  {
+    "label": "Einstein Foundation Berlin · Einstein Visiting Fellow",
+    "url": "https://www.einsteinfoundation.de/en/programmes/einstein-visiting-fellow"
+  },
+  {
+    "label": "Volkswagen Foundation · 资助项目列表",
+    "url": "https://www.volkswagenstiftung.de/en/our-funding-portfolio"
+  },
+  {
+    "label": "Daimler and Benz Foundation · Scholarship Program",
+    "url": "https://www.daimler-benz-stiftung.de/en/format/scholarship-program/"
+  },
+  {
+    "label": "ERC · Synergy Grant",
+    "url": "https://erc.europa.eu/apply-grant/synergy-grant"
+  },
+  {
+    "label": "ERC · Proof of Concept",
+    "url": "https://erc.europa.eu/apply-grant/proof-concept"
+  },
+  {
+    "label": "MSCA · Doctoral Networks",
+    "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks"
+  },
+  {
+    "label": "MSCA · Staff Exchanges",
+    "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/staff-exchanges"
+  },
+  {
+    "label": "MSCA · COFUND",
+    "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/cofund"
+  },
+  {
+    "label": "MSCA · Choose Europe for Science",
+    "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/choose-europe-for-science"
+  },
+  {
+    "label": "EIC · Accelerator",
+    "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+  },
+  {
+    "label": "EIC · Transition",
+    "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-transition_en"
+  },
+  {
+    "label": "EIC · Pathfinder Challenges 2027",
+    "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder/eic-pathfinder-challenges-2027_en"
+  },
+  {
+    "label": "EMBO · Scientific Exchange Grants",
+    "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/"
+  },
+  {
+    "label": "EMBO · Installation Grants",
+    "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/installation-grants/"
+  },
+  {
+    "label": "EMBO · Young Investigator Programme",
+    "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/young-investigator-programme/"
+  },
+  {
+    "label": "EMBO · Global Investigator Network",
+    "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/global-investigator-network/"
+  },
+  {
+    "label": "EMBL · ARISE2",
+    "url": "https://www.embl.org/training/arise2/"
+  },
+  {
+    "label": "EMBL · International PhD Programme 申请",
+    "url": "https://www.embl.org/about/info/embl-international-phd-programme/application/"
+  },
+  {
+    "label": "CERN · Research Fellowship",
+    "url": "https://careers.cern/programmes/research-fellowship/"
+  },
+  {
+    "label": "ESA · Research Fellowships in Space Science",
+    "url": "https://www.cosmos.esa.int/web/space-science-faculty/opportunities/research-fellowships"
+  },
+  {
+    "label": "ESO · Fellowships and Studentships",
+    "url": "https://www.eso.org/sci/activities/fellowships-and-studentships/FeSt-overview.html"
+  },
+  {
+    "label": "ERCIM · Alain Bensoussan Fellowship Programme",
+    "url": "https://fellowship.ercim.eu/"
+  },
+  {
+    "label": "FEBS · Short-Term Fellowships",
+    "url": "https://www.febs.org/funding/fellowships/short-term-fellowships/"
+  },
+  {
+    "label": "FEBS · Excellence Awards",
+    "url": "https://www.febs.org/funding/excellence-awards/"
+  },
+  {
+    "label": "HFSP · Research Grants",
+    "url": "https://www.hfsp.org/funding/hfsp-funding/research-grants"
+  },
+  {
+    "label": "瑞士联邦教育、研究与创新国务秘书处 · Swiss Government Excellence Scholarships",
+    "url": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships-at-a-glance"
+  },
+  {
+    "label": "SNSF · Postdoc.Mobility",
+    "url": "https://www.snf.ch/en/XIZpfY3iVS5KRRoD/funding/careers/postdoc-mobility"
+  },
+  {
+    "label": "AEI · Ayudas para contratos Ramón y Cajal 2026",
+    "url": "https://www.aei.gob.es/en/announcements/announcements-finder/ayudas-contratos-ramon-cajal-ryc-2026"
+  },
+  {
+    "label": "FWF · ESPRIT",
+    "url": "https://www.fwf.ac.at/en/funding/portfolio/careers/esprit"
+  },
+  {
+    "label": "NWO · Rubicon 2026-3",
+    "url": "https://www.nwo.nl/en/calls/rubicon-2026-3"
+  },
+  {
+    "label": "NWO · Talent Programme Veni（理学部 2026）",
+    "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-2026"
+  },
+  {
+    "label": "Fondation Fyssen · Study Grants",
+    "url": "https://www.fondationfyssen.fr/en/our-actions/study-grants/"
+  },
+  {
+    "label": "ANR · AAPG 2027",
+    "url": "https://anr.fr/en/call-for-proposals-details/call/aapg-2027-generic-call-for-proposals/"
+  },
+  {
+    "label": "Wenner-Gren Stiftelserna · Postdoktorsstipendier Sverige",
+    "url": "https://www.swgc.org/postdoktorsstipendier-sverige"
+  },
+  {
+    "label": "Carlsbergfondet · Internationalisation Fellowships",
+    "url": "https://carlsbergfondet.dk/en/applicant/internationalisation-fellowships"
+  },
+  {
+    "label": "Villum Fonden · Villum Young Investigators",
+    "url": "https://villumfonden.dk/en/call-villum-young-investigators"
+  },
+  {
+    "label": "NRF · Singapore–China 合作",
+    "url": "https://www.rgp.gov.sg/nrf-partnerships/sg-cn"
+  },
+  {
+    "label": "A*STAR · A*STAR Graduate Scholarship",
+    "url": "https://www.a-star.edu.sg/scholarships/home/scholarships/ags--scholarship"
+  },
+  {
+    "label": "A*STAR · Singapore Research Attachment Programme",
+    "url": "https://www.a-star.edu.sg/scholarships/home/international-awards/singapore-research-attachment-programme"
+  },
+  {
+    "label": "A*STAR · ECR Overseas Exchange",
+    "url": "https://www.a-star.edu.sg/research/ecr-overseas-exchange"
+  },
+  {
+    "label": "National Quantum Office · PhD Scholarships",
+    "url": "https://nqo.sg/talent-development/phd-scholarships/"
+  },
+  {
+    "label": "SSRC · SSHR Fellowship",
+    "url": "https://www.ssrc.edu.sg/initiatives/sshrf-overview/"
+  },
+  {
+    "label": "A*STAR · 2nd EPSTC Italy–Singapore",
+    "url": "https://www.a-star.edu.sg/research/funding-opportunities/2nd-epstc-ita-sgp"
+  },
+  {
+    "label": "NRF · Research Translation Grant",
+    "url": "https://www.nrf.gov.sg/grants/rtg/"
+  },
+  {
+    "label": "NLB · Lee Kong Chian Research Fellowship",
+    "url": "https://www.nlb.gov.sg/main/about-us/careers/research-fellowships/Lee-Kong-Chian-Research-Fellowship"
+  },
+  {
+    "label": "ISEAS · Wang Gungwu Visiting Fellows Programme",
+    "url": "https://iseas.edu.sg/about-us/opportunities/fellowships/wang-gungwu-visiting-fellows-programme/"
+  },
+  {
+    "label": "NHB · Heritage Research Grant",
+    "url": "https://www.nhb.gov.sg/what-we-do/our-work/community-engagement/grants/grants/heritage-research-grant"
+  },
+  {
+    "label": "AI Singapore · PhD Fellowship Programme",
+    "url": "https://aisingapore.org/research/phd-fellowship/"
+  },
+  {
+    "label": "NRF · Competitive Research Programme",
+    "url": "https://www.rgp.gov.sg/nrf-ar/crp"
+  },
+  {
+    "label": "A*STAR · MTC Young Individual Research Grant",
+    "url": "https://www.a-star.edu.sg/research/funding-opportunities/yirg"
+  },
+  {
+    "label": "A*STAR · Hong Kong–Singapore Joint Call",
+    "url": "https://www.a-star.edu.sg/research/funding-opportunities/hkg-sgp-joint-call"
+  },
+  {
+    "label": "A*STAR · China–Singapore Joint Call 2025",
+    "url": "https://www.a-star.edu.sg/Research/funding-opportunities/china-singapore-joint-call-for-proposals-on--climate-resilience---adaptation--2025"
+  },
+  {
+    "label": "SSRC · SSHR Thematic Grant",
+    "url": "https://www.ssrc.edu.sg/initiatives/sshrtg-overview/"
+  },
+  {
+    "label": "A*STAR · A*STAR International Fellowship",
+    "url": "https://www.a-star.edu.sg/scholarships/home/scholarships/astar-international-fellowship"
+  },
+  {
+    "label": "A*STAR · Singapore–Southeast Asia Fellowship",
+    "url": "https://www.a-star.edu.sg/research/sseaf"
+  },
+  {
+    "label": "NTU · Lee Kuan Yew Postdoctoral Fellowship",
+    "url": "https://www.ntu.edu.sg/research/research-careers/lee-kuan-yew-postdoctoral-fellowship-%28lkypdf%29"
+  },
+  {
+    "label": "新基石科学基金会 · 新基石研究员项目申报指南",
+    "url": "https://www.newcornerstone.org.cn/#/guideline"
+  },
+  {
+    "label": "科技部 · 关于征集国家科技专家库专家的通知",
+    "url": "https://www.most.gov.cn/kjbgz/202610/t20261030_197621.html"
+  },
+  {
+    "label": "国家留学基金委 · 2027年瑞士互换奖学金项目通知",
+    "url": "https://www.csc.edu.cn/chuguo/s/4315"
+  },
+  {
+    "label": "国家留学基金委 · 2027–2028年度加拿大魁北克省政府奖学金通知",
+    "url": "https://www.csc.edu.cn/chuguo/s/4313"
+  },
+  {
+    "label": "国家留学基金委 · 国别和区域研究人才支持计划专栏",
+    "url": "https://www.csc.edu.cn/chuguo/s/4235"
+  },
+  {
+    "label": "国家留学基金委 · 创新型人才国际合作培养项目专栏",
+    "url": "https://www.csc.edu.cn/chuguo/s/4260"
+  },
+  {
+    "label": "NSFC · 生命科学部2027年度重大项目立项建议征集通告",
+    "url": "https://www.nsfc.gov.cn/p1/3381/2822/143172.html"
+  },
+  {
+    "label": "澳门科技基金 · 2026年资助计划预计时间表",
+    "url": "https://fdct.dsedt.gov.mo/zh_tw/FundingSchemeEstimatedTimeTable.html"
+  },
+  {
+    "label": "科学探索奖 · 申报指南（2026年）",
+    "url": "https://www.xplorerprize.org/#/application-guideline"
+  },
+  {
+    "label": "全国哲学社会科学工作办公室 · 2026年度后期资助暨优博出版、再版项目申报公告",
+    "url": "http://www.nopss.gov.cn/n1/2026/0708/c431030-40756095.html"
+  },
+  {
+    "label": "全国哲学社会科学工作办公室 · 2026年度冷门绝学研究专项申报公告",
+    "url": "http://www.nopss.gov.cn/n1/2026/0716/c431029-40761983.html"
+  },
+  {
+    "label": "全国哲学社会科学工作办公室 · 2026年度高校思政课研究专项申报公告",
+    "url": "http://www.nopss.gov.cn/n1/2026/0827/c431029-40787261.html"
+  },
+  {
+    "label": "全国哲学社会科学工作办公室 · 2026年度《国家哲学社会科学成果文库》申报公告",
+    "url": "http://www.nopss.gov.cn/n1/2026/0708/c431033-40756042.html"
+  },
+  {
+    "label": "NSFC · NSFC–RGC 青年学者论坛项目指南",
+    "url": "https://www.nsfc.gov.cn/p1/3381/2824/141466.html"
+  },
+  {
+    "label": "科技部 · 中韩青年科学家交流计划赴韩项目通知",
+    "url": "https://www.most.gov.cn/tztg/202610/t20261014_197499.html"
+  },
+  {
+    "label": "澳门科技基金 · 科技研发人才资助计划（人才引进类）",
+    "url": "https://fdct.dsedt.gov.mo/zh_tw/stt_detail/article/tic.html"
   }
 ]

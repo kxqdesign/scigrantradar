@@ -623,7 +623,7 @@
   },
   {
     "id": "rufford",
-    "name": "Rufford 自然保护小额资助",
+    "name": "Rufford Small Grants",
     "org": "The Rufford Foundation",
     "category": "国际资助",
     "region": "国际",
@@ -661,13 +661,15 @@
       "natural"
     ],
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "多国"
+    },
     "eligibleAreas": [],
     "geographyNote": "国外项目，须核对国籍、接收单位和实际研究地点要求。"
   },
   {
     "id": "eu-expert",
-    "name": "欧盟委员会独立评审专家库",
+    "name": "European Commission Database of Independent Experts",
     "org": "European Commission",
     "category": "专家机会",
     "region": "国际",
@@ -701,13 +703,15 @@
       "social"
     ],
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "欧洲"
+    },
     "eligibleAreas": [],
     "geographyNote": "国外项目，须核对国籍、接收单位和实际研究地点要求。"
   },
   {
     "id": "jsps-invitational",
-    "name": "JSPS 外国人招へい研究者 · 短期 S 类",
+    "name": "JSPS Invitational Fellowships for Research in Japan · Short-term S",
     "org": "日本学术振兴会（JSPS）",
     "category": "交流合作",
     "region": "国际",
@@ -742,13 +746,15 @@
       "social"
     ],
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "日本"
+    },
     "eligibleAreas": [],
     "geographyNote": "国外项目，须核对国籍、接收单位和实际研究地点要求。"
   },
   {
     "id": "humboldt",
-    "name": "洪堡研究奖学金",
+    "name": "Humboldt Research Fellowship",
     "org": "Alexander von Humboldt Foundation",
     "category": "交流合作",
     "region": "国际",
@@ -778,7 +784,9 @@
       "social"
     ],
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "德国"
+    },
     "eligibleAreas": [],
     "geographyNote": "国外项目，须核对国籍、接收单位和实际研究地点要求。",
     "opensOn": "2026-11-15",
@@ -2494,12 +2502,14 @@
   },
   {
     "id": "jsps-standard-2027",
-    "name": "JSPS 标准博士后 · 2027 年第二轮",
+    "name": "JSPS Postdoctoral Fellowships for Research in Japan (Standard) · 2027 Round 2",
     "org": "日本学术振兴会（JSPS）",
     "category": "博士后",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "日本"
+    },
     "eligibleAreas": [],
     "geographyNote": "赴日本接收机构开展研究；中国公民可经日本合作研究者和接收机构申请，不是在中国执行的项目经费。",
     "audience": [
@@ -2540,12 +2550,14 @@
   },
   {
     "id": "msca-european-pf-2027",
-    "name": "MSCA 欧洲博士后奖学金 · 2027",
+    "name": "MSCA European Postdoctoral Fellowships · 2027",
     "org": "欧盟委员会 / Marie Skłodowska-Curie Actions",
     "category": "博士后",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "欧洲"
+    },
     "eligibleAreas": [],
     "geographyNote": "与欧盟成员国或 Horizon Europe 关联国接收机构联合申请，并赴该国研究。European 类对国籍开放；Global 类另有欧洲国籍或长期居留要求。",
     "audience": [
@@ -2581,12 +2593,14 @@
   },
   {
     "id": "embo-postdoctoral-2027",
-    "name": "EMBO 博士后奖学金 · 春季评审",
+    "name": "EMBO Postdoctoral Fellowships · Spring Review",
     "org": "European Molecular Biology Organization（EMBO）",
     "category": "博士后",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "欧洲"
+    },
     "eligibleAreas": [],
     "geographyNote": "中国申请人可跨国赴 EMBC 成员国研究；其他目的地另有国籍、出发地和博士学位所在地限制，不能直接理解为可在中国获资助。",
     "audience": [
@@ -2623,12 +2637,14 @@
   },
   {
     "id": "hfsp-postdoctoral-2027",
-    "name": "HFSP 博士后奖学金 · 2027 资助轮",
+    "name": "HFSP Postdoctoral Fellowships · 2027",
     "org": "Human Frontier Science Program（HFSP）",
     "category": "博士后",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "多国"
+    },
     "eligibleAreas": [],
     "geographyNote": "中国籍申请人须赴 HFSP 成员国开展研究，且不得以本国为接收国；第三年返回本国的安排须另获批准。",
     "audience": [
@@ -2665,12 +2681,14 @@
   },
   {
     "id": "newton-international-2026",
-    "name": "Royal Society Newton 国际博士后 · 2026",
+    "name": "Royal Society Newton International Fellowships · 2026",
     "org": "英国皇家学会（The Royal Society）",
     "category": "博士后",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "英国"
+    },
     "eligibleAreas": [],
     "geographyNote": "须赴英国合格接收机构开展研究；中国公民可申报，申请时须在英国境外且不具有英国国籍。",
     "audience": [
@@ -2707,12 +2725,14 @@
   },
   {
     "id": "daad-research-grants-germany",
-    "name": "DAAD 科研交流奖学金 · 博士生与博士后",
+    "name": "DAAD Research Grants in Germany · Doctoral Candidates and Postdocs",
     "org": "德国学术交流中心（DAAD）",
     "category": "交流合作",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "德国"
+    },
     "eligibleAreas": [],
     "geographyNote": "面向国内院校博士在读生及博士后赴德国研究，须有德国高校或科研机构教授接收；不资助留在中国执行的研究，也不能拆分赴其他国家执行。",
     "audience": [
@@ -5598,10 +5618,12 @@
     "id": "hk-rgc-hkpfs-2027",
     "name": "香港博士研究生奖学金计划（HKPFS）· 2027/28",
     "org": "香港研究资助局（RGC）",
-    "category": "国际资助",
-    "region": "国际",
-    "scope": "overseas",
-    "jurisdiction": {},
+    "category": "青年人才",
+    "region": "国内",
+    "scope": "hmt",
+    "jurisdiction": {
+      "province": "香港"
+    },
     "eligibleAreas": [],
     "geographyNote": "在香港八所教资会资助大学攻读全日制博士；不限国籍和来源地，不是在内地执行的项目经费。",
     "audience": [
@@ -5642,9 +5664,11 @@
     "name": "香港 RGC 青年研究学者计划（JRFS）· 2027/28",
     "org": "香港研究资助局（RGC）",
     "category": "博士后",
-    "region": "国际",
-    "scope": "overseas",
-    "jurisdiction": {},
+    "region": "国内",
+    "scope": "hmt",
+    "jurisdiction": {
+      "province": "香港"
+    },
     "eligibleAreas": [],
     "geographyNote": "在香港教资会资助大学全职开展博士后研究；须由该大学提名，个人不能直接申请。",
     "audience": [
@@ -5806,9 +5830,11 @@
     "name": "台湾 · 中研院博士后研究学者 · 2027 第二轮",
     "org": "中央研究院（Academia Sinica）",
     "category": "博士后",
-    "region": "国际",
-    "scope": "overseas",
-    "jurisdiction": {},
+    "region": "国内",
+    "scope": "hmt",
+    "jurisdiction": {
+      "province": "台湾"
+    },
     "eligibleAreas": [],
     "geographyNote": "在台北中研院各研究所开展博士后研究；大陆地区人士赴台受两岸相关规定限制，须先向拟合作研究所确认能否聘任。",
     "audience": [
@@ -5844,12 +5870,14 @@
   },
   {
     "id": "sg-astar-arap-2027",
-    "name": "新加坡 · A*STAR 研究访学计划（ARAP）",
+    "name": "A*STAR Research Attachment Programme (ARAP)",
     "org": "新加坡科技研究局（A*STAR）",
     "category": "交流合作",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "新加坡"
+    },
     "eligibleAreas": [],
     "geographyNote": "新加坡以外大学的在读博士生赴 A*STAR 研究所访学 1–2 年，由 A*STAR 研究员提名。",
     "audience": [
@@ -5879,12 +5907,14 @@
   },
   {
     "id": "sg-nrf-fellowship-2028",
-    "name": "新加坡 · NRF Fellowship · 2028 届",
+    "name": "NRF Fellowship · Class of 2028",
     "org": "新加坡国家研究基金会（NRF）",
     "category": "国际资助",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "新加坡"
+    },
     "eligibleAreas": [],
     "geographyNote": "在新加坡大学或科研机构以 tenure-track 职位独立开展研究，不限国籍。",
     "audience": [
@@ -5915,12 +5945,14 @@
   },
   {
     "id": "newton-international-2027",
-    "name": "Royal Society Newton 国际博士后 · 2027",
+    "name": "Royal Society Newton International Fellowships · 2027",
     "org": "英国皇家学会（The Royal Society）",
     "category": "博士后",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "英国"
+    },
     "eligibleAreas": [],
     "geographyNote": "赴英国接收机构开展两年博士后研究，不限国籍；人文与社会科学方向改向英国国家学术院申请。",
     "audience": [
@@ -5953,12 +5985,14 @@
   },
   {
     "id": "ba-international-fellowships-2027",
-    "name": "英国国家学术院国际奖学金 · 2027",
+    "name": "British Academy International Fellowships · 2027",
     "org": "英国国家学术院（The British Academy）",
     "category": "博士后",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "英国"
+    },
     "eligibleAreas": [],
     "geographyNote": "在英国公立研究机构开展人文与社会科学研究；申请时须身在英国以外。",
     "audience": [
@@ -5990,12 +6024,14 @@
   },
   {
     "id": "royal-society-international-exchanges-2026",
-    "name": "Royal Society 国际交流项目 · 2026（含 NSFC 合作轮）",
+    "name": "Royal Society International Exchanges · 2026 (incl. NSFC Cost Share)",
     "org": "英国皇家学会（The Royal Society）/ 国家自然科学基金委员会",
     "category": "交流合作",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "英国"
+    },
     "eligibleAreas": [],
     "geographyNote": "由英国方研究者申请，资助与海外合作者之间的互访；NSFC 合作轮中内地合作者向基金委同步申请。",
     "audience": [
@@ -6026,12 +6062,14 @@
   },
   {
     "id": "erc-consolidator-2027",
-    "name": "ERC 巩固者基金（Consolidator Grant）· 2027",
+    "name": "ERC Consolidator Grant · 2027",
     "org": "欧洲研究理事会（ERC）",
     "category": "国际资助",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "欧洲"
+    },
     "eligibleAreas": [],
     "geographyNote": "项目须在欧盟成员国或 Horizon Europe 联系国的接收机构执行，申请人不限国籍；从欧洲以外迁入可申请额外经费。",
     "audience": [
@@ -6064,12 +6102,14 @@
   },
   {
     "id": "erc-advanced-2027",
-    "name": "ERC 高级基金（Advanced Grant）· 2027",
+    "name": "ERC Advanced Grant · 2027",
     "org": "欧洲研究理事会（ERC）",
     "category": "国际资助",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "欧洲"
+    },
     "eligibleAreas": [],
     "geographyNote": "项目须在欧盟成员国或 Horizon Europe 联系国的接收机构执行，申请人不限国籍。",
     "audience": [
@@ -6102,12 +6142,14 @@
   },
   {
     "id": "embl-eipod-linc-2027",
-    "name": "EMBL EIPOD-LinC 跨学科博士后 · 2026 轮",
+    "name": "EMBL EIPOD-LinC Postdoctoral Fellowships · 2026 Call",
     "org": "欧洲分子生物学实验室（EMBL）",
     "category": "博士后",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "欧洲"
+    },
     "eligibleAreas": [],
     "geographyNote": "在 EMBL 各站点（含德国海德堡、汉堡）开展三年博士后研究，并须在 EMBL 成员国合作实验室借调 3–12 个月；不限国籍。",
     "audience": [
@@ -6145,12 +6187,14 @@
   },
   {
     "id": "branco-weiss-2027",
-    "name": "Branco Weiss 奖学金（Society in Science）· 2027",
+    "name": "The Branco Weiss Fellowship – Society in Science · 2027",
     "org": "The Branco Weiss Fellowship – Society in Science",
     "category": "国际资助",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "多国"
+    },
     "eligibleAreas": [],
     "geographyNote": "国际项目，评审与面试由苏黎世方面组织；入选者须能前往大苏黎世地区参加年度研讨会。接收机构与国籍要求以官方资格页为准。",
     "audience": [
@@ -6186,52 +6230,15 @@
     "verified": "2026-11-16"
   },
   {
-    "id": "eth-fellows-2027-spring",
-    "name": "ETH 博士后奖学金（ETH Fellows）· 2027 春季轮",
-    "org": "苏黎世联邦理工学院（ETH Zurich）",
-    "category": "博士后",
-    "region": "国际",
-    "scope": "overseas",
-    "jurisdiction": {},
-    "eligibleAreas": [],
-    "geographyNote": "赴瑞士苏黎世联邦理工学院开展两年博士后研究；近三年在瑞士居住或主要活动超过十二个月者不符合条件。",
-    "audience": [
-      "博士后",
-      "应届博士",
-      "青年研究者"
-    ],
-    "fields": "ETH Zurich 覆盖的各学科",
-    "disciplines": [
-      "natural",
-      "social"
-    ],
-    "status": "upcoming",
-    "date": null,
-    "deadline": "2027-03-01",
-    "deadlineTime": "17:00 CET",
-    "dateLabel": "2027年3月1日 17:00（瑞士时间）截止 · 系统约提前一个月开放",
-    "timeNote": "官方页面写明每年两轮，截止日为3月1日和9月1日瑞士时间 17:00，遇周末顺延至周一；申请系统通常在截止前约一个月开放。两封外部推荐信须在截止前十天由推荐人直接寄达。2027 年面试日期待官方更新。",
-    "summary": "ETH Zurich 面向外来早期博士后的两年期奖学金，强调申请人自主提出课题，近几轮成功率约 15–20%。",
-    "eligibility": "截止时已获博士学位或六个月内取得；博士答辩距截止日不超过两年；至少一篇同行评审论文或博士论文获奖。近三年在瑞士居住或主要活动超过十二个月，或在 ETH Zurich、EPFL、ETH 系统研究所、苏黎世大学主要活动超过六个月者不符合条件。须有一位 ETH 教授作为导师并出具邀请函，每位教授每轮只能支持一人。",
-    "support": "两年全额工资（按 ETH 标准），另每年 12,000 瑞士法郎研究与差旅经费；不可延期。",
-    "prep": "建议提前 3–4 个月",
-    "next": "尽早联系 ETH 教授确认其本轮未支持他人，并请两位外部推荐人预留时间。",
-    "sources": [
-      {
-        "label": "ETH Zurich Grants Office · ETH Postdoctoral Fellowships",
-        "url": "https://grantsoffice.ethz.ch/funding-opportunities/internal/eth-fellowships.html"
-      }
-    ],
-    "verified": "2026-11-16"
-  },
-  {
     "id": "leverhulme-ecf-2027",
-    "name": "Leverhulme 早期职业奖学金（Early Career Fellowships）· 2027",
+    "name": "Leverhulme Early Career Fellowships · 2027",
     "org": "The Leverhulme Trust",
     "category": "博士后",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "英国"
+    },
     "eligibleAreas": [],
     "geographyNote": "在具有研究型学位授予权的英国大学任职三年，资助期内主要居住地须在英国。申请人须持有英国高校学位，或截止前已在英国担任学术职位满四个月。",
     "audience": [
@@ -6269,89 +6276,15 @@
     "verified": "2026-11-16"
   },
   {
-    "id": "sg-ntu-wallenberg-ppf-2027",
-    "name": "新加坡 · Wallenberg–NTU 校长博士后奖学金 · 2027",
-    "org": "南洋理工大学（NTU）/ Knut and Alice Wallenberg Foundation",
-    "category": "博士后",
-    "region": "国际",
-    "scope": "overseas",
-    "jurisdiction": {},
-    "eligibleAreas": [],
-    "geographyNote": "在新加坡南洋理工大学及瑞典 WASP 合作机构开展独立研究，面向新加坡及世界各地的早期研究者。",
-    "audience": [
-      "博士后",
-      "应届博士",
-      "青年研究者"
-    ],
-    "fields": "人工智能 · 机器学习 · 数据分析 · 软件与安全 · 自主系统",
-    "disciplines": [
-      "natural"
-    ],
-    "status": "open",
-    "date": "2026-12-31",
-    "deadline": "2026-12-31",
-    "deadlineTime": "23:59",
-    "dateLabel": "2026年12月31日 23:59（新加坡时间）截止",
-    "timeNote": "新加坡时间与北京时间相同。推荐人报告须在2027年1月7日前提交；入选者最迟须于2027年12月31日前到岗。",
-    "summary": "由 Wallenberg 基金会支持，每届遴选五人，在 NTU 与瑞典 WASP 合作机构开展人工智能、自主系统与软件方向的独立研究。",
-    "eligibility": "获博士学位或同等学位五年以内；须提交研究计划、博士学位证明、三篇代表作，以及两位推荐人信息（其中一位须为博士导师）。推荐人须事先同意，学校在提交后直接联系。",
-    "support": "NTU 阶段年薪最高 80,000 新元，另有搬迁津贴和住房补助；瑞典阶段按 WASP 博士后标准提供工资、指导与差旅等支持。",
-    "prep": "建议提前 4–6 周",
-    "next": "先确认两位推荐人能在1月7日前提交报告，再通过 NTU 在线申请系统递交。",
-    "sources": [
-      {
-        "label": "NTU · Presidential Postdoctoral Fellowship",
-        "url": "https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)"
-      }
-    ],
-    "verified": "2026-11-16"
-  },
-  {
-    "id": "us-utah-rai-postdoc-2027",
-    "name": "美国 · 犹他大学负责任人工智能博士后（One-U RAI）· 2027 春季轮",
-    "org": "University of Utah · One-U Responsible AI Initiative",
-    "category": "博士后",
-    "region": "国际",
-    "scope": "overseas",
-    "jurisdiction": {},
-    "eligibleAreas": [],
-    "geographyNote": "在美国犹他大学开展两年博士后研究。页面未说明国籍或签证要求，海外申请人须向项目方确认。",
-    "audience": [
-      "博士后",
-      "应届博士",
-      "青年研究者"
-    ],
-    "fields": "负责任人工智能 · 环境 · 医疗与健康 · 教学与学习",
-    "disciplines": [
-      "natural",
-      "social"
-    ],
-    "status": "open",
-    "date": "2027-04-01",
-    "deadline": "2027-04-01",
-    "dateLabel": "2027年4月1日截止 · 每年4月1日、10月1日两轮",
-    "timeNote": "美国当地时间，页面未注明截止时刻。初审结果一般在截止后四周内通知。",
-    "summary": "每年遴选三至五名博士后，围绕环境、医疗健康、教学三个主题开展负责任人工智能研究，由至少两位犹他大学教师联合指导。",
-    "eligibility": "按研究计划与项目主题的契合度遴选，须有至少两位犹他大学教师愿意指导（分别提供领域与人工智能方法支持）。材料包括契合说明（半页以内）、研究陈述（两页以内）、一封推荐信和建议导师名单。",
-    "support": "两年，年薪 80,000 美元并含员工福利；计算、差旅、发表等研究开支由导师承担。",
-    "prep": "建议提前 6–8 周",
-    "next": "从项目的 Interested Faculty 名单或其他犹他大学教师中联系两位导师，确认指导意愿。",
-    "sources": [
-      {
-        "label": "University of Utah · One-U RAI Postdoctoral Fellowships",
-        "url": "https://rai.utah.edu/opportunities/postdoctoral-fellows/"
-      }
-    ],
-    "verified": "2026-11-16"
-  },
-  {
     "id": "rs-urf-2027",
-    "name": "Royal Society 大学研究奖学金（URF）· 2027",
+    "name": "Royal Society University Research Fellowships (URF) · 2027",
     "org": "英国皇家学会（The Royal Society）",
     "category": "国际资助",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "英国"
+    },
     "eligibleAreas": [],
     "geographyNote": "在英国大学或研究机构建立独立课题组；不限国籍，需签证者可走全球人才签证快速通道。",
     "audience": [
@@ -6384,12 +6317,14 @@
   },
   {
     "id": "rs-research-grants-2027",
-    "name": "Royal Society 研究启动经费（Research Grants）· 2027",
+    "name": "Royal Society Research Grants · 2027",
     "org": "英国皇家学会（The Royal Society）",
     "category": "科研基金",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "英国"
+    },
     "eligibleAreas": [],
     "geographyNote": "仅面向申请时已在英国合资格机构任职并居住在英国的研究者。",
     "audience": [
@@ -6420,12 +6355,14 @@
   },
   {
     "id": "raeng-research-fellowships-2026",
-    "name": "RAEng 研究奖学金（Research Fellowships）· 2026/27",
+    "name": "RAEng Research Fellowships · 2026/27",
     "org": "英国皇家工程院（Royal Academy of Engineering）",
     "category": "青年人才",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "英国"
+    },
     "eligibleAreas": [],
     "geographyNote": "面向在英国大学或可接受 UKRI 资助的研究机构工作的早期工程研究者。",
     "audience": [
@@ -6456,12 +6393,14 @@
   },
   {
     "id": "raeng-green-future-fellowships",
-    "name": "RAEng 绿色未来奖学金（Green Future Fellowships）",
+    "name": "RAEng Green Future Fellowships",
     "org": "英国皇家工程院（Royal Academy of Engineering）",
     "category": "国际资助",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "英国"
+    },
     "eligibleAreas": [],
     "geographyNote": "项目须落在英国的大学、研究机构或企业；不限国籍和年龄，身在英国以外者可以申请，入选后须找到英国接收机构。",
     "audience": [
@@ -6497,12 +6436,14 @@
   },
   {
     "id": "epsrc-maths-early-independence",
-    "name": "EPSRC 数学科学早期独立奖学金",
+    "name": "EPSRC Mathematical Sciences Early Independence Fellowship",
     "org": "英国工程与自然科学研究理事会（UKRI · EPSRC）",
     "category": "青年人才",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "英国"
+    },
     "eligibleAreas": [],
     "geographyNote": "奖学金须设在符合 EPSRC 资助条件的英国研究机构；申请人不限国籍，可在英国以外申请。",
     "audience": [
@@ -6535,12 +6476,14 @@
   },
   {
     "id": "erc-starting-2027",
-    "name": "ERC 启动基金（Starting Grant）· 2027",
+    "name": "ERC Starting Grant · 2027",
     "org": "欧洲研究理事会（ERC）",
     "category": "国际资助",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "欧洲"
+    },
     "eligibleAreas": [],
     "geographyNote": "项目须在欧盟成员国或 Horizon Europe 联系国的接收机构执行，申请人不限国籍。",
     "audience": [
@@ -6582,7 +6525,9 @@
     "category": "国际资助",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "欧洲"
+    },
     "eligibleAreas": [],
     "geographyNote": "以联合体申请：至少三家相互独立的法人单位，其中至少一家设在欧盟成员国，另两家设在不同的成员国或 Horizon Europe 联系国。非联系国机构的参与和受资助条件见 EIC 2027 工作计划。",
     "audience": [
@@ -6617,12 +6562,14 @@
   },
   {
     "id": "cost-external-expert",
-    "name": "COST 外部评审专家库",
+    "name": "COST External Expert Database",
     "org": "COST Association（欧洲科技合作组织）",
     "category": "专家机会",
     "region": "国际",
     "scope": "overseas",
-    "jurisdiction": {},
+    "jurisdiction": {
+      "country": "欧洲"
+    },
     "eligibleAreas": [],
     "geographyNote": "在线登记并参与评审；页面未设国籍限制，实际选用由 COST 根据专长等情况决定。",
     "audience": [
@@ -6688,6 +6635,5199 @@
       {
         "label": "北京大学博士后 · PKU–IIASA 2026 年度征集通知",
         "url": "https://postdocs.pku.edu.cn/tzgg/add6713771164dde92df13dc03645b08.htm"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rc1851-research-fellowships-2027",
+    "name": "1851 Research Fellowships in Science or Engineering · 2027",
+    "org": "Royal Commission for the Exhibition of 1851",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "通常须在委员会认可的英国机构开展研究，且不得留在取得博士学位的机构。官方条款、资格页和常见问题均未设国籍或居住地限制。",
+    "audience": [
+      "应届博士",
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "物理与生命科学 · 数学 · 应用科学 · 工程各分支",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": "2027-01-20",
+    "deadline": "2027-01-20",
+    "deadlineTime": "12:00 GMT",
+    "dateLabel": "2027 年度受理中，2027年1月20日 12:00（英国时间）截止",
+    "timeNote": "英国时间正午截止。两份推荐信也须在截止前在线提交。奖学金自当年10月1日起，通常为期三年。",
+    "summary": "面向刚获得博士学位或处于博士后早期的理工科研究者的三年期英国奖学金，每年约 8 个名额，竞争激烈（成功率约 2–3%）。",
+    "eligibility": "须已获博士学位或处于博士论文最后阶段；截至2027年1月31日博士后研究经历超过 2.5 年者（职业中断可扣除）只在特殊情况下考虑。研究须在不同于博士培养单位的机构进行。两位推荐人均不得来自接收机构，其中一位通常为博士导师；通常至少一封推荐信来自英国机构（非硬性要求，官方承认这对海外申请人较难）。基础设施工程方向改申 Brunel Fellowship，不得重复申请。此前未获资助的同一课题不得再次申请。",
+    "support": "按接收机构博士后薪级支付全部工资成本（无工资上限）；每年 10,000 英镑研究经费，生命科学方向每年可再增加最多 10,000 英镑。间接费用由接收机构承担。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先落实英国接收院系并取得系主任接收函（同一院系有多名申请人时系主任须排序），再在委员会 Flexigrant 系统提交。",
+    "sources": [
+      {
+        "label": "Royal Commission 1851 · Research Fellowships",
+        "url": "https://royalcommission1851.org/fellowships/research-fellowships/"
+      },
+      {
+        "label": "1851 Research Fellowships · 2027 条款（含截止时间）",
+        "url": "https://royalcommission1851.org/uploads/Research-Fellowships-TCs-2027.pdf"
+      },
+      {
+        "label": "1851 Research Fellowships · 资格与待遇",
+        "url": "https://royalcommission1851.org/research-fellowships-eligibility-and-benefits"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "ams-professorships-r16",
+    "name": "AMS Professorships · Round 16",
+    "org": "英国医学科学院（The Academy of Medical Sciences）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向从英国以外迁入（或计划迁入）英国任教授的研究者；在接受教授聘任前通常不应已在英国连续居住超过 12 个月。未设国籍限制。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "生物医学 · 健康与医疗研究",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "opensOn": "2026-10-14",
+    "date": "2027-01-06",
+    "deadline": "2027-01-06",
+    "deadlineTime": "16:00 GMT",
+    "dateLabel": "第16轮受理中，2027年1月6日 16:00（英国时间）截止",
+    "timeNote": "英国时间。2027年2月18日面试，3月公布结果，须在2027年3月31日前启动。",
+    "summary": "为新近受聘（或已获承诺受聘）英国高校正教授的海外研究者提供的启动经费，帮助其在英国建立课题组。",
+    "eligibility": "须已接受、新近到任或已获保证获得英国高校的正教授职位（长期合同）；处于独立领导早期阶段。须已迁入或计划迁入英国，且接受聘任前通常未在英国居住超过 12 个月。每位申请人每轮只能提交一份申请。身在中国的研究者须先拿到英国高校的正教授聘任。",
+    "support": "最高 500,000 英镑（三年分别为 225,000、175,000、100,000 英镑），须在三年内支出，教授职位保留五年。不含申请人本人工资、搬迁、签证和间接费用。",
+    "prep": "建议提前 2–3 个月；须先有英国聘任",
+    "next": "与英国聘任高校确认聘任条件后，在医学科学院 Flexigrant 系统提交；资格疑问可先邮件咨询项目组。",
+    "sources": [
+      {
+        "label": "Academy of Medical Sciences · Professorships",
+        "url": "https://acmedsci.ac.uk/grants-and-programmes/grants/professorships"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "wellcome-early-career-awards",
+    "name": "Wellcome Early-Career Awards",
+    "org": "Wellcome（惠康基金会）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "中国籍申请人须依托英国的管理机构申请；经费不得转入中国大陆，中国大陆机构不能作为管理机构。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "与改善人类健康相关的各学科（理工医、人文与社会科学）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年可提交 · 每年三次初筛（2月、6月、9月）",
+    "timeNote": "官方说明“没有截止日期，可随时提交”；每年2月、6月、9月集中初筛，官方日程表列出2027年5月和9月的面试与决定。",
+    "summary": "资助早期研究者在英国机构开展通常五年的独立研究，含本人工资和研究经费。",
+    "eligibility": "提交时须已通过博士答辩，且博士后经历不超过三年；不得已有终身职位。不接受共同申请人。管理机构须在英国，或非洲、南亚、东南亚的中低收入国家（不含中国大陆）；涉及向中国大陆转移经费的活动不可申请。同一时间在 Early-Career、Career Development、Discovery 三类中只能有一份牵头申请在审；同一课题在惠康所有项目中最多提交两次。",
+    "support": "通常五年；本人工资，另加最高 400,000 英镑研究经费。",
+    "prep": "建议提前 4–6 个月",
+    "next": "先联系英国接收机构——多数英国高校设校内遴选——再由该机构在 Wellcome Funding 平台批准并提交。",
+    "sources": [
+      {
+        "label": "Wellcome · Early-Career Awards",
+        "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards"
+      },
+      {
+        "label": "Wellcome · 各项目申请时间表",
+        "url": "https://wellcome.org/research-funding/guidance/prepare-to-apply/scheme-application-deadlines"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "wellcome-career-development-awards",
+    "name": "Wellcome Career Development Awards",
+    "org": "Wellcome（惠康基金会）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "中国籍申请人须依托英国的管理机构申请；经费不得转入中国大陆，中国大陆机构不能作为管理机构。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "与改善人类健康相关的各学科（理工医、人文与社会科学）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年可提交 · 2027年5月、9月集中决定",
+    "timeNote": "官方说明可随时提交；官方日程表列出2027年5月和9月的决定时间。",
+    "summary": "资助已能主导自己研究的职业中期研究者在英国机构开展通常八年的研究计划。",
+    "eligibility": "面向在初期科研训练之后已完成一到两段实质性研究、并已在主导自己研究的人员。未设国籍限制，但管理机构所在地与中国大陆经费限制同 Early-Career Awards。申请未获资助后须间隔 12 个月；同一课题最多提交两次。",
+    "support": "通常八年；本人工资，另加研究经费（通常每年低于 250,000 英镑）。",
+    "prep": "建议提前 4–6 个月",
+    "next": "与英国接收机构确认岗位和校内流程，由该机构在 Wellcome Funding 平台批准并提交。",
+    "sources": [
+      {
+        "label": "Wellcome · Career Development Awards",
+        "url": "https://wellcome.org/research-funding/schemes/wellcome-career-development-awards"
+      },
+      {
+        "label": "Wellcome · 各项目申请时间表",
+        "url": "https://wellcome.org/research-funding/guidance/prepare-to-apply/scheme-application-deadlines"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "epsrc-maths-postdoctoral-fellowship",
+    "name": "EPSRC Mathematical Sciences Postdoctoral Fellowship",
+    "org": "英国工程与自然科学研究理事会（UKRI · EPSRC）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "奖学金期间须由符合条件的英国研究机构接收并支持。本页面未写明国籍要求，申请前须向接收机构确认。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "数学科学（创新点须主要落在 EPSRC 数学科学范围内）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "常年受理，无截止日期",
+    "timeNote": "2025年2月19日起开放，官方标注“无截止日期”，全年设多个决定节点（具体日期未公布）。",
+    "summary": "面向数学科学领域早期研究者的英国博士后奖学金，最长三年，随时可申请。有别于已收录的 Early Independence Fellowship。",
+    "eligibility": "须有博士学位或四年以上相关经历；处于职业早期、此前未主持过重要经费。对博士后年限没有规定。不接受未经邀请的重新提交。",
+    "support": "最长三年，按全经济成本的 80% 资助，金额不设上限；不资助额外研究人员，不资助 25,000 英镑以上的设备。",
+    "prep": "建议提前 2–3 个月",
+    "next": "联系英国接收机构的科研办公室，由其通过 UKRI Funding Service 提交。",
+    "sources": [
+      {
+        "label": "UKRI · Mathematical sciences postdoctoral fellowship",
+        "url": "https://www.ukri.org/opportunity/mathematical-sciences-postdoctoral-fellowship/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rs-wolfson-visiting-2027-r1",
+    "name": "Royal Society Wolfson Visiting Fellowship · 2027 Round 1",
+    "org": "英国皇家学会（The Royal Society）/ Wolfson Foundation",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "申请人须目前在英国以外工作，且此前未与接收机构形成重要合作；不限国籍，需签证者可走全球人才签证快速通道。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "自然科学（含生物医学、化学、工程、数学、物理）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-12-09",
+    "date": "2026-12-09",
+    "deadline": "2027-02-10",
+    "dateLabel": "2026年12月9日开放，2027年2月10日截止（提名表须在1月22日前提交）",
+    "timeNote": "官方页面未注明截止时刻。接收机构须在2027年1月22日前提交提名表，结果不晚于2027年7月12日公布。2027 年第二轮：6月9日开放、7月23日提名截止、8月11日截止。",
+    "summary": "支持海外的职业中期或资深研究者以学术休假方式到英国大学或研究机构访问，适合保留国内职位的在职教师。",
+    "eligibility": "面向有成熟业绩的职业中期或资深研究者。须先由英国接收机构的代表提名，之后本人才能填写申请。",
+    "support": "最高 125,000 英镑；访问总时长 12 个月，可全职连续，也可在 24 个月内分段（每次至少 3 个月）；访问津贴全职每年最高 80,000 英镑。",
+    "prep": "建议提前 3–4 个月",
+    "next": "尽早与英国接收院系商定访问计划，由系主任在提名截止日前向皇家学会发送提名，再在 Flexi-Grant 完成申请。",
+    "sources": [
+      {
+        "label": "Royal Society · Wolfson Visiting Fellowship",
+        "url": "https://royalsociety.org/grants/royal-society-wolfson-visiting-fellowship/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rs-wolfson-fellowship-2027-r1",
+    "name": "Royal Society Wolfson Fellowship · 2027 Round 1",
+    "org": "英国皇家学会（The Royal Society）/ Wolfson Foundation",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "申请人须目前在英国以外工作（或到英国不超过约六个月）并将受聘于英国机构；不限国籍。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "自然科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-12-09",
+    "date": "2026-12-09",
+    "deadline": "2027-02-10",
+    "dateLabel": "2026年12月9日开放，2027年2月10日截止（提名须在1月22日前提交）",
+    "timeNote": "官方页面未注明截止时刻。提名截止2027年1月22日。2027 年第二轮：6月9日开放、8月11日截止。",
+    "summary": "帮助英国大学从海外引进资深或特别突出的职业中期科研带头人的五年期资助，申请人须正在与英国高校商谈长期职位。",
+    "eligibility": "面向资深研究者或特别突出的职业中期带头人。须由英国接收机构的校长或副校长提名；获资助时须有该机构的正式聘任。不接受在英国机构之间的流动。",
+    "support": "最长五年、最高 300,000 英镑；工资补贴不超过工资的 20%；搬迁和签证费用可在上限之外申请。",
+    "prep": "建议提前 4–6 个月；须先有英国聘任意向",
+    "next": "先与英国高校谈定聘任，由校方在提名截止日前提名，再在 Flexi-Grant 完成申请。",
+    "sources": [
+      {
+        "label": "Royal Society · Wolfson Fellowship",
+        "url": "https://www.royalsociety.org/grants/royal-society-wolfson-fellowship/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "mrc-career-development-fellowship-2027",
+    "name": "MRC Early Independence: Career Development Fellowship · 2027 Round 1",
+    "org": "英国医学研究理事会（UKRI · MRC）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "欢迎各国籍申请人，但奖学金须设在符合条件的英国研究机构；迁入英国者可申请签证费用，并可走全球人才签证通道。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "生物医学与健康研究（MRC 资助范围；临床在岗人员另有专门类别）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-01-26",
+    "date": "2027-01-26",
+    "deadline": "2027-04-20",
+    "dateLabel": "2027年1月26日开放，4月20日截止",
+    "timeNote": "官方页面尚未注明本轮截止时刻（上一轮为英国时间 16:00）。其后各轮：2027年6月22日至9月14日，2028年1月25日至4月18日。",
+    "summary": "支持处于向独立研究过渡阶段的生物医学研究者在英国机构建立自己的研究方向，最长五年。",
+    "eligibility": "须有博士学位或同等经历；不设年龄或博士后年限要求。过去一年内申请过 MRC 奖学金、或此前已申请两次者不可申请；不得同时有类似的 UKRI 申请在审。",
+    "support": "最长五年；本人工资加项目经费，按全经济成本的 80% 资助，不设上限。",
+    "prep": "建议提前 4–6 个月",
+    "next": "联系英国接收机构的科研办公室确认支持和校内时间，由其通过 UKRI Funding Service 提交。",
+    "sources": [
+      {
+        "label": "UKRI · Early independence: career development fellowship",
+        "url": "https://www.ukri.org/opportunity/early-independence-career-development-fellowship/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "leverhulme-visiting-professorships-2027",
+    "name": "Leverhulme Visiting Professorships · 2027",
+    "org": "The Leverhulme Trust",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "受邀者为英国以外的资深教授；须由英国大学的在职学者提出申请，受邀者本人不能直接申请。未设国籍限制。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "全学科（不含疾病与残障研究及以临床、医学应用为目的的研究）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-05-01",
+    "date": "2027-05-01",
+    "deadline": "2027-10-02",
+    "dateLabel": "2027年5月1日开放，10月2日截止",
+    "timeNote": "官方页面未注明截止时刻。受邀者与接收机构均须在截止前完成确认；结果约在截止后 5–6 个月公布。",
+    "summary": "资助英国大学邀请海外知名资深教授来访 3–12 个月，带来新的专长。",
+    "eligibility": "受邀者须为海外的知名资深教授；申请由英国大学的学术人员提出并通过 Leverhulme 经费系统提交。",
+    "support": "每项 10,000 至 150,000 英镑，访问期 3 至 12 个月。",
+    "prep": "建议提前 3–4 个月",
+    "next": "与有合作基础的英国同行商定访问计划，由对方作为申请人提交。",
+    "sources": [
+      {
+        "label": "Leverhulme Trust · Visiting Professorships",
+        "url": "https://www.leverhulme.ac.uk/visiting-professorships"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "ukri-future-leaders-fellowships-r12",
+    "name": "UKRI Future Leaders Fellowships · Round 12",
+    "org": "英国研究与创新署（UKRI）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不设国籍要求，须由可接受 UKRI 资助的英国机构接收并提交；可走全球人才签证通道。",
+    "audience": [
+      "青年研究者",
+      "博士后",
+      "在职科研人员"
+    ],
+    "fields": "UKRI 全部资助领域（含人文与社会科学）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "第12轮预计2027年2月开放，具体日期未公布",
+    "timeNote": "第11轮已于2026年6月16日 16:00（英国时间）截止。UKRI“未来资助机会”页面将第12轮列在2027年2月（约 1.1 亿英镑），并注明仍在制定中、细节可能变化；开放和截止日期尚未公布。",
+    "summary": "支持处于建立或转向独立阶段的早期研究者和创新者的长期旗舰奖学金，4 年并可续 3 年。",
+    "eligibility": "面向正在建立或转向独立的早期研究者，不设博士后年限。只能由接收机构提交，且每个机构可提交的申请人数有上限——第11轮各校在官方截止前数月即开展校内意向遴选。",
+    "support": "4 年并可续 3 年；按全经济成本的 80% 资助，单项约 30 万至 200 多万英镑，软上限 140 万英镑。",
+    "prep": "建议提前 6 个月以上",
+    "next": "现在就联系意向英国机构，询问第12轮的校内遴选时间。",
+    "sourceNote": "第12轮只有预告，尚无正式征集页面；资格与资助标准取自第11轮页面，下一轮可能调整。",
+    "sources": [
+      {
+        "label": "UKRI · 未来资助机会预告",
+        "url": "https://www.ukri.org/apply-for-funding/future-research-and-innovation-funding-opportunities/"
+      },
+      {
+        "label": "UKRI · Future Leaders Fellowships 第11轮",
+        "url": "https://www.ukri.org/opportunity/future-leaders-fellowship-round-11/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "gerda-henkel-research-scholarships-2026-11",
+    "name": "Gerda Henkel Research Scholarships · November 2026 deadline",
+    "org": "Gerda Henkel Foundation（格尔达·汉高基金会）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不限国籍和工作地点，也不要求依托机构或德国接收方——可在中国境内执行。",
+    "audience": [
+      "博士后",
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "历史人文学科：考古学、历史学、艺术史、历史伊斯兰研究、科学史、法律史、史前史",
+    "disciplines": [
+      "social"
+    ],
+    "status": "open",
+    "date": "2026-11-20",
+    "deadline": "2026-11-20",
+    "dateLabel": "受理中，2026年11月20日截止（2027年春季评审）",
+    "timeNote": "官方未注明截止时刻。本轮由2027年4月的评审会议决定，最早2027年5月起资助。下一个截止期在2027年5月，具体日期待公布。",
+    "summary": "面向历史人文学科博士后和已获教授资格学者的个人研究奖学金，是少数不要求与德国有任何关联的德国资助。",
+    "eligibility": "须有博士学位（博士后档要求近十年内获得）或已取得教授资格（Habilitation）。只资助全职研究；同时领取工资者不可获奖学金。需一封推荐信（最多两封），由推荐人直接上传。",
+    "support": "1–24 个月；博士后每月 2,760 欧元，已获教授资格者每月 3,720 欧元；视情况另有家庭补贴、差旅和材料费。",
+    "prep": "建议提前 4–8 周；本轮时间很紧",
+    "next": "通过基金会在线表格提交，并尽快请推荐人上传推荐信；赶不上本轮可准备2027年5月的截止期。",
+    "sources": [
+      {
+        "label": "Gerda Henkel Foundation · Research Scholarships",
+        "url": "https://www.gerda-henkel-stiftung.de/en/researchscholarships"
+      },
+      {
+        "label": "Gerda Henkel Foundation · Grants",
+        "url": "https://www.gerda-henkel-stiftung.de/en/grants"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "daad-kc-wong-postdoc",
+    "name": "DAAD–K.C. Wong Postdoc Fellowships",
+    "org": "德国学术交流中心（DAAD）/ 王宽诚教育基金会",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "仅面向在中国大陆工作的中华人民共和国公民，赴德国接收机构开展研究。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "自然科学 · 数学 · 工程 · 农学 · 医学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "每年4月8日、10月9日截止 · 下一轮年份待核实",
+    "timeNote": "官方页面只列月日、未标年份：10月9日截止的对应次年4–9月启动，4月8日截止的对应当年10月至次年3月启动；申请入口在截止前约六周开放，目前页面显示暂不可申请。未据此推定具体年份。",
+    "summary": "资助中国大陆副高及以上职称的科研人员赴德国开展 3–12 个月研究。名称虽为“博士后”，实际面向副教授、副研究员一级。",
+    "eligibility": "须为在中国大陆工作的中国公民，有博士学位，并具有教授、副教授、研究员、副研究员或高级工程师职称。须有德国接收方。DAAD 评审后还须经王宽诚教育基金会批准。",
+    "support": "3–12 个月，不可延期；每月 2,100 欧元，另含医疗、意外和责任保险。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先取得德国接收方邀请，再留意 DAAD 申请入口开放；日期和年份可向 DAAD 北京代表处核实。",
+    "sources": [
+      {
+        "label": "DAAD · DAAD–K.C. Wong Postdoc Fellowships",
+        "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015446"
+      },
+      {
+        "label": "DAAD 中国 · 王宽诚博士后奖学金",
+        "url": "https://www.daad.org.cn/zh/find-funding/funding-programmes-in-germany/daad-kc-wong-postdoc-fellowships/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "helmholtz-ocpc-postdoc-2026",
+    "name": "Helmholtz–OCPC Postdoc Program · 2026",
+    "org": "亥姆霍兹联合会（Helmholtz Association）/ 全国博士后管委会办公室",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向持中国护照的青年学者，须通过国内博士后科研流动站（工作站）申报，赴德国亥姆霍兹各研究中心工作两年。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "亥姆霍兹各中心发布的课题（以自然科学、工程和健康为主）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-04-30",
+    "deadline": "2026-04-30",
+    "dateLabel": "2026 年度已于4月30日截止",
+    "timeNote": "2026 年度：3月2日在全国博管办网站发布通知，4月30日截止，8月底公布结果。2027 年度安排尚未公布，不沿用上一年度日期。",
+    "summary": "亥姆霍兹联合会与全国博管办合作的两年期博士后项目，每年至多 25 人，从德方中心发布的课题清单中选题申报。",
+    "eligibility": "35 岁以下、持中国护照，近五年内获得博士学位。须经国内博士后设站单位申报，个人直接向博管办提交的申请不予受理；入选者在派出期间保留国内博士后身份。",
+    "support": "两年；博管办资助 30 万元人民币，德方中心另发奖学金（卡尔斯鲁厄理工学院为每月 1,500 欧元，其他中心可能不同）。",
+    "prep": "建议提前 2–3 个月",
+    "next": "2027 年初留意全国博管办网站的通知和课题清单，提前联系意向中心的课题负责人和本单位博士后管理部门。",
+    "sourceNote": "日期与条件取自亥姆霍兹成员单位卡尔斯鲁厄理工学院（KIT）发布的 2026 年度通知；德方奖学金金额为 KIT 的标准。",
+    "sources": [
+      {
+        "label": "KIT · Helmholtz–OCPC Postdoc Program 2026 通知",
+        "url": "https://www.intl.kit.edu/img/content/Call_KIT_Helmholtz-OCPC-Postdoc_Programm_2026_English.pdf"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "dfg-walter-benjamin-position",
+    "name": "DFG Walter Benjamin Programme · Position in Germany",
+    "org": "德国科学基金会（DFG）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "“在德岗位”类别不限国籍，身在国外的研究者可以申请；“赴国外奖学金”类别要求此前在德国工作三年，不适用于在中国的申请人。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年可随时提交",
+    "timeNote": "官方说明申请可随时提交，没有固定截止日期。",
+    "summary": "支持博士后早期研究者在德国机构开展自己的课题，以受聘岗位形式资助，最长两年。",
+    "eligibility": "面向博士后阶段早期的研究者。须附德国接收机构的雇主声明和当地导师的支持说明。",
+    "support": "最长两年；德国机构的博士后受聘岗位，另有课题、差旅和发表费用补助。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先与德国接收机构和导师确认，再通过 DFG 的 elan 系统提交。",
+    "sources": [
+      {
+        "label": "DFG · Walter Benjamin Programme",
+        "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin"
+      },
+      {
+        "label": "DFG · Walter Benjamin Programme 常见问题",
+        "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin/faq"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "dfg-emmy-noether",
+    "name": "DFG Emmy Noether Programme",
+    "org": "德国科学基金会（DFG）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不设国籍限制，须依托德国接收机构；来自国外的申请人应有意在资助结束后继续在德国发展。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年可随时提交",
+    "timeNote": "官方说明申请可随时提交，没有固定截止日期。",
+    "summary": "支持优秀青年研究者在德国独立领导青年研究组六年，是获得教授任职资格的重要途径。",
+    "eligibility": "通常为获博士学位后四年内，一般需至少两年博士后经历，并有实质性的国际研究经历。",
+    "support": "六年；本人岗位加课题组经费（官方页面未列金额）。",
+    "prep": "建议提前 4–6 个月",
+    "next": "与德国接收机构商定落地条件后，通过 DFG 系统提交。",
+    "sources": [
+      {
+        "label": "DFG · Emmy Noether Programme",
+        "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/emmy-noether"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "humboldt-research-award",
+    "name": "Humboldt Research Award",
+    "org": "Alexander von Humboldt Foundation（洪堡基金会）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向在德国以外生活和工作至少五年的研究者；须由在德国的知名研究者提名，不接受自荐。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年接受提名 · 每年3月、10月评审",
+    "timeNote": "提名随时可提交，评审委员会每年3月和10月开会，评审周期约六个月。",
+    "summary": "表彰其基础性发现、理论或见解对本学科产生持久影响的国际知名学者，并邀请其到德国合作研究。",
+    "eligibility": "须为成果已对本学科产生持久影响、且预计继续产出前沿成果的资深研究者；由德国的研究者提名。",
+    "support": "奖金 80,000 欧元；在德国合作研究累计 6–12 个月，可分段。",
+    "prep": "提名材料建议提前 2–3 个月",
+    "next": "与德国合作者商议，由对方在线提交提名。",
+    "sources": [
+      {
+        "label": "Humboldt Foundation · Humboldt Research Award",
+        "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-award"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "humboldt-bessel-research-award",
+    "name": "Friedrich Wilhelm Bessel Research Award",
+    "org": "Alexander von Humboldt Foundation（洪堡基金会）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向在德国以外生活和工作五年以上的研究者；须由在德国的研究者提名，不接受自荐。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年接受提名 · 每年3月、10月评审",
+    "timeNote": "提名可随时在线提交，评审委员会每年3月和10月开会。",
+    "summary": "面向获博士学位不超过 18 年、已有国际声誉的中青年学者的研究奖，获奖者到德国开展合作研究。",
+    "eligibility": "获博士学位不超过 18 年；在德国以外生活和工作超过五年；由德国的研究者提名。",
+    "support": "奖金 60,000 欧元；在德国合作研究 6–12 个月，可分段。",
+    "prep": "提名材料建议提前 2–3 个月",
+    "next": "与德国合作者商议，由对方在线提交提名。",
+    "sources": [
+      {
+        "label": "Humboldt Foundation · Friedrich Wilhelm Bessel Research Award",
+        "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/friedrich-wilhelm-bessel-research-award"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "humboldt-climate-protection-2027",
+    "name": "International Climate Protection Fellowship · 2027 call",
+    "org": "Alexander von Humboldt Foundation（洪堡基金会）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "国家名单（2026年6月版）包含中国；申请人须为名单内国家公民并主要在该国生活和工作，赴德国接收方开展项目。曾在德国上学或获学位者不符合条件。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "气候保护与气候相关的资源保护（学科不限）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-12-07",
+    "date": "2026-12-07",
+    "closesWhenFull": true,
+    "dateLabel": "2026年12月7日开放 · 收满 120 份申请即关闭",
+    "timeNote": "没有固定截止日期：收满 120 份（实践型青年领导者 90 份、博士后 30 份）即关闭，宜在开放后头几天提交。接收方声明须在3月1日前提交，2027年9月评选，2028年3月启动。2026年11月17日有线上说明会。",
+    "summary": "资助发展中和转型国家从事气候保护的博士后与实践型青年领导者，赴德国与接收方合作一至两年。",
+    "eligibility": "博士后类：申请前四年内获得博士学位。青年领导者类：近 12 年内获得第一学位，并有气候相关工作经验。须有德国接收方。",
+    "support": "博士后每月 3,000 欧元、12–24 个月；青年领导者每月 2,500–3,000 欧元、一年；接收方另有每月 500–800 欧元补助。",
+    "prep": "建议提前 6–8 周；开放前备齐材料",
+    "next": "在12月7日前落实德国接收方并备齐材料，开放当天起通过洪堡基金会在线系统提交。",
+    "sources": [
+      {
+        "label": "Humboldt Foundation · International Climate Protection Fellowship",
+        "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/international-climate-protection-fellowship"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "dlr-daad-research-fellowships",
+    "name": "DLR-DAAD Research Fellowships",
+    "org": "德国学术交流中心（DAAD）/ 德国宇航中心（DLR）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向非德国籍申请人，只能在德国宇航中心（DLR）各研究所执行；页面未将中国排除在外，个别岗位可能另有限制，须逐项核对。",
+    "audience": [
+      "博士生",
+      "博士后",
+      "在职科研人员"
+    ],
+    "fields": "航空航天 · 空间 · 能源 · 交通 · 数字化 · 安全",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "常年发布岗位，各岗位截止日期不同 · 先到先得",
+    "timeNote": "没有统一截止日期：每个岗位在“DLR-DAAD Fellowships – Current offers”中单独列出期限，名额先到先得。",
+    "summary": "DAAD 与德国宇航中心合设的奖学金，按 DLR 各研究所发布的具体课题岗位申请，覆盖博士生到资深访问学者四类。",
+    "eligibility": "博士生类：学位取得不超过 6 年；博士后类：博士学位取得不超过 2 年；另有资深科学家和访问研究者类别。须针对某一具体岗位申请。",
+    "support": "博士生每月 1,760 欧元、36 个月；博士后每月 2,400 欧元、7–24 个月；资深科学家每月 2,760 欧元、1–3 个月；访问研究者每月 1,760 或 2,400 欧元、1–6 个月。",
+    "prep": "建议提前 4–8 周",
+    "next": "在当前岗位列表中找到对口课题，按该岗位要求通过 DAAD 申请系统提交。",
+    "sources": [
+      {
+        "label": "DAAD · DLR-DAAD Research Fellowships",
+        "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50019749"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "helmholtz-investigator-groups",
+    "name": "Helmholtz Investigator Groups",
+    "org": "亥姆霍兹联合会（Helmholtz Association）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向德国和国外的候选人，未设国籍限制；须向拟加入的亥姆霍兹中心申请，由中心预选并提名。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "亥姆霍兹各研究领域（以自然科学、工程和健康为主）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "第24轮征集已发布，截止日期待核实",
+    "timeNote": "项目页面只指向“当前征集”，未列日期；第24轮征集通知中出现的日期未能确认是否为截止日期，故不据此标注。各中心的内部预选截止更早。上一个确认的截止日期为第22轮的2025年4月30日。",
+    "summary": "支持获博士学位不久的优秀青年研究者在亥姆霍兹中心组建并领导自己的课题组，五年期，评估通过后可转为长期职位。",
+    "eligibility": "获博士学位后的学术年龄不超过六年。",
+    "support": "五年至少 175 万欧元；评估通过后可获长期职位。",
+    "prep": "建议提前 4–6 个月",
+    "next": "直接联系意向亥姆霍兹中心，询问其内部预选时间和要求。",
+    "sources": [
+      {
+        "label": "Helmholtz · Helmholtz Investigator Groups",
+        "url": "https://www.helmholtz.de/en/career/careers-at-helmholtz/helmholtz-investigator-groups/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "esrc-postdoctoral-fellowships-2027",
+    "name": "ESRC Postdoctoral Fellowships · 2027",
+    "org": "英国经济与社会研究理事会（UKRI · ESRC）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须在英国研究机构完成博士学位，并在属于 ESRC 博士培养联盟（DTP）的英国机构执行。页面未写明国籍或签证要求。",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "社会科学（须占奖学金活动的 50% 以上）",
+    "disciplines": [
+      "social"
+    ],
+    "status": "open",
+    "opensOn": "2026-11-10",
+    "date": "2027-03-23",
+    "deadline": "2027-03-23",
+    "deadlineTime": "23:59 GMT",
+    "dateLabel": "受理中，2027年3月23日 23:59（英国时间）截止",
+    "timeNote": "英国时间。须直接向所申请的 DTP 提交，各 DTP 自行公布表格和校内截止时间，部分设意向阶段。奖学金须于2027年10月1日开始。",
+    "summary": "帮助刚获得博士学位的社会科学研究者巩固博士成果、发表论文并准备后续申请的短期奖学金，不资助新的研究课题。",
+    "eligibility": "截至截止日，自答辩起的博士后经历（按全职折算）不足 12 个月；须已获博士学位，或已提交论文并以小修通过答辩（需大修者不符合）。博士须在英国研究机构完成。只能向一个 DTP 提交一份申请，共 15 个 DTP 参与。",
+    "support": "全职最长 9 个月，或非全职最长 18 个月；金额未在 UKRI 页面列出，见各 DTP 说明。可用于发表、建立合作网络、培训、准备项目申请和每周不超过 6 小时的教学。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先确定接收机构所属的 DTP，查看其表格、说明和校内截止时间。",
+    "sources": [
+      {
+        "label": "UKRI · ESRC Postdoctoral Fellowships",
+        "url": "https://www.ukri.org/opportunity/esrc-postdoctoral-fellowships/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "daphne-jackson-fellowships",
+    "name": "Daphne Jackson Fellowships",
+    "org": "Daphne Jackson Trust",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "申请时须居住在英国并拥有至少 12 个月的英国工作许可；须在英国或爱尔兰共和国的研究机构执行。未提及国籍。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "UKRI 全部资助领域（含人文、艺术与社会科学）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "常规通道全年可申请 · 另有不定期的定向资助名额",
+    "timeNote": "官方说明常规通道随时可申请，但不保证有经费；由特定机构出资的定向名额单独发布。面试每年三次。",
+    "summary": "帮助因家庭、健康或照护原因中断科研两年以上的研究者重返岗位的非全职奖学金，附个性化再培训计划。",
+    "eligibility": "因家庭、健康或照护原因中断科研至少两年；有研究型博士学位，或中断前有至少三年科研经历。中断期间从事有偿科研、每周授课超过 6 小时或攻读相关硕士及专业资格者不符合。分研究型和研究技术人员两类。",
+    "support": "两到三年，通常为半职（0.5 FTE），含再培训计划；工资与津贴数额未在所读页面列出。",
+    "prep": "建议提前 4–6 个月",
+    "next": "向基金会邮寄简历、个人信息表和个人陈述，经顾问电话确认资格后三个月内提交课题草案。找不到出资方的申请会被撤回。",
+    "sources": [
+      {
+        "label": "Daphne Jackson Trust · 资格",
+        "url": "https://daphnejackson.org/about-fellowships/eligibility/"
+      },
+      {
+        "label": "Daphne Jackson Trust · 申请流程",
+        "url": "https://daphnejackson.org/apply/application-process/how-to-apply-for-a-research-fellowship/"
+      },
+      {
+        "label": "UKRI · Daphne Jackson fellowship",
+        "url": "https://www.ukri.org/opportunity/daphne-jackson-fellowship/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "leverhulme-research-project-grants",
+    "name": "Leverhulme Research Project Grants",
+    "org": "The Leverhulme Trust",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "项目负责人须受聘于英国的大学、其他高等教育机构或独立研究机构（或为与其关系密切的退休学者）；最多三名共同申请人，可来自海外。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "全学科（不含医学与临床研究、政策导向研究和可直接商业应用的研究）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "预申请全年受理 · 正式申请每年4月1日、9月1日、12月1日截止",
+    "timeNote": "两阶段：预申请随时提交，评审约三个月（高峰期可达六个月）；受邀的正式申请每年三个截止日，分别在6月、11月、次年3月决定。官方未注明截止时刻。",
+    "summary": "资助英国机构的研究者开展有原创性的课题，经费主要用于聘用研究助理或博士生。",
+    "eligibility": "合同制研究人员在聘期覆盖项目期时也可申请。至少 75% 的经费须用于人员，并始终有一名研究助理或博士生投入一半以上时间；博士生名额只面向英国本土学生。预申请与正式申请之间不得更改目标、预算和人员；不提供续期资助。",
+    "support": "最高 500,000 英镑，6 个月至 5 年；教学替代每年最高 20,000 英镑；相关费用不超过 25%，单件设备不超过 2,500 英镑。",
+    "prep": "建议提前 4–6 个月",
+    "next": "通过 Leverhulme 经费系统提交预申请；海外研究者可作为共同申请人与英国负责人联合。",
+    "sources": [
+      {
+        "label": "Leverhulme Trust · Research Project Grants",
+        "url": "https://www.leverhulme.ac.uk/research-project-grants"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "wellcome-discovery-awards",
+    "name": "Wellcome Discovery Awards",
+    "org": "Wellcome（惠康基金会）",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "管理机构须在英国，或非洲、南亚、东南亚的中低收入国家（不含中国大陆）；共同申请人可在中国大陆以外的任何地方，经费不得转入中国大陆。未设国籍限制。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "与改善人类健康相关的各学科（理工医、人文与社会科学）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年可提交 · 每年4月、11月初筛",
+    "timeNote": "官方说明没有截止日期；每年4月和11月初筛、3月和7月面试，官方日程表列出2027年7月的面试与决定。",
+    "summary": "资助已有国际声誉的科研带头人及其团队开展大胆的发现性研究，平均资助额约 350 万英镑、为期约七年。",
+    "eligibility": "牵头申请人须为本领域有国际地位的研究带头人，申请时持有永久、无固定期限或长期滚动合同（或已获保证）。团队通常 2–8 人，也接受单人申请。同一课题在惠康各项目中最多提交两次；未获资助后须间隔 12 个月。",
+    "support": "最长 8 年；仅资助研究经费，英国的牵头申请人不能申请本人工资；超过 500 万英镑的申请将接受额外审查。",
+    "prep": "建议提前 6 个月以上",
+    "next": "与管理机构的科研办公室确认后，由该机构在 Wellcome Funding 平台提交。",
+    "sources": [
+      {
+        "label": "Wellcome · Discovery Awards",
+        "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards"
+      },
+      {
+        "label": "Wellcome · 各项目申请时间表",
+        "url": "https://wellcome.org/research-funding/guidance/prepare-to-apply/scheme-application-deadlines"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "ba-postdoctoral-fellowships-2026",
+    "name": "British Academy Postdoctoral Fellowships · 2026",
+    "org": "英国国家学术院（The British Academy）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "英国公民和欧洲经济区国民不限博士授予地；其他国籍须持有英国大学博士学位，否则须证明与英国学术界有“紧密的既往联系”。须在英国高校执行。",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "人文与社会科学",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-07-01",
+    "date": "2026-09-30",
+    "deadline": "2026-09-30",
+    "deadlineTime": "17:00 BST",
+    "dateLabel": "2026 轮已于9月30日 17:00（英国时间）截止",
+    "timeNote": "2026 轮7月1日开放、9月30日截止，奖学金最早2027年9月1日开始。下一轮日期尚未公布，不沿用上一年度日期。英国高校通常在6–7月进行校内遴选。",
+    "summary": "面向人文与社会科学领域刚获得博士学位的研究者的三年期英国博士后奖学金。",
+    "eligibility": "2026 轮要求答辩时间在2024年4月1日至2027年4月1日之间，且从未担任过永久学术职位。需一位自荐推荐人，通常为校外答辩委员，不得为导师、校内答辩委员或拟接收机构人员。不可续期。",
+    "support": "三年；学术院按全经济成本承担工资及相关成本的 80%。研究经费数额在官方指南中，本次未能读取。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意下一轮通知，并提前向意向英国高校询问校内遴选安排。",
+    "sources": [
+      {
+        "label": "British Academy · Postdoctoral Fellowships",
+        "url": "https://www.thebritishacademy.ac.uk/funding/schemes/postdoctoral-fellowships/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rse-international-joint-projects-2027",
+    "name": "RSE International Joint Projects · Spring 2027",
+    "org": "爱丁堡皇家学会（Royal Society of Edinburgh）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "由苏格兰一方的负责人向学会申请；海外合作方可来自任何国家（第一类），或经意大利 CNR、德国 DAAD、台湾 NSTC 等姊妹机构渠道（第二类）。",
+    "audience": [
+      "在职科研人员",
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-02-24",
+    "date": "2027-02-24",
+    "deadline": "2027-04-14",
+    "dateLabel": "2027年2月24日开放，4月14日截止",
+    "timeNote": "官方页面未注明截止时刻。",
+    "summary": "资助苏格兰机构与一家海外机构之间的双边合作与互访，最长 24 个月。",
+    "eligibility": "苏格兰一方负责人须至少为博士后层次，受聘于苏格兰的高校、研究机构或文化机构，合同须比项目多三个月以上；海外负责人须有博士学位并受聘于大学、研究机构或文化机构。仅限双边，互访须双向进行；每位申请人每轮只能申请一项学会资助。",
+    "support": "学会出资 3,000–12,000 英镑，合作方机构应提供同等经费；每个方向一次往返差旅。",
+    "prep": "建议提前 2–3 个月",
+    "next": "与苏格兰合作者商定计划并落实本方的配套经费，由对方向学会提交。",
+    "sources": [
+      {
+        "label": "Royal Society of Edinburgh · International Joint Projects",
+        "url": "https://rse.org.uk/award/rse-joint-projects/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rse-personal-research-fellowships-2027",
+    "name": "RSE Personal Research Fellowships · Spring 2027",
+    "org": "爱丁堡皇家学会（Royal Society of Edinburgh）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "研究须由苏格兰的机构承接；面向已在职的学术人员。雇主是否必须在苏格兰，页面表述不够明确，须核对条款。未提及国籍。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-02-24",
+    "date": "2027-02-24",
+    "deadline": "2027-04-14",
+    "dateLabel": "2027年2月24日开放，4月14日截止",
+    "timeNote": "官方页面未注明截止时刻。",
+    "summary": "为在职学术人员提供最长 12 个月的研究假期，由学会支付替代人员的工资。",
+    "eligibility": "分早期（获博士学位及首个学术任职后七年内）和中期（通常获博士学位 15 年内）两类；须为无固定期限或持续合同的在职人员，定期合同须比项目多三个月以上。",
+    "support": "最长 12 个月；替代工资最高 52,000 英镑（含雇主成本），另每年 5,000 英镑研究经费。",
+    "prep": "建议提前 2–3 个月",
+    "next": "与所在机构确认研究假期安排，开放后按学会要求提交，并准备推荐人表格。",
+    "sources": [
+      {
+        "label": "Royal Society of Edinburgh · Personal Research Fellowships",
+        "url": "https://rse.org.uk/award/rse-personal-research-fellowships/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rs-career-development-fellowship-2027",
+    "name": "Royal Society Career Development Fellowship · 2027",
+    "org": "英国皇家学会（The Royal Society）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "试点项目，仅面向按英格兰和威尔士 2021 年人口普查分类自我认同为黑人族裔背景的研究者；须为英国国民，或曾在英国完成部分学业，或曾在英国任博士后。须在英国机构执行。",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "自然科学（不含临床研究、社会科学和人文）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "opensOn": "2026-09-22",
+    "date": "2026-11-18",
+    "deadline": "2026-11-18",
+    "dateLabel": "受理中，2026年11月18日截止",
+    "timeNote": "官方页面未注明截止时刻。结果不晚于2027年6月30日公布。2028 轮预计2027年9月开放、11月截止，日期待公布。",
+    "summary": "支持黑人族裔背景的博士后早期研究者在英国机构开展四年研究的试点奖学金，每年至多 8 个名额。",
+    "eligibility": "截至2026年11月18日全职博士后经历不足 24 个月；须已有博士学位或在资助开始前取得。须自行落实英国学术担保人，学会不协助寻找。入围者须现场面试。",
+    "support": "四年、最高 703,800 英镑：工资及间接费用按 80%、研究经费按 100% 资助，每年至少 30,000 英镑研究经费，另每年最高 5,000 英镑培训费；搬迁和签证费用可在上限之外申请。",
+    "prep": "建议提前 3–4 个月；本轮时间很紧",
+    "next": "本轮即将截止；符合条件者可准备 2028 轮，先落实英国担保人和接收机构。",
+    "sources": [
+      {
+        "label": "Royal Society · Career Development Fellowship",
+        "url": "https://royalsociety.org/grants/career-development-fellowship/"
+      },
+      {
+        "label": "Royal Society · Career Development Fellowship 项目说明",
+        "url": "https://royalsociety.org/-/media/grants/career-development-fellowship/career-development-fellowship-scheme-notes.pdf"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "ams-springboard-2027",
+    "name": "AMS Springboard · 2027",
+    "org": "英国医学科学院（The Academy of Medical Sciences）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须在参与该项目的英国机构任职，每个机构每轮最多推荐四份申请。未提及国籍。",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "生物医学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "下一轮预计2027年春季开放（5–6月受理），具体日期未公布",
+    "timeNote": "官方说明下一轮在2027年春季开放、申请窗口为5–6月，校内初筛在3–4月；具体日期尚未公布。希望加入的机构须在2026年12月11日前联系学院。",
+    "summary": "为刚获得首个独立（带薪）学术职位的生物医学研究者提供两年启动经费。",
+    "eligibility": "处于首个独立带薪学术职位、任职不超过五年（按全职折算）。持临床合同者、作为负责人或共同负责人已有超过 150,000 英镑科研经费者，以及已持有皇家学会大学研究奖学金、UKRI 未来领袖奖学金等所列奖学金者不符合。不设面试。",
+    "support": "两年、最高 125,000 英镑。",
+    "prep": "建议提前 3–4 个月",
+    "next": "联系所在机构的 Springboard 负责人，了解校内遴选时间。",
+    "sources": [
+      {
+        "label": "Academy of Medical Sciences · Springboard",
+        "url": "https://acmedsci.ac.uk/grants-and-programmes/grants/springboard-research-careers"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "leverhulme-research-fellowships-2026",
+    "name": "Leverhulme Research Fellowships · 2026",
+    "org": "The Leverhulme Trust",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "申请时须居住在英国，并在具有研究型学位授予权的英国大学任职。未写明国籍要求。",
+    "audience": [
+      "在职科研人员"
+    ],
+    "fields": "全学科（不含疾病与残障研究及以临床、医学应用为目的的研究）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-11-05",
+    "deadline": "2026-11-05",
+    "deadlineTime": "16:00 GMT",
+    "dateLabel": "2026 轮已于11月5日 16:00（英国时间）截止",
+    "timeNote": "本轮资助须在2027年6月1日至2028年5月1日之间开始。下一轮日期尚未公布，不沿用上一年度日期。",
+    "summary": "资助有经验的研究者集中时间完成一项研究课题，3–24 个月。",
+    "eligibility": "面向有经验的研究者。每轮只能提交一份申请；两次获资助之间须间隔七年。",
+    "support": "最高 70,000 英镑，3–24 个月。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意下一轮通知；通过 Leverhulme 经费系统申请并取得机构批准。",
+    "sources": [
+      {
+        "label": "Leverhulme Trust · Research Fellowships",
+        "url": "https://www.leverhulme.ac.uk/research-fellowships"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "leverhulme-major-research-fellowships",
+    "name": "Leverhulme Major Research Fellowships",
+    "org": "The Leverhulme Trust",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须受聘于具有研究型学位授予权的英国大学。页面未提及居住地和国籍。",
+    "audience": [
+      "在职科研人员"
+    ],
+    "fields": "人文与社会科学",
+    "disciplines": [
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "每年5月截止，下一轮具体日期未公布",
+    "timeNote": "目前关闭；官方说明截止日期在每年5月，具体日期尚未公布。",
+    "summary": "让人文与社会科学领域的资深学者用两到三年专心完成一项重要研究，由基金会支付替代教学的工资成本。",
+    "eligibility": "此前获得过该奖学金者不可再申请。需三位来自申请人所在机构以外的推荐人。",
+    "support": "两年或三年；替代工资成本，另每年最高 6,000 英镑研究经费。",
+    "prep": "建议提前 3–4 个月",
+    "next": "留意下一轮日期；通过 Leverhulme 经费系统申请。",
+    "sources": [
+      {
+        "label": "Leverhulme Trust · Major Research Fellowships",
+        "url": "https://www.leverhulme.ac.uk/major-research-fellowships"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "leverhulme-emeritus-fellowships-2027",
+    "name": "Leverhulme Emeritus Fellowships · 2027",
+    "org": "The Leverhulme Trust",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向每年在英国居住至少 26 周、曾在符合条件的英国机构任职的退休学者。",
+    "audience": [
+      "在职科研人员"
+    ],
+    "fields": "全学科（不含疾病与残障研究及以临床、医学应用为目的的研究）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": "2027-01-28",
+    "deadline": "2027-01-28",
+    "dateLabel": "受理中，2027年1月28日截止",
+    "timeNote": "官方页面未注明截止时刻。资助须在2027年8月1日至2028年7月1日之间开始。",
+    "summary": "资助退休学者完成尚未结束的研究项目并形成成果。",
+    "eligibility": "须已退休，并曾在符合条件的英国机构任职；需机构批准。",
+    "support": "3,000–24,000 英镑，3–24 个月。",
+    "prep": "建议提前 4–8 周",
+    "next": "通过 Leverhulme 经费系统提交，并取得原任职机构的批准。",
+    "sources": [
+      {
+        "label": "Leverhulme Trust · Emeritus Fellowships",
+        "url": "https://www.leverhulme.ac.uk/emeritus-fellowships"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "philip-leverhulme-prizes-2026",
+    "name": "Philip Leverhulme Prizes · 2026",
+    "org": "The Leverhulme Trust",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须在英国大学持有永久职位或长期奖学金，由系主任提名。未写明国籍要求。",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "每年轮换学科；2027 年为古典学、地球科学、物理学、政治与国际关系、心理学、视觉与表演艺术",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-05-14",
+    "deadline": "2026-05-14",
+    "dateLabel": "2026 轮已于5月14日截止",
+    "timeNote": "2027 轮日期尚未公布，不沿用上一年度日期。",
+    "summary": "表彰已有国际认可、前景突出的青年学者的奖项，奖金可自由用于推进研究。",
+    "eligibility": "获博士学位通常不超过十年；每个机构每个学科最多提名三人。",
+    "support": "100,000 英镑，2–3 年内使用。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意 2027 轮日期，并与系主任沟通提名。",
+    "sources": [
+      {
+        "label": "Leverhulme Trust · Philip Leverhulme Prizes",
+        "url": "https://www.leverhulme.ac.uk/philip-leverhulme-prizes"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "leverhulme-research-leadership-awards-2028",
+    "name": "Leverhulme Research Leadership Awards · 2028",
+    "org": "The Leverhulme Trust",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须在英国大学持有（或已被提名担任）讲师级永久职位，并已拥有在英国工作的权利。",
+    "audience": [
+      "青年研究者",
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "全学科（不含医学、政策导向和商业应用研究）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "下一轮2028年1月开放、5月截止，具体日期未公布",
+    "timeNote": "目前关闭；官方只给出2028年1月开放、5月截止，未列具体日期。",
+    "summary": "支持已站稳脚跟的青年学者组建研究团队、推进一项有分量的研究计划，4–5 年。",
+    "eligibility": "获博士学位至少两年。每个机构只能提交一份申请，校内竞争在前。",
+    "support": "最高 100 万英镑，4–5 年。",
+    "prep": "建议提前 6 个月以上",
+    "next": "提前向所在英国大学了解校内遴选安排。",
+    "sources": [
+      {
+        "label": "Leverhulme Trust · Research Leadership Awards",
+        "url": "https://www.leverhulme.ac.uk/research-leadership-awards"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rs-industry-fellowships-2027-r1",
+    "name": "Royal Society Industry Fellowships · 2027 Round 1",
+    "org": "英国皇家学会（The Royal Society）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须在英国的大学、非营利研究机构或企业持有永久职位或无固定期限合同；不限国籍。",
+    "audience": [
+      "在职科研人员"
+    ],
+    "fields": "自然科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-07-22",
+    "date": "2026-09-16",
+    "deadline": "2026-09-16",
+    "dateLabel": "2027 年第一轮已于2026年9月16日截止",
+    "timeNote": "官方页面未注明截止时刻；本轮结果不晚于2027年3月31日公布。下一轮日期尚未公布。",
+    "summary": "支持学术界研究者到企业、或企业研究者到学术机构工作，开展合作项目，促进产学双向流动。",
+    "eligibility": "须持有永久职位或无固定期限合同。",
+    "support": "全职两年（或按比例延长），最高 168,000 英镑，含基本工资和每年最高 4,000 英镑研究经费。",
+    "prep": "建议提前 3–4 个月",
+    "next": "留意下一轮通知；通过 Flexi-Grant 申请。",
+    "sources": [
+      {
+        "label": "Royal Society · Industry Fellowships",
+        "url": "https://royalsociety.org/grants/industry-fellowships/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "bbsrc-early-independence-fellowships-2026",
+    "name": "Early Independence: BBSRC Fellowships · 2026",
+    "org": "英国生物技术与生物科学研究理事会（UKRI · BBSRC）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "欢迎各国籍申请人，包括目前不在英国者；须由可接受 BBSRC 资助的英国机构接收。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "生物技术与生物科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-02-11",
+    "date": "2026-04-22",
+    "deadline": "2026-04-22",
+    "deadlineTime": "16:00 BST",
+    "dateLabel": "2026 轮预申请已于4月22日 16:00（英国时间）截止",
+    "timeNote": "两阶段：预申请后受邀提交正式申请。下一轮日期尚未公布，不沿用上一年度日期。",
+    "summary": "支持生物科学领域的早期研究者在英国机构开展独立研究的三年期奖学金，每年约 15 项。",
+    "eligibility": "处于职业早期，有博士学位或同等经历。每年只能申请一项 BBSRC 奖学金。",
+    "support": "三年；按全经济成本的 80% 资助，金额不设上限；不资助研究人员和设备。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意下一轮通知，提前联系英国接收机构的科研办公室。",
+    "sources": [
+      {
+        "label": "UKRI · Early independence: BBSRC fellowships",
+        "url": "https://www.ukri.org/opportunity/early-independence-bbsrc-fellowships-outline/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "nerc-independent-research-fellowship-2026",
+    "name": "Early Independence: NERC Independent Research Fellowship · 2026",
+    "org": "英国自然环境研究理事会（UKRI · NERC）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不限国籍；须由可接受 NERC 资助的英国机构接收。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "环境科学（NERC 资助范围）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-02-25",
+    "date": "2026-06-16",
+    "deadline": "2026-06-16",
+    "deadlineTime": "16:00 BST",
+    "dateLabel": "2026 轮已于6月16日 16:00（英国时间）截止",
+    "timeNote": "下一轮日期尚未公布，不沿用上一年度日期。",
+    "summary": "支持环境科学领域的早期研究者在英国机构建立独立研究方向的五年期奖学金。",
+    "eligibility": "处于职业早期，尚未担任讲师级或终身职位。不接受内容相同的重新提交。",
+    "support": "五年；按全经济成本的 80% 资助，单件设备不超过 25,000 英镑；本轮总经费 725 万英镑。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意下一轮通知，由英国接收机构通过 UKRI Funding Service 提交。",
+    "sources": [
+      {
+        "label": "UKRI · Early Independence: NERC Independent Research Fellowship 2026",
+        "url": "https://www.ukri.org/opportunity/early-independence-nerc-independent-research-fellowship-2026"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "stfc-ernest-rutherford-fellowships-2026",
+    "name": "Early Independence: Ernest Rutherford Fellowships · 2026",
+    "org": "英国科学与技术设施理事会（UKRI · STFC）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不限国籍；接收机构须有 STFC 分配的名额，每个机构可提交的申请数有严格上限。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "天文学 · 太阳与行星科学 · 粒子、核与加速器物理及相关计算和量子研究",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-06-03",
+    "date": "2026-09-30",
+    "deadline": "2026-09-30",
+    "deadlineTime": "16:00 BST",
+    "dateLabel": "2026 轮已于9月30日 16:00（英国时间）截止",
+    "timeNote": "下一轮日期尚未公布，不沿用上一年度日期。",
+    "summary": "支持天文和粒子物理等领域的早期研究者在英国机构建立独立研究方向的五年期奖学金，每年至多 10 项。",
+    "eligibility": "有博士学位或同等经历，不设年限，但尚未达到讲师级。",
+    "support": "五年；按全经济成本的 80% 资助；从欧洲以外迁入者有最高 3,000 英镑搬迁费。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意下一轮通知，尽早向意向机构询问校内名额遴选。",
+    "sources": [
+      {
+        "label": "UKRI · Early Independence: Ernest Rutherford Fellowships 2026",
+        "url": "https://www.ukri.org/opportunity/early-independence-ernest-rutherford-fellowships-2026"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rs-dorothy-hodgkin-fellowship-2027",
+    "name": "Royal Society Dorothy Hodgkin Fellowship · 2027",
+    "org": "英国皇家学会（The Royal Society）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不限国籍，须在英国机构执行。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "自然科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-09-03",
+    "date": "2026-10-29",
+    "deadline": "2026-10-29",
+    "deadlineTime": "15:00 GMT",
+    "dateLabel": "2027 轮已于2026年10月29日 15:00（英国时间）截止",
+    "timeNote": "2028 轮预计2027年9月开放、10月截止，具体日期待公布。",
+    "summary": "面向因照护责任或健康原因需要弹性工作安排的早期研究者的八年期奖学金，每年至多 7 项。",
+    "eligibility": "获博士学位后的研究经历不超过六年；须说明需要弹性支持的理由（主要照护者或经临床诊断的健康状况）；不得已有永久职位。",
+    "support": "八年、最高 1,907,400 英镑。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意 2028 轮通知，提前落实英国接收机构。",
+    "sources": [
+      {
+        "label": "Royal Society · Dorothy Hodgkin Fellowship",
+        "url": "https://royalsociety.org/grants/dorothy-hodgkin-fellowship/"
+      },
+      {
+        "label": "Royal Society · Dorothy Hodgkin Fellowship 项目说明",
+        "url": "https://royalsociety.org/-/media/grants/dorothy-hodgkin/dorothy-hodgkin-fellowship-scheme-notes.pdf"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rs-faraday-discovery-fellowships-2027",
+    "name": "Royal Society Faraday Discovery Fellowships · 2027",
+    "org": "英国皇家学会（The Royal Society）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不限国籍，海外申请人可申请，但须在英国执行。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "理工科（皇家学会资助范围）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-08-05",
+    "date": "2026-09-22",
+    "deadline": "2026-09-22",
+    "dateLabel": "2027 轮第一阶段已于2026年9月22日截止",
+    "timeNote": "第二阶段仅限受邀者（2026年12月2日至2027年2月3日）。2028 轮第一阶段预计2027年8月开放、9月截止，官方注明可能调整。",
+    "summary": "面向职业中期科研带头人的十年期长期资助，单项最高 800 万英镑。",
+    "eligibility": "获博士学位后 10–20 年，持有永久职位或处于长期奖学金后期。两阶段评审，不设面试。",
+    "support": "十年；最高 800 万英镑（核心 600 万，另可申请最多 200 万）。",
+    "prep": "建议提前 6 个月以上",
+    "next": "留意 2028 轮通知，提前与英国接收机构商定。",
+    "sources": [
+      {
+        "label": "Royal Society · Faraday Discovery Fellowships",
+        "url": "https://royalsociety.org/grants/faraday-discovery-fellowships/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "ras-research-fellowships-2027",
+    "name": "RAS Research Fellowships and Sir Norman Lockyer Fellowships · 2027",
+    "org": "英国皇家天文学会（Royal Astronomical Society）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须能证明拥有在英国居住和工作的权利（页面未说明未来取得的签证是否算数，须向学会确认），并取得英国研究机构的接收同意。未写明国籍要求。",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "天文学 · 太阳系科学 · 地球物理及相近领域",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": "2026-11-18",
+    "deadline": "2026-11-18",
+    "dateLabel": "受理中，2026年11月18日 23:59 截止（已由11月15日延期）",
+    "timeNote": "官方页面写“23:59”但未注明时区。奖学金2027年10月1日开始。",
+    "summary": "面向天文和地球物理领域新近获得博士学位者的三年期奖学金。",
+    "eligibility": "须在2024年10月1日之后获得博士学位，或在截止前已完成答辩。每个院系最多提交两份；获资助的接收单位三年内不得再接收（2027 年度已有三个单位被排除）。",
+    "support": "最长三年；按高校薪级表 30–36 点支付工资及雇主成本，另每年 5,000 英镑研究经费；不含间接费用。",
+    "prep": "建议提前 2–3 个月；本轮时间很紧",
+    "next": "本轮即将截止，须已取得接收机构签署的声明并通过学会在线表格提交。",
+    "sources": [
+      {
+        "label": "Royal Astronomical Society · Fellowships",
+        "url": "https://ras.ac.uk/awards-and-grants/fellowships"
+      },
+      {
+        "label": "Royal Astronomical Society · 2027 奖学金征集",
+        "url": "https://ras.ac.uk/awards-and-grants/fellowships/2330-fellowship-call"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "daad-prime-2027",
+    "name": "DAAD PRIME (Postdoctoral Researchers International Mobility Experience) · 2027",
+    "org": "德国学术交流中心（DAAD）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不限国籍和现居地，但过去五年中须有至少三年在德国高校或科研体系学习或工作；资助赴德国以外的国家研究 12 个月，再回德国 6 个月。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": "2027-04-15",
+    "deadlineTime": "23:59 CEST",
+    "dateLabel": "申请入口2027年1月开放，4月15日 23:59（德国时间）截止",
+    "timeNote": "官方给出入口2027年1月开放（未列具体日期）、4月15日截止；资助最早2028年4月1日、最晚2028年9月1日开始。项目页面目前标注“建设中”，征集文本尚未挂出。",
+    "summary": "以德国高校受聘岗位的形式资助博士后赴国外研究 12 个月并回德国 6 个月，共 18 个月。",
+    "eligibility": "获（首个）博士学位后六年内可申请，博士学位须在资助开始前完成。目的国须为截止日前三年内累计停留不超过 12 个月的国家。须有愿意聘用的德国高校和国外接收方。",
+    "support": "18 个月；按德国公共部门 TV-L E13 级受聘，税前每月约 5,000–6,400 欧元，在国外期间另有每月 1,500–2,800 欧元外派津贴和一次性差旅补助；不含间接费用。",
+    "prep": "建议提前 4–6 个月",
+    "next": "先落实愿意聘用的德国高校和国外接收方，2027年1月起在 DAAD 申请系统提交。",
+    "sources": [
+      {
+        "label": "DAAD · PRIME 申请人须知",
+        "url": "https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/prime/prime-applicants/"
+      },
+      {
+        "label": "DAAD · PRIME 常见问题",
+        "url": "https://www.daad.de/en/study-and-research-in-germany/scholarships/prime-faqs/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "dfg-initiation-international-collaboration",
+    "name": "DFG Initiation of International Collaboration",
+    "org": "德国科学基金会（DFG）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须由在德国（或德国研究机构驻外单位）工作的研究者作为协调人申请；国外合作者以受邀访问者或研讨会参加者身份参与。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年可随时提交 · 建议在活动开始前至少六个月",
+    "timeNote": "官方说明申请可随时提交，并强烈建议不晚于活动开始前六个月。",
+    "summary": "资助德国研究者与国外伙伴启动合作：探索性研讨会、赴国外短期访问和邀请国外学者来德，最长 12 个月。",
+    "eligibility": "申请人须已完成学术训练（通常有博士学位）。不用于执行联合课题、举办会议或网络活动。",
+    "support": "最长 12 个月，三类可组合：研讨会（最多资助 30 名参加者，在国外举办时德方最多 15 人）；赴国外访问最长三个月；国外学者来德访问最长三个月（含差旅和生活费）。所读页面未列标准。",
+    "prep": "建议提前 6 个月以上",
+    "next": "国外研究者可与德国合作者商议，由对方通过 DFG 的 elan 系统提交。",
+    "sources": [
+      {
+        "label": "DFG · Initiation of International Collaboration 指南（表格 1.813）",
+        "url": "https://www.dfg.de/resource/blob/167376/1-813-en.pdf"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "dfg-heisenberg",
+    "name": "DFG Heisenberg Programme",
+    "org": "德国科学基金会（DFG）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须依托德国接收机构。已在国外取得正教授职位者、以及在德国持有长聘或预聘教授职位者不可申请；未设国籍限制。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年可随时提交",
+    "timeNote": "官方说明申请可随时提交，没有固定截止日期。",
+    "summary": "面向已具备教授任职资格、尚未获得长聘教授职位的研究者，资助其在德国继续高水平研究最长五年。",
+    "eligibility": "须已取得教授资格（Habilitation）或同等资历，例如经 Emmy Noether、青年研究组负责人、DFG 项目岗位等途径获得；包括回德国的德国研究者和正教授以下的外国研究者。",
+    "support": "最长五年；可选 Heisenberg 教授席位、岗位、临床人员替代岗位或奖学金，可相互转换或组合，并可另加在德课题经费。页面未列金额。",
+    "prep": "建议提前 4–6 个月",
+    "next": "与德国接收机构商定后，通过 DFG 系统提交。",
+    "sources": [
+      {
+        "label": "DFG · Heisenberg Programme",
+        "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/heisenberg"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "dfg-walter-benjamin-fellowship-abroad",
+    "name": "DFG Walter Benjamin Programme · Fellowship Abroad",
+    "org": "德国科学基金会（DFG）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "申请前须已在德国连续从事科研至少三年；已在国外者须主要在德国接受教育、获博士学位后在国外不超过三年且在接收机构不超过一年。资助赴德国以外的机构研究。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年可随时提交",
+    "timeNote": "官方说明申请可随时提交，没有固定截止日期。",
+    "summary": "资助在德国体系内成长的博士后早期研究者赴国外机构开展自己的课题，最长两年。",
+    "eligibility": "面向博士后阶段早期的研究者；身在国外、与德国没有上述联系的研究者应申请同一项目的“在德岗位”类别。",
+    "support": "最长两年（赴法国通常 12 个月）；每月基本奖学金，另有国外、生活成本、差旅和子女补贴以及课题费用补助。页面未列金额。",
+    "prep": "建议提前 2–3 个月",
+    "next": "落实国外接收机构后，通过 DFG 的 elan 系统提交。",
+    "sources": [
+      {
+        "label": "DFG · Walter Benjamin Programme",
+        "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "dfg-research-grants",
+    "name": "DFG Research Grants (Sachbeihilfe)",
+    "org": "德国科学基金会（DFG）",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向在德国研究机构工作的合格研究者；国外合作者可通过 Mercator Fellow 模块受邀参与。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "博士后"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年可随时提交",
+    "timeNote": "官方说明首次申请可随时提交。",
+    "summary": "DFG 最基本的个人课题资助，支持在德国机构开展有明确主题和期限的研究项目；可包含申请人本人的临时岗位。",
+    "eligibility": "合格的研究者（通常须有博士学位），在德国研究机构工作。可申请“负责人临时岗位”模块为自己设岗。",
+    "support": "通常为期数年；人员、材料、差旅等按模块申请，页面未列上限。",
+    "prep": "建议提前 4–6 个月",
+    "next": "通过 DFG 的 elan 系统提交；拟赴德者须先与德国机构落实依托关系。",
+    "sources": [
+      {
+        "label": "DFG · Research Grants",
+        "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/research-grants"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "humboldt-professorship",
+    "name": "Alexander von Humboldt Professorship",
+    "org": "Alexander von Humboldt Foundation（洪堡基金会）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向在国外立足的世界顶尖学者，须由德国大学的校长提名（非高校研究机构可与大学联合发起），不接受自荐。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年接受提名 · 每年4月15日、9月15日为提名截止日",
+    "timeNote": "官方给出的是每年固定的4月15日和9月15日（未标年份），同时说明提名可随时在线提交；评审约六个月，委员会每年开会两次。",
+    "summary": "德国金额最高的科研奖，资助德国大学从国外引进顶尖学者长期任教。这是迁往德国任职，而非访问。",
+    "eligibility": "须为各学科国际领先、在国外工作的学者。获奖者须在决定后 12 个月内到任。",
+    "support": "七年、350 万至 1,000 万欧元，按需核定。",
+    "prep": "提名材料建议提前 6 个月以上",
+    "next": "与有意引进的德国大学商谈，由校方提名。",
+    "sources": [
+      {
+        "label": "Humboldt Foundation · Alexander von Humboldt Professorship",
+        "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/alexander-von-humboldt-professorship"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "humboldt-research-professorship-2026",
+    "name": "Humboldt Research Professorship · 2026 call",
+    "org": "Alexander von Humboldt Foundation（洪堡基金会）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向主要在德国以外工作五年以上、未在德国受聘的研究者；由德国大学提名，不接受自荐。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "opensOn": "2026-07-15",
+    "date": "2026-11-16",
+    "deadline": "2026-11-16",
+    "dateLabel": "本轮提名2026年11月16日截止",
+    "timeNote": "官方未注明截止时刻。2027年3月初选，10月决定。下一轮尚未公布。",
+    "summary": "“全球英才计划”（Global Minds Initiative）下的五年期研究教授资助，供德国大学引进国外研究者。",
+    "eligibility": "获博士学位后 18 年内或处于其后的职业阶段；过去五年主要在德国以外工作。",
+    "support": "五年：理论类 150 万欧元，实验类 300 万欧元；个人收入每月最高 10,000 欧元。",
+    "prep": "提名材料建议提前 4–6 个月",
+    "next": "本轮已到截止日；有意者可与德国大学商谈下一轮提名。",
+    "sources": [
+      {
+        "label": "Humboldt Foundation · Humboldt Research Professorship",
+        "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-professorship"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "humboldt-henriette-herz-scouting",
+    "name": "Henriette Herz Scouting Programme",
+    "org": "Alexander von Humboldt Foundation（洪堡基金会）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "由在德国任（青年）教授或同等领导职位的研究者申请成为“星探”，再直接推荐国外研究者获洪堡研究奖学金；被推荐者不能自行申请。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "博士后"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年可申请 · 每年5月底、11月底评审",
+    "timeNote": "没有截止日期；评审委员会每年5月底和11月底开会，申请应在拟参加的评审会议前六到八个月提交。",
+    "summary": "让德国的课题负责人直接为自己物色的国外人才争取洪堡研究奖学金，每位星探最多三个名额。",
+    "eligibility": "星探：在德国任（青年）教授或同等领导职位，分早期（获博士学位 15 年内）和资深两类。被推荐者：近 12 年内获博士学位，非德国籍，没有德国学位、博士学位或此前在德博士后经历，从未申请或获得过洪堡基金会资助，能在 12 个月内到任；首位被推荐者应为女性研究者。",
+    "support": "每位星探最多三个洪堡研究奖学金名额；目前约 30% 的星探申请获批。",
+    "prep": "建议提前 6–8 个月",
+    "next": "国外研究者可请德国合作导师申请成为星探。",
+    "sources": [
+      {
+        "label": "Humboldt Foundation · Henriette Herz Scouting Programme",
+        "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/henriette-herz-scouting-programme"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "daad-reinvitation-2027",
+    "name": "DAAD Re-invitation Programme for Former Scholarship Holders · 2027",
+    "org": "德国学术交流中心（DAAD）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向曾获 DAAD 研究或学习奖学金资助超过六个月、且已离开德国至少三年的往届奖学金生，回德国与合作方开展 1–3 个月的项目。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": "2027-05-14",
+    "dateLabel": "2027年5月14日截止（资助期2027年10月1日至2028年1月31日）",
+    "timeNote": "申请入口在截止日前至少六周开放，最后一天德国时间 24:00 关闭；目前页面显示暂不可申请。上一个截止日2026年10月15日已过。截止日期每年第二季度更新。",
+    "summary": "资助 DAAD 往届奖学金生重返德国开展短期研究或工作访问。",
+    "eligibility": "须与德国的合作方协调项目；三年内只能获资助一次。需提交简历、项目说明、时间安排和接收方确认。",
+    "support": "1–3 个月；助教、助理教授和讲师每月 2,000 欧元，教授每月 2,150 欧元，另有差旅补助。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先取得德国接收方确认，留意申请入口开放。",
+    "sources": [
+      {
+        "label": "DAAD · Re-invitation Programme for Former Scholarship Holders",
+        "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015492"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "daad-research-stays-architecture-arts",
+    "name": "DAAD Research Stays for University Academics and Scientists · Architecture and Fine Arts",
+    "org": "德国学术交流中心（DAAD）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向中国高校建筑类和艺术类专业的教师，赴德国开展 1–3 个月的研究访问。",
+    "audience": [
+      "在职科研人员"
+    ],
+    "fields": "建筑 · 美术与艺术类专业",
+    "disciplines": [
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "每年10月7日、3月18日截止 · 下一轮年份待核实",
+    "timeNote": "DAAD 中国页面只列月日、未标年份；未据此推定具体年份。",
+    "summary": "资助建筑和艺术类高校教师赴德国短期研究访问。",
+    "eligibility": "须为高校在职教师，并有德国接收方。",
+    "support": "1–3 个月；每月 2,000–2,150 欧元。",
+    "prep": "建议提前 2–3 个月",
+    "next": "向 DAAD 北京代表处核实下一轮日期，并取得德国接收方邀请。",
+    "sources": [
+      {
+        "label": "DAAD 中国 · 高校教师及科研人员研究访问",
+        "url": "https://www.daad.org.cn/zh/find-funding/funding-programmes-in-germany/research-stays-for-university-academics-and-scientists/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "cas-daad-joint-doctoral-2027",
+    "name": "CAS–DAAD Joint Fellowship Programme for Doctoral Students · 2027",
+    "org": "德国学术交流中心（DAAD）/ 中国科学院 · 中国科学院大学",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "仅面向中国科学院各研究所和中国科学院大学的在读博士生，赴德国研究 12–22 个月，学位仍在中国取得。不资助赴马普或弗劳恩霍夫研究所。",
+    "audience": [
+      "博士生"
+    ],
+    "fields": "页面未限定学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "opensOn": "2026-11-04",
+    "date": "2026-12-04",
+    "deadline": "2026-12-04",
+    "dateLabel": "受理中，2026年12月4日截止（2027 年度）",
+    "timeNote": "DAAD 申请入口在12月4日德国时间 24:00 关闭。须同时向国科大提交申请，两边的要求和时间不同，国科大的选派通知另见其官网。最早次年7月开始。",
+    "summary": "中国科学院与 DAAD 联合资助中科院博士生赴德国联合培养的奖学金。",
+    "eligibility": "博士入学满一年且不超过三年；毕业后没有已确定的工作安排。语言要求：雅思 5.5 或托福网考 80，或德语 DSH II / TestDaF 4×4。",
+    "support": "12–22 个月；第一年由国科大每月资助 1,350 欧元，第二年由 DAAD 每月资助 1,200 欧元，另有保险和一次性差旅补助。",
+    "prep": "建议提前 2–3 个月；本轮时间较紧",
+    "next": "同时在 DAAD 申请系统和国科大两边提交，并尽快取得德国导师的邀请。",
+    "sources": [
+      {
+        "label": "DAAD · CAS-DAAD Joint Fellowship Programme",
+        "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50094047"
+      },
+      {
+        "label": "DAAD 中国 · 中科院-DAAD 联合奖学金",
+        "url": "https://www.daad.org.cn/zh/find-funding/funding-programmes-in-germany/cas-daad-programme/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "thyssen-project-funding",
+    "name": "Fritz Thyssen Foundation Project Funding and Travel Subsidies",
+    "org": "Fritz Thyssen Foundation（弗里茨·蒂森基金会）",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "申请人可在德国或国外的大学、非营利研究机构工作，但项目须与德国学术界有关联：有德国研究者参与、外国研究者在德国机构工作，或选题与德国相关。",
+    "audience": [
+      "在职科研人员",
+      "博士后",
+      "团队负责人"
+    ],
+    "fields": "历史、语言与文化 · 国家、经济与社会 · 医学与自然科学（生物医学）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "课题每年2月1日、9月1日截止（以邮戳为准）· 差旅补助随时可申请",
+    "timeNote": "课题资助的两个截止日为每年固定日期（官方未标年份），分别由6月和次年2月的委员会决定；差旅补助随时可申请，通常八周内答复；会议资助另有每年四个截止日。",
+    "summary": "资助人文、社会科学和生物医学领域的研究课题，以及与课题相关的研究差旅。",
+    "eligibility": "通常须有博士学位。不得同时向其他资助方提交相同申请。差旅补助只用于课题研究出行，不含参会和讲学。",
+    "support": "课题最长三年（先批两年）：人员（青年学者可含本人岗位）、材料和差旅，不含间接费用；差旅补助含旅费和每日定额。",
+    "prep": "建议提前 2–3 个月",
+    "next": "课题申请须邮寄签字纸质原件，并将电子版发送至基金会邮箱；可用德文或英文。",
+    "sources": [
+      {
+        "label": "Fritz Thyssen Foundation · Support of Projects",
+        "url": "https://www.fritz-thyssen-stiftung.de/en/funding/support-of-projects/"
+      },
+      {
+        "label": "Fritz Thyssen Foundation · Funding",
+        "url": "https://www.fritz-thyssen-stiftung.de/en/funding/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "fraunhofer-attract-2026",
+    "name": "Fraunhofer Attract · 2026",
+    "org": "弗劳恩霍夫协会（Fraunhofer-Gesellschaft）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向申请时未受聘于弗劳恩霍夫的外部科学家，须先与一家弗劳恩霍夫研究所达成一致并联合申请。未写明国籍要求。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "与接收研究所战略相符的应用研究",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-10-06",
+    "deadline": "2026-10-06",
+    "dateLabel": "2026 年第二轮已于10月6日截止",
+    "timeNote": "每年两轮：2026 年为3月25日和10月6日；第二轮12月1日答辩、2027年1月启动。2027 年日期尚未公布，不沿用上一年度日期。",
+    "summary": "资助外部优秀科学家在弗劳恩霍夫研究所组建并领导自己的应用研究团队，五年期。",
+    "eligibility": "至少有博士学位或同等资历，最好有博士后经历；也面向产业界的应用研究人员。每个研究所每轮只能提交一份申请。",
+    "support": "五年（3+2）最高 250 万欧元，研究所与总部各出一半，含组长、3–4 名成员和设备投入。",
+    "prep": "建议提前 4–6 个月",
+    "next": "先联系对口研究所的所长商定课题，由候选人与所长联合提交。",
+    "sourceNote": "资格与流程取自弗劳恩霍夫 2023 年 2 月版德文项目手册。",
+    "sources": [
+      {
+        "label": "Fraunhofer · Attract funding program",
+        "url": "https://www.fraunhofer.de/en/jobs-and-career/professionals/fraunhofer-attract-funding-program.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "mpg-research-groups-open-topic",
+    "name": "Max Planck Research Groups · Open-topic Call",
+    "org": "马克斯·普朗克学会（Max Planck Society）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "德国和国际申请人同等欢迎；在马普研究所组建课题组，可在申请时列出最多三个意向研究所。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "生物与医学 · 化学、物理与技术 · 人文与社会科学（不限主题）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "2026 年度征集已结束，下一轮日期未公布",
+    "timeNote": "官方说明征集通常每年一次，2026 年度已结束；下一轮尚未公布。预选结果约在截止后十周公布，随后举行遴选研讨会。",
+    "summary": "资助优秀青年科学家在马普研究所独立领导课题组，六年期并可延长。",
+    "eligibility": "理想情况下获博士学位不超过七年（医学九年），不设年龄限制。马普现任或前任人员可申请，最好选择其他研究所。需两封推荐信。",
+    "support": "六年 W2 合同，可延长三年；前六年最高 290 万欧元。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意下一轮征集；申请入口只在征集期间开放。",
+    "sources": [
+      {
+        "label": "Max Planck Society · Max Planck Research Groups",
+        "url": "https://www.mpg.de/max-planck-research-groups"
+      },
+      {
+        "label": "Max Planck Society · 自由选题课题组常见问题",
+        "url": "https://www.mpg.de/open-topic-mprg/faqs"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "mpg-lise-meitner-2027",
+    "name": "Lise Meitner Excellence Program · 2027",
+    "org": "马克斯·普朗克学会（Max Planck Society）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不限国籍和现居地；主要面向杰出女性科学家，官方同时说明欢迎各性别申请。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "马普学会各学部",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "下一轮预计2027年春季征集，具体日期未公布",
+    "timeNote": "官方只说明下一轮征集定于2027年春季。",
+    "summary": "为杰出青年科学家（以女性为主）在马普研究所提供自己的课题组，并保证进入 W2 预聘考核程序。",
+    "eligibility": "理想情况下获博士学位不超过九年。需两位推荐人；部分学部还要求研究所所长的接收函。",
+    "support": "自己的课题组及人员和材料经费；保证参加 W2 预聘程序，五年内评估。页面未列金额。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意2027年春季的征集通知，提前联系意向研究所。",
+    "sources": [
+      {
+        "label": "Max Planck Society · Lise Meitner Excellence Program",
+        "url": "https://www.mpg.de/lise-meitner-excellence-program"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "einstein-visiting-fellow-2026-11",
+    "name": "Einstein Visiting Fellow · November 2026 deadline",
+    "org": "柏林爱因斯坦基金会（Einstein Foundation Berlin）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "受邀者为国外知名科学家；由柏林的卓越集群、爱因斯坦中心、DFG 合作研究中心等提出申请，并须经接收大学或夏里特医学院认可。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": "2026-11-16",
+    "deadline": "2026-11-16",
+    "dateLabel": "本轮2026年11月16日截止（各校校内截止10月5日已过）",
+    "timeNote": "基金会 2026 年的两个截止日为5月27日和11月16日，各大学的校内截止为4月15日和10月5日；官方未注明时刻。2027 年日期尚未公布。",
+    "summary": "资助国外知名科学家在柏林的研究机构长期兼任访问学者并组建当地课题组，四年期。",
+    "eligibility": "受邀者须每年至少三次到柏林各停留数周，或每年一次停留六周以上。德国籍学者须已在国外工作并在德国以外研究五年以上。",
+    "support": "四年最高 750,000 欧元，不可延期；用于柏林的课题组（至少两名研究人员），访问学者本人的费用津贴不超过总额的 10%。",
+    "prep": "建议提前 6 个月以上",
+    "next": "与柏林的合作单位商议下一轮申请，并留意 2027 年日期。",
+    "sources": [
+      {
+        "label": "Einstein Foundation Berlin · Einstein Visiting Fellow",
+        "url": "https://www.einsteinfoundation.de/en/programmes/einstein-visiting-fellow"
+      },
+      {
+        "label": "Einstein Foundation Berlin · 申请截止日期",
+        "url": "https://www.einsteinfoundation.de/en/funding/information-on-the-application-process/application-deadlines"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "vw-opus-magnum-2026",
+    "name": "Volkswagen Foundation Opus Magnum · 2026",
+    "org": "Volkswagen Foundation（大众汽车基金会）",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须在德国大学持有长聘教授职位。",
+    "audience": [
+      "在职科研人员"
+    ],
+    "fields": "人文、文化研究与社会科学",
+    "disciplines": [
+      "social"
+    ],
+    "status": "open",
+    "date": "2026-11-18",
+    "deadline": "2026-11-18",
+    "dateLabel": "受理中，2026年11月18日 14:00 截止",
+    "timeNote": "官方列出截止时间为下午 2 点，未注明时区。",
+    "summary": "让人文社科教授暂离教学，专心完成一部有分量的学术专著，由基金会出资聘请代课教授。",
+    "eligibility": "须为德国大学的长聘教授。",
+    "support": "6–18 个月；代课教授经费最高 220,000 欧元，另每学期最高 5,000 欧元。",
+    "prep": "建议提前 2–3 个月；本轮时间很紧",
+    "next": "通过基金会的 Funding Platform 提交。",
+    "sources": [
+      {
+        "label": "Volkswagen Foundation · 资助项目列表",
+        "url": "https://www.volkswagenstiftung.de/en/our-funding-portfolio"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "vw-change-fellowships-2027",
+    "name": "Volkswagen Foundation Change! Fellowships · 2027",
+    "org": "Volkswagen Foundation（大众汽车基金会）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "牵头申请人须隶属德国的大学或研究机构。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "所有学科（须有 1–3 个学术界以外的合作伙伴）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "下一个截止期在2027年，具体日期未公布",
+    "timeNote": "官方只说明下一个截止期在2027年。",
+    "summary": "支持研究者与社会各界伙伴合作开展面向社会转型的研究，资助额大、含本人岗位。",
+    "eligibility": "获博士学位后 2–15 年的博士后和早期教授。",
+    "support": "4–5 年、150 万至 180 万欧元，含本人岗位。",
+    "prep": "建议提前 6 个月以上",
+    "next": "留意 2027 年征集通知，提前落实德国依托机构和实践伙伴。",
+    "sources": [
+      {
+        "label": "Volkswagen Foundation · 资助项目列表",
+        "url": "https://www.volkswagenstiftung.de/en/our-funding-portfolio"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "daimler-benz-scholarship-2028",
+    "name": "Daimler and Benz Foundation Scholarship Program for Postdocs and Junior Professors · 2028",
+    "org": "Daimler and Benz Foundation（戴姆勒-奔驰基金会）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "德国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向尚无长聘职位的博士后和青年教授；须到德国拉登堡参加遴选研讨会。是否要求隶属德国机构，本次所读页面未写明，须核对当年条件。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-06-01",
+    "date": "2027-06-01",
+    "deadline": "2027-09-30",
+    "dateLabel": "2028 年度：2027年6月1日开放，9月30日截止",
+    "timeNote": "2027 年度已于2026年9月30日截止。官方未注明截止时刻。",
+    "summary": "为博士后和青年教授的独立研究提供两年、可自由支配的研究经费。",
+    "eligibility": "博士后或青年教授，尚无长聘职位。",
+    "support": "每项 50,000 欧元，两年。",
+    "prep": "建议提前 2–3 个月",
+    "next": "2027年6月起在基金会申请入口提交，提交前核对当年的条件文件。",
+    "sourceNote": "隶属德国机构等条件写在年度条件文件中，本次未能读取。",
+    "sources": [
+      {
+        "label": "Daimler and Benz Foundation · Scholarship Program",
+        "url": "https://www.daimler-benz-stiftung.de/en/format/scholarship-program/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "erc-synergy-2027",
+    "name": "ERC Synergy Grant · 2027",
+    "org": "欧洲研究理事会（ERC）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "接收机构须在欧盟成员国或 Horizon Europe 联系国，但每组可有一名负责人由欧盟及联系国以外的机构接收——在中国的负责人可以作为成员参加。不限国籍。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-02-17",
+    "date": "2027-02-17",
+    "deadline": "2027-05-11",
+    "dateLabel": "2027年2月17日开放，5月11日截止",
+    "timeNote": "官方页面未注明截止时刻。重新提交限制见 ERC 2027 工作计划。",
+    "summary": "资助 2–4 名负责人组成的小组共同攻关单个负责人无法完成的重大问题，最长六年。",
+    "eligibility": "2–4 名负责人，其中一人为通讯负责人；不设职业阶段门槛，业绩与所处阶段相称即可。",
+    "support": "六年最高 1,000 万欧元；负责人迁入欧洲的启动费用、大型设备或大型设施使用可另加最多 400 万欧元。",
+    "prep": "建议提前 6 个月以上",
+    "next": "尽早组队并确定各自的接收机构，通过欧盟 Funding & Tenders Portal 提交。",
+    "sources": [
+      {
+        "label": "ERC · Synergy Grant",
+        "url": "https://erc.europa.eu/apply-grant/synergy-grant"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "erc-proof-of-concept-2027",
+    "name": "ERC Proof of Concept · 2027",
+    "org": "欧洲研究理事会（ERC）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "只面向正在执行（或2026年1月1日之后结题）的 ERC 主项目负责人。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "opensOn": "2026-11-12",
+    "date": "2027-03-10",
+    "deadline": "2027-03-10",
+    "deadlineTime": "17:00 CET",
+    "dateLabel": "受理中，2027年3月10日 17:00（布鲁塞尔时间）首个截点；第二截点9月16日",
+    "timeNote": "两个截点：2027年3月10日和9月16日，均为布鲁塞尔时间 17:00。",
+    "summary": "帮助 ERC 项目负责人验证其研究成果的商业或社会应用潜力的后续小额资助。",
+    "eligibility": "须为 Starting、Consolidator、Advanced 或 Synergy 项目负责人，设想须与该 ERC 项目相关。每位负责人每次征集只能提交一份；Synergy 负责人须取得全体负责人书面同意。",
+    "support": "一次性 150,000 欧元，18 个月。",
+    "prep": "建议提前 4–8 周",
+    "next": "通过欧盟 Funding & Tenders Portal 提交。",
+    "sources": [
+      {
+        "label": "ERC · Proof of Concept",
+        "url": "https://erc.europa.eu/apply-grant/proof-concept"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "msca-doctoral-networks-2026",
+    "name": "MSCA Doctoral Networks · 2026",
+    "org": "欧盟委员会 / Marie Skłodowska-Curie Actions",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "联合体至少含三个不同欧盟成员国或联系国的独立法人（至少一个在成员国），此外任何国家的机构都可加入。博士生不向本征集申请，而是应聘获批网络在 EURAXESS 发布的岗位，不限国籍。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "博士生"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": "2026-11-24",
+    "deadline": "2026-11-24",
+    "dateLabel": "受理中，2026年11月24日截止",
+    "timeNote": "所读官方页面未注明截止时刻。",
+    "summary": "资助高校、研究机构和企业联合培养博士生的网络；对学生而言，是带薪博士岗位的来源。",
+    "eligibility": "机构以联合体申请。博士生：流动性规则：招聘前 36 个月内在招聘国居住或工作不超过 12 个月。",
+    "support": "网络最长 4 年（联合博士学位类 5 年）；博士生岗位 3–36 个月（联合博士学位类最长 48 个月）。",
+    "prep": "联合体建议提前 6 个月以上",
+    "next": "机构通过欧盟门户提交；有意读博者在 EURAXESS 查找已获批网络的招聘岗位。",
+    "sources": [
+      {
+        "label": "MSCA · Doctoral Networks",
+        "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks"
+      },
+      {
+        "label": "欧盟研究执行署（REA）· Horizon Europe MSCA 征集",
+        "url": "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions_en"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "msca-staff-exchanges-2027",
+    "name": "MSCA Staff Exchanges · 2027",
+    "org": "欧盟委员会 / Marie Skłodowska-Curie Actions",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "至少三个国家的三家机构，其中两家在不同的欧盟成员国或联系国；官方“强烈鼓励”非联系第三国机构参与。中国机构能否获得欧盟经费，页面未写明。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-12-15",
+    "date": "2026-12-15",
+    "dateLabel": "2026年12月15日开放，截止日期待核实",
+    "timeNote": "开放日期见欧盟研究执行署页面；截止日期在不同官方文件中分别写作2027年4月13日和4月15日，未能确认，故未标注。",
+    "summary": "资助机构之间互派科研、技术和管理人员短期交流，促进跨国、跨部门合作。",
+    "eligibility": "以机构联合体申请；人员借调期 1–12 个月。",
+    "support": "项目最长 4 年；借调人员在正常工资之外获得补贴（页面未列数额）。",
+    "prep": "联合体建议提前 4–6 个月",
+    "next": "与欧洲合作机构组建联合体，通过欧盟门户提交。",
+    "sources": [
+      {
+        "label": "MSCA · Staff Exchanges",
+        "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/staff-exchanges"
+      },
+      {
+        "label": "欧盟研究执行署（REA）· Horizon Europe MSCA 征集",
+        "url": "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions_en"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "msca-cofund-2027",
+    "name": "MSCA COFUND · 2027",
+    "org": "欧盟委员会 / Marie Skłodowska-Curie Actions",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "由欧盟成员国或联系国的单个法人机构申请；研究者应聘获批 COFUND 项目在 EURAXESS 发布的博士或博士后岗位。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "博士后",
+      "博士生"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-12-08",
+    "date": "2026-12-08",
+    "dateLabel": "2026年12月8日开放，截止日期待核实",
+    "timeNote": "开放日期见欧盟研究执行署页面；截止日期在不同官方来源中分别写作2027年4月6日和4月8日，未能确认，故未标注。",
+    "summary": "欧盟为各地区、国家或机构自办的博士与博士后培养项目提供配套资金；对个人而言，是许多国际博士后岗位的来源。",
+    "eligibility": "机构申请。研究者：流动性规则：招聘前 36 个月内在招聘国居住或工作不超过 12 个月。",
+    "support": "每个受益机构每次征集最高 1,000 万欧元，项目最长 5 年。",
+    "prep": "机构建议提前 6 个月以上",
+    "next": "个人在 EURAXESS 查找各 COFUND 项目的招聘通知。",
+    "sources": [
+      {
+        "label": "MSCA · COFUND",
+        "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/cofund"
+      },
+      {
+        "label": "欧盟研究执行署（REA）· Horizon Europe MSCA 征集",
+        "url": "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions_en"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "msca-choose-europe-2027",
+    "name": "MSCA Choose Europe for Science · 2027",
+    "org": "欧盟委员会 / Marie Skłodowska-Curie Actions",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "由欧盟成员国或联系国的机构申请；博士后应聘获批项目在 EURAXESS 发布的岗位，不限国籍。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-12-08",
+    "date": "2026-12-08",
+    "dateLabel": "2026年12月8日开放，截止日期待核实",
+    "timeNote": "开放日期见欧盟研究执行署页面；2027年4月6日的截止日期在 MSCA 网站上仍标为待确认，故未标注。项目页面仍显示 2025 年试点的日期。",
+    "summary": "支持欧洲机构为博士后提供最长五年、通向长期职位的岗位，欧盟配套前 2–3 年。",
+    "eligibility": "博士后须有博士学位，未设博士后年限。流动性规则：招聘前 36 个月内在招聘国居住或工作不超过 12 个月。",
+    "support": "岗位最长 5 年；试点预算 2,250 万欧元，每个受益机构上限 350 万欧元。",
+    "prep": "机构建议提前 6 个月以上",
+    "next": "个人留意 EURAXESS 上获批项目的招聘通知。",
+    "sources": [
+      {
+        "label": "MSCA · Choose Europe for Science",
+        "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/choose-europe-for-science"
+      },
+      {
+        "label": "欧盟研究执行署（REA）· Horizon Europe MSCA 征集",
+        "url": "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions_en"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "eic-accelerator-2027",
+    "name": "EIC Accelerator · 2027",
+    "org": "欧洲创新理事会（European Innovation Council）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向在欧盟成员国或联系国设立的中小企业；非联系第三国的个人或实体若打算在这些国家设立或迁入中小企业（含初创）也可申请。",
+    "audience": [
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "深科技创新与成果转化（非学术研究）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "短申请随时提交 · 完整申请截点：2027年1月20日、3月17日、9月1日、11月4日",
+    "timeNote": "完整申请在各截点的布鲁塞尔时间 17:00 汇总评审。",
+    "summary": "为有突破性技术的初创和中小企业提供拨款加股权投资的混合资助。",
+    "eligibility": "中小企业；小型中盘企业只能申请投资部分。Horizon Europe 期间仅拨款类支持只能获得一次。",
+    "support": "拨款最高 250 万欧元（技术成熟度 6–8 级），另可获 100 万至 1,000 万欧元投资。",
+    "prep": "建议提前 3–4 个月",
+    "next": "先提交短申请，通过后在最近的截点提交完整申请。",
+    "sources": [
+      {
+        "label": "EIC · Accelerator",
+        "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "eic-transition-2027",
+    "name": "EIC Transition · 2027",
+    "org": "欧洲创新理事会（European Innovation Council）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "单个法人（初创、中小企业或研究机构）或小型联合体，须设在欧盟成员国或联系国。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "自然科学与工程",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": "2027-09-14",
+    "deadlineTime": "17:00 CEST",
+    "dateLabel": "2027年9月14日 17:00（布鲁塞尔时间）截止，开放日期未公布",
+    "timeNote": "官方未列开放日期；2027 年合格前期项目清单仍在制定中。",
+    "summary": "把 EIC Pathfinder、ERC Proof of Concept 等项目的成果推进到技术验证和商业化准备阶段。",
+    "eligibility": "申请须建立在合格前期项目的成果之上。",
+    "support": "最高 250 万欧元。",
+    "prep": "建议提前 3–4 个月",
+    "next": "确认前期项目是否在合格清单内，通过欧盟门户提交。",
+    "sources": [
+      {
+        "label": "EIC · Transition",
+        "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-transition_en"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "eic-pathfinder-challenges-2027",
+    "name": "EIC Pathfinder Challenges · 2027",
+    "org": "欧洲创新理事会（European Innovation Council）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "单个申请人或联合体均可；联合体须符合设在欧盟成员国或联系国的要求。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "三个指定挑战：发电、储能与输电先进材料；可靠 AI 智能体的安全持续学习；量子能量学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": "2027-09-29",
+    "dateLabel": "2027年9月29日截止，开放日期未公布",
+    "timeNote": "官方页面未列开放日期和截止时刻。",
+    "summary": "围绕欧盟指定的前沿技术挑战资助高风险的早期研究。有别于已收录的自由选题 Pathfinder Open。",
+    "eligibility": "课题须落在当年发布的挑战范围内。",
+    "support": "每项最高 400 万欧元；总预算 8,200 万欧元。",
+    "prep": "建议提前 4–6 个月",
+    "next": "阅读各挑战的征集说明，通过欧盟门户提交。",
+    "sources": [
+      {
+        "label": "EIC · Pathfinder Challenges 2027",
+        "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder/eic-pathfinder-challenges-2027_en"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "embo-scientific-exchange-grants",
+    "name": "EMBO Scientific Exchange Grants",
+    "org": "European Molecular Biology Organization（EMBO）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "资助 EMBC 成员国之间、以及成员国与 EMBO 全球伙伴（智利、印度、新加坡、台湾）实验室之间的交流；不限国籍，但须在这些国家的机构工作。中国大陆不在名单内，名单外的访问只在例外情况下资助。",
+    "audience": [
+      "博士生",
+      "博士后",
+      "在职科研人员"
+    ],
+    "fields": "生命科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年受理",
+    "timeNote": "官方说明全年接受申请。",
+    "summary": "资助生命科学研究者到另一国家的实验室开展最长三个月的合作访问。",
+    "eligibility": "任何职业阶段，须有至少一年研究生层次的科研经历。不得访问同一国家的实验室、原导师、曾访问过的实验室或已有合作者；结束后须回原实验室至少六个月。",
+    "support": "最长三个月的差旅和生活费（标准见官方文件）。",
+    "prep": "建议提前 2–3 个月",
+    "next": "与接收实验室商定计划后在线申请。",
+    "sources": [
+      {
+        "label": "EMBO · Scientific Exchange Grants",
+        "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "embo-installation-grants",
+    "name": "EMBO Installation Grants",
+    "org": "European Molecular Biology Organization（EMBO）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向到克罗地亚、捷克、爱沙尼亚、匈牙利、立陶宛、卢森堡、波兰、葡萄牙或土耳其（2026 年名单）建立课题组的研究者；过去四年中须连续两年以上在目标国之外。不限国籍和年龄。",
+    "audience": [
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "生命科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "每年4月15日截止 · 2027 年度未公布",
+    "timeNote": "官方只写“4月15日”，未标年份和时刻；上一轮为2026年4月15日。",
+    "summary": "帮助青年课题组负责人在科研投入较少的参与国建立实验室。",
+    "eligibility": "截止日时获博士学位不超过 9 年；正在商谈课题组长职位，或建组不超过两年。面试后只能再申请一次。",
+    "support": "数额和期限见官方 Benefits 页面，本次未读取。",
+    "prep": "建议提前 3–4 个月",
+    "next": "留意 2027 年度通知，并先与目标国机构落实职位。",
+    "sources": [
+      {
+        "label": "EMBO · Installation Grants",
+        "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/installation-grants/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "embo-young-investigator-programme",
+    "name": "EMBO Young Investigator Programme",
+    "org": "European Molecular Biology Organization（EMBO）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "实验室须在 EMBC 成员国或 EMBO 全球伙伴国家和地区。未写明国籍要求。",
+    "audience": [
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "生命科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "每年4月1日截止 · 2027 年度未公布",
+    "timeNote": "官方只写“4月1日”，未标年份和时刻；上一轮为2026年4月1日。",
+    "summary": "为独立不久的生命科学课题组负责人提供四年的学术网络、培训和交流支持。",
+    "eligibility": "预申请截止时担任独立课题组负责人满一年且不超过四年；至少一篇末位作者研究论文；已有充足经费。最多参加两次面试。",
+    "support": "四年的网络与交流支持；金额未在所读页面列出。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意 2027 年度通知。",
+    "sources": [
+      {
+        "label": "EMBO · Young Investigator Programme",
+        "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/young-investigator-programme/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "embo-global-investigator-network",
+    "name": "EMBO Global Investigator Network",
+    "org": "European Molecular Biology Organization（EMBO）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向在智利、印度、日本、新加坡和台湾工作的课题组负责人；中国大陆不在范围内。",
+    "audience": [
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "生命科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "每年5月1日 14:00（中欧夏令时间）截止 · 2027 年度未公布",
+    "timeNote": "官方未标年份；现行指南为 2026 年 4 月版。",
+    "summary": "为 EMBO 全球伙伴国家和地区的青年课题组负责人提供四年的网络与差旅支持。",
+    "eligibility": "担任课题组负责人的头六年内。",
+    "support": "四年的学术网络和差旅支持。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意 2027 年度通知。",
+    "sources": [
+      {
+        "label": "EMBO · Global Investigator Network",
+        "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/global-investigator-network/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "embl-arise2-2026",
+    "name": "EMBL ARISE2 Fellowships · 2026",
+    "org": "欧洲分子生物学实验室（EMBL）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向全球，不限国籍；过去三年内与 EMBL 的关联不超过 12 个月。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "数据与计算科学 · 成像与光学工程 · 结构生物学与机械工程 · 生物技术",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-06-30",
+    "date": "2026-09-30",
+    "deadline": "2026-09-30",
+    "dateLabel": "2026 年度已于9月30日截止",
+    "timeNote": "2026 年度面试在11月25–27日。下一轮尚未公布，不沿用上一年度日期。",
+    "summary": "培养生命科学研究基础设施和技术开发人才的三年期奖学金，由 MSCA 配套。",
+    "eligibility": "截止日前须已获博士学位；有技术或方法开发经验。",
+    "support": "三年，本轮 17 个名额；标准见官方文件。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意下一轮通知。",
+    "sources": [
+      {
+        "label": "EMBL · ARISE2",
+        "url": "https://www.embl.org/training/arise2/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "embl-international-phd-2027-summer",
+    "name": "EMBL International PhD Programme · 2027 Summer Recruitment",
+    "org": "欧洲分子生物学实验室（EMBL）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "欢迎各国籍申请；同等条件下成员国申请人优先。",
+    "audience": [
+      "硕士生",
+      "博士生"
+    ],
+    "fields": "生命科学及相关学科",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "2027 夏季招生预计1月底开放，截止日期未公布",
+    "timeNote": "官方只写“1月底开放”，未列年份和截止日期；2027 冬季招生已于2026年10月12日截止。",
+    "summary": "EMBL 各站点的带薪博士研究岗位，2027年10月前入学。",
+    "eligibility": "须有可攻读博士学位的学历。",
+    "support": "带薪博士岗位；津贴和年限未在该页面列出。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意1月底的开放通知。",
+    "sources": [
+      {
+        "label": "EMBL · International PhD Programme 申请",
+        "url": "https://www.embl.org/about/info/embl-international-phd-programme/application/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "cern-research-fellowship",
+    "name": "CERN Research Fellowship and Doctoral Student Programme",
+    "org": "欧洲核子研究中心（CERN）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须为 CERN 成员国或准成员国国民，每年只有少数例外——中国籍申请人一般不符合条件。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "博士生"
+    ],
+    "fields": "实验与理论物理 · 应用科学 · 工程",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "目前没有开放岗位，下一轮日期未公布",
+    "timeNote": "两个项目目前均无开放岗位，页面未给出日期。",
+    "summary": "CERN 的博士后研究岗位和面向在读博士生的驻所项目。",
+    "eligibility": "研究岗位：已获或六个月内将获博士学位；获博士学位后物理类不超过 6 年、应用科学与工程类不超过 3 年；未曾持有 CERN 的 fellow 或毕业生合同。博士生项目：须已在大学注册攻读博士。",
+    "support": "研究岗位每月净额 7,004 或 7,425 瑞士法郎，6–24 个月，可延至 36 个月；博士生每月净额 3,907 瑞士法郎，最长三年。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意 CERN 招聘网站的下一轮通知。",
+    "sources": [
+      {
+        "label": "CERN · Research Fellowship",
+        "url": "https://careers.cern/programmes/research-fellowship/"
+      },
+      {
+        "label": "CERN · Doctoral Student Programme",
+        "url": "https://careers.cern/programmes/doctoral-student-programme/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "esa-research-fellowships-2026",
+    "name": "ESA Research Fellowships in Space Science · 2026",
+    "org": "欧洲航天局（ESA）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "只接受 ESA 成员国及拉脱维亚、立陶宛、斯洛伐克、加拿大、保加利亚、克罗地亚、塞浦路斯、马耳他国民的申请——中国籍申请人不符合条件。",
+    "audience": [
+      "博士后",
+      "应届博士"
+    ],
+    "fields": "日球层物理 · 行星科学 · 天体物理 · 基础物理",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-08-24",
+    "date": "2026-09-21",
+    "deadline": "2026-09-21",
+    "dateLabel": "2026 年度已于9月21日截止",
+    "timeNote": "下一轮尚未公布，不沿用上一年度日期。",
+    "summary": "在 ESA 的马德里、诺德韦克或巴尔的摩科学办公室开展空间科学研究的博士后岗位。",
+    "eligibility": "新近获得或即将获得博士学位，优先考虑获博士学位五年内者。",
+    "support": "两年，通常可延长第三年。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意下一轮通知。",
+    "sources": [
+      {
+        "label": "ESA · Research Fellowships in Space Science",
+        "url": "https://www.cosmos.esa.int/web/space-science-faculty/opportunities/research-fellowships"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "eso-fellowships-studentships",
+    "name": "ESO Fellowship and Studentship Programmes",
+    "org": "欧洲南方天文台（ESO）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "博士生项目面向已在大学注册攻读博士者，“优先但不限于”ESO 成员国；页面未设国籍限制。博士后岗位的资格见官方手册，本次未能读取。",
+    "audience": [
+      "博士后",
+      "博士生"
+    ],
+    "fields": "天文学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "博士后每年10月15日截止；博士生每年4月20日、10月20日截止 · 未标年份",
+    "timeNote": "官方给出的是每年固定日期，未标年份；2026年10月的截止日已过。",
+    "summary": "在 ESO 德国加兴总部或智利台址工作的博士后岗位，以及 1–2 年的博士生驻台项目。",
+    "eligibility": "博士生须已在大学注册攻读博士。博士后资格和待遇见官方手册。",
+    "support": "博士生项目 1–2 年；博士后岗位在加兴和智利。",
+    "prep": "建议提前 2–3 个月",
+    "next": "查阅官方手册确认资格，留意下一个截止日。",
+    "sources": [
+      {
+        "label": "ESO · Fellowships and Studentships",
+        "url": "https://www.eso.org/sci/activities/fellowships-and-studentships/FeSt-overview.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "ercim-fellowship-2027-04",
+    "name": "ERCIM Alain Bensoussan Fellowship Programme · April 2027 deadline",
+    "org": "ERCIM（欧洲信息学与数学研究联盟）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不限国籍，但接收机构不能接收本国国籍的候选人，也不能是候选人近三年内工作过六个月以上的机构。",
+    "audience": [
+      "博士后",
+      "应届博士"
+    ],
+    "fields": "计算机科学 · 信息技术 · 应用数学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": "2027-04-30",
+    "deadline": "2027-04-30",
+    "dateLabel": "2027年4月30日截止",
+    "timeNote": "官方未注明截止时刻。",
+    "summary": "在欧洲多家信息学与数学研究机构之一开展 12 个月研究的博士后奖学金。",
+    "eligibility": "近八年内获得博士学位，或处于博士论文最后一年。",
+    "support": "12 个月；月净额因接收机构而异，2026 年第二轮约为：意大利 CNR 2,240 欧元、荷兰 CWI 2,625 欧元、德国 Fraunhofer 3,000 欧元、葡萄牙 INESC 1,807 欧元、挪威 NTNU 4,415 欧元、瑞典 RISE 2,925 欧元。",
+    "prep": "建议提前 4–8 周",
+    "next": "只接受在线申请。",
+    "sources": [
+      {
+        "label": "ERCIM · Alain Bensoussan Fellowship Programme",
+        "url": "https://fellowship.ercim.eu/"
+      },
+      {
+        "label": "ERCIM · 奖学金说明",
+        "url": "https://fellowship.ercim.eu/information"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "febs-short-term-fellowships-2026-12",
+    "name": "FEBS Short-Term Fellowships · December 2026 deadline",
+    "org": "Federation of European Biochemical Societies（FEBS）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须为 FEBS 成员学会会员，在 FEBS 国家的实验室工作，并访问另一个 FEBS 国家的实验室。",
+    "audience": [
+      "博士生",
+      "博士后"
+    ],
+    "fields": "分子生命科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "opensOn": "2026-11-01",
+    "date": "2026-12-10",
+    "deadline": "2026-12-10",
+    "dateLabel": "受理中，2026年12月10日截止",
+    "timeNote": "第二次征集：2027年5月1日至6月10日。",
+    "summary": "资助博士生和博士后早期研究者到另一国家的实验室开展最长两个月的合作访问。",
+    "eligibility": "在读博士生，或获博士学位四年内。",
+    "support": "每天 100 欧元，另加 300 欧元差旅；最长 2 个月（特殊情况 3 个月）。",
+    "prep": "建议提前 4–6 周",
+    "next": "取得接收实验室同意后在线申请。",
+    "sources": [
+      {
+        "label": "FEBS · Short-Term Fellowships",
+        "url": "https://www.febs.org/funding/fellowships/short-term-fellowships/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "febs-excellence-awards-2026",
+    "name": "FEBS Excellence Awards · 2026",
+    "org": "Federation of European Biochemical Societies（FEBS）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "欧洲"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "接收机构须在设有 FEBS 成员学会的国家，申请人须为该类学会会员，并曾在另一国家工作至少两年。未设国籍限制。",
+    "audience": [
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "分子生命科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-06-15",
+    "date": "2026-08-15",
+    "deadline": "2026-08-15",
+    "dateLabel": "2026 年度已于8月15日截止",
+    "timeNote": "2027 年度尚未公布，不沿用上一年度日期。",
+    "summary": "支持独立不久的课题组负责人购置设备和耗材的三年期奖励。",
+    "eligibility": "近八年内获得博士学位；在接收机构担任带薪课题组负责人至少一年。每个接收机构每次只能推荐一人，曾获奖者不可再申请。",
+    "support": "三年共 100,000 欧元，用于设备和耗材，不含工资。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意 2027 年度通知。",
+    "sources": [
+      {
+        "label": "FEBS · Excellence Awards",
+        "url": "https://www.febs.org/funding/excellence-awards/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "hfsp-research-grants-2027",
+    "name": "HFSP Research Grants (Program and Early Career) · 2027",
+    "org": "Human Frontier Science Program（HFSP）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "多国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "主申请人的实验室须在 HFSP 成员国；其他成员可在世界任何地方——在中国的实验室可以作为团队成员，但不能牵头（中国不是成员国）。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "青年研究者"
+    ],
+    "fields": "生命科学与其他学科交叉的前沿问题",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-03-26",
+    "deadline": "2026-03-26",
+    "dateLabel": "本轮意向书已于2026年3月26日截止",
+    "timeNote": "本轮完整申请约在2026年9月中旬提交。下一轮尚未公布，不沿用上一年度日期。",
+    "summary": "资助 2–4 个实验室组成的国际（最好跨洲）团队开展三年的创新性合作研究。",
+    "eligibility": "团队 2–4 人。Early Career 类：全体成员取得独立职位不超过 5 年、获博士学位不超过 10 年。",
+    "support": "三年；按团队规模给予固定金额（页面未列）。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意下一轮意向书通知，提前组建国际团队。",
+    "sources": [
+      {
+        "label": "HFSP · Research Grants",
+        "url": "https://www.hfsp.org/funding/hfsp-funding/research-grants"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "swiss-government-excellence-2027",
+    "name": "Swiss Government Excellence Scholarships · 2027–28 (Research Fellowship)",
+    "org": "瑞士联邦外国学生奖学金委员会（FCS）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "瑞士"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "对中国只开放“研究奖学金”一类（不含博士奖学金），申请递交瑞士驻华大使馆。开始前在瑞士居住超过 13 个月者不符合条件。",
+    "audience": [
+      "博士生",
+      "青年研究者",
+      "博士后"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "opensOn": "2026-08-20",
+    "date": "2026-11-30",
+    "deadline": "2026-11-30",
+    "deadlineTime": "23:59 CET",
+    "dateLabel": "受理中，2026年11月30日 23:59（瑞士时间）截止",
+    "timeNote": "瑞士当地时间。结果不晚于次年5月底公布，2027年9月1日开始。",
+    "summary": "瑞士政府资助外国青年研究者到瑞士高校开展 6–12 个月研究。",
+    "eligibility": "2027年7月31日前获硕士学位（苏黎世联邦理工为6月30日）；1991年12月31日之后出生；须有瑞士导师的支持函。",
+    "support": "每月 2,450 瑞士法郎，6–12 个月，不可延期。",
+    "prep": "建议提前 2–3 个月；本轮时间很紧",
+    "next": "通过 GO ESKAS 系统提交，并按使馆要求递交材料。",
+    "sources": [
+      {
+        "label": "瑞士联邦教育、研究与创新国务秘书处 · Swiss Government Excellence Scholarships",
+        "url": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships-at-a-glance"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "snsf-postdoc-mobility-2027",
+    "name": "SNSF Postdoc.Mobility · 2027",
+    "org": "瑞士国家科学基金会（SNSF）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "瑞士"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须有瑞士国籍、定居许可或瑞士籍配偶；或在瑞士机构获得博士学位且尚未在国外任博士后。资助赴瑞士以外的机构研究。",
+    "audience": [
+      "博士后",
+      "应届博士"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": "2027-02-02",
+    "deadlineTime": "17:00 CET",
+    "dateLabel": "2027年2月2日 17:00（瑞士时间）截止；末轮8月3日",
+    "timeNote": "2027年8月3日是该项目的最后一个截止日；其后由新的 Postdoc Grant 取代，首次征集预计在 2028 年初。",
+    "summary": "资助与瑞士有联系的博士后赴国外研究两年，并可回瑞士 3–12 个月。",
+    "eligibility": "获博士学位后三年内。",
+    "support": "国外 24 个月，另有 3–12 个月回国阶段。",
+    "prep": "建议提前 3–4 个月",
+    "next": "落实国外接收机构后通过 SNSF 系统提交。",
+    "sources": [
+      {
+        "label": "SNSF · Postdoc.Mobility",
+        "url": "https://www.snf.ch/en/XIZpfY3iVS5KRRoD/funding/careers/postdoc-mobility"
+      },
+      {
+        "label": "SNSF · 职业资助改革动态",
+        "url": "https://www.snf.ch/en/iZvbYDyIyY1mGyA0/news/latest-news-on-career-funding-reform"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "aei-ramon-y-cajal-2026",
+    "name": "Ramón y Cajal Contracts · 2026",
+    "org": "西班牙国家研究署（Agencia Estatal de Investigación）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "西班牙"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "候选人与西班牙的接收研发中心分别提交申请。国籍、博士学位年限和流动性要求写在征集文件中，本次未读取，申请前须核对。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "opensOn": "2026-11-10",
+    "date": "2026-12-10",
+    "deadline": "2026-12-10",
+    "deadlineTime": "14:00 CET",
+    "dateLabel": "受理中，2026年12月10日 14:00（西班牙半岛时间）截止",
+    "timeNote": "西班牙半岛时间。",
+    "summary": "西班牙面向已有独立研究能力的青年学者的五年期合同，是进入西班牙科研体系长期职位的主要通道。",
+    "eligibility": "具体资格见征集文件。",
+    "support": "五年；每份合同每年 42,600 欧元，最低税前年薪 40,000 欧元，另有至少 200,000 欧元研究经费。",
+    "prep": "建议提前 2–3 个月；本轮时间较紧",
+    "next": "阅读征集文件确认资格，并与意向接收中心协调各自的提交。",
+    "sourceNote": "日期与资助标准取自研究署征集页面；资格细则在征集文件中，未读取。",
+    "sources": [
+      {
+        "label": "AEI · Ayudas para contratos Ramón y Cajal 2026",
+        "url": "https://www.aei.gob.es/en/announcements/announcements-finder/ayudas-contratos-ramon-cajal-ryc-2026"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "fwf-esprit",
+    "name": "FWF ESPRIT",
+    "org": "奥地利科学基金会（FWF）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "奥地利"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "不设国籍限制，可从国外申请；须有奥地利接收机构和导师。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "常年受理 · 每年五次评审会议",
+    "timeNote": "官方说明滚动受理，每年召开五次决定会议。",
+    "summary": "支持获博士学位不久的研究者在奥地利机构独立开展三年课题。",
+    "eligibility": "申请时获博士学位不超过五年。",
+    "support": "36 个月；按资深博士后标准支付本人工资，另加 45,000 欧元定额经费（有充分理由可至 75,000 欧元）。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先落实奥地利接收机构和导师，再通过 FWF 系统提交。",
+    "sources": [
+      {
+        "label": "FWF · ESPRIT",
+        "url": "https://www.fwf.ac.at/en/funding/portfolio/careers/esprit"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "nwo-rubicon-2026-3",
+    "name": "NWO Rubicon · 2026-3",
+    "org": "荷兰研究理事会（NWO）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "荷兰"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向新近在荷兰王国获得博士学位的研究者，赴荷兰以外的研究机构；未设国籍限制。",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": "2026-12-01",
+    "deadline": "2026-12-01",
+    "deadlineTime": "14:00 CET",
+    "dateLabel": "受理中，2026年12月1日 14:00（荷兰时间）截止",
+    "timeNote": "NWO 已宣布将由每年三轮改为两轮。",
+    "summary": "资助在荷兰获得博士学位的青年研究者赴国外顶尖机构做 12–24 个月博士后。",
+    "eligibility": "过去 12 个月内获得博士学位，或论文已获批准。每人一生只能申请一次。",
+    "support": "12–24 个月；本轮总预算 314.5 万欧元。",
+    "prep": "建议提前 2–3 个月",
+    "next": "落实国外接收机构后通过 NWO 系统提交。",
+    "sources": [
+      {
+        "label": "NWO · Rubicon 2026-3",
+        "url": "https://www.nwo.nl/en/calls/rubicon-2026-3"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "nwo-talent-veni-vidi-2026",
+    "name": "NWO Talent Programme Veni and Vidi · 2026",
+    "org": "荷兰研究理事会（NWO）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "荷兰"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "荷兰境内外的申请人均可申请，但必须有荷兰机构签署的接收保证。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "所有学科（各学部分别征集）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-11-03",
+    "deadline": "2026-11-03",
+    "deadlineTime": "14:00 CET",
+    "dateLabel": "2026 轮预申请已截止（Veni 9月1日、Vidi 11月3日）",
+    "timeNote": "以理学部为例：Veni 预申请2026年9月1日截止，受邀者2027年1月26日提交完整申请；Vidi 预申请2026年11月3日截止，受邀者2027年4月6日提交。2027 轮尚未公布，不沿用上一年度日期。",
+    "summary": "荷兰面向青年学者的个人人才资助：Veni 支持新近获博士学位者，Vidi 支持已有数年经验、准备组建团队者。",
+    "eligibility": "2026 轮：Veni 要求2026年1月1日前三年内获博士学位；Vidi 要求2026年10月1日前八年内获博士学位。",
+    "support": "Veni 三年最高 320,000 欧元；Vidi 五年最高 850,000 欧元。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意 2027 轮通知，提前向荷兰接收机构争取接收保证。",
+    "sources": [
+      {
+        "label": "NWO · Talent Programme Veni（理学部 2026）",
+        "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-2026"
+      },
+      {
+        "label": "NWO · Talent Programme Vidi（理学部 2026）",
+        "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-science-2026"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "fyssen-postdoctoral-study-grants-2026",
+    "name": "Fyssen Foundation Postdoctoral Study Grants · 2026",
+    "org": "Fondation Fyssen（菲森基金会）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "法国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向各国籍研究者：持外国博士学位者到法国做课题，或持法国博士学位者到国外做课题。",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "动物行为学 · 古生物学 · 考古学 · 人类学 · 心理学 · 认识论 · 逻辑学 · 神经科学",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-02-02",
+    "date": "2026-03-31",
+    "deadline": "2026-03-31",
+    "deadlineTime": "12:00 CEST",
+    "dateLabel": "2026 年度已于3月31日正午（法国时间）截止",
+    "timeNote": "2027 年度尚未公布，不沿用上一年度日期。",
+    "summary": "资助认知与行为相关学科的青年研究者开展第一个博士后课题。",
+    "eligibility": "截止时不超过 35 岁；9月1日时获博士学位不满两年；须为第一个博士后。",
+    "support": "每年最高 45,000 欧元，12 或 24 个月。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意 2027 年度通知（通常2月开放）。",
+    "sources": [
+      {
+        "label": "Fondation Fyssen · Study Grants",
+        "url": "https://www.fondationfyssen.fr/en/our-actions/study-grants/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "anr-aapg-2027",
+    "name": "ANR Generic Call for Proposals (AAPG) · 2027",
+    "org": "法国国家科研署（ANR）",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "法国"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向法国的研究机构；国际合作类的伙伴名单含德国 DFG、奥地利 FWF、香港 RGC、新加坡 NRF、瑞士 SNSF、台湾 NSTC 等，不含中国大陆的 NSFC。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "青年研究者"
+    ],
+    "fields": "所有学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-07-16",
+    "date": "2026-10-14",
+    "deadline": "2026-10-14",
+    "deadlineTime": "17:00 CEST",
+    "dateLabel": "2027 年度第一阶段已于2026年10月14日截止",
+    "timeNote": "受邀者的第二阶段在2027年3月底截止。2028 年度尚未公布。",
+    "summary": "法国最主要的年度竞争性课题征集，含面向青年研究者的 JCJC 类别。",
+    "eligibility": "JCJC 等各类别的资格见征集文件，本次未读取。",
+    "support": "按类别和课题核定，见征集文件。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意 2028 年度征集（通常7月发布）。",
+    "sources": [
+      {
+        "label": "ANR · AAPG 2027",
+        "url": "https://anr.fr/en/call-for-proposals-details/call/aapg-2027-generic-call-for-proposals/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "wenner-gren-postdoc-sweden",
+    "name": "Wenner-Gren Foundations Postdoctoral Stipends for Foreign Researchers in Sweden",
+    "org": "Wenner-Gren Stiftelserna（温纳-格伦基金会）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "瑞典"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "由瑞典的接收研究者为指定的外国博士申请；被资助者此前在瑞典停留不超过九个月。",
+    "audience": [
+      "博士后",
+      "应届博士"
+    ],
+    "fields": "页面未限定学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "每年10月1日 23:59 截止 · 未标年份",
+    "timeNote": "官方只写每年10月1日，申请入口提前两个月开放；2026 年度已过。",
+    "summary": "资助外国青年博士到瑞典的课题组做 6–24 个月博士后。",
+    "eligibility": "申请前五年内获得博士学位。每位接收人每次只能提交一份申请。",
+    "support": "每月 30,000 瑞典克朗（免税），6–24 个月。",
+    "prep": "建议提前 2–3 个月",
+    "next": "与瑞典接收研究者商定，由对方提交。",
+    "sources": [
+      {
+        "label": "Wenner-Gren Stiftelserna · Postdoktorsstipendier Sverige",
+        "url": "https://www.swgc.org/postdoktorsstipendier-sverige"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "carlsberg-internationalisation-2027",
+    "name": "Carlsberg Foundation Internationalisation Fellowships · 2027",
+    "org": "Carlsbergfondet（嘉士伯基金会）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "丹麦"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "博士学位须在丹麦、格陵兰或法罗群岛的研究机构取得；未设国籍限制。至少一半时间在国外，之后回丹麦。",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "基金会资助的各学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-01-30",
+    "date": "2027-01-30",
+    "deadline": "2027-04-01",
+    "dateLabel": "2027年1月30日开放，4月1日 16:00 截止",
+    "timeNote": "官方列出截止时间为 16:00，未注明时区。",
+    "summary": "资助在丹麦获得博士学位的青年研究者赴国外研究并回丹麦的 2–3 年奖学金。",
+    "eligibility": "截止日前三年内获得博士学位。",
+    "support": "2–3 年；全额工资，另每月 8,000 丹麦克朗运行经费。",
+    "prep": "建议提前 2–3 个月",
+    "next": "落实国外和丹麦两地的接收机构后在线申请。",
+    "sources": [
+      {
+        "label": "Carlsbergfondet · Internationalisation Fellowships",
+        "url": "https://carlsbergfondet.dk/en/applicant/internationalisation-fellowships"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "villum-young-investigator",
+    "name": "Villum Young Investigator Programme",
+    "org": "Villum Fonden（维卢姆基金会）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "丹麦"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须依托丹麦的大学；页面未写明国籍要求。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "技术与自然科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "目前没有开放或即将开放的征集，2027 年度未公布",
+    "timeNote": "每年征集一次。",
+    "summary": "支持有潜力的青年研究者在丹麦的大学组建自己的课题组，五年期。",
+    "eligibility": "获博士学位后有 2–8 年研究经历。最多申请两次。",
+    "support": "五年最高 900 万丹麦克朗。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意 2027 年度通知。",
+    "sources": [
+      {
+        "label": "Villum Fonden · Villum Young Investigators",
+        "url": "https://villumfonden.dk/en/call-villum-young-investigators"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-nrf-most-flagship-5",
+    "name": "5th Singapore–China Joint Flagship Project Call",
+    "org": "新加坡国立研究基金会（NRF）/ 中国科学技术部",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "新中双方联合申报：新加坡一方的负责人通过新加坡科研经费门户提交，中方申请人另向科技部申报。本轮中方通知未找到。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "传染病：呼吸道病毒病原体 · 虫媒传染病 · 抗微生物药物耐药性",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "门户显示受理中，截止日期见征集文件（未核实）",
+    "timeNote": "新加坡科研经费门户（2026年11月13日更新）将本征集列为开放中；开放和截止日期写在征集文件压缩包内，本次未读取。",
+    "summary": "新加坡 NRF 与中国科技部共同资助两国团队围绕指定主题开展的旗舰合作项目。",
+    "eligibility": "本轮资格未在页面列出，须以征集文件和科技部中方通知为准。",
+    "support": "本轮金额未在页面列出，见征集文件。",
+    "prep": "建议提前 2–3 个月",
+    "next": "新方负责人下载征集文件并按附件要求在门户提交；中方合作者留意科技部对应通知。",
+    "sources": [
+      {
+        "label": "NRF · Singapore–China 合作",
+        "url": "https://www.rgp.gov.sg/nrf-partnerships/sg-cn"
+      },
+      {
+        "label": "新加坡科研经费门户 · 在征项目列表",
+        "url": "https://www.apply.gov.sg/grants/research/listing"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "astar-graduate-scholarship-2027",
+    "name": "A*STAR Graduate Scholarship (AGS) · 2027",
+    "org": "新加坡科技研究局（A*STAR）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "各国籍均可申请，但国际学生须已在（或即将在）新加坡自治大学取得本科或硕士学位；没有新加坡学位的境外学生不符合条件。非公民、非永久居民毕业后须在新加坡企业服务三年。",
+    "audience": [
+      "硕士生",
+      "博士生"
+    ],
+    "fields": "理工科：STEM、半导体、量子、计算四个方向",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-12-15",
+    "date": "2026-12-15",
+    "deadline": "2027-02-01",
+    "dateLabel": "2026年12月15日开放，2027年2月1日截止",
+    "timeNote": "官方页面未注明截止时刻；同页另一处写“11月1日至2月1日”，以带年份的日期为准。第二轮每年6月1日开放、8月10日截止。",
+    "summary": "资助学生在新加坡自治大学攻读博士学位，并在 A*STAR 研究所开展课题，最长四年。",
+    "eligibility": "至少二等一级荣誉学位；处于最后一个学期；须获新加坡自治大学博士录取。另有面向已入学至少一学期的在读博士生的中期通道。",
+    "support": "最长四年，全额学费；月津贴 STEM 方向为 4,500 / 4,100 / 3,600 新元（公民 / 永久居民 / 国际学生），专项方向为 6,200 / 5,600 / 5,000 新元；可赴海外研修最长 12 个月。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先找到 A*STAR 导师和大学联合导师，取得 A*STAR 导师认可后在线申请。",
+    "sources": [
+      {
+        "label": "A*STAR · A*STAR Graduate Scholarship",
+        "url": "https://www.a-star.edu.sg/scholarships/home/scholarships/ags--scholarship"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "astar-srap",
+    "name": "Singapore Research Attachment Programme (SRAP)",
+    "org": "新加坡科技研究局（A*STAR）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "中心对中心的合作：牵头人须在新加坡并在当地公立机构任主要职务（至少 75%），与海外合作方共同申请；学生须为在海外大学注册的研究生，不能个人申请。未设国籍限制。",
+    "audience": [
+      "博士生",
+      "硕士生",
+      "团队负责人"
+    ],
+    "fields": "符合新加坡国家科研重点的理工科领域",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "每年5月1日、11月1日 19:00（新加坡时间）截止 · 未标年份",
+    "timeNote": "官方只列月日；11月1日的一轮刚结束，下一个为5月1日。",
+    "summary": "资助海外课题组与新加坡研究中心结对，在 3–5 年内成批派出研究生到新加坡研修 1–2 年。",
+    "eligibility": "学生本科成绩最好达到二等一级；此前未获 ARAP 资助。双方中心负责人均须背书。",
+    "support": "项目期 3–5 年，覆盖 6–10 名学生：月津贴、住房补贴、机票、安置与设备补贴、保险、会议和签证费用（页面未列数额）。",
+    "prep": "建议提前 3–4 个月",
+    "next": "海外课题组先与新加坡的合作中心商定，由对方牵头申请。",
+    "sources": [
+      {
+        "label": "A*STAR · Singapore Research Attachment Programme",
+        "url": "https://www.a-star.edu.sg/scholarships/home/international-awards/singapore-research-attachment-programme"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "astar-ecr-overseas-exchange",
+    "name": "A*STAR Early Career Researcher (ECR) Overseas Exchange Fellowship",
+    "org": "新加坡科技研究局（A*STAR）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向受聘或隶属于海外大学、研究机构的青年研究者，到 A*STAR 研究所访问；未设国籍限制。这是接收安排，不提供经费——须自带资助。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "生物医学 · 物理科学 · 工程 · 计算",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年受理",
+    "timeNote": "官方说明全年开放申请。",
+    "summary": "A*STAR 接收海外青年研究者来访 3–12 个月并提供设施使用，适合与公派或本单位资助搭配。",
+    "eligibility": "近七年内获得博士学位；已落实独立经费；取得 A*STAR 接收方的原则同意。",
+    "support": "3–12 个月的接收和设施使用；生活与差旅费用自理。",
+    "prep": "建议提前 2–3 个月",
+    "next": "从 A*STAR 项目列表中选定接收方，取得邮件同意后提交简历、经费证明和接收函。",
+    "sources": [
+      {
+        "label": "A*STAR · ECR Overseas Exchange",
+        "url": "https://www.a-star.edu.sg/research/ecr-overseas-exchange"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-nqss-phd",
+    "name": "National Quantum Scholarships Scheme (NQSS) · PhD",
+    "org": "新加坡国家量子办公室（National Quantum Office）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须申请新加坡自治大学的量子相关博士或工程博士项目；页面未写明国籍要求，但待遇中列有仅面向国际学生的单程机票。",
+    "audience": [
+      "硕士生",
+      "博士生"
+    ],
+    "fields": "量子科学与技术",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "全年受理",
+    "timeNote": "官方说明博士类全年接受申请。",
+    "summary": "资助学生在新加坡攻读量子方向博士学位的国家奖学金。",
+    "eligibility": "至少二等一级荣誉学位或同等水平。",
+    "support": "全额学费、津贴（页面未列数额），另有书籍、电脑和会议补贴；年限和服务义务未在页面写明。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先联系量子技术中心（CQT）的导师。",
+    "sources": [
+      {
+        "label": "National Quantum Office · PhD Scholarships",
+        "url": "https://nqo.sg/talent-development/phd-scholarships/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-sshr-fellowship",
+    "name": "Social Science & Humanities Research Fellowship (SSHRF)",
+    "org": "新加坡社会科学研究理事会（SSRC）/ 教育部",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向新加坡公民；非公民可被考虑，但获资助以取得新加坡公民身份为条件。须为新加坡自治大学的全职教师。",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "社会科学与人文",
+    "disciplines": [
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "每年10月开放、次年1月截止 · 官方未标具体日期",
+    "timeNote": "官方页面只给出月份。新加坡国立大学医学组织的经费日历将本轮列为2026年10月5日开放、2027年1月22日截止，未在官方页面确认。",
+    "summary": "为有潜力的本地青年社科人文学者提供五年研究经费。",
+    "eligibility": "有博士学位，在接收大学任全职教职且尚未获终身教职；由接收大学提名。",
+    "support": "五年最高 100 万新元研究经费。",
+    "prep": "建议提前 2–3 个月",
+    "next": "向所在大学了解校内提名安排。",
+    "sources": [
+      {
+        "label": "SSRC · SSHR Fellowship",
+        "url": "https://www.ssrc.edu.sg/initiatives/sshrf-overview/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "astar-italy-singapore-epstc-2",
+    "name": "Italy–Singapore Second Executive Programme of Science and Technology Cooperation",
+    "org": "新加坡科技研究局（A*STAR）/ 意大利外交与国际合作部",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "须由至少一家新加坡和一家意大利的公立研究机构联合申报；各机构有名额限制。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "先进技术（AI、机器人、量子、空间）· 健康与医学（老龄化、转化医学、神经科学）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "opensOn": "2026-10-07",
+    "date": "2026-11-27",
+    "deadline": "2026-11-27",
+    "deadlineTime": "23:59",
+    "dateLabel": "受理中，2026年11月27日 23:59（新加坡时间）截止",
+    "timeNote": "新加坡时间，与北京时间相同。",
+    "summary": "新加坡与意大利政府间科技合作计划下的联合研究项目征集。",
+    "eligibility": "机构名额：新加坡国立大学、南洋理工大学、A*STAR 各 10 项，其他机构各 2 项。",
+    "support": "每项最高 450,000 新元，36 个月（新加坡一方）。",
+    "prep": "建议提前 2–3 个月；本轮时间很紧",
+    "next": "新加坡一方通过 iGrants 提交，意大利一方向意大利外交部提交。",
+    "sources": [
+      {
+        "label": "A*STAR · 2nd EPSTC Italy–Singapore",
+        "url": "https://www.a-star.edu.sg/research/funding-opportunities/2nd-epstc-ita-sgp"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-nrf-research-translation-grant-2026",
+    "name": "NRF Research Translation Grant (GAP@RTG and VB@RTG) · 2026",
+    "org": "新加坡国立研究基金会（NRF）",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向新加坡的公立科研机构；VB 类须有合格的创业孵化机构参与。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "各领域的技术转化",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": "2026-12-31",
+    "deadline": "2026-12-31",
+    "deadlineTime": "16:00",
+    "dateLabel": "受理中，2026年12月31日 16:00（新加坡时间）截止",
+    "timeNote": "新加坡时间，与北京时间相同。",
+    "summary": "支持新加坡公立机构的科研成果向应用和产业转化的经费，取代原 Central Gap Fund。",
+    "eligibility": "由新加坡的公立科研机构申报。",
+    "support": "金额和期限未在所读页面列出。",
+    "prep": "建议提前 2–3 个月",
+    "next": "通过新加坡科研经费门户提交。",
+    "sources": [
+      {
+        "label": "NRF · Research Translation Grant",
+        "url": "https://www.nrf.gov.sg/grants/rtg/"
+      },
+      {
+        "label": "新加坡科研经费门户 · 在征项目列表",
+        "url": "https://www.apply.gov.sg/grants/research/listing"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-nlb-lee-kong-chian-fellowship-2026",
+    "name": "Lee Kong Chian Research Fellowship · 2026",
+    "org": "新加坡国家图书馆管理局（NLB）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "本地和外国申请人均可；至少 75% 的工作时间须在图书馆。",
+    "audience": [
+      "博士生",
+      "博士后",
+      "在职科研人员"
+    ],
+    "fields": "人文与社会科学（利用国家图书馆和国家档案馆的新加坡与东南亚馆藏）",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-05-29",
+    "deadline": "2026-05-29",
+    "dateLabel": "2026 年度已于5月29日截止",
+    "timeNote": "下一轮尚未公布，不沿用上一年度日期。",
+    "summary": "资助学者利用新加坡国家图书馆和档案馆馆藏开展六个月的驻馆研究。",
+    "eligibility": "面向策展人、历史学者、高校教师和独立研究者，鼓励博士生和博士后申请。须提交 3,000 字和 6,000 字两篇论文，图书馆持有出版权。",
+    "support": "六个月，每月 3,500 新元；海外学者另有 1,500 新元安置费、最高 1,500 新元往返机票和每月最高 3,500 新元住宿补贴（实报实销）。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意下一轮通知；申请表以邮件提交。",
+    "sources": [
+      {
+        "label": "NLB · Lee Kong Chian Research Fellowship",
+        "url": "https://www.nlb.gov.sg/main/about-us/careers/research-fellowships/Lee-Kong-Chian-Research-Fellowship"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-iseas-wang-gungwu-fellows-2027",
+    "name": "Wang Gungwu Visiting Fellows Programme · 2027 intake",
+    "org": "ISEAS – Yusof Ishak Institute（尤索夫伊萨东南亚研究院）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "未设国籍限制，驻院访问。",
+    "audience": [
+      "博士后",
+      "在职科研人员"
+    ],
+    "fields": "社会科学：中美关系、南海、“一带一路”与 RCEP、中国崛起对东南亚的影响等",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-08-28",
+    "deadline": "2026-08-28",
+    "dateLabel": "2027 年度已于2026年8月28日截止",
+    "timeNote": "下一轮尚未公布，不沿用上一年度日期。",
+    "summary": "资助博士后研究者和职业中期的政策研究人员到新加坡东南亚研究院驻访 2–6 个月。",
+    "eligibility": "博士后研究者，或职业中期的政策制定者（后者不要求博士学位）。需两封推荐信。",
+    "support": "2–6 个月；固定月津贴（含住房补贴，页面未列数额）和往返经济舱机票。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意下一轮通知。",
+    "sources": [
+      {
+        "label": "ISEAS · Wang Gungwu Visiting Fellows Programme",
+        "url": "https://iseas.edu.sg/about-us/opportunities/fellowships/wang-gungwu-visiting-fellows-programme/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-nhb-heritage-research-grant",
+    "name": "Heritage Research Grant (HRG)",
+    "org": "新加坡国家文物局（NHB）",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "申请人须来自或由新加坡的支持机构（大学、智库、非营利组织等）背书，通过该机构账户提交；未设国籍限制。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "人文与文化遗产，含新加坡与东南亚比较研究",
+    "disciplines": [
+      "social"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "下一轮预计2027年1月开放、3月截止，具体日期未公布",
+    "timeNote": "上一轮为2026年7月20日至9月14日。官方日程表只给出下一轮的月份。",
+    "summary": "资助有关新加坡文化遗产的研究项目。",
+    "eligibility": "由新加坡的支持机构申报或背书。",
+    "support": "两年以内最高 150,000 新元；一年期项目最高 75,000 新元。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意开放通知，通过 OurSG Grants 门户提交。",
+    "sources": [
+      {
+        "label": "NHB · Heritage Research Grant",
+        "url": "https://www.nhb.gov.sg/what-we-do/our-work/community-engagement/grants/grants/heritage-research-grant"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-aisg-phd-fellowship-2026-10",
+    "name": "AI Singapore PhD Fellowship Programme · October 2026 nomination",
+    "org": "AI Singapore（AISG）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "被提名人不限国籍（鼓励新加坡公民、永久居民和东盟申请人）；须在新加坡国立大学、南洋理工大学、新加坡管理大学或新加坡科技设计大学攻读博士，由大学提名，个人不能直接申请。",
+    "audience": [
+      "硕士生",
+      "博士生"
+    ],
+    "fields": "人工智能",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-10-22",
+    "deadline": "2026-10-22",
+    "deadlineTime": "17:00",
+    "dateLabel": "本轮提名已于2026年10月22日 17:00（新加坡时间）截止",
+    "timeNote": "下一轮尚未公布，不沿用上一轮日期。",
+    "summary": "资助在新加坡四所大学攻读人工智能方向博士学位的学生，最长四年。",
+    "eligibility": "拟入学的全日制博士生，或入学不超过两年的在读博士生。",
+    "support": "最长四年；月津贴最高 6,700 新元，学费，另有最高 8,000 新元会议差旅费。",
+    "prep": "建议提前 3–4 个月",
+    "next": "先申请大学的博士录取，并向院系表明希望被提名。",
+    "sources": [
+      {
+        "label": "AI Singapore · PhD Fellowship Programme",
+        "url": "https://aisingapore.org/research/phd-fellowship/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-nrf-crp36",
+    "name": "NRF Competitive Research Programme (CRP) · 36th Call",
+    "org": "新加坡国立研究基金会（NRF）",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "牵头和团队负责人须在新加坡的合格机构任职，且每年在新加坡工作至少九个月；未设国籍限制。海外和私营机构只能作为合作方。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "各科技领域的应用导向基础研究",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-09-14",
+    "date": "2026-11-09",
+    "deadline": "2026-11-09",
+    "deadlineTime": "16:00",
+    "dateLabel": "第36次征集已于2026年11月9日 16:00（新加坡时间）截止",
+    "timeNote": "2026 年 Frontier CRP 已于5月18日截止；Thematic CRP 日期待公布。下一次征集尚未公布。",
+    "summary": "资助多学科团队开展有望形成新产业方向的大型研究计划。",
+    "eligibility": "以团队申报。",
+    "support": "CRP 最高 1,000 万新元，Frontier CRP 最高 200 万新元，Thematic CRP 200–400 万新元，均为 3–5 年。",
+    "prep": "建议提前 4–6 个月",
+    "next": "留意下一次征集通知。",
+    "sources": [
+      {
+        "label": "NRF · Competitive Research Programme",
+        "url": "https://www.rgp.gov.sg/nrf-ar/crp"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "astar-mtc-yirg-2026",
+    "name": "A*STAR MTC Young Individual Research Grant (YIRG) · 2026",
+    "org": "新加坡科技研究局（A*STAR）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "新加坡一方负责人须在当地公立科研机构任主要职务（至少 75%）；未设国籍限制，各机构有名额。",
+    "audience": [
+      "青年研究者",
+      "博士后"
+    ],
+    "fields": "物理科学与工程",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-05-05",
+    "date": "2026-06-23",
+    "deadline": "2026-06-23",
+    "deadlineTime": "23:59",
+    "dateLabel": "2026 年度已于6月23日 23:59（新加坡时间）截止",
+    "timeNote": "下一轮尚未公布，不沿用上一年度日期。",
+    "summary": "支持获博士学位不久的青年研究者在新加坡公立机构主持第一个独立课题。",
+    "eligibility": "获博士学位不超过七年。已获 NRF Fellowship 或教育部 Tier 2/3 资助者不可申请。",
+    "support": "最高 325,000 新元，最长三年。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意下一轮通知，并向所在机构了解名额安排。",
+    "sources": [
+      {
+        "label": "A*STAR · MTC Young Individual Research Grant",
+        "url": "https://www.a-star.edu.sg/research/funding-opportunities/yirg"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "astar-rgc-hk-sg-joint-call-2026",
+    "name": "Hong Kong–Singapore Joint Call for Proposals · 2026",
+    "org": "新加坡科技研究局（A*STAR）/ 香港研究资助局（RGC）",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "新加坡与香港团队联合申报：新加坡一方负责人须在当地公立科研机构任主要职务（至少 75%），香港一方向 RGC 提交。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "智慧城市人工智能 · 能源与环境可持续 · 转化免疫学与新发疾病",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-08-24",
+    "date": "2026-10-20",
+    "deadline": "2026-10-20",
+    "dateLabel": "2026 年度已于10月20日截止",
+    "timeNote": "官方未注明截止时刻。下一轮尚未公布。",
+    "summary": "A*STAR 与香港研究资助局共同资助的两地联合研究项目。",
+    "eligibility": "两地团队分别向各自资助方提交。",
+    "support": "新加坡一方：第一阶段 24 个月最高 150,000 新元，第二阶段 36 个月最高 300,000 新元。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意下一轮通知。",
+    "sources": [
+      {
+        "label": "A*STAR · Hong Kong–Singapore Joint Call",
+        "url": "https://www.a-star.edu.sg/research/funding-opportunities/hkg-sgp-joint-call"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "astar-cas-joint-call-2025",
+    "name": "China–Singapore Joint Call for Proposals (A*STAR–CAS) · 2025",
+    "org": "新加坡科技研究局（A*STAR）/ 中国科学院",
+    "category": "交流合作",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "中方：隶属于中国科学院研究所或大学并在其中开展研究的独立研究者均可申请，不限国籍。新方向 A*STAR 提交。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "气候韧性与适应（2025 年主题）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2025-06-05",
+    "date": "2025-07-30",
+    "deadline": "2025-07-30",
+    "deadlineTime": "17:00",
+    "dateLabel": "2025 年度已于7月30日截止（中方北京时间 17:00）",
+    "timeNote": "新方截止为当天新加坡时间 23:59，中方为北京时间 17:00。2026 年未见新一轮，下一轮尚未公布。",
+    "summary": "A*STAR 与中国科学院共同资助的两国联合研究项目。",
+    "eligibility": "两国团队联合申报。",
+    "support": "见当年征集文件。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意 A*STAR 和中国科学院的下一轮通知。",
+    "sources": [
+      {
+        "label": "A*STAR · China–Singapore Joint Call 2025",
+        "url": "https://www.a-star.edu.sg/Research/funding-opportunities/china-singapore-joint-call-for-proposals-on--climate-resilience---adaptation--2025"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-sshr-thematic-grant-2026",
+    "name": "Social Science & Humanities Research Thematic Grant (SSHR-TG) · 2026",
+    "org": "新加坡社会科学研究理事会（SSRC）/ 教育部",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "负责人须在新加坡十家指定机构之一任全职主要职务（每年至少九个月）；未设国籍限制。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "社会科学与人文",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-06-02",
+    "date": "2026-08-25",
+    "deadline": "2026-08-25",
+    "deadlineTime": "17:00",
+    "dateLabel": "2026 年度已于8月25日 17:00（新加坡时间）截止",
+    "timeNote": "下一轮尚未公布，不沿用上一年度日期。",
+    "summary": "资助围绕新加坡社会重大议题的社科与人文研究项目。",
+    "eligibility": "指定机构包括新加坡各自治大学、ISEAS、A*STAR 和新加坡-ETH 中心等。",
+    "support": "A 类 10 万至 150 万新元（三年）；B 类 150 万至 500 万新元（3–5 年）；C 类 500 万至 1,000 万新元。",
+    "prep": "建议提前 3–4 个月",
+    "next": "留意 2027 年度通知。",
+    "sources": [
+      {
+        "label": "SSRC · SSHR Thematic Grant",
+        "url": "https://www.ssrc.edu.sg/initiatives/sshrtg-overview/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "astar-international-fellowship",
+    "name": "A*STAR International Fellowship (AIF)",
+    "org": "新加坡科技研究局（A*STAR）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "面向新加坡公民和永久居民；非永久居民的外国人只在业绩特别突出时例外考虑，且须在奖学金开始前取得新加坡公民身份。赴海外做博士后，回国后在 A*STAR 服务三年。",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "A*STAR 各研究领域",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "下一轮每年1月1日开放、4月1日截止 · 未标年份",
+    "timeNote": "上一轮为2026年7月14日至10月1日。官方对下一轮只列月日。",
+    "summary": "资助新加坡青年博士赴海外顶尖实验室做最长两年的博士后。",
+    "eligibility": "近四年内获得博士学位。",
+    "support": "最长两年；每月 5,000 新元津贴，另有海外生活补贴。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意开放通知。",
+    "sources": [
+      {
+        "label": "A*STAR · A*STAR International Fellowship",
+        "url": "https://www.a-star.edu.sg/scholarships/home/scholarships/astar-international-fellowship"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "astar-sseaf-2026",
+    "name": "Singapore–Southeast Asia Fellowship (S-SEAF) · 2026",
+    "org": "新加坡科技研究局（A*STAR）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "来新加坡类：东盟国家公民（不含新加坡永久居民）。派出类：新加坡公民或永久居民。中国籍申请人不符合条件。",
+    "audience": [
+      "博士后",
+      "应届博士"
+    ],
+    "fields": "理工科",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-08-01",
+    "deadline": "2026-08-01",
+    "dateLabel": "2026 年度已于8月1日截止",
+    "timeNote": "官方日程为每年4月开放、8月1日截止（未标年份）。",
+    "summary": "资助东南亚与新加坡之间的博士后双向流动，最长两年。",
+    "eligibility": "须有理工科博士学位。",
+    "support": "最长两年；工资资助（有上限），每月 2,000 新元生活补贴和往返机票。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意下一轮通知。",
+    "sources": [
+      {
+        "label": "A*STAR · Singapore–Southeast Asia Fellowship",
+        "url": "https://www.a-star.edu.sg/research/sseaf"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-lky-postdoctoral-fellowship-2026",
+    "name": "Lee Kuan Yew Postdoctoral Fellowship · 2026",
+    "org": "李光耀捐赠基金（Lee Kuan Yew Endowment Fund）· 南洋理工大学与新加坡国立大学承办",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "新加坡"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "在南洋理工大学或新加坡国立大学执行，两校各自受理申请；页面未写明国籍要求。本记录的日期取自南洋理工大学一方，国大一方未能读取。",
+    "audience": [
+      "应届博士",
+      "博士后"
+    ],
+    "fields": "工程 · 理学 · 医学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2025-11-25",
+    "date": "2026-02-06",
+    "deadline": "2026-02-06",
+    "dateLabel": "上一轮（南洋理工）已于2026年2月6日截止",
+    "timeNote": "上一轮为2025年11月25日至2026年2月6日；新一轮尚未挂出，不沿用上一年度日期。",
+    "summary": "面向新近获得博士学位者的三年期博士后奖学金，附独立研究经费。",
+    "eligibility": "新近获得博士学位，或至多有一段博士后经历。",
+    "support": "三年；研究经费最高 180,000 新元，工资数额未在页面列出。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意两校的新一轮通知（上一年在11月下旬开放）。",
+    "sourceNote": "条件取自南洋理工大学的项目页面。",
+    "sources": [
+      {
+        "label": "NTU · Lee Kuan Yew Postdoctoral Fellowship",
+        "url": "https://www.ntu.edu.sg/research/research-careers/lee-kuan-yew-postdoctoral-fellowship-%28lkypdf%29"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "new-cornerstone-investigator-2027",
+    "name": "新基石研究员项目 · 第四期（2027 年度）",
+    "org": "新基石科学基金会",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "须在中国内地或港澳地区全职工作，国籍不限。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "青年研究者"
+    ],
+    "fields": "数学与物质科学（数学、物理、化学、理论计算机）· 生物与医学科学，鼓励交叉",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "opensOn": "2026-11-01",
+    "date": "2027-01-15",
+    "deadline": "2027-01-15",
+    "dateLabel": "受理中，2027年1月15日 24:00 截止",
+    "timeNote": "北京时间；2026年11月1日 10:00 启动申报。资助名单2027年下半年发布。",
+    "summary": "“选人不选项目”的长期资助，支持科学家自由开展原创性基础研究，2027 年度不超过 35 人（含 6 个青年名额）。",
+    "eligibility": "未满 55 周岁（1972年1月1日及以后出生）；担任博士生导师或同等资历 5 年以上；每年投入科研不少于 9 个月；未担任所在机构主要领导职务；同一年度不得同时申报“科学探索奖”。青年名额：男未满 40 周岁、女未满 43 周岁。",
+    "support": "五年；实验类每人 2,500 万元，理论类每人 1,500 万元，期满可申请续期。",
+    "prep": "建议提前 6–8 周",
+    "next": "在基金会官网自由申报（须用电脑端），准备未来研究计划、科学贡献与论文、在研项目和团队情况。",
+    "sources": [
+      {
+        "label": "新基石科学基金会 · 新基石研究员项目申报指南",
+        "url": "https://www.newcornerstone.org.cn/#/guideline"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "most-expert-database-2026",
+    "name": "国家科技专家库 · 2026 年专家集中征集",
+    "org": "科学技术部（科技人才中心受理）",
+    "category": "专家机会",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性征集，经地方科技主管部门、专业机构集体推荐，或经本单位管理员开户后个人自荐。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "各科技领域，含科技管理、法律、金融、财务类专家",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": "2026-11-20",
+    "deadline": "2026-11-20",
+    "dateLabel": "集中征集2026年11月20日截止 · 个人申请常年受理",
+    "timeNote": "集中征集之外，专家库常年开放受理个人申请。不是研究基金。",
+    "summary": "征集进入国家科技专家库、参与各类科技计划评审与咨询的专家。",
+    "eligibility": "原则上不超过 70 周岁（1956年1月1日及以后出生），并满足十类条件之一，例如：在相关科技领域工作 5 年以上且具有副高及以上职称；主持过省部级及以上科技计划或获省部级及以上科技奖；从事科技政策或管理 10 年以上等。",
+    "support": "无经费；入库后可能受邀参与评审和咨询。",
+    "prep": "整理材料建议 1–3 天",
+    "next": "联系本单位国科管系统管理员开户，在线填报，无需纸质材料。",
+    "sources": [
+      {
+        "label": "科技部 · 关于征集国家科技专家库专家的通知",
+        "url": "https://www.most.gov.cn/kjbgz/202610/t20261030_197621.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "csc-swiss-exchange-2027",
+    "name": "国家公派 · 2027 年瑞士互换奖学金项目",
+    "org": "国家留学基金管理委员会 / 瑞士政府",
+    "category": "交流合作",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "面向国内高校和科研机构的全日制在读博士生，赴瑞士联合培养。经所在单位同意并由受理单位推荐，留基委不直接受理个人申请；须为中国国籍、无国外永久居留权。",
+    "audience": [
+      "博士生"
+    ],
+    "fields": "不限，重点支持医药化工、医疗技术、生物技术、环境保护、信息和通信技术",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-11-25",
+    "date": "2026-11-25",
+    "deadline": "2026-12-10",
+    "dateLabel": "2026年11月25日至12月10日网上报名",
+    "timeNote": "须先完成瑞方系统的申请；受理单位应于2026年12月25日前上报。校内截止通常早于12月10日。录取名单2027年6月公布，一般9月派出。",
+    "summary": "留基委与瑞士政府互换奖学金，资助在读博士生赴瑞士联合培养 12 个月。",
+    "eligibility": "1990年12月31日以后出生；申请时须已获瑞方导师邀请信和中外导师共同制定的联合培养计划；不包括已获博士学位人员。已获国外全额奖学金、已有有效国家公派资格或回国服务未满两年等情形暂不受理。",
+    "support": "12 个月；瑞方每月 2,450 瑞士法郎，留基委提供互换奖学金补贴和一次往返国际旅费。",
+    "prep": "建议提前 2–3 个月；本轮时间很紧",
+    "next": "先在瑞方系统申请，再登录国家公派留学管理信息平台报名，并尽快向所在单位了解校内截止时间。",
+    "sources": [
+      {
+        "label": "国家留学基金委 · 2027年瑞士互换奖学金项目通知",
+        "url": "https://www.csc.edu.cn/chuguo/s/4315"
+      },
+      {
+        "label": "国家留学基金委 · 瑞士互换奖学金项目指南",
+        "url": "https://www.csc.edu.cn/article/4316"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "csc-quebec-2027",
+    "name": "国家公派 · 2027–2028 年度加拿大魁北克省政府奖学金",
+    "org": "国家留学基金管理委员会 / 魁北克省政府",
+    "category": "交流合作",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "赴加拿大魁北克省。须为中国国籍，不具有也未申请加拿大永久居留权；经受理单位推荐。",
+    "audience": [
+      "博士生",
+      "博士后",
+      "在职科研人员"
+    ],
+    "fields": "不限专业；优先管理科学、环境、工程、卫生、法律、教育、农业、多媒体与信息技术、中国和魁北克文学研究",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": "2027-03-01",
+    "deadline": "2027-03-01",
+    "deadlineTime": "14:00",
+    "dateLabel": "受理中，2027年3月1日 14:00 前完成网上报名",
+    "timeNote": "须同时在魁方网站申请，魁方截止日期以其网站为准（本次未核）。受理单位2027年3月15日前上报。",
+    "summary": "留基委与魁北克省政府合作的奖学金，约 15 人，分博士研究生、博士后和短期研修三类。",
+    "eligibility": "须有正式邀请信或录取通知，此前未享受过该奖学金。博士生：1990年1月1日后出生，不含已获博士学位者。博士后：1985年1月1日后出生，博士毕业三年以内或应届博士。短期研修：在读硕博（35 岁以下）或在职研究人员（获博士学位不超过 5 年、不超过 50 周岁）等。",
+    "support": "魁方生活费：博士生每年 25,000 加元（36–48 个月）、博士后每年 35,000 加元（12 个月）、短期研修每月 3,000 加元（4 个月），另有医保并免高额学费；留基委提供一次往返旅费和签证费。",
+    "prep": "建议提前 3–4 个月",
+    "next": "取得魁方邀请信或录取通知，在留基委平台和魁方系统两边申请。",
+    "sources": [
+      {
+        "label": "国家留学基金委 · 2027–2028年度加拿大魁北克省政府奖学金通知",
+        "url": "https://www.csc.edu.cn/chuguo/s/4313"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "csc-area-studies-2027",
+    "name": "国家公派 · 2027 年国别和区域研究人才支持计划",
+    "org": "国家留学基金管理委员会",
+    "category": "交流合作",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "只能经获批项目的单位推荐，留基委不直接受理个人申请；须先确认本单位是否有获批项目。",
+    "audience": [
+      "在职科研人员",
+      "博士后",
+      "博士生",
+      "硕士生"
+    ],
+    "fields": "国别和区域研究相关专业，重点为“一带一路”共建国家和“区域国别学”建设",
+    "disciplines": [
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-03-10",
+    "date": "2027-03-10",
+    "deadline": "2027-03-21",
+    "deadlineTime": "14:00",
+    "dateLabel": "人员申报第一批：2027年3月10日至21日 14:00；第二批9月1日至11日",
+    "timeNote": "单位项目申报已于2026年10月21日截止，立项结果12月公布。第二批的单位审核截止日，两份官方文件分别写作9月30日和9月20日。",
+    "summary": "资助高校派出国别和区域研究方向的学者、博士后和研究生出国研修或攻读学位，2027 年规模 500 人。",
+    "eligibility": "高级研究学者（3–6 个月，不超过 60 周岁，正高或博导）；访问学者（3–12 个月，不超过 50 周岁）；博士后（6–24 个月，不超过 40 周岁）；攻读博士学位、联合培养博士或硕士（不超过 35 周岁）。不得同时享受全国社科工作办科研项目资助出国。",
+    "support": "一次往返国际旅费和资助期内奖学金；仅攻读博士学位人员可获学费资助。",
+    "prep": "建议提前 3–4 个月",
+    "next": "向本单位国际合作或研究生管理部门确认有无获批项目和校内选拔安排。",
+    "sources": [
+      {
+        "label": "国家留学基金委 · 国别和区域研究人才支持计划专栏",
+        "url": "https://www.csc.edu.cn/chuguo/s/4235"
+      },
+      {
+        "label": "国家留学基金委 · 实施指南",
+        "url": "https://www.csc.edu.cn/article/4236"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "csc-innovative-talent-2027",
+    "name": "国家公派 · 2027 年创新型人才国际合作培养项目",
+    "org": "国家留学基金管理委员会",
+    "category": "交流合作",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "须为项目单位人员，由项目单位统一推荐；中国国籍、无国外永久居留权。",
+    "audience": [
+      "在职科研人员",
+      "博士后",
+      "博士生",
+      "硕士生"
+    ],
+    "fields": "按各获批项目的选派专业",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-03-01",
+    "date": "2027-03-01",
+    "deadline": "2027-03-11",
+    "deadlineTime": "14:00",
+    "dateLabel": "人员申报第一批：2027年3月1日至11日 14:00；另有6月、9月两批",
+    "timeNote": "第二批6月1日至11日，第三批9月1日至11日；录取分别在4月底、7月底、10月底前公布。单位项目申报已于2026年10月21日截止。",
+    "summary": "依托高校与国外机构的合作项目，成批选派学者、博士后和学生出国研修或攻读学位。",
+    "eligibility": "高级研究学者不超过 55 周岁；访问学者不超过 50 周岁；博士后 6–24 个月、不超过 40 周岁；攻读学位或联合培养的研究生不超过 35 周岁。按期回国后再经该项目攻读更高层次学位，不受“回国满两年”限制。",
+    "support": "按国家公派标准提供旅费和奖学金；学费等条款见实施办法。",
+    "prep": "建议提前 3–4 个月",
+    "next": "向本单位创新项目主管部门了解获批项目和校内安排。",
+    "sources": [
+      {
+        "label": "国家留学基金委 · 创新型人才国际合作培养项目专栏",
+        "url": "https://www.csc.edu.cn/chuguo/s/4260"
+      },
+      {
+        "label": "国家留学基金委 · 实施办法",
+        "url": "https://www.csc.edu.cn/article/4248"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "nsfc-life-major-proposal-2027",
+    "name": "国家自然科学基金委生命科学部 · 2027 年度重大项目立项建议征集",
+    "org": "国家自然科学基金委员会生命科学部",
+    "category": "指南征集",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "面向全国科技界征集。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "人工智能赋能生命科学：从“数据拟合”走向“机制发现”；在生物演化、重大疾病诊疗、农业育种、关键生物技术等场景的应用",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-12-15",
+    "date": "2026-12-15",
+    "deadline": "2026-12-30",
+    "dateLabel": "2026年12月15日至30日提交（以电邮发出时间为准）",
+    "timeNote": "征集的是立项建议，本身没有经费。",
+    "summary": "征集生命科学部 2027 年度重大项目的立项建议，供编制指南参考。",
+    "eligibility": "现任生命科学部专家咨询委员会委员不得作为领域建议人；参与重大项目指南起草的专家不得申请或参与申请该项目。",
+    "support": "无经费（指南建议征集）。",
+    "prep": "建议提前 3–6 周",
+    "next": "按通知附件模板撰写“重大项目立项建议书”，在规定期间以电子邮件提交生命科学部联系人。",
+    "sources": [
+      {
+        "label": "NSFC · 生命科学部2027年度重大项目立项建议征集通告",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2822/143172.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "fdct-most-joint-2026",
+    "name": "澳门科技基金 · 与国家科技部联合资助（2026 年度）",
+    "org": "澳门科学技术发展基金（FDCT）/ 科技部港澳台办公室",
+    "category": "交流合作",
+    "region": "国内",
+    "scope": "hmt",
+    "jurisdiction": {
+      "province": "澳门"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "澳门方由澳门的高校、公立医疗机构、非牟利私人实体或在澳注册企业申请；内地合作方须同时向科技部申报。不支持澳门单位与其内地分支机构合作。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "信息与通信科技 · 生命科学与医药（按上一轮）；不支持软科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "预计2026年11月至12月受理，具体日期待定",
+    "timeNote": "基金 2026 年预计时间表写“11月至12月（待定）”；上一轮为2025年11月4日至12月11日。内地一方的申报指南本次未找到官方原文。",
+    "summary": "澳门科技基金与科技部共同资助内地与澳门团队的合作研发项目，两地各自拨款、当地使用。",
+    "eligibility": "双方负责人在申请期开始前五年内须有合作基础（合著论文、合作专利或项目、合作指导研究生等）；双方合作单位中至少一方有企业参与并提供配套资金。",
+    "support": "澳门方不超过 250 万澳门元，不超过三年。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意基金公布的具体日期和科技部的对应通知，提前与合作方准备材料。",
+    "sources": [
+      {
+        "label": "澳门科技基金 · 2026年资助计划预计时间表",
+        "url": "https://fdct.dsedt.gov.mo/zh_tw/FundingSchemeEstimatedTimeTable.html"
+      },
+      {
+        "label": "澳门科技基金 · 与国家科技部联合资助",
+        "url": "https://fdct.dsedt.gov.mo/zh_tw/external_cooperation_details/article/most.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "xplorer-prize-2026",
+    "name": "科学探索奖 · 2026",
+    "org": "新基石科学基金会",
+    "category": "青年人才",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "须在中国内地或港澳地区全职工作，国籍不限。",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "基础科学与前沿技术各领域（完整领域清单见申报指南）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-01-01",
+    "date": "2026-04-15",
+    "deadline": "2026-04-15",
+    "dateLabel": "2026 年度已于4月15日 24:00 截止",
+    "timeNote": "北京时间；推荐信截止为2026年4月30日。2027 年指南尚未公布，不沿用上一年度日期。",
+    "summary": "面向青年科技工作者的奖项，每年不超过 50 人，奖金可自由支配。",
+    "eligibility": "已获博士学位；申报当年1月1日男 45 周岁及以下、女 48 周岁及以下。可由专家提名（另需两位推荐人）或自由申报（三位正高推荐人）。自 2026 年起连续三年申报未入选者须间隔至少一年；须提交中英双语材料；与新基石研究员项目同年只能申报一项。",
+    "support": "每人 300 万元；每个领域另设 1 个“新星名额”（男 35、女 38 周岁及以下）。",
+    "prep": "建议提前 6–8 周",
+    "next": "留意 2027 年申报指南（上一年度1月1日启动）。",
+    "sources": [
+      {
+        "label": "科学探索奖 · 申报指南（2026年）",
+        "url": "https://www.xplorerprize.org/#/application-guideline"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "nssfc-late-stage-2026",
+    "name": "国家社科基金后期资助暨优秀博士论文出版、优秀学术著作再版项目 · 2026",
+    "org": "全国哲学社会科学工作办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，依托所在单位申报，经省级社科管理部门或在京委托机构报送。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者",
+      "应届博士"
+    ],
+    "fields": "哲学社会科学各学科，含教育学、艺术学、军事学单列学科",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-07-30",
+    "deadline": "2026-07-30",
+    "dateLabel": "2026 年度已于7月25日至30日集中受理",
+    "timeNote": "2027 年度安排尚未公布，不沿用上一年度日期。",
+    "summary": "资助已基本完成、尚未出版的哲学社会科学研究成果，以及优秀博士论文出版和优秀学术著作再版。",
+    "eligibility": "后期资助：副高级以上职称或具有博士学位，成果完成 80% 以上；以博士论文或博士后报告为基础的，须2023年6月30日前答辩且修改超过 30%。优博出版：1991年7月1日后出生，论文在2023年6月30日至2025年6月30日之间答辩并被学校评为优秀，须学位授予单位推荐。再版：2016年1月1日至2025年7月31日首版，限 7 个人文学科和 81 家推荐出版社。",
+    "support": "重点项目 35 万元左右，一般项目 25 万元左右，优博出版 20 万元左右，再版 25–35 万元；实行包干制。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意 2027 年度公告（上一年度7月发布），提前与所在单位科研管理部门沟通。",
+    "sources": [
+      {
+        "label": "全国哲学社会科学工作办公室 · 2026年度后期资助暨优博出版、再版项目申报公告",
+        "url": "http://www.nopss.gov.cn/n1/2026/0708/c431030-40756095.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "nssfc-rare-disciplines-2026",
+    "name": "国家社科基金冷门绝学研究专项 · 2026",
+    "org": "全国哲学社会科学工作办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性项目，经各管理部门限额报送：每个管理部门限报团队选题 10 个、个人 20 个。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "青年研究者"
+    ],
+    "fields": "古文字、出土文献、古籍版本、丝路文化遗产、石窟寺考古、方言与地域文化等",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-08-25",
+    "deadline": "2026-08-25",
+    "deadlineTime": "17:00",
+    "dateLabel": "2026 年度已于8月25日 17:00 截止",
+    "timeNote": "2026 年度网上申报为8月16日零时至25日 17:00。2027 年度安排尚未公布，不沿用上一年度日期。",
+    "summary": "支持具有重要文化价值和传承意义、研究力量薄弱的冷门学科和绝学。",
+    "eligibility": "须有高级职称或博士学位。团队项目负责人须为正高、近五年有 3 项以上重要成果，团队含 40 岁以下学者。在研国家级项目负责人不得申报。",
+    "support": "团队项目 80 万元（约三年评估一次，滚动资助）；个人项目 35 万元，3–5 年。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意 2027 年度公告，并向所在单位了解限额内的校内遴选。",
+    "sources": [
+      {
+        "label": "全国哲学社会科学工作办公室 · 2026年度冷门绝学研究专项申报公告",
+        "url": "http://www.nopss.gov.cn/n1/2026/0716/c431029-40761983.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "nssfc-ideological-course-2026",
+    "name": "国家社科基金高校思想政治理论课研究专项 · 2026",
+    "org": "全国哲学社会科学工作办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "面向全国高校思政课教师及相关研究人员，经省级部门审核报送。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "高校思想政治理论课教学与研究",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-09-28",
+    "deadline": "2026-09-28",
+    "deadlineTime": "17:00",
+    "dateLabel": "2026 年度已于9月28日 17:00 截止",
+    "timeNote": "2026 年度网上申报为9月21日零时至28日 17:00。2027 年度安排尚未公布，不沿用上一年度日期。",
+    "summary": "支持高校思政课教师围绕课程建设和教学改革开展研究。",
+    "eligibility": "重点项目须副高以上职称；一般项目须中级以上职称或博士学位。每人只能申报一个研究专项；在研国家社科、国家自科等国家级项目及当年教育部人文社科一般项目负责人不得申报。",
+    "support": "重点项目 35 万元，一般项目 20 万元；2–3 年。",
+    "prep": "建议提前 4–8 周",
+    "next": "留意 2027 年度公告（上一年度8月下旬发布）。",
+    "sources": [
+      {
+        "label": "全国哲学社会科学工作办公室 · 2026年度高校思政课研究专项申报公告",
+        "url": "http://www.nopss.gov.cn/n1/2026/0827/c431029-40787261.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "nssfc-achievement-library-2026",
+    "name": "《国家哲学社会科学成果文库》· 2026 年度",
+    "org": "全国哲学社会科学工作办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "全国性征集，须由指定出版社书面推荐。并非每年都有：此前几次为 2024、2022、2019、2017 年度。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "哲学社会科学各学科",
+    "disciplines": [
+      "social"
+    ],
+    "status": "closed",
+    "date": "2026-08-12",
+    "deadline": "2026-08-12",
+    "deadlineTime": "17:00",
+    "dateLabel": "2026 年度已于8月12日 17:00 截止",
+    "timeNote": "2026 年度网上申报为8月3日零时至12日 17:00，纸质材料8月18日前报送。下一次征集尚未公布。",
+    "summary": "遴选代表国家水平的哲学社会科学优秀成果集中出版。",
+    "eligibility": "未公开出版的中文学术专著，约 20–100 万字；国家社科基金成果须结项“良好”以上，否则需三位同行专家推荐；每人限报 1 项；与已发表内容重复不超过 15%。职称要求以公告原文为准。",
+    "support": "公告页未写金额。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意下一次征集公告，提前与出版社沟通推荐。",
+    "sources": [
+      {
+        "label": "全国哲学社会科学工作办公室 · 2026年度《国家哲学社会科学成果文库》申报公告",
+        "url": "http://www.nopss.gov.cn/n1/2026/0708/c431033-40756042.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "nsfc-rgc-forum-conference-2027",
+    "name": "NSFC–RGC 青年学者论坛 · NSFC–京港学术交流中心学术会议项目（2027 年执行）",
+    "org": "国家自然科学基金委员会 / 香港研究资助局 · 京港学术交流中心",
+    "category": "交流合作",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "内地申请人须为基金委在研项目（三年期以上、2027年12月31日及以后结题）负责人，或经负责人同意的参与者；活动须有内地与香港两地学者共同参加。",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "自然科学；青年学者论坛限生命、材料与工程、信息、医学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-10-09",
+    "deadline": "2026-10-09",
+    "deadlineTime": "16:00",
+    "dateLabel": "2027 年执行项目已于2026年10月9日 16:00 截止",
+    "timeNote": "执行期为2027年1月1日至12月31日。下一年度通知尚未发布，不沿用上一年度日期。",
+    "summary": "资助内地与香港学者合办青年学者论坛和学术会议，各约 4 项。与已收录的“赴港参会”是同批发布的不同项目。",
+    "eligibility": "须有高级职称或博士学位；青年学者论坛另要求 45 岁以下、高级职称。各限申报 1 项，不计入总量限项。青年论坛两地各 15–20 名青年学者报告；学术会议两地各至少 15 人报告，各方来自至少三家单位。",
+    "support": "青年学者论坛直接费用不超过 20 万元/项，学术会议不超过 15 万元/项；无间接费用；会期不超过三天。",
+    "prep": "建议提前 6–8 周",
+    "next": "留意下一年度通知（上一年度9月初发布）。",
+    "sources": [
+      {
+        "label": "NSFC · NSFC–RGC 青年学者论坛项目指南",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2824/141466.html"
+      },
+      {
+        "label": "NSFC · NSFC–京港学术交流中心学术会议项目指南",
+        "url": "https://www.nsfc.gov.cn/p1/3381/2824/141464.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "most-korea-young-scientist-2026",
+    "name": "中韩青年科学家交流计划 · 中国青年科学家赴韩（2026 年度）",
+    "org": "科学技术部国际合作司 · 中国科学技术交流中心 / 韩国研究财团（NRF）",
+    "category": "交流合作",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "面向在国内高校、科研院所或企业全职工作的中国公民，赴韩国接收单位研究；须经省级科技厅或部委国际合作主管部门推荐。",
+    "audience": [
+      "青年研究者",
+      "在职科研人员",
+      "博士后"
+    ],
+    "fields": "生物技术 · 信息通信 · 可再生能源 · 医学 · 航空航天 · 气候变化适应",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-10-31",
+    "deadline": "2026-10-31",
+    "deadlineTime": "17:00",
+    "dateLabel": "2026 年度已于10月31日 17:00 截止",
+    "timeNote": "结果12月中下旬通知，须在2027年8月31日前赴韩。下一年度通知尚未发布，不沿用上一年度日期。",
+    "summary": "资助中国青年科学家赴韩国高校和研究机构开展 3、6 或 12 个月的合作研究，每年 10 人以内。",
+    "eligibility": "截止时不超过 45 周岁；有博士学位或 5 年以上科研经历；未获过本计划资助；须有韩方接收单位的协议和邀请函。",
+    "support": "韩方每人每月 250 万韩元；国际旅费和签证费由中方派出单位承担。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意下一年度通知（上一年度10月中旬发布），提前落实韩方接收单位。",
+    "sources": [
+      {
+        "label": "科技部 · 中韩青年科学家交流计划赴韩项目通知",
+        "url": "https://www.most.gov.cn/tztg/202610/t20261014_197499.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "fdct-talent-introduction-2026",
+    "name": "澳门科技基金 · 科技研发人才资助计划（人才引进类）· 2026",
+    "org": "澳门科学技术发展基金（FDCT）",
+    "category": "青年人才",
+    "region": "国内",
+    "scope": "hmt",
+    "jurisdiction": {
+      "province": "澳门"
+    },
+    "eligibleAreas": [],
+    "geographyNote": "由澳门高校，或成立不超过一年且人才为股东的澳门企业申请；人才须已通过澳门人才引进制度的初步批准并列入“建议引进名单”。外地（含内地）科研人员落地澳门后可用。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "青年研究者"
+    ],
+    "fields": "自然科学与工程",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-01-23",
+    "date": "2026-02-23",
+    "deadline": "2026-02-23",
+    "dateLabel": "2026 年度已于2月23日截止",
+    "timeNote": "截止日办公时间内提交。2027 年时间表尚未公布，不沿用上一年度日期。同计划的博士后类和企业研发人才类要求持澳门居民身份证，未收录。",
+    "summary": "为经澳门人才引进计划落地的科研人才提供启动经费。",
+    "eligibility": "人才须符合澳门《高端人才计划》《大健康产业优秀人才计划》或《高新技术产业优秀人才计划》的认定标准；受聘高校不超过一年，或一年内将受聘。",
+    "support": "上限 500 万澳门元，不超过三年；企业申请须等额配套。",
+    "prep": "建议提前 2–3 个月",
+    "next": "留意 2027 年时间表，并与拟受聘的澳门高校确认申请安排。",
+    "sources": [
+      {
+        "label": "澳门科技基金 · 科技研发人才资助计划（人才引进类）",
+        "url": "https://fdct.dsedt.gov.mo/zh_tw/stt_detail/article/tic.html"
       }
     ],
     "verified": "2026-11-16"
