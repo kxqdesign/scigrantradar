@@ -3,14 +3,14 @@ const KEY='china-research-radar-v1';
 const STATUS={open:'开放中',upcoming:'待开放',verify:'待核实',closed:'已截止'};
 const DISCIPLINE={natural:'自然科学',social:'社会科学（含人文）'};
 const REGION={'国内':'中国','国际':'境外'};
-const LEVEL={national:'全国性',province:'省级 / 直辖市',city:'市级',joint:'跨地区联合',overseas:'境外'};
+const LEVEL={national:'全国性',hmt:'港澳台',province:'省级 / 直辖市',city:'市级',joint:'跨地区联合',overseas:'境外'};
 // Each type's colour key and its icon in the sprite at the top of index.html.
 const TYPE={'科研基金':['fund','fund'],'青年人才':['talent','talent'],'博士后':['postdoc','postdoc'],'交流合作':['exchange','out'],'国际资助':['international','international'],'专家机会':['expert','expert'],'指南征集':['call','call']};
 const glyph=name=>'<svg class="glyph" aria-hidden="true"><use href="#i-'+name+'"/></svg>';
 const PRIORITY={open:0,upcoming:1,verify:2,closed:3};
 const HINT_KEY='scigrantradar-setup-hint-dismissed';
 let hintDismissed=false;try{hintDismissed=localStorage.getItem(HINT_KEY)==='1'}catch{}
-let today=shanghaiToday(),stored=[],data=[],saved=[],checks={},preferences=null,layout='timeline',timer,view='national',previousView='national',explore={province:'',city:''};
+let today=shanghaiToday(),stored=[],data=[],saved=[],checks={},preferences=null,layout='timeline',timer,view='national',previousView='national',explore={province:'',city:''},country='';
 try{const state=JSON.parse(localStorage.getItem(KEY)||'{}');saved=Array.isArray(state.saved)?state.saved.filter(id=>typeof id==='string'):[];checks=state.checks&&typeof state.checks==='object'?state.checks:{};preferences=normalizePreferences(state.preferences)}catch{}
 if(preferences){view='home';layout=preferences.layout}
 const $=s=>document.querySelector(s);
@@ -75,9 +75,9 @@ function titles(){
     const labels=[f.discipline.length===1?DISCIPLINE[f.discipline[0]]:'全部学科'];
     return ['与我相关',[area,sourceLabel(f),...labels].filter(Boolean).join(' · ')];
   }
-  if(view==='national')return ['全国性机会','全国性项目 · 具体资格见项目详情'];
+  if(view==='national')return ['全国性机会','全国性项目与港澳台机会 · 具体资格见项目详情'];
   if(view==='local')return ['省市机会',areaLabel(preferences)+' · 省级、市级与跨地区联合'];
-  if(view==='overseas')return ['境外机会','境外（含港澳台）资助与学术交流'];
+  if(view==='overseas')return ['境外机会','境外资助与学术交流 · 按国家浏览'];
   if(view==='explore')return ['探索其他地区',explore.province?areaLabel(explore)+' · 临时浏览':Object.keys(AREAS).join('、')];
   return ['我的收藏','已收藏的机会，不受常用地区限制'];
 }
@@ -92,7 +92,10 @@ function render(){
   syncSidebar();document.body.dataset.mode=view;
   $('#preferences-page').hidden=view!=='settings';$('#browse-page').hidden=view==='settings';
   if(view==='settings')return;
-  const base=scopeRows(),f=filters(),sort=$('#sort').value,rows=base.filter(d=>matches(d,f));
+  const base=scopeRows(),f=filters(),sort=$('#sort').value,overseas=view==='overseas',tabs=overseas?countryTabs(base):[];
+  if(!overseas||country&&country!=='其他'&&!tabs.includes(country))country='';
+  const rows=base.filter(d=>matches(d,f)&&inCountry(d,country,tabs));
+  renderCountryRow(base.filter(d=>matches(d,f)),tabs,overseas);
   rows.sort((a,b)=>(sort==='category'?a.category.localeCompare(b.category,'zh-CN'):0)||PRIORITY[a.status]-PRIORITY[b.status]||(a.nextDate||'9999').localeCompare(b.nextDate||'9999'));
   const expanded=new Set(Array.from(document.querySelectorAll('.card details[open]')).map(el=>el.closest('.card').id));
   const historyOpen=$('.timeline-history')?.open;
@@ -118,22 +121,33 @@ function render(){
   $('#coverage-note').hidden=!noCityCoverage;$('#coverage-note').textContent=noCityCoverage?localArea.city+'市级项目正在补充；当前已展示地域条件覆盖该市的省级与跨地区项目。':'';
   syncControls(f,base);renderDates(rows);
 }
+// The overseas page swaps the filter menus for one row of destination countries.
+function renderCountryRow(rows,tabs,show){
+  $('#country-row').hidden=!show;$('#filter-toggle').hidden=show;
+  if(!show)return;
+  $('#filter-fold').hidden=true;$('#filter-toggle').setAttribute('aria-expanded','false');
+  const options=[['','全部'],...tabs.map(c=>[c,c]),...(rows.some(d=>inCountry(d,'其他',tabs))||country==='其他'?[['其他','其他']]:[])];
+  $('#country-row').innerHTML=options.map(([value,label])=>'<button type="button" data-country="'+esc(value)+'" aria-pressed="'+(country===value)+'">'+esc(label)+'<span>'+rows.filter(d=>inCountry(d,value,tabs)).length+'</span></button>').join('');
+}
 function groupCards(rows){
   const groups=[['natural','自然科学'],['social','社会科学（含人文）'],['both','自然科学与社会科学均适用']];
   const regions=['国内','国际'];
   return regions.map(region=>{
     const regional=rows.filter(d=>d.region===region);if(!regional.length)return '';
+    const hmt=regional.filter(d=>d.scope==='hmt');
     return '<section class="region-group">'+(rows.some(d=>d.region!==region)?'<h3 class="region-heading">'+REGION[region]+'<span>'+regional.length+' 项机会</span></h3>':'')+groups.map(([key,label])=>{
-      const entries=regional.filter(d=>key==='both'?d.disciplines.length>1:d.disciplines.length===1&&d.disciplines[0]===key);
+      const entries=regional.filter(d=>d.scope!=='hmt'&&(key==='both'?d.disciplines.length>1:d.disciplines.length===1&&d.disciplines[0]===key));
       return entries.length?'<div class="discipline-group"><h4>'+label+'<span>'+entries.length+'</span></h4><div class="card-grid">'+entries.map(d=>card(d)).join('')+'</div></div>':'';
-    }).join('')+'</section>';
+    }).join('')+(hmt.length?'<div class="discipline-group"><h4>港澳台<span>'+hmt.length+'</span></h4><div class="card-grid">'+hmt.map(d=>card(d)).join('')+'</div></div>':'')+'</section>';
   }).join('');
 }
-function clearFilters(){$('#filters').reset();$('#sort').value='priority';render()}
+function clearFilters(){country='';$('#filters').reset();$('#sort').value='priority';render()}
 function goView(next,{scroll=true}={}){
   if(next==='settings'){openSettings();return}
   if(next==='home'&&!preferences){openSettings();return}
-  view=next;if(next==='home')applyDefaults();else setFilter('level',[]);
+  view=next;country='';
+  // The overseas page has no filter menus, so nothing chosen elsewhere may keep filtering it unseen.
+  if(next==='home')applyDefaults();else if(next==='overseas')Object.keys(FILTERS).forEach(key=>setFilter(key,[]));else setFilter('level',[]);
   render();if(scroll)$('#main').scrollIntoView({behavior:'smooth',block:'start'});
 }
 function provinceOptions(select,first){select.innerHTML='<option value="">'+first+'</option>'+Object.keys(AREAS).map(p=>'<option value="'+p+'">'+p+'</option>').join('')}
@@ -161,7 +175,7 @@ function updatePreferencePreview(){
   const conditions=Object.entries(FILTERS).filter(([key])=>key!=='level').flatMap(([key,spec])=>p[key].length?[p[key].map(v=>new Map(spec.options()).get(v)).join(' / ')]:[]);
   $('#pref-province').disabled=false;
   $('#pref-city').disabled=!AREAS[p.province]?.length;
-  const coverage=[p.coverage.includes('national')?'全国性':'',p.province?(['北京','上海'].includes(p.province)?p.province+'市':p.province+'省级'):'',p.city?p.city+'市级':'',p.coverage.includes('overseas')?'国外':''].filter(Boolean);
+  const coverage=[p.coverage.includes('national')?'全国性':'',p.province?(['北京','上海'].includes(p.province)?p.province+'市':p.province+'省级'):'',p.city?p.city+'市级':'',p.coverage.includes('overseas')?'境外':''].filter(Boolean);
   $('#preference-preview-text').textContent=[coverage.join(' + '),...conditions,layoutNames[p.layout]].filter(Boolean).join(' · ');
   $('#preferences-form button[type=submit]').disabled=!p.level.length;
   const count=data.filter(d=>inView(d,'home',p,{})&&matches(d,p)).length;
@@ -244,16 +258,16 @@ function openShared(){
   if(!d)return;
   view=viewForRecord(d);explore.province='';explore.city='';
   $('#explore-province').value='';cityOptions($('#explore-city'),'','',true);
-  $('#filters').reset();render();
+  country='';$('#filters').reset();render();
   const el=document.querySelector('[data-opportunity="'+CSS.escape(id)+'"]');
   if(!el)return;
   el.querySelector('details').open=true;el.closest('.timeline-history')?.setAttribute('open','');
   el.scrollIntoView({behavior:'instant',block:'start'});
 }
 window.addEventListener('hashchange',openShared);
-// On phones the filter menus start folded so the first opportunities sit higher; wider screens always show them.
-const narrow=matchMedia('(max-width:640px)'),foldFilters=()=>{$('#filter-fold').open=!narrow.matches};
-foldFilters();narrow.addEventListener('change',foldFilters);
+// The filter menus start folded at every width so the first opportunities sit higher; the toggle beside the search opens them.
+$('#filter-toggle').addEventListener('click',e=>{const fold=$('#filter-fold');fold.hidden=!fold.hidden;e.currentTarget.setAttribute('aria-expanded',String(!fold.hidden))});
+$('#country-row').addEventListener('click',e=>{const b=e.target.closest('[data-country]');if(!b)return;country=b.dataset.country;render()});
 $('#setup-hint-dismiss').addEventListener('click',()=>{hintDismissed=true;try{localStorage.setItem(HINT_KEY,'1')}catch{}render()});
 
 const backToTop=$('#back-to-top');
