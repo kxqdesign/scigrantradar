@@ -6137,5 +6137,554 @@
       }
     ],
     "verified": "2026-11-15"
+  },
+  {
+    "id": "branco-weiss-2027",
+    "name": "Branco Weiss 奖学金（Society in Science）· 2027",
+    "org": "The Branco Weiss Fellowship – Society in Science",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "国际项目，评审与面试由苏黎世方面组织；入选者须能前往大苏黎世地区参加年度研讨会。接收机构与国籍要求以官方资格页为准。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "全学科 · 非主流的跨界研究",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": "2027-01-15",
+    "deadline": "2027-01-15",
+    "deadlineTime": "17:00 CET",
+    "dateLabel": "2027年1月15日 17:00（中欧时间）截止",
+    "timeNote": "中欧时间（CET），相当于北京时间1月16日 00:00。2027年5月通知面试，6月7–9日线上面试，2027年10月1日至12月31日之间启动项目。",
+    "summary": "面向博士毕业五年内、尚未取得独立教职的研究者，支持偏离本学科主流、关注社会议题的原创项目，最长五年。",
+    "eligibility": "2027年1月15日前须已通过博士答辩，且获博士学位不超过五年（符合条件的中断可申请延长，最多一年，须提前邮件提交证明）。不得担任或曾担任相当于教职的独立岗位（助理教授、讲师等）。所选导师本轮只能支持一位申请人。通常不资助其他机构也能支持的主流课题。",
+    "support": "最长五年、最高 60 万瑞士法郎，可用于工资、设备、差旅、耗材和人员等研究开支；第二年末经评估后进入后半阶段。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先确认导师本轮未支持其他申请人，再围绕“为何不属于主流资助范围”组织项目陈述。",
+    "sources": [
+      {
+        "label": "Branco Weiss Fellowship · 2027 时间表",
+        "url": "https://brancoweissfellowship.org/who-should-apply/timelines/"
+      },
+      {
+        "label": "Branco Weiss Fellowship · 资格、期限与资助",
+        "url": "https://brancoweissfellowship.org/who-should-apply/eligibility-duration-and-funding/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "eth-fellows-2027-spring",
+    "name": "ETH 博士后奖学金（ETH Fellows）· 2027 春季轮",
+    "org": "苏黎世联邦理工学院（ETH Zurich）",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "赴瑞士苏黎世联邦理工学院开展两年博士后研究；近三年在瑞士居住或主要活动超过十二个月者不符合条件。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "ETH Zurich 覆盖的各学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": "2027-03-01",
+    "deadlineTime": "17:00 CET",
+    "dateLabel": "2027年3月1日 17:00（瑞士时间）截止 · 系统约提前一个月开放",
+    "timeNote": "官方页面写明每年两轮，截止日为3月1日和9月1日瑞士时间 17:00，遇周末顺延至周一；申请系统通常在截止前约一个月开放。两封外部推荐信须在截止前十天由推荐人直接寄达。2027 年面试日期待官方更新。",
+    "summary": "ETH Zurich 面向外来早期博士后的两年期奖学金，强调申请人自主提出课题，近几轮成功率约 15–20%。",
+    "eligibility": "截止时已获博士学位或六个月内取得；博士答辩距截止日不超过两年；至少一篇同行评审论文或博士论文获奖。近三年在瑞士居住或主要活动超过十二个月，或在 ETH Zurich、EPFL、ETH 系统研究所、苏黎世大学主要活动超过六个月者不符合条件。须有一位 ETH 教授作为导师并出具邀请函，每位教授每轮只能支持一人。",
+    "support": "两年全额工资（按 ETH 标准），另每年 12,000 瑞士法郎研究与差旅经费；不可延期。",
+    "prep": "建议提前 3–4 个月",
+    "next": "尽早联系 ETH 教授确认其本轮未支持他人，并请两位外部推荐人预留时间。",
+    "sources": [
+      {
+        "label": "ETH Zurich Grants Office · ETH Postdoctoral Fellowships",
+        "url": "https://grantsoffice.ethz.ch/funding-opportunities/internal/eth-fellowships.html"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "leverhulme-ecf-2027",
+    "name": "Leverhulme 早期职业奖学金（Early Career Fellowships）· 2027",
+    "org": "The Leverhulme Trust",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在具有研究型学位授予权的英国大学任职三年，资助期内主要居住地须在英国。申请人须持有英国高校学位，或截止前已在英国担任学术职位满四个月。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "全学科（不含临床与应用医学研究）",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2027-01-01",
+    "date": "2027-01-01",
+    "deadline": "2027-02-18",
+    "deadlineTime": "16:00 GMT",
+    "dateLabel": "2027年1月1日开放，2月18日 16:00（英国时间）截止",
+    "timeNote": "英国时间。须由接收大学在截止前审批并提交，校内遴选截止通常早得多（如牛津大学教育系的校内意向截止为2026年11月27日）。奖学金须在2027年9月1日至2028年5月1日之间开始。",
+    "summary": "面向尚未获得全职永久教职的早期研究者的三年期英国奖学金，2027 年约 145 个名额，由基金会与接收大学共同出资。",
+    "eligibility": "须在2027年2月18日 16:00 前已提交博士论文答辩，且提交时间不早于2023年2月18日（职业中断可说明）。未曾担任全职永久学术职位；自主课题的博士后职位累计满三年者不符合条件。须持有英国高校任一学位，或在截止日前已担任英国学术职位满四个月（无英国学位且2026年10月之后才入职者不符合）。接收院系须在截止前落实配套经费。",
+    "support": "第一年基金会承担全部工资（上限 56,000 英镑），第二、三年承担 50%（每年上限 28,000 英镑），其余由接收大学配套；另每年最高 6,000 英镑研究经费。",
+    "prep": "建议提前 3–4 个月",
+    "next": "立即向意向院系询问校内遴选安排和配套经费，多数院系的内部截止在官方开放之前。",
+    "sources": [
+      {
+        "label": "Leverhulme Trust · Early Career Fellowships",
+        "url": "https://www.leverhulme.ac.uk/early-career-fellowships"
+      },
+      {
+        "label": "牛津大学教育系 · 2027 轮校内意向征集",
+        "url": "https://www.education.ox.ac.uk/news/leverhulme-early-career-fellowships-2027-expressions-of-interest/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "sg-ntu-wallenberg-ppf-2027",
+    "name": "新加坡 · Wallenberg–NTU 校长博士后奖学金 · 2027",
+    "org": "南洋理工大学（NTU）/ Knut and Alice Wallenberg Foundation",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在新加坡南洋理工大学及瑞典 WASP 合作机构开展独立研究，面向新加坡及世界各地的早期研究者。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "人工智能 · 机器学习 · 数据分析 · 软件与安全 · 自主系统",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "date": "2026-12-31",
+    "deadline": "2026-12-31",
+    "deadlineTime": "23:59",
+    "dateLabel": "2026年12月31日 23:59（新加坡时间）截止",
+    "timeNote": "新加坡时间与北京时间相同。推荐人报告须在2027年1月7日前提交；入选者最迟须于2027年12月31日前到岗。",
+    "summary": "由 Wallenberg 基金会支持，每届遴选五人，在 NTU 与瑞典 WASP 合作机构开展人工智能、自主系统与软件方向的独立研究。",
+    "eligibility": "获博士学位或同等学位五年以内；须提交研究计划、博士学位证明、三篇代表作，以及两位推荐人信息（其中一位须为博士导师）。推荐人须事先同意，学校在提交后直接联系。",
+    "support": "NTU 阶段年薪最高 80,000 新元，另有搬迁津贴和住房补助；瑞典阶段按 WASP 博士后标准提供工资、指导与差旅等支持。",
+    "prep": "建议提前 4–6 周",
+    "next": "先确认两位推荐人能在1月7日前提交报告，再通过 NTU 在线申请系统递交。",
+    "sources": [
+      {
+        "label": "NTU · Presidential Postdoctoral Fellowship",
+        "url": "https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "us-utah-rai-postdoc-2027",
+    "name": "美国 · 犹他大学负责任人工智能博士后（One-U RAI）· 2027 春季轮",
+    "org": "University of Utah · One-U Responsible AI Initiative",
+    "category": "博士后",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在美国犹他大学开展两年博士后研究。页面未说明国籍或签证要求，海外申请人须向项目方确认。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "负责任人工智能 · 环境 · 医疗与健康 · 教学与学习",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": "2027-04-01",
+    "deadline": "2027-04-01",
+    "dateLabel": "2027年4月1日截止 · 每年4月1日、10月1日两轮",
+    "timeNote": "美国当地时间，页面未注明截止时刻。初审结果一般在截止后四周内通知。",
+    "summary": "每年遴选三至五名博士后，围绕环境、医疗健康、教学三个主题开展负责任人工智能研究，由至少两位犹他大学教师联合指导。",
+    "eligibility": "按研究计划与项目主题的契合度遴选，须有至少两位犹他大学教师愿意指导（分别提供领域与人工智能方法支持）。材料包括契合说明（半页以内）、研究陈述（两页以内）、一封推荐信和建议导师名单。",
+    "support": "两年，年薪 80,000 美元并含员工福利；计算、差旅、发表等研究开支由导师承担。",
+    "prep": "建议提前 6–8 周",
+    "next": "从项目的 Interested Faculty 名单或其他犹他大学教师中联系两位导师，确认指导意愿。",
+    "sources": [
+      {
+        "label": "University of Utah · One-U RAI Postdoctoral Fellowships",
+        "url": "https://rai.utah.edu/opportunities/postdoctoral-fellows/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rs-urf-2027",
+    "name": "Royal Society 大学研究奖学金（URF）· 2027",
+    "org": "英国皇家学会（The Royal Society）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在英国大学或研究机构建立独立课题组；不限国籍，需签证者可走全球人才签证快速通道。",
+    "audience": [
+      "青年研究者",
+      "博士后",
+      "团队负责人"
+    ],
+    "fields": "自然科学 · 工程 · 数学 · 生物医学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "opensOn": "2026-07-14",
+    "date": "2026-09-09",
+    "deadline": "2026-09-09",
+    "dateLabel": "2027 轮已于2026年9月9日截止；2028 轮预计2027年7月开放",
+    "timeNote": "英国时间。2027 轮于2026年7月14日开放、9月9日截止，结果预计2027年5月31日前公布。官方预告 2028 轮“预计”2027年7月开放、9月底截止，尚非确定日期。",
+    "summary": "英国皇家学会的旗舰独立研究奖学金，资助八年，帮助有潜力的早期研究者在英国建立独立课题组。",
+    "eligibility": "截至当轮截止日，获博士学位后有三至八年研究经历（扣除职业中断）；研究须属皇家学会的自然科学范围。不限国籍。",
+    "support": "八年最高 1,907,400 英镑，含对博士后、博士生和技术支持等人员费用的资助；第六至八年取决于中期评估。",
+    "prep": "建议提前 4–6 个月",
+    "next": "保留供 2028 轮规划：提前与英国接收机构商定支持条件，留意2027年年中的正式通知。",
+    "sources": [
+      {
+        "label": "Royal Society · University Research Fellowships",
+        "url": "https://royalsociety.org/grants/university-research/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "rs-research-grants-2027",
+    "name": "Royal Society 研究启动经费（Research Grants）· 2027",
+    "org": "英国皇家学会（The Royal Society）",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "仅面向申请时已在英国合资格机构任职并居住在英国的研究者。",
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "自然科学 · 工程 · 数学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "2027 轮预计1月开放、3月底截止 · 正式日期待公布",
+    "timeNote": "官方页面仅给出预计月份（2027年1月开放、3月底截止），不是确定日期。2026 轮为1月29日开放、3月26日截止，7月31日前公布结果。",
+    "summary": "为刚在英国获得首个独立研究职位的研究者提供最高 3 万英镑、为期一年的启动经费。",
+    "eligibility": "持有博士学位或同等资历；申请时处于首个独立研究职位（首个永久教职、首个独立奖学金或公开竞争获得的固定期限职位）的前五年；在英国合资格机构任职并为英国居民；有独立实验空间并可担任博士生第一导师。",
+    "support": "最高 30,000 英镑，执行期最长 12 个月。",
+    "prep": "建议提前 1–2 个月",
+    "next": "对照官方说明附录中的职位示例确认资格，等待 2027 轮正式开放。",
+    "sources": [
+      {
+        "label": "Royal Society · Research Grants",
+        "url": "https://royalsociety.org/grants/research-grants/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "raeng-research-fellowships-2026",
+    "name": "RAEng 研究奖学金（Research Fellowships）· 2026/27",
+    "org": "英国皇家工程院（Royal Academy of Engineering）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "面向在英国大学或可接受 UKRI 资助的研究机构工作的早期工程研究者。",
+    "audience": [
+      "博士后",
+      "青年研究者"
+    ],
+    "fields": "工程各领域",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "closed",
+    "date": "2026-06-25",
+    "deadline": "2026-06-25",
+    "dateLabel": "2026/27 轮意向书已于2026年6月25日截止；下一轮尚未公布",
+    "timeNote": "两阶段申请：先提交意向书（EoI），通过者受邀提交完整申请。2026/27 轮的意向书截止日为6月25日，年份据官方给出的博士学位时限（2021年12月25日起四年六个月）推定为2026年；下一轮日期官方尚未公布。",
+    "summary": "英国皇家工程院面向早期工程研究者的五年期独立研究奖学金，减免教学与行政任务，并配套导师指导。",
+    "eligibility": "在英国大学或合资格研究机构任职；博士学位授予时间距意向书截止日不超过四年六个月（2026/27 轮为2021年12月25日之后），或提交意向书时博士学位已获无条件批准。",
+    "support": "五年最高 80 万英镑（项目总成本最高 100 万英镑，按 80% 全经济成本资助），自 2026/27 轮起除工资外还涵盖实验、设备、差旅等费用。",
+    "prep": "建议提前 2–3 个月",
+    "next": "保留供下一轮规划：对照博士学位授予时间测算资格，并订阅皇家工程院的资助通知。",
+    "sources": [
+      {
+        "label": "Royal Academy of Engineering · Research Fellowships",
+        "url": "https://raeng.org.uk/research-fellowships"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "raeng-green-future-fellowships",
+    "name": "RAEng 绿色未来奖学金（Green Future Fellowships）",
+    "org": "英国皇家工程院（Royal Academy of Engineering）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "项目须落在英国的大学、研究机构或企业；不限国籍和年龄，身在英国以外者可以申请，入选后须找到英国接收机构。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人",
+      "青年研究者"
+    ],
+    "fields": "气候适应与韧性技术 · 工程与技术创新",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "verify",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "2026/27 轮意向书起止日期未在官方页面核实",
+    "timeNote": "两阶段申请（意向书、完整申请）。官方页面提供 2026/2027 意向书指南，但页面正文未列出起止日期；另设面向非英国申请人的加速国际通道，二者不可同时申请。",
+    "summary": "支持学者、创业者和创新者把应对气候变化的突破性技术推向规模化应用，单项最高 300 万英镑、为期十年。",
+    "eligibility": "不限职业阶段，无需博士学位，不限国籍和年龄。项目必须为期十年，围绕气候技术方案的规模化，并能惠及英国；须作为申请人的主要工作。非工程背景者须说明项目如何体现工程卓越。每人同一时间只能有一份在审申请。",
+    "support": "十年最高 300 万英镑，视项目性质最高按 100% 全经济成本资助；入选者可获全球人才签证快速背书。",
+    "prep": "建议提前 2–3 个月",
+    "next": "先下载 2026/2027 意向书指南确认当前开放状态和截止日期，再决定走年度征集还是加速国际通道。",
+    "sources": [
+      {
+        "label": "Royal Academy of Engineering · Green Future Fellowships",
+        "url": "https://raeng.org.uk/green-future-fellowships"
+      },
+      {
+        "label": "Green Future Fellowships · 资格",
+        "url": "https://raeng.org.uk/programmes-and-prizes/programmes/uk-grants-and-prizes/support-for-research/gff/green-future-fellowships/eligibility/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "epsrc-maths-early-independence",
+    "name": "EPSRC 数学科学早期独立奖学金",
+    "org": "英国工程与自然科学研究理事会（UKRI · EPSRC）",
+    "category": "青年人才",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "奖学金须设在符合 EPSRC 资助条件的英国研究机构；申请人不限国籍，可在英国以外申请。",
+    "audience": [
+      "博士后",
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "数学科学",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "opensOn": "2026-05-21",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "常年开放 · 无固定截止日期",
+    "timeNote": "自2026年5月21日起在 UKRI Funding Service 开放，官方标注为无截止日期；评审安排见项目页面。",
+    "summary": "支持数学科学领域研究者迈向独立的五年期奖学金，不设博士毕业年限，可兼职持有。",
+    "eligibility": "须有博士学位，能证明职业巩固期的产出，并有建立自己研究方向的计划。不按博士毕业年限或是否已有永久职位设限。须由合资格的英国研究机构接收。",
+    "support": "项目全经济成本最高 125 万英镑，EPSRC 资助 80%；最长五年，兼职可按比例延长至最多十年。可列支本人的签证费和移民医疗附加费。",
+    "prep": "建议提前 3–4 个月",
+    "next": "先与英国接收院系确认支持，并阅读项目页面的评审安排。",
+    "sources": [
+      {
+        "label": "UKRI · Mathematical Sciences Early Independence Fellowship",
+        "url": "https://www.ukri.org/opportunity/mathematical-sciences-early-independence-fellowship/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "erc-starting-2027",
+    "name": "ERC 启动基金（Starting Grant）· 2027",
+    "org": "欧洲研究理事会（ERC）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "项目须在欧盟成员国或 Horizon Europe 联系国的接收机构执行，申请人不限国籍。",
+    "audience": [
+      "青年研究者",
+      "团队负责人"
+    ],
+    "fields": "全学科",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-07-22",
+    "date": "2026-10-14",
+    "deadline": "2026-10-14",
+    "dateLabel": "2027 轮已于2026年10月14日截止",
+    "timeNote": "布鲁塞尔时间。2027 轮于2026年7月22日开放、10月14日截止；2027年2–3月发出面试邀请，5月底至6月中旬面试，8月公布结果。2028 轮日期待 ERC 2028 工作计划发布。",
+    "summary": "面向博士毕业后处于职业早期、已显示出独立潜力的研究者的欧洲旗舰资助，用于组建自己的团队。",
+    "eligibility": "不限国籍；按 ERC 页面，面向博士答辩后 0–10 年的研究者，以答辩通过日期为准，产假、病假等可延长。须有欧洲接收机构支持；具体资格窗口以当年工作计划为准。",
+    "support": "5 年最高 150 万欧元；从非联系国迁入欧洲等情形可另申请最多 100 万欧元。直接成本可获 100% 资助，另加 25% 间接成本。",
+    "prep": "建议提前 4–6 个月",
+    "next": "保留供 2028 轮规划：提前与欧洲接收机构沟通，并关注 ERC 2028 工作计划的发布。",
+    "sources": [
+      {
+        "label": "ERC · Starting Grant",
+        "url": "https://erc.europa.eu/apply-grant/starting-grant"
+      },
+      {
+        "label": "ERC Work Programme 2027（征集时间表）",
+        "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "eic-pathfinder-open-2027",
+    "name": "EIC Pathfinder Open · 2027",
+    "org": "欧洲创新理事会（European Innovation Council）",
+    "category": "国际资助",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "以联合体申请：至少三家相互独立的法人单位，其中至少一家设在欧盟成员国，另两家设在不同的成员国或 Horizon Europe 联系国。非联系国机构的参与和受资助条件见 EIC 2027 工作计划。",
+    "audience": [
+      "团队负责人",
+      "在职科研人员"
+    ],
+    "fields": "任意科学技术领域 · 早期突破性技术（TRL 1–4）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "upcoming",
+    "date": null,
+    "deadline": "2027-02-25",
+    "dateLabel": "第一阶段2027年2月25日截止，第二阶段9月16日截止",
+    "timeNote": "两阶段申请：第一阶段2027年2月25日截止，第二阶段9月16日截止；截止时刻与正式开放日以 EU Funding & Tenders 门户为准。同年的 Pathfinder Challenges（指定主题，总预算 8200 万欧元）于2027年9月29日截止。",
+    "summary": "资助高风险、高回报的早期科学到技术突破，不预设主题；2027 年 Pathfinder Open 总预算 1.66 亿欧元。",
+    "eligibility": "须提出对全新技术的长期愿景、具体而新颖的科学到技术突破，以及高风险高收益的研究路径。须由满足国别要求的联合体通过 EU Funding & Tenders 门户申报；单一申请人仅适用于 Pathfinder Challenges。",
+    "support": "EIC Pathfinder 页面列明单项资助最高 400 万欧元（理由充分可更高），另有追加资助、辅导和网络支持；Open 2027 的具体上限以工作计划为准。",
+    "prep": "建议提前 4–6 个月",
+    "next": "在欧洲的合作者可牵头或加入联合体；先对照 Challenges 主题确认课题是否更适合指定主题征集。",
+    "sources": [
+      {
+        "label": "EIC · Pathfinder",
+        "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_en"
+      },
+      {
+        "label": "EIC · Pathfinder Open",
+        "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder/eic-pathfinder-open-0_en"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "cost-external-expert",
+    "name": "COST 外部评审专家库",
+    "org": "COST Association（欧洲科技合作组织）",
+    "category": "专家机会",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "在线登记并参与评审；页面未设国籍限制，实际选用由 COST 根据专长等情况决定。",
+    "audience": [
+      "在职科研人员",
+      "团队负责人"
+    ],
+    "fields": "全学科 · COST Action 提案评审",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "date": null,
+    "deadline": null,
+    "dateLabel": "可随时登记 · 入库不保证受邀",
+    "timeNote": "无固定登记截止。COST Action 提案每年通过 Open Call 征集一次并集中评审；2026 年征集已结束，2027 年（OC-2027）安排尚未公布。不是研究基金。",
+    "summary": "登记为 COST 外部专家，承担偶发的短期提案评审任务，了解欧洲各领域合作网络的最新提案。",
+    "eligibility": "不要求隶属学术机构，但须有大学学位和所登记专业领域的丰富科研或专业经验。在 e-COST 建立个人资料，填写核心与其他专长并勾选可参与评审；可附 ORCID、个人主页和简历。",
+    "support": "以评审专家身份参与提案评估，任务安排与相关规则见 COST 独立外部专家指南。",
+    "prep": "整理材料建议 1–2 天",
+    "next": "注册或更新 e-COST 个人资料，点击“Become a COST Expert”并标记可用状态；先核对所在单位的兼职规定。",
+    "sources": [
+      {
+        "label": "COST · Become an external expert",
+        "url": "https://www.cost.eu/about/working-with-us/become-an-external-expert/"
+      }
+    ],
+    "verified": "2026-11-16"
+  },
+  {
+    "id": "pku-iiasa-postdoc-2026",
+    "name": "北京大学–IIASA 国际博士后项目 · 2026",
+    "org": "北京大学 / 国际应用系统分析研究所（IIASA）",
+    "category": "博士后",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "eligibleAreas": [],
+    "geographyNote": "仅限由北京大学与 IIASA 双方导师共同接收的博士后：原则上第一年在北京大学，第二年在 IIASA。不限国籍。",
+    "audience": [
+      "博士后",
+      "应届博士",
+      "青年研究者"
+    ],
+    "fields": "系统分析 · 方法、技术、经济与环境等双方共同关注的方向",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "closed",
+    "opensOn": "2026-03-02",
+    "date": "2026-04-10",
+    "deadline": "2026-04-10",
+    "dateLabel": "2026 年度已于4月10日截止；2027 年度通知尚未核实",
+    "timeNote": "2026 年度于3月2日开放、4月10日截止，4月底至5月初通知结果，2026年9–12月入站。2027 年度安排未能在 IIASA 官网核实。",
+    "sourceNote": "依据北京大学博士后办公室发布的 2026 年度征集通知；IIASA 项目页面本次未能访问。",
+    "summary": "北京大学与 IIASA 联合培养的两年期博士后，每年最多五人，在两个机构各工作约一年。",
+    "eligibility": "不限国籍；入站时获博士学位不超过五年，年龄不超过 35 岁，已有长聘或预聘教职者不符合条件。须分别有北京大学和 IIASA 的一位导师同意接收并出具支持函，北大导师须承诺承担在 IIASA 期间的 15,000 欧元补贴。英文材料合并为一个 PDF，另需两封推荐信（含博士导师）。",
+    "support": "由北京大学博雅博士后项目发放，税前年薪 20 万元并含社保和住房补贴；在北大期间可入住博士后公寓或领取每月 5,000 元租房补贴，在 IIASA 期间另有共 15,000 欧元补贴。",
+    "prep": "建议提前 2–3 个月",
+    "next": "保留供下一年度规划：先联系 IIASA 相关项目组与北大导师确认共同兴趣，留意北大博士后办公室的新通知。",
+    "sources": [
+      {
+        "label": "北京大学博士后 · PKU–IIASA 2026 年度征集通知",
+        "url": "https://postdocs.pku.edu.cn/tzgg/add6713771164dde92df13dc03645b08.htm"
+      }
+    ],
+    "verified": "2026-11-16"
   }
 ]
