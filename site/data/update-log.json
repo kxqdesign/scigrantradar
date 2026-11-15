@@ -1,6 +1,207 @@
 {
   "runs": [
     {
+      "id": "intl-fellowships-2026-11-16",
+      "kind": "research",
+      "date": "2026-11-16",
+      "at": "2026-11-15T19:10:36.351Z",
+      "outcome": "partial",
+      "summary": "专项核对一批英国、欧洲及其他境外资助方的官方页面，新增 14 条：Branco Weiss 奖学金 2027（1月15日截止）、ETH 博士后奖学金春季轮（3月1日截止）、Leverhulme 早期职业奖学金 2027（1月1日开放、2月18日截止）、Wallenberg–NTU 校长博士后（12月31日截止）、犹他大学负责任人工智能博士后（4月1日截止）、EIC Pathfinder Open 2027（第一阶段2月25日截止）、EPSRC 数学科学早期独立奖学金（常年开放）、COST 外部评审专家库、Royal Society 研究启动经费 2027（日期待公布）、RAEng 绿色未来奖学金（日期待核实），以及已结束、供规划的 Royal Society URF 2027、RAEng 研究奖学金 2026/27、ERC 启动基金 2027 和北京大学–IIASA 博士后 2026。同时对照来源复核了洪堡、JSPS 标准博士后、MSCA 博士后、ERC 巩固者与高级基金 5 条既有记录，日期一致，未作修改。未收录：Horizon Europe 工作计划中的机器人与人工智能联合体征集、马耳他大学的 MSCA 接收意向征集（单一院系的合作邀请）以及英国国家学术院早期研究者网络（非资助项目）。本次为专项检索，未覆盖 sources.json 中的其他来源。",
+      "added": 14,
+      "updated": 0,
+      "checkedIds": [
+        "humboldt",
+        "jsps-standard-2027",
+        "msca-european-pf-2027",
+        "erc-consolidator-2027",
+        "erc-advanced-2027"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://brancoweissfellowship.org/who-should-apply/timelines/",
+          "label": "Branco Weiss Fellowship · 2027 时间表",
+          "result": "checked"
+        },
+        {
+          "url": "https://brancoweissfellowship.org/who-should-apply/eligibility-duration-and-funding/",
+          "label": "Branco Weiss Fellowship · 资格、期限与资助",
+          "result": "checked"
+        },
+        {
+          "url": "https://grantsoffice.ethz.ch/funding-opportunities/internal/eth-fellowships.html",
+          "label": "ETH Zurich · ETH Postdoctoral Fellowships",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.leverhulme.ac.uk/early-career-fellowships",
+          "label": "Leverhulme Trust · Early Career Fellowships",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.education.ox.ac.uk/news/leverhulme-early-career-fellowships-2027-expressions-of-interest/",
+          "label": "牛津大学教育系 · Leverhulme 2027 校内意向征集",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)",
+          "label": "NTU · Presidential Postdoctoral Fellowship",
+          "result": "checked"
+        },
+        {
+          "url": "https://rai.utah.edu/opportunities/postdoctoral-fellows/",
+          "label": "University of Utah · One-U RAI Postdoctoral Fellowships",
+          "result": "checked"
+        },
+        {
+          "url": "https://royalsociety.org/grants/university-research/",
+          "label": "Royal Society · University Research Fellowships",
+          "result": "checked"
+        },
+        {
+          "url": "https://royalsociety.org/grants/research-grants/",
+          "label": "Royal Society · Research Grants",
+          "result": "checked"
+        },
+        {
+          "url": "https://raeng.org.uk/research-fellowships",
+          "label": "Royal Academy of Engineering · Research Fellowships",
+          "result": "checked"
+        },
+        {
+          "url": "https://raeng.org.uk/green-future-fellowships",
+          "label": "Royal Academy of Engineering · Green Future Fellowships",
+          "result": "checked"
+        },
+        {
+          "url": "https://raeng.org.uk/programmes-and-prizes/programmes/uk-grants-and-prizes/support-for-research/gff/green-future-fellowships/eligibility/",
+          "label": "Green Future Fellowships · 资格",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.ukri.org/opportunity/?keywords=fellowship&filter_status%5B%5D=open&filter_status%5B%5D=upcoming",
+          "label": "UKRI · 开放与即将开放的奖学金列表",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.ukri.org/opportunity/mathematical-sciences-early-independence-fellowship/",
+          "label": "UKRI · Mathematical Sciences Early Independence Fellowship",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.ukri.org/opportunity/epsrc-new-investigator-award/",
+          "label": "UKRI · EPSRC New Investigator Award",
+          "result": "checked"
+        },
+        {
+          "url": "https://erc.europa.eu/apply-grant/starting-grant",
+          "label": "ERC · Starting Grant",
+          "result": "checked"
+        },
+        {
+          "url": "https://erc.europa.eu/timeframe-starting-grant-2027-evaluation-0",
+          "label": "ERC · Starting Grant 2027 评审时间表",
+          "result": "checked"
+        },
+        {
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf",
+          "label": "ERC Work Programme 2027",
+          "result": "checked"
+        },
+        {
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_en",
+          "label": "EIC · Pathfinder",
+          "result": "checked"
+        },
+        {
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder/eic-pathfinder-open-0_en",
+          "label": "EIC · Pathfinder Open",
+          "result": "checked"
+        },
+        {
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder/eic-pathfinder-challenges-2027_en",
+          "label": "EIC · Pathfinder Challenges 2027",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.cost.eu/about/working-with-us/become-an-external-expert/",
+          "label": "COST · Become an external expert",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.cost.eu/funding/open-call-a-simple-one-step-application-process/",
+          "label": "COST · Open Call",
+          "result": "checked"
+        },
+        {
+          "url": "https://postdocs.pku.edu.cn/tzgg/add6713771164dde92df13dc03645b08.htm",
+          "label": "北京大学博士后 · PKU–IIASA 2026 年度征集通知",
+          "result": "checked"
+        },
+        {
+          "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/funding/msca-postdoctoral-fellowships-2027",
+          "label": "MSCA 2027 官方征集预告",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.jsps.go.jp/english/e-fellow/e-ippan/appliguidelines.html",
+          "label": "JSPS 标准博士后申请指南",
+          "result": "checked"
+        },
+        {
+          "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+          "label": "洪堡基金会官方项目页",
+          "result": "checked"
+        },
+        {
+          "url": "https://euraxess.ec.europa.eu/de/node/465130",
+          "label": "EURAXESS · 马耳他大学 MSCA 接收意向征集",
+          "result": "checked"
+        },
+        {
+          "url": "https://iiasa.ac.at/opportunities/pku-iiasa-postdoctoral-program",
+          "label": "IIASA · PKU–IIASA Postdoctoral Program",
+          "result": "unavailable"
+        },
+        {
+          "url": "https://www.thebritishacademy.ac.uk/early-career-researcher-network/",
+          "label": "British Academy · Early Career Researcher Network",
+          "result": "unavailable"
+        }
+      ],
+      "issues": [
+        {
+          "url": "https://iiasa.ac.at/opportunities/pku-iiasa-postdoctoral-program",
+          "label": "IIASA · PKU–IIASA Postdoctoral Program",
+          "message": "页面被站点的机器人验证拦截（403），2027 年度的开放与截止日期未核实；记录暂按北京大学 2026 年度通知收录为已截止。"
+        },
+        {
+          "url": "https://www.ukri.org/opportunity/",
+          "label": "UKRI · Future Leaders Fellowships",
+          "message": "UKRI 官网未检索到第 12 轮的正式通知，仅有高校转述的预计时间，暂不收录。"
+        },
+        {
+          "url": "https://www.ukri.org/opportunity/epsrc-new-investigator-award/",
+          "label": "UKRI · EPSRC New Investigator Award",
+          "message": "官方页面仍停留在 2023 年迁移至 UKRI Funding Service 前的版本，现行申请入口与状态未核实，暂不收录。"
+        },
+        {
+          "url": "https://raeng.org.uk/green-future-fellowships",
+          "label": "Royal Academy of Engineering · Green Future Fellowships",
+          "message": "页面正文未列出 2026/27 轮意向书的起止日期（仅提供 PDF 指南，本次未读取），记录状态标为待核实。"
+        },
+        {
+          "url": "https://www.cost.eu/funding/open-call-a-simple-one-step-application-process/",
+          "label": "COST · Open Call",
+          "message": "2026 年征集已结束，OC-2027 的时间尚未公布，未单独建立记录。"
+        },
+        {
+          "url": "https://www.thebritishacademy.ac.uk/early-career-researcher-network/",
+          "label": "British Academy · Early Career Researcher Network",
+          "message": "页面拒绝访问（403），其种子经费条件未核实。"
+        }
+      ]
+    },
+    {
       "id": "uk-de-eu-2026-11-15",
       "kind": "research",
       "date": "2026-11-15",
