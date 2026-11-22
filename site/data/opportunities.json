@@ -2546,7 +2546,8 @@
         "url": "https://www.jsps.go.jp/english/e-fellow/application.html"
       }
     ],
-    "verified": "2026-11-09"
+    "verified": "2026-11-22",
+    "deadlineTime": "17:00 JST"
   },
   {
     "id": "msca-european-pf-2027",
@@ -2785,7 +2786,7 @@
     "disciplines": [
       "natural"
     ],
-    "status": "upcoming",
+    "status": "open",
     "opensOn": "2026-11-13",
     "deadline": "2026-12-08",
     "deadlineTime": "16:00",
@@ -2808,7 +2809,7 @@
       }
     ],
     "sourceNote": "申报条件和时间来自国科管系统公开通知原文；各专项方向指南附件须登录系统查看，未据此推测方向或额度。",
-    "verified": "2026-11-10",
+    "verified": "2026-11-22",
     "scope": "national",
     "jurisdiction": {},
     "eligibleAreas": [],
@@ -3967,7 +3968,7 @@
         "city": "武汉"
       }
     ],
-    "verified": "2026-11-15",
+    "verified": "2026-11-22",
     "id": "wuhan-metro-collab-2026",
     "name": "武汉都市圈协同创新科技项目 · 2026",
     "org": "武汉市科技创新局",
@@ -3980,7 +3981,7 @@
     "disciplines": [
       "natural"
     ],
-    "status": "open",
+    "status": "closed",
     "opensOn": "2026-10-28",
     "deadline": "2026-11-16",
     "deadlineTime": "17:00",
@@ -4298,7 +4299,7 @@
         "province": "四川"
       }
     ],
-    "verified": "2026-11-10",
+    "verified": "2026-11-22",
     "id": "sichuan-ss-youth-cultivation-2026",
     "name": "四川省哲学社会科学规划“青年培育计划”专项资助 · 2026",
     "org": "四川省哲学社会科学规划办公室",
@@ -4311,7 +4312,7 @@
     "disciplines": [
       "social"
     ],
-    "status": "open",
+    "status": "closed",
     "opensOn": "2026-11-09",
     "deadline": "2026-11-11",
     "date": "2026-11-11",
@@ -4333,7 +4334,8 @@
         "url": "https://kjc.scitc.edu.cn/_img/kjc/2026/10/29/2026102909171333759.docx"
       }
     ],
-    "sourceNote": "四川省社科联网站本次无法访问，依据四川信息职业技术学院科技处转载页所附的通知全文；官方页面未核实。"
+    "sourceNote": "四川省社科联网站本次无法访问，依据四川信息职业技术学院科技处转载页所附的通知全文；官方页面未核实。",
+    "deadlineTime": "17:00"
   },
   {
     "region": "国内",
@@ -6336,10 +6338,10 @@
       "natural"
     ],
     "status": "upcoming",
-    "date": null,
-    "deadline": null,
-    "dateLabel": "2027 轮预计1月开放、3月底截止 · 正式日期待公布",
-    "timeNote": "官方页面仅给出预计月份（2027年1月开放、3月底截止），不是确定日期。2026 轮为1月29日开放、3月26日截止，7月31日前公布结果。",
+    "date": "2027-01-28",
+    "deadline": "2027-03-25",
+    "dateLabel": "2027年1月28日开放 · 3月25日截止",
+    "timeNote": "官方页面给出的日期：2027年1月28日开放、3月25日截止，8月16日前公布结果；页面未写具体截止时刻。2026 轮为1月29日开放、3月26日截止。",
     "summary": "为刚在英国获得首个独立研究职位的研究者提供最高 3 万英镑、为期一年的启动经费。",
     "eligibility": "持有博士学位或同等资历；申请时处于首个独立研究职位（首个永久教职、首个独立奖学金或公开竞争获得的固定期限职位）的前五年；在英国合资格机构任职并为英国居民；有独立实验空间并可担任博士生第一导师。",
     "support": "最高 30,000 英镑，执行期最长 12 个月。",
@@ -6351,7 +6353,8 @@
         "url": "https://royalsociety.org/grants/research-grants/"
       }
     ],
-    "verified": "2026-11-16"
+    "verified": "2026-11-22",
+    "opensOn": "2027-01-28"
   },
   {
     "id": "raeng-research-fellowships-2026",
@@ -7078,7 +7081,7 @@
     "disciplines": [
       "social"
     ],
-    "status": "open",
+    "status": "closed",
     "date": "2026-11-20",
     "deadline": "2026-11-20",
     "dateLabel": "受理中，2026年11月20日截止（2027年春季评审）",
@@ -7098,7 +7101,7 @@
         "url": "https://www.gerda-henkel-stiftung.de/en/grants"
       }
     ],
-    "verified": "2026-11-16"
+    "verified": "2026-11-22"
   },
   {
     "id": "daad-kc-wong-postdoc",
@@ -7774,12 +7777,12 @@
     "disciplines": [
       "natural"
     ],
-    "status": "open",
+    "status": "closed",
     "opensOn": "2026-09-22",
     "date": "2026-11-18",
     "deadline": "2026-11-18",
-    "dateLabel": "受理中，2026年11月18日截止",
-    "timeNote": "官方页面未注明截止时刻。结果不晚于2027年6月30日公布。2028 轮预计2027年9月开放、11月截止，日期待公布。",
+    "dateLabel": "已于2026年11月18日截止",
+    "timeNote": "官方页面显示2026年9月22日开放、11月18日关闭（未写具体时刻），2027年6月30日前公布结果；下一轮预计2027年9月起开放、11月底前关闭，日期待公布。",
     "summary": "支持黑人族裔背景的博士后早期研究者在英国机构开展四年研究的试点奖学金，每年至多 8 个名额。",
     "eligibility": "截至2026年11月18日全职博士后经历不足 24 个月；须已有博士学位或在资助开始前取得。须自行落实英国学术担保人，学会不协助寻找。入围者须现场面试。",
     "support": "四年、最高 703,800 英镑：工资及间接费用按 80%、研究经费按 100% 资助，每年至少 30,000 英镑研究经费，另每年最高 5,000 英镑培训费；搬迁和签证费用可在上限之外申请。",
@@ -7795,7 +7798,7 @@
         "url": "https://royalsociety.org/-/media/grants/career-development-fellowship/career-development-fellowship-scheme-notes.pdf"
       }
     ],
-    "verified": "2026-11-16"
+    "verified": "2026-11-22"
   },
   {
     "id": "ams-springboard-2027",
@@ -8289,7 +8292,7 @@
     "disciplines": [
       "natural"
     ],
-    "status": "open",
+    "status": "closed",
     "date": "2026-11-18",
     "deadline": "2026-11-18",
     "dateLabel": "受理中，2026年11月18日 23:59 截止（已由11月15日延期）",
@@ -8309,7 +8312,7 @@
         "url": "https://ras.ac.uk/awards-and-grants/fellowships/2330-fellowship-call"
       }
     ],
-    "verified": "2026-11-16"
+    "verified": "2026-11-22"
   },
   {
     "id": "daad-prime-2027",
@@ -8574,7 +8577,7 @@
       "natural",
       "social"
     ],
-    "status": "open",
+    "status": "closed",
     "opensOn": "2026-07-15",
     "date": "2026-11-16",
     "deadline": "2026-11-16",
@@ -8591,7 +8594,7 @@
         "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-professorship"
       }
     ],
-    "verified": "2026-11-16"
+    "verified": "2026-11-22"
   },
   {
     "id": "humboldt-henriette-herz-scouting",
@@ -11831,5 +11834,315 @@
       }
     ],
     "verified": "2026-11-16"
+  },
+  {
+    "id": "hubei-nsf-2027",
+    "name": "湖北省自然科学基金项目 · 2027",
+    "category": "科研基金",
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "自然科学各学科",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "opensOn": "2026-11-19",
+    "deadline": "2026-12-21",
+    "date": "2026-12-21",
+    "deadlineTime": "12:00",
+    "dateLabel": "2026年11月19日起 · 12月21日 12:00 截止",
+    "timeNote": "北京时间；网上申报自通知发布之日（2026年11月19日）起至12月21日上午12:00；依托单位须在截止后2日内上传签章汇总表。",
+    "geographyNote": "省级项目，申请人须为湖北省内依托单位的在职人员。",
+    "summary": "湖北省自然科学基金2027年度项目，含卓越研究群体、创新研究群体、青年A类、青年B类、面上和非共识项目。",
+    "eligibility": "须为依托单位全职人员。青年A类：男未满40岁、女未满43岁，副高及以上且有博士学位；青年B类：男未满35岁、女未满38岁，博士学位，未主持过省级及以上项目；面上：未满50岁，副高或博士，须符合附件方向；非共识：未满60岁，需专家推荐；卓越群体：负责人正高、未满55岁；创新群体：负责人正高、未满50岁。",
+    "support": "包干制：青年B类和面上约10万元/2年；青年A类约30万元/3年；创新群体约50万元/3年；卓越群体300–500万元/3年；非共识20–30万元/2–3年。",
+    "prep": "建议提前 3–4 周",
+    "next": "尽快联系依托单位科研处确认校内截止，通过湖北省科技计划项目管理平台个人登录填报。",
+    "sources": [
+      {
+        "label": "湖北省科学技术厅 · 2027年度湖北省自然科学基金项目申报通知",
+        "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202611/t20261119_6128125.shtml"
+      },
+      {
+        "label": "湖北省科学技术厅 · 通知公告",
+        "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/"
+      }
+    ],
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "湖北"
+    },
+    "eligibleAreas": [
+      {
+        "province": "湖北"
+      }
+    ],
+    "org": "湖北省科学技术厅",
+    "verified": "2026-11-22"
+  },
+  {
+    "id": "hubei-nsf-joint-2027",
+    "name": "湖北省自然科学基金联合基金项目 · 2027",
+    "category": "科研基金",
+    "audience": [
+      "在职科研人员"
+    ],
+    "fields": "自然科学（按联合基金指南方向）",
+    "disciplines": [
+      "natural"
+    ],
+    "status": "open",
+    "opensOn": "2026-11-19",
+    "deadline": "2026-12-10",
+    "date": "2026-12-10",
+    "deadlineTime": "12:00",
+    "dateLabel": "2026年11月19日起 · 12月10日 12:00 截止",
+    "timeNote": "北京时间；截止时间为2026年12月10日上午12:00；依托单位须在截止后2日内上传签章推荐表。",
+    "geographyNote": "省级项目，申请人须为湖北省内依托单位的在职人员。",
+    "summary": "湖北省自然科学基金2027年度联合基金，含重点项目和培育项目。",
+    "eligibility": "须为依托单位在编全职人员。重点项目：1972年1月1日后出生，副高及以上；培育项目：1977年1月1日后出生，副高或博士（或中级加硕士加两位推荐），正高不得申请。每人每年只能主持1项省级项目，联合基金每人每年至多申请2项，在研和申请的省级项目合计不超过3项。",
+    "support": "通知正文未写资助金额（以附件指南为准）。",
+    "prep": "建议提前 3–4 周",
+    "next": "对照联合基金指南选择方向，联系依托单位科研处确认校内截止后在省科技计划项目管理平台填报。",
+    "sources": [
+      {
+        "label": "湖北省科学技术厅 · 2027年度湖北省自然科学基金联合基金项目申报通知",
+        "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202611/t20261119_6128097.shtml"
+      },
+      {
+        "label": "湖北省科学技术厅 · 通知公告",
+        "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/"
+      }
+    ],
+    "sourceNote": "附件3（联合基金指南）正文未读取，资助金额未核实。",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "湖北"
+    },
+    "eligibleAreas": [
+      {
+        "province": "湖北"
+      }
+    ],
+    "org": "湖北省科学技术厅",
+    "verified": "2026-11-22"
+  },
+  {
+    "id": "moe-plenary-special-2026",
+    "name": "教育部哲学社会科学研究专项（党的二十届五中全会精神研究阐释）",
+    "org": "教育部社会科学司",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "national",
+    "jurisdiction": {},
+    "audience": [
+      "在职科研人员"
+    ],
+    "fields": "人文社会科学",
+    "disciplines": [
+      "social"
+    ],
+    "status": "open",
+    "opensOn": null,
+    "deadline": "2027-10-31",
+    "date": "2027-10-31",
+    "dateLabel": "2027年10月31日网络申报截止",
+    "timeNote": "通知原文未写具体时刻和开放日期；高校科研管理部门须在2027年10月31日前在线审核确认。该截止日期距今较远，教育部原通知未能直接打开，建议与原文核对；浙江农林大学校内受理至2027年10月22日。",
+    "geographyNote": "全国性项目，限全国普通高校人事关系在本校的在职人员，通过高校集中申报。",
+    "summary": "针对学习研究阐释党的二十届五中全会精神的已发表成果，以后期资助方式择优立项。",
+    "eligibility": "限全国普通高校在职人员；每人限报1项成果；成果须为全会后在中央或省级党报党刊或学术期刊发表的文章；已获其他资助的成果不得申报；多人合作成果由第一作者申报。",
+    "support": "每项资助3—5万元，立项课题不再结项验收。",
+    "prep": "建议先联系本校社科处",
+    "next": "向本校科研管理部门确认校内受理时间，经意识形态审核后通过教育部人文社科研究管理平台申报。",
+    "sources": [
+      {
+        "label": "中国高校人文社会科学信息网刊发教育部办公厅通知（教社科厅函〔2026〕21号）",
+        "url": "https://www.sinoss.net/c/2026-11-19/670954.shtml"
+      },
+      {
+        "label": "浙江农林大学人文社科处转发",
+        "url": "https://wkc.zafu.edu.cn/info/1020/3963.htm"
+      }
+    ],
+    "sourceNote": "教育部原页未能直接打开；依据教育部社科司主办的中国高校人文社会科学信息网全文及高校转发核对。",
+    "verified": "2026-11-22",
+    "eligibleAreas": []
+  },
+  {
+    "id": "ukri-policy-fellowships-2027",
+    "name": "UKRI Sector transition: UKRI policy fellowships · 2027",
+    "org": "英国研究与创新署（UKRI）",
+    "category": "科研基金",
+    "region": "国际",
+    "scope": "overseas",
+    "jurisdiction": {
+      "country": "英国"
+    },
+    "audience": [
+      "青年研究者",
+      "在职科研人员"
+    ],
+    "fields": "UKRI 全部资助领域",
+    "disciplines": [
+      "natural",
+      "social"
+    ],
+    "status": "open",
+    "opensOn": "2026-11-17",
+    "deadline": "2027-02-16",
+    "date": "2027-02-16",
+    "deadlineTime": "16:00 UK",
+    "dateLabel": "2026年11月17日开放 · 2027年2月16日 16:00（英国时间）截止",
+    "timeNote": "页面“Closes”写明2027年2月16日 16:00（英国时间）；“How to apply”段落写作“16 February 2026”，疑为笔误，建议以UKRI页面为准。预计2027年5月21日前入围、6月下旬面试、7月公布、10月1日起。",
+    "geographyNote": "仅限在 UKRI 认可的英国机构任职并居住在英国的研究者，海外机构不能申请；曾获或正持有 UKRI 政策奖学金者不得再申请。",
+    "summary": "资助早中期研究者到政策部门做政策转型研究，为期18个月。",
+    "eligibility": "持有博士学位或同等研究经历的早中期研究者，在 UKRI 认可的英国机构任职并居住在英国；由机构研究办公室通过 UKRI Funding Service 提交。",
+    "support": "按全经济成本的80%资助：核心奖学金最高18万英镑，What Works Innovation 与 Natural Hazards and Resilience 类最高22万英镑；另有必选的1.5万英镑灵活经费。",
+    "prep": "建议提前 3 个月",
+    "next": "联系所在英国机构研究办公室确认校内截止并通过 UKRI Funding Service 提交。",
+    "sources": [
+      {
+        "label": "UKRI · Sector transition: UKRI policy fellowships 2027",
+        "url": "https://www.ukri.org/opportunity/sector-transition-ukri-policy-fellowships-2027/"
+      }
+    ],
+    "verified": "2026-11-22",
+    "eligibleAreas": []
+  },
+  {
+    "id": "sichuan-ss-minors-online-2026",
+    "name": "四川省哲学社会科学规划“四川省未成年人网络保护研究”专项课题 · 2026",
+    "org": "四川省哲学社会科学规划办公室",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "四川"
+    },
+    "eligibleAreas": [
+      {
+        "province": "四川"
+      }
+    ],
+    "audience": [
+      "在职科研人员"
+    ],
+    "fields": "哲学社会科学",
+    "disciplines": [
+      "social"
+    ],
+    "status": "upcoming",
+    "opensOn": "2026-11-25",
+    "deadline": "2026-11-27",
+    "date": "2026-11-25",
+    "deadlineTime": "17:00",
+    "dateLabel": "11月25日 9:00 开放 · 11月27日 17:00 截止",
+    "timeNote": "北京时间；网络申报系统2026年11月25日9:00至11月27日17:00开放。成都信息工程大学校内另设人数申报11月20日12:00、纸质材料11月30日12:00，属校内要求。",
+    "geographyNote": "省级专项，以单位为单位申报，不受理个人直接申报。",
+    "summary": "四川省社科规划办发布的未成年人网络保护研究专项，设重大、一般、青年三类课题。",
+    "eligibility": "通过所在单位申报，每单位约5项，须从官方选题指南中选题且不得改题。",
+    "support": "重大课题15万元/2年；一般课题2万元/1–2年；青年课题2万元/1–2年。",
+    "prep": "建议立即联系单位科研管理部门",
+    "next": "窗口只有3天，联系单位科研处确认校内截止并按选题指南准备申请书。",
+    "sources": [
+      {
+        "label": "成都信息工程大学科技处转载通知",
+        "url": "https://kjc.cuit.edu.cn/info/2138/4002.htm"
+      }
+    ],
+    "sourceNote": "四川省社科联网站无法访问，依据成都信息工程大学科技处转载页；省级原页未核实。",
+    "verified": "2026-11-22"
+  },
+  {
+    "id": "shaanxi-ssf-plenary-2026",
+    "name": "陕西省哲学社会科学研究专项“学习宣传贯彻党的二十届五中全会精神”专题研究项目 · 2026",
+    "org": "陕西省社会科学界联合会",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "陕西"
+    },
+    "eligibleAreas": [
+      {
+        "province": "陕西"
+      }
+    ],
+    "audience": [
+      "在职科研人员"
+    ],
+    "fields": "哲学社会科学",
+    "disciplines": [
+      "social"
+    ],
+    "status": "open",
+    "opensOn": null,
+    "deadline": "2026-11-26",
+    "date": "2026-11-26",
+    "deadlineTime": "12:00",
+    "dateLabel": "2026年11月26日中午截止",
+    "timeNote": "转载通知写“发布之日起至2026年11月26日上午12点之前”，具体时刻按12:00理解，建议向单位确认；项目研究期至2026年12月30日。",
+    "geographyNote": "面向陕西省高校、社科研究机构和省级社科组织，以单位申报，每单位最多3项，不受理个人申报。",
+    "summary": "陕西省社科联学习研究阐释二十届五中全会精神的专题研究项目，成果为不少于1万字的理论阐释文章。",
+    "eligibility": "副高及以上职称或博士学位；有未结项陕西省专项项目者不得申请。",
+    "support": "每项8000元，完成后拨付给单位。",
+    "prep": "建议立即联系单位科研管理部门",
+    "next": "窗口极短，联系本校社科处确认校内截止，提交申请书、论文和汇总表。",
+    "sources": [
+      {
+        "label": "陕西师范大学社会科学处转载",
+        "url": "https://skc.snnu.edu.cn/info/1012/29801.htm"
+      }
+    ],
+    "sourceNote": "省社科联原通知未打开，依据陕西师范大学社科处转载页。",
+    "verified": "2026-11-22"
+  },
+  {
+    "id": "shaanxi-ssf-special-2027",
+    "name": "陕西省哲学社会科学研究专项一般项目、青年项目 · 2027",
+    "org": "陕西省社会科学界联合会",
+    "category": "科研基金",
+    "region": "国内",
+    "scope": "province",
+    "jurisdiction": {
+      "province": "陕西"
+    },
+    "eligibleAreas": [
+      {
+        "province": "陕西"
+      }
+    ],
+    "audience": [
+      "在职科研人员",
+      "青年研究者"
+    ],
+    "fields": "哲学社会科学",
+    "disciplines": [
+      "social"
+    ],
+    "status": "verify",
+    "opensOn": null,
+    "deadline": null,
+    "date": null,
+    "dateLabel": "省级截止时间待核实 · 陕西师大校内12月8日前报送",
+    "timeNote": "转载页只写陕西师范大学校内要求：2026年12月8日前报送电子版和纸质版，属校内截止；省级截止日期未核实，故留空。",
+    "geographyNote": "面向陕西省内单位，以单位名义申报，不受理个人申报，各单位有名额限制。",
+    "summary": "陕西省社科联2027年度专项一般项目和青年项目，立项后2027年11月完成。",
+    "eligibility": "中级及以上职称或博士学位；青年项目申请人1991年1月1日后出生、未主持过省社科联项目；有在研省级专项、社科基金或软科学项目者不得申请；每人最多主持1项、参与不超过2项。",
+    "support": "一般项目1万元，中期检查后一次性拨付；青年项目5000元，完成后拨付。",
+    "prep": "建议提前 4 周",
+    "next": "向本校社科处确认省级截止和校内名额。",
+    "sources": [
+      {
+        "label": "陕西师范大学社会科学处转载",
+        "url": "https://skc.snnu.edu.cn/info/1012/29811.htm"
+      }
+    ],
+    "sourceNote": "省社科联原通知（引用的省级链接）未打开，依据陕西师范大学社科处转载页。",
+    "verified": "2026-11-22"
   }
 ]
