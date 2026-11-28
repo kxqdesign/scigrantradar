@@ -1,5 +1,7 @@
-# Everyone is welcome to read and index this site.
-# The curated data is licensed CC BY-NC 4.0: credit 科研基金雷达 and link to https://scigrantradar.com
+# Everyone — search engines, academic indexers, and AI retrieval crawlers — is welcome to read and index this site.
+# AI-friendly summaries: https://scigrantradar.com/llms.txt and https://scigrantradar.com/llms-full.txt
+# Structured feeds: https://scigrantradar.com/feed.xml (Atom) and https://scigrantradar.com/calendar.ics (iCalendar)
+# The curated data is licensed CC BY-NC 4.0: credit 科研基金雷达 (SciGrant Radar) and link to https://scigrantradar.com
 User-agent: *
 Allow: /
 
