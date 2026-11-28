@@ -3,6 +3,12 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
+
+// On a fresh checkout before `npm run build`, generate the gitignored SEO/GEO pages without modifying tracked index.html.
+if (!fs.existsSync('site/llms.txt')) {
+  execFileSync(process.execPath, ['scripts/build-seo.mjs', '--skip-index'], { stdio: 'inherit' });
+}
 
 const html = fs.readFileSync('site/index.html', 'utf8');
 const TEXT = new Set(['.html', '.js', '.mjs', '.css', '.json', '.md', '.yml', '.yaml', '.svg', '.txt', '']);
@@ -34,7 +40,9 @@ test('no file under site/ is left unreferenced by accident', () => {
 test('the page talks to static files only', () => {
   for (const file of walk('site').filter(f => /\.(js|html)$/.test(f))) {
     const source = fs.readFileSync(file, 'utf8');
-    assert.doesNotMatch(source, /\/api\/|\/mcp\b/, file);
+    // Official external funder URLs in static HTML (e.g. zjnsf.kjt.zj.gov.cn/.../api/...) are outbound links, not site backends.
+    const checked = file.endsWith('.html') ? source.replace(/https?:\/\/[^\s"'<>]+/g, '') : source;
+    assert.doesNotMatch(checked, /\/api\/|\/mcp\b/, file);
   }
   const app = fs.readFileSync('site/app.js', 'utf8');
   assert.match(app, /fetch\('data\/opportunities\.json'\)/);
@@ -53,7 +61,7 @@ test('nothing refers to the previous host, payment code or any vendor-specific t
 });
 
 test('the site carries its new name', () => {
-  assert.match(html, /<title>科研基金雷达<\/title>/);
+  assert.match(html, /<title>科研基金雷达[^<]*SciGrant Radar[^<]*<\/title>/);
   assert.match(html, /<strong>科研基金雷达<\/strong><small>SCIGRANT RADAR<\/small>/);
   assert.match(html, /<link rel="canonical" href="https:\/\/scigrantradar\.com\/">/);
   for (const file of walk('site').filter(f => /\.(js|html|css)$/.test(f))) {
@@ -128,6 +136,8 @@ test('search engines are invited in and pointed at the sitemap', () => {
   assert.deepEqual(robots, ['User-agent: *', 'Allow: /', 'Sitemap: https://scigrantradar.com/sitemap.xml']);
   const sitemap = fs.readFileSync('site/sitemap.xml', 'utf8');
   const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
-  // The address listed must be the one the page declares as its own.
-  assert.deepEqual(locs, [html.match(/<link rel="canonical" href="([^"]+)">/)[1]]);
+  const canonical = html.match(/<link rel="canonical" href="([^"]+)">/)[1];
+  // The homepage canonical address must be first, followed by generated hub and grant pages.
+  assert.equal(locs[0], canonical);
+  assert.ok(locs.length > 280, 'expected sitemap to list hub and grant pages, got ' + locs.length);
 });

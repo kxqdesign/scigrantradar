@@ -9,12 +9,16 @@ const port = Number(process.env.PORT) || 8791;
 const types = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8',
   '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg',
-  '.woff': 'font/woff', '.txt': 'text/plain; charset=utf-8',
+  '.woff': 'font/woff', '.txt': 'text/plain; charset=utf-8', '.md': 'text/markdown; charset=utf-8',
+  '.xml': 'application/xml; charset=utf-8', '.ics': 'text/calendar; charset=utf-8',
 };
 
 http.createServer((request, response) => {
   const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
-  const file = path.join(root, pathname.endsWith('/') ? pathname + 'index.html' : pathname);
+  let file = path.join(root, pathname.endsWith('/') ? pathname + 'index.html' : pathname);
+  if (file.startsWith(root) && fs.existsSync(file) && fs.statSync(file).isDirectory()) {
+    file = path.join(file, 'index.html');
+  }
   if (!file.startsWith(root) || !fs.existsSync(file) || !fs.statSync(file).isFile()) {
     response.writeHead(404, { 'Content-Type': 'text/plain' }).end('Not found');
     return;

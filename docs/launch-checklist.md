@@ -23,9 +23,18 @@ git push -u origin main
 2. 构建设置：
    - 生产分支：`main`
    - 框架预设：无
-   - 构建命令：留空
+   - 构建命令：`npm run build`（自动从 `site/data/` 生成 280+ 静态详情页、专题页、`sitemap.xml`、`llms.txt`、`feed.xml` 与 `calendar.ics`，零外部依赖）
    - 构建输出目录：`site`
 3. 保存并部署。完成后会得到一个 `<项目名>.pages.dev` 地址，打开它确认网站正常。
+
+### 搜索引擎与 AI 收录配置（SEO & GEO）
+
+上线后建议完成以下一次性的索引提交：
+
+1. **Google Search Console**：添加资源 `scigrantradar.com`，提交站点地图 `https://scigrantradar.com/sitemap.xml`。
+2. **Bing Webmaster Tools**：导入或验证 `scigrantradar.com`，提交 `https://scigrantradar.com/sitemap.xml`（同时覆盖依赖 Bing 索引的检索与 AI 问答服务）。
+3. **百度搜索资源平台**：验证 `scigrantradar.com`，提交 `https://scigrantradar.com/sitemap.xml`。
+4. **（可选）IndexNow 自动推送**：在 Bing Webmaster Tools 生成一个 IndexNow 密钥，把密钥文本放到 `site/<key>.txt`，在部署后运行 `INDEXNOW_KEY=<key> npm run indexnow` 即可秒级通知索引更新。
 
 ## 3. 绑定域名
 

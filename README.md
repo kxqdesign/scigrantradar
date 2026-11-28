@@ -31,6 +31,10 @@
 需要 Node.js 22 或更高版本，无需安装任何依赖。
 
 ```bash
+npm run build
+```
+
+```bash
 npm run preview
 ```
 
@@ -42,7 +46,7 @@ npm test
 npm run validate
 ```
 
-`npm run validate -- --base origin/main` 会额外与主分支比较，检查是否有记录被删除、改动是否都对应到一次登记过的检查。
+`npm run build` 基于 `site/data/` 自动生成全部静态详情页（`/grant/<id>/` 及其 Markdown 镜像）、专题与省市/国家索引页、英文入口（`/en/`）、官方来源目录（`/sources/`）、核验说明（`/about/`）、`sitemap.xml`、`llms.txt`、`llms-full.txt`、`feed.xml` 与 `calendar.ics`（零第三方依赖）。`npm run validate -- --base origin/main` 会额外与主分支比较，检查是否有记录被删除、改动是否都对应到一次登记过的检查。
 
 ## 目录
 
